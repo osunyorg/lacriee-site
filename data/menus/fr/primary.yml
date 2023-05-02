@@ -9,4 +9,8 @@ items:
   target: "/fr/preparer-votre-visite/"
   kind: page
   children: []
+- title: Centre d'art
+  target: "/fr/centre-dart/"
+  kind: page
+  children: []
 
