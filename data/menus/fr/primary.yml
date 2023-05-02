@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Découvrir la saison
-  target: "/fr/saisons/saison-2022-2023/"
+  target: "/fr/saison-2022-2023/"
   kind: page
   children: []
 - title: Préparer votre visite
