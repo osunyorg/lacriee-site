@@ -13,4 +13,8 @@ items:
   target: "/fr/la-criee-centre-d-art-contemporain/"
   kind: page
   children: []
+- title: Actualités
+  target: "/fr/actualites/"
+  kind: page
+  children: []
 
