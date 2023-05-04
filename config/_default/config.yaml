@@ -5,6 +5,8 @@ removePathAccents: true
 params:
   breadcrumb:
     position: after-hero
+  summary:
+    position: hero
   plausible: 
   persons:
     index:
