@@ -17,4 +17,8 @@ items:
   target: "/fr/actualites/"
   kind: page
   children: []
+- title: Boutique
+  target: https://extranet.osuny.org/
+  kind: url
+  children: []
 
