@@ -5,7 +5,7 @@ items:
   target: "/fr/saisons/saison-2022-2023/"
   kind: page
   children:
-  - title: Sous menu 1
+  - title: 12 mai
     target: "/fr/saisons/test-12-mai/"
     kind: page
     children: []
