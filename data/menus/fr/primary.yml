@@ -5,12 +5,12 @@ items:
   target: "/fr/saisons/saison-2022-2023/"
   kind: page
   children:
-  - title: Préparer votre visite
-    target: "/fr/preparer-votre-visite/"
-    kind: page
-    children: []
   - title: Sous menu 1
     target: "/fr/actualites/"
+    kind: page
+    children: []
+  - title: Préparer votre visite
+    target: "/fr/preparer-votre-visite/"
     kind: page
     children: []
 - title: Le centre d'art
