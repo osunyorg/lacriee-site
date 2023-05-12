@@ -1,12 +1,12 @@
 ---
 title: Menu principal
 items:
-- title: Préparer votre visite
-  target: "/fr/preparer-votre-visite/"
-  kind: page
-  children: []
 - title: Découvrir la saison
   target: "/fr/saison/"
+  kind: page
+  children: []
+- title: Préparer votre visite
+  target: "/fr/preparer-votre-visite/"
   kind: page
   children: []
 - title: Le centre d'art
