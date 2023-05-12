@@ -25,4 +25,8 @@ items:
   target: https://extranet.osuny.org/
   kind: url
   children: []
+- title: Archives
+  target: ''
+  kind: blank
+  children: []
 
