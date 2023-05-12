@@ -17,4 +17,8 @@ items:
   target: ''
   kind: blank
   children: []
+- title: Découvrez la saison
+  target: "/fr/saison/"
+  kind: page
+  children: []
 
