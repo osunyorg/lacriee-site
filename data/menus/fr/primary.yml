@@ -5,7 +5,7 @@ items:
   target: "/fr/preparer-votre-visite/"
   kind: page
   children: []
-- title: Découvrez la saison
+- title: Découvrir la saison
   target: "/fr/saison/"
   kind: page
   children: []
