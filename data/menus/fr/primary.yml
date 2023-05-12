@@ -5,12 +5,12 @@ items:
   target: "/fr/saisons/saison-2022-2023/"
   kind: page
   children:
-  - title: 12 mai
-    target: "/fr/saisons/test-12-mai/"
-    kind: page
-    children: []
   - title: Préparer votre visite
     target: "/fr/saisons/test-14-mai/"
+    kind: page
+    children: []
+  - title: 12 mai
+    target: "/fr/saisons/test-12-mai/"
     kind: page
     children: []
   - title: 14 mai
