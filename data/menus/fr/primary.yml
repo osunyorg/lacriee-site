@@ -5,6 +5,10 @@ items:
   target: "/fr/preparer-votre-visite/"
   kind: page
   children: []
+- title: Découvrez la saison
+  target: "/fr/saison/"
+  kind: page
+  children: []
 - title: Le centre d'art
   target: "/fr/la-criee-centre-d-art-contemporain/"
   kind: page
@@ -16,9 +20,5 @@ items:
 - title: Archives
   target: ''
   kind: blank
-  children: []
-- title: Découvrez la saison
-  target: "/fr/saison/"
-  kind: page
   children: []
 
