@@ -22,8 +22,8 @@ items:
   kind: page
   children: []
 - title: Boutique
-  target: https://extranet.osuny.org/
-  kind: url
+  target: ''
+  kind: blank
   children: []
 - title: Archives
   target: ''
