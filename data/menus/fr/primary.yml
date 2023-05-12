@@ -6,7 +6,7 @@ items:
   kind: page
   children:
   - title: Sous menu 1
-    target: "/fr/actualites/"
+    target: "/fr/saisons/test-12-mai/"
     kind: page
     children: []
 - title: Préparer votre visite
