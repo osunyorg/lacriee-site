@@ -4,11 +4,7 @@ items:
 - title: Découvrir la saison
   target: "/fr/saisons/saison-2022-2023/"
   kind: page
-  children:
-  - title: 14 mai
-    target: "/fr/saisons/test-14-mai/"
-    kind: page
-    children: []
+  children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
   kind: page
