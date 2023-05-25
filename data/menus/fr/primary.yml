@@ -6,8 +6,8 @@ items:
   kind: page
   children:
   - title: Expositions
-    target: ''
-    kind: blank
+    target: "/fr/saison/"
+    kind: page
     children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
