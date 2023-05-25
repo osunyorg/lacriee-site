@@ -22,7 +22,7 @@ items:
   kind: page
   children: []
 - title: Expositions
-  target: "/fr/saison/"
-  kind: page
+  target: ''
+  kind: blank
   children: []
 
