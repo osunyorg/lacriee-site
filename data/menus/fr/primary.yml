@@ -21,4 +21,8 @@ items:
   target: "/fr/archives-1/"
   kind: page
   children: []
+- title: Expositions
+  target: "/fr/saison/"
+  kind: page
+  children: []
 
