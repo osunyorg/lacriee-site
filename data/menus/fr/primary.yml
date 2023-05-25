@@ -4,7 +4,11 @@ items:
 - title: Découvrir la saison
   target: "/fr/saison/"
   kind: page
-  children: []
+  children:
+  - title: Expositions
+    target: ''
+    kind: blank
+    children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
   kind: page
@@ -20,9 +24,5 @@ items:
 - title: Archives
   target: "/fr/archives-1/"
   kind: page
-  children: []
-- title: Expositions
-  target: ''
-  kind: blank
   children: []
 
