@@ -4,11 +4,7 @@ items:
 - title: Découvrir la saison
   target: "/fr/saison/"
   kind: page
-  children:
-  - title: Expositions
-    target: "/fr/saison/"
-    kind: page
-    children: []
+  children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
   kind: page
