@@ -53,6 +53,10 @@ items:
       target: "/fr/preparer-votre-visite/venir-a-la-criee/"
       kind: page
       children: []
+    - title: Accessibilité
+      target: "/fr/preparer-votre-visite/accessibilite-1/"
+      kind: page
+      children: []
 - title: Le centre d'art
   target: "/fr/la-criee-centre-d-art-contemporain/"
   kind: page
