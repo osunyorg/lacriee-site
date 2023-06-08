@@ -57,6 +57,18 @@ items:
       target: "/fr/preparer-votre-visite/accessibilite-1/"
       kind: page
       children: []
+- title: Le centre d'art
+  target: "/fr/le-centre-dart/"
+  kind: page
+  children:
+  - title: Histoire
+    target: "/fr/le-centre-dart/histoire/"
+    kind: page
+    children: []
+  - title: Mission
+    target: "/fr/le-centre-dart/mission/"
+    kind: page
+    children: []
 - title: Boutique
   target: ''
   kind: blank
