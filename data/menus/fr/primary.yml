@@ -81,4 +81,8 @@ items:
       target: "/fr/le-centre-dart/publications/"
       kind: page
       children: []
+  - title: En savoir plus
+    target: ''
+    kind: blank
+    children: []
 
