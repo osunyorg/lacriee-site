@@ -17,5 +17,11 @@ h1,
     .hero
         margin-bottom: $spacing3
 
-.menu .nav-level-2 > li > span
-    padding-left: 0
+
+.menu 
+    .nav-level-2
+        @media (min-width: 992px)
+            grid-template-columns: repeat(2, 1fr)
+        > li 
+            > span
+                padding-left: 0
