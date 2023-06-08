@@ -17,6 +17,10 @@ items:
       target: "/fr/preparer-votre-visite/individuels-et-familles/"
       kind: page
       children: []
+    - title: Écoles
+      target: "/fr/preparer-votre-visite/ecoles/"
+      kind: page
+      children: []
 - title: Le centre d'art
   target: "/fr/la-criee-centre-d-art-contemporain/"
   kind: page
