@@ -61,7 +61,7 @@ items:
   target: "/fr/le-centre-dart/"
   kind: page
   children:
-  - title: En savoir plus
+  - title: Identité
     target: ''
     kind: blank
     children:
