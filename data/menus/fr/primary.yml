@@ -6,15 +6,15 @@ items:
   kind: blank
   children:
   - title: Saison 2022-2023
-    target: "/fr/saisons/saison/"
+    target: "/fr/saisons/saison-2022-2023/"
     kind: page
     children:
     - title: The Sun Is My Only Ally (Le soleil est mon seul allié)
-      target: "/fr/saisons/saison/exposition-charbel-boutros/"
+      target: "/fr/saisons/saison-2022-2023/exposition-charbel-boutros/"
       kind: page
       children: []
     - title: Fantaisies
-      target: "/fr/saisons/saison/fantaisies-isabelle-arthuis-1/"
+      target: "/fr/saisons/saison-2022-2023/fantaisies-isabelle-arthuis-1/"
       kind: page
       children: []
   - title: Archives
@@ -64,9 +64,5 @@ items:
 - title: Boutique
   target: ''
   kind: blank
-  children: []
-- title: Archives
-  target: "/fr/archives-1/"
-  kind: page
   children: []
 
