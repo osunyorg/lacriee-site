@@ -72,5 +72,9 @@ items:
   - title: Activités
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Médiation
+      target: "/fr/le-centre-dart/mediation/"
+      kind: page
+      children: []
 
