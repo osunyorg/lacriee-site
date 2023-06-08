@@ -8,7 +8,11 @@ items:
   - title: Saison 2022-2023
     target: "/fr/saisons/saison/"
     kind: page
-    children: []
+    children:
+    - title: The Sun Is My Only Ally (Le soleil est mon seul allié)
+      target: "/fr/saisons/saison/exposition-charbel-boutros/"
+      kind: page
+      children: []
   - title: Archives
     target: ''
     kind: blank
