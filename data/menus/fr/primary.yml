@@ -9,6 +9,10 @@ items:
     target: "/fr/saisons/saison/"
     kind: page
     children: []
+  - title: Archives
+    target: ''
+    kind: blank
+    children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
   kind: page
