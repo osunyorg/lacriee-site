@@ -61,18 +61,6 @@ items:
   target: "/fr/le-centre-dart/"
   kind: page
   children:
-  - title: Activités
-    target: ''
-    kind: blank
-    children:
-    - title: Médiation
-      target: "/fr/le-centre-dart/mediation/"
-      kind: page
-      children: []
-    - title: Publications
-      target: "/fr/le-centre-dart/publications/"
-      kind: page
-      children: []
   - title: En savoir plus
     target: ''
     kind: blank
@@ -87,6 +75,18 @@ items:
       children: []
     - title: Engagement écologique
       target: "/fr/le-centre-dart/engagement-ecologique/"
+      kind: page
+      children: []
+  - title: Activités
+    target: ''
+    kind: blank
+    children:
+    - title: Médiation
+      target: "/fr/le-centre-dart/mediation/"
+      kind: page
+      children: []
+    - title: Publications
+      target: "/fr/le-centre-dart/publications/"
       kind: page
       children: []
 
