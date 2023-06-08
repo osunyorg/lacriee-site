@@ -5,7 +5,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Découvrir la saison
+  - title: Saison 2022-2023
     target: "/fr/saisons/saison/"
     kind: page
     children: []
