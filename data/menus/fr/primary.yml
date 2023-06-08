@@ -61,14 +61,6 @@ items:
   target: "/fr/le-centre-dart/"
   kind: page
   children:
-  - title: Histoire
-    target: "/fr/le-centre-dart/histoire/"
-    kind: page
-    children: []
-  - title: Mission
-    target: "/fr/le-centre-dart/mission/"
-    kind: page
-    children: []
   - title: Activités
     target: ''
     kind: blank
@@ -84,5 +76,13 @@ items:
   - title: En savoir plus
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Histoire
+      target: "/fr/le-centre-dart/histoire/"
+      kind: page
+      children: []
+    - title: Mission
+      target: "/fr/le-centre-dart/mission/"
+      kind: page
+      children: []
 
