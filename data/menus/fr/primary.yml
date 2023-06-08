@@ -48,7 +48,11 @@ items:
   - title: Par thème
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Venir à la Criée
+      target: "/fr/preparer-votre-visite/venir-a-la-criee/"
+      kind: page
+      children: []
 - title: Le centre d'art
   target: "/fr/la-criee-centre-d-art-contemporain/"
   kind: page
