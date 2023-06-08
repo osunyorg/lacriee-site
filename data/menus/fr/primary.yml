@@ -45,6 +45,10 @@ items:
       target: "/fr/preparer-votre-visite/ecoles/"
       kind: page
       children: []
+  - title: Par thème
+    target: ''
+    kind: blank
+    children: []
 - title: Le centre d'art
   target: "/fr/la-criee-centre-d-art-contemporain/"
   kind: page
