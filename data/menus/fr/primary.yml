@@ -2,9 +2,13 @@
 title: Menu principal
 items:
 - title: Découvrir la saison
-  target: "/fr/saisons/saison/"
-  kind: page
-  children: []
+  target: ''
+  kind: blank
+  children:
+  - title: Découvrir la saison
+    target: "/fr/saisons/saison/"
+    kind: page
+    children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
   kind: page
@@ -32,9 +36,5 @@ items:
 - title: Archives
   target: "/fr/archives-1/"
   kind: page
-  children: []
-- title: Découvrir la saison
-  target: ''
-  kind: blank
   children: []
 
