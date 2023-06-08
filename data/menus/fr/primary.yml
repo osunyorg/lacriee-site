@@ -13,6 +13,10 @@ items:
       target: "/fr/saisons/saison/exposition-charbel-boutros/"
       kind: page
       children: []
+    - title: Fantaisies
+      target: "/fr/saisons/saison/fantaisies-isabelle-arthuis-1/"
+      kind: page
+      children: []
   - title: Archives
     target: ''
     kind: blank
