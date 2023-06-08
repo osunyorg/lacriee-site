@@ -77,7 +77,7 @@ items:
       target: "/fr/le-centre-dart/engagement-ecologique/"
       kind: page
       children: []
-  - title: Activités
+  - title: Activité
     target: ''
     kind: blank
     children:
