@@ -5,6 +5,14 @@ items:
   target: "/fr/saisons/saison/"
   kind: page
   children: []
+- title: Préparer votre visite
+  target: "/fr/preparer-votre-visite/"
+  kind: page
+  children:
+  - title: Individuels et familles
+    target: "/fr/preparer-votre-visite/individuels-et-familles/"
+    kind: page
+    children: []
 - title: Le centre d'art
   target: "/fr/la-criee-centre-d-art-contemporain/"
   kind: page
