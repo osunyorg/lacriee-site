@@ -33,4 +33,8 @@ items:
   target: "/fr/archives-1/"
   kind: page
   children: []
+- title: Découvrir la saison
+  target: ''
+  kind: blank
+  children: []
 
