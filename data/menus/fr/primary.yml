@@ -77,4 +77,8 @@ items:
       target: "/fr/le-centre-dart/mediation/"
       kind: page
       children: []
+    - title: Publications
+      target: "/fr/le-centre-dart/publications/"
+      kind: page
+      children: []
 
