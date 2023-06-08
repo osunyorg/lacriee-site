@@ -69,6 +69,10 @@ items:
     target: "/fr/le-centre-dart/mission/"
     kind: page
     children: []
+  - title: Activités
+    target: ''
+    kind: blank
+    children: []
 - title: Boutique
   target: ''
   kind: blank
