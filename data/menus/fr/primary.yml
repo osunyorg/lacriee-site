@@ -2,11 +2,7 @@
 title: Menu principal
 items:
 - title: Découvrir la saison
-  target: "/fr/saison/"
-  kind: page
-  children: []
-- title: Préparer votre visite
-  target: "/fr/preparer-votre-visite/"
+  target: "/fr/saisons/saison/"
   kind: page
   children: []
 - title: Le centre d'art
