@@ -13,10 +13,10 @@ items:
       target: ''
       kind: blank
       children: []
-- title: Archives
-  target: ''
-  kind: blank
-  children: []
+  - title: Archives
+    target: ''
+    kind: blank
+    children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
   kind: page
