@@ -37,10 +37,10 @@ items:
       target: "/fr/preparer-votre-visite/accessibilite-1/"
       kind: page
       children: []
-  - title: Ressources pédagogiques
-    target: "/fr/ressources-pedagogiques/"
-    kind: page
-    children: []
+    - title: Ressources pédagogiques
+      target: "/fr/ressources-pedagogiques/"
+      kind: page
+      children: []
   - title: Médiation numérique
     target: ''
     kind: blank
