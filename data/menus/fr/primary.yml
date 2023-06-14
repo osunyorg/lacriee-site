@@ -57,15 +57,15 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Ressources pédagogiques
+    target: ''
+    kind: blank
+    children: []
   - title: Formations
     target: ''
     kind: blank
     children: []
   - title: Médiation numérique
-    target: ''
-    kind: blank
-    children: []
-  - title: Ressources pédagogiques
     target: ''
     kind: blank
     children: []
