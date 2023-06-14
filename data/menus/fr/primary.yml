@@ -17,6 +17,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Saison 2021-2022
+    target: "/fr/saisons/saison-2021-2022/"
+    kind: page
+    children: []
 - title: Préparer votre visite
   target: "/fr/preparer-votre-visite/"
   kind: page
@@ -85,10 +89,6 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Saison 2021-2022
-    target: "/fr/saisons/saison-2021-2022/"
-    kind: page
-    children: []
   - title: Saison 2020-2021
     target: "/fr/saisons/saison-2020-2021/"
     kind: page
