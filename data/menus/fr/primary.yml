@@ -85,4 +85,8 @@ items:
     target: "/fr/saisons/saison-2020-2021/"
     kind: page
     children: []
+- title: groupe étudiant.e.s
+  target: ''
+  kind: blank
+  children: []
 
