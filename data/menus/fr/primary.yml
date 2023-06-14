@@ -89,10 +89,6 @@ items:
     target: "/fr/saisons/saison-2020-2021/"
     kind: page
     children: []
-  - title: expositions
-    target: ''
-    kind: blank
-    children: []
 - title: Agenda
   target: ''
   kind: blank
