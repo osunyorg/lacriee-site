@@ -90,7 +90,7 @@ items:
     kind: page
     children: []
 - title: Agenda
-  target: ''
-  kind: blank
+  target: "/fr/agenda/"
+  kind: page
   children: []
 
