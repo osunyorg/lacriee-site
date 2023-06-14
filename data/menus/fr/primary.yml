@@ -25,7 +25,7 @@ items:
       target: "/fr/preparer-votre-visite/individuels-et-familles/"
       kind: page
       children: []
-    - title: Écoles
+    - title: Enseignant.e.s
       target: "/fr/preparer-votre-visite/ecoles/"
       kind: page
       children: []
