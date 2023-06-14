@@ -25,13 +25,13 @@ items:
       target: "/fr/preparer-votre-visite/individuels-et-familles/"
       kind: page
       children: []
-    - title: groupe étudiant.e.s
-      target: ''
-      kind: blank
-      children: []
     - title: Enseignant.e.s
       target: "/fr/preparer-votre-visite/ecoles/"
       kind: page
+      children: []
+    - title: groupe étudiant.e.s
+      target: ''
+      kind: blank
       children: []
   - title: Par thème
     target: ''
