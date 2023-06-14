@@ -93,4 +93,8 @@ items:
   target: "/fr/agenda/"
   kind: page
   children: []
+- title: Informations pratiques
+  target: "/fr/informations-pratiques/"
+  kind: page
+  children: []
 
