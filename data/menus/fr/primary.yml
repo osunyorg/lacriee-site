@@ -89,10 +89,6 @@ items:
     target: "/fr/saisons/saison-2020-2021/"
     kind: page
     children: []
-  - title: Événements et rendez-vous
-    target: ''
-    kind: blank
-    children: []
   - title: expositions
     target: ''
     kind: blank
