@@ -38,8 +38,8 @@ items:
       kind: page
       children: []
     - title: Groupe étudiant.e.s
-      target: ''
-      kind: blank
+      target: "/fr/preparer-votre-visite/groupe-etudiantes/"
+      kind: page
       children: []
   - title: Par thème
     target: ''
