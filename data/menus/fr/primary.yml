@@ -81,18 +81,18 @@ items:
       target: "/fr/le-centre-dart/publications/"
       kind: page
       children: []
-- title: Archives
-  target: ''
-  kind: blank
-  children:
-  - title: Saison 2021-2022
-    target: "/fr/saisons/saison-2021-2022/"
-    kind: page
-    children: []
-  - title: Saison 2020-2021
-    target: "/fr/saisons/saison-2020-2021/"
-    kind: page
-    children: []
+  - title: Archives
+    target: ''
+    kind: blank
+    children:
+    - title: Saison 2021-2022
+      target: "/fr/saisons/saison-2021-2022/"
+      kind: page
+      children: []
+    - title: Saison 2020-2021
+      target: "/fr/saisons/saison-2020-2021/"
+      kind: page
+      children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
