@@ -5,8 +5,8 @@ items:
   target: "/fr/saisons/saison-2022-2023/"
   kind: page
   children: []
-- title: Préparer votre visite
-  target: "/fr/preparer-votre-visite/"
+- title: Médiation
+  target: "/fr/mediation-1/"
   kind: page
   children:
   - title: Par public
@@ -14,15 +14,15 @@ items:
     kind: blank
     children:
     - title: Individuels et familles
-      target: "/fr/preparer-votre-visite/individuels-et-familles/"
+      target: "/fr/informations-pratiques/"
       kind: page
       children: []
     - title: Enseignant.e.s
-      target: "/fr/preparer-votre-visite/ecoles/"
+      target: "/fr/mediation-1/ecoles/"
       kind: page
       children: []
     - title: Groupe étudiant.e.s
-      target: "/fr/preparer-votre-visite/groupe-etudiantes/"
+      target: "/fr/mediation-1/groupe-etudiantes/"
       kind: page
       children: []
   - title: Par thème
@@ -30,15 +30,15 @@ items:
     kind: blank
     children:
     - title: Venir à la Criée
-      target: "/fr/preparer-votre-visite/venir-a-la-criee/"
+      target: "/fr/mediation-1/venir-a-la-criee/"
       kind: page
       children: []
     - title: Accessibilité
-      target: "/fr/preparer-votre-visite/accessibilite-1/"
+      target: "/fr/mediation-1/accessibilite-1/"
       kind: page
       children: []
     - title: Ressources pédagogiques
-      target: "/fr/ressources-pedagogiques/"
+      target: "/fr/le-centre-dart/ressources-pedagogiques/"
       kind: page
       children: []
     - title: Médiation numérique
