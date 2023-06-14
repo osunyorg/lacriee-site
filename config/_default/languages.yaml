@@ -6,9 +6,17 @@ en:
   languageCode: en
   languageName: English
   permalinks:
+    categories: /actualites/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
 fr:
   title: La Criée
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   permalinks:
+    categories: /actualites/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    persons: /personnes/:slug/
+    authors: /personnes/:slug/actualites/
