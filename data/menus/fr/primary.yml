@@ -53,7 +53,7 @@ items:
       target: "/fr/preparer-votre-visite/accessibilite-1/"
       kind: page
       children: []
-  - title: parcours
+  - title: Parcours
     target: ''
     kind: blank
     children: []
