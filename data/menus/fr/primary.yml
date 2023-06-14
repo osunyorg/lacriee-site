@@ -69,10 +69,6 @@ items:
       target: "/fr/le-centre-dart/publications/"
       kind: page
       children: []
-    - title: Artistes
-      target: "/fr/artistes/"
-      kind: page
-      children: []
   - title: Archives
     target: ''
     kind: blank
@@ -83,6 +79,10 @@ items:
       children: []
     - title: Saison 2020-2021
       target: "/fr/saisons/saison-2020-2021/"
+      kind: page
+      children: []
+    - title: Artistes
+      target: "/fr/artistes/"
       kind: page
       children: []
 - title: Agenda
