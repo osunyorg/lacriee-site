@@ -38,7 +38,7 @@ items:
       kind: page
       children: []
     - title: Ressources pédagogiques
-      target: "/fr/le-centre-dart/ressources-pedagogiques/"
+      target: "/fr/mediation-1/ressources-pedagogiques/"
       kind: page
       children: []
     - title: Médiation numérique
@@ -67,6 +67,10 @@ items:
       children: []
     - title: Publications
       target: "/fr/le-centre-dart/publications/"
+      kind: page
+      children: []
+    - title: Artistes
+      target: "/fr/artistes/"
       kind: page
       children: []
   - title: Archives
