@@ -73,14 +73,6 @@ items:
       target: "/fr/le-centre-dart/publications/"
       kind: page
       children: []
-  - title: Activité
-    target: ''
-    kind: blank
-    children:
-    - title: Médiation
-      target: "/fr/le-centre-dart/mediation/"
-      kind: page
-      children: []
   - title: Archives
     target: ''
     kind: blank
