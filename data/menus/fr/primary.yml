@@ -53,6 +53,18 @@ items:
       target: "/fr/preparer-votre-visite/accessibilite-1/"
       kind: page
       children: []
+  - title: Parcours
+    target: "/fr/parcours/"
+    kind: page
+    children: []
+  - title: Ressources pédagogiques
+    target: "/fr/ressources-pedagogiques/"
+    kind: page
+    children: []
+  - title: Formations
+    target: "/fr/formation/"
+    kind: page
+    children: []
   - title: Médiation numérique
     target: ''
     kind: blank
