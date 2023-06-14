@@ -97,4 +97,8 @@ items:
     target: ''
     kind: blank
     children: []
+- title: Agenda
+  target: ''
+  kind: blank
+  children: []
 
