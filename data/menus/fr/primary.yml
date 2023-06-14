@@ -37,7 +37,7 @@ items:
       target: "/fr/preparer-votre-visite/ecoles/"
       kind: page
       children: []
-    - title: groupe étudiant.e.s
+    - title: Groupe étudiant.e.s
       target: ''
       kind: blank
       children: []
