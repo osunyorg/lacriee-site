@@ -61,14 +61,14 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Ressources pédagogiques
+    target: ''
+    kind: blank
+    children: []
   - title: Médiation numérique
     target: ''
     kind: blank
     children: []
-- title: Ressources pédagogiques
-  target: ''
-  kind: blank
-  children: []
 - title: Le centre d'art
   target: "/fr/le-centre-dart/"
   kind: page
