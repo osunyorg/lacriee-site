@@ -76,10 +76,6 @@ items:
 - title: Archives
   target: ''
   kind: blank
-  children: []
-- title: Archives
-  target: ''
-  kind: blank
   children:
   - title: Saison 2021-2022
     target: "/fr/saisons/saison-2021-2022/"
