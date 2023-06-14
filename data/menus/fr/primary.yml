@@ -53,10 +53,10 @@ items:
       target: "/fr/preparer-votre-visite/accessibilite-1/"
       kind: page
       children: []
-- title: parcours
-  target: ''
-  kind: blank
-  children: []
+  - title: parcours
+    target: ''
+    kind: blank
+    children: []
 - title: Le centre d'art
   target: "/fr/le-centre-dart/"
   kind: page
