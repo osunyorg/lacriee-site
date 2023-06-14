@@ -81,7 +81,7 @@ items:
       target: "/fr/saisons/saison-2020-2021/"
       kind: page
       children: []
-    - title: Artistes
+    - title: Tous les artistes
       target: "/fr/artistes/"
       kind: page
       children: []
