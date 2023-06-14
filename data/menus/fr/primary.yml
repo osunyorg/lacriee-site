@@ -8,11 +8,7 @@ items:
   - title: Saison 2022-2023
     target: "/fr/saisons/saison-2022-2023/"
     kind: page
-    children:
-    - title: Fantaisies
-      target: "/fr/saisons/saison-2022-2023/fantaisies-isabelle-arthuis-1/"
-      kind: page
-      children: []
+    children: []
   - title: Archives
     target: ''
     kind: blank
