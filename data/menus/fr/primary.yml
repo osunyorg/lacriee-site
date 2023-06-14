@@ -69,16 +69,16 @@ items:
       target: "/fr/le-centre-dart/engagement-ecologique/"
       kind: page
       children: []
+    - title: Publications
+      target: "/fr/le-centre-dart/publications/"
+      kind: page
+      children: []
   - title: Activité
     target: ''
     kind: blank
     children:
     - title: Médiation
       target: "/fr/le-centre-dart/mediation/"
-      kind: page
-      children: []
-    - title: Publications
-      target: "/fr/le-centre-dart/publications/"
       kind: page
       children: []
   - title: Archives
