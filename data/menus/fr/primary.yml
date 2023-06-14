@@ -57,10 +57,6 @@ items:
     target: "/fr/ressources-pedagogiques/"
     kind: page
     children: []
-  - title: Formations
-    target: "/fr/formation/"
-    kind: page
-    children: []
   - title: Médiation numérique
     target: ''
     kind: blank
