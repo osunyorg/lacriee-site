@@ -22,7 +22,7 @@ items:
       kind: page
       children: []
     - title: Enseignant.e.s
-      target: "/fr/mediation-1/ecoles/"
+      target: "/fr/mediation-1/enseignantes/"
       kind: page
       children: []
     - title: Groupe étudiant.e.s
@@ -88,5 +88,9 @@ items:
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
+  children: []
+- title: Périscolaires et extra-scolaires
+  target: ''
+  kind: blank
   children: []
 
