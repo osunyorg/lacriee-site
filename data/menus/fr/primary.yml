@@ -29,6 +29,10 @@ items:
       target: "/fr/mediation-1/groupe-etudiantes/"
       kind: page
       children: []
+    - title: Périscolaires et extra-scolaires
+      target: ''
+      kind: blank
+      children: []
   - title: Par thème
     target: ''
     kind: blank
@@ -88,9 +92,5 @@ items:
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
-  children: []
-- title: Périscolaires et extra-scolaires
-  target: ''
-  kind: blank
   children: []
 
