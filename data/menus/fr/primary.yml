@@ -70,8 +70,8 @@ items:
       kind: page
       children: []
   - title: Archives
-    target: ''
-    kind: blank
+    target: "/fr/archives-1/"
+    kind: page
     children:
     - title: Saison 2021-2022
       target: "/fr/saisons/saison-2021-2022/"
