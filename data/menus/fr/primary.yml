@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Découvrir la saison
-  target: "/fr/saisons/saison-2022-2023/"
+  target: "/fr/saisons/2022-2023/"
   kind: page
   children: []
 - title: Informations pratiques
@@ -78,11 +78,11 @@ items:
     kind: page
     children:
     - title: Saison 2021-2022
-      target: "/fr/saisons/saison-2021-2022/"
+      target: "/fr/archives-1/2021-2022/"
       kind: page
       children: []
     - title: Saison 2020-2021
-      target: "/fr/saisons/saison-2020-2021/"
+      target: "/fr/archives-1/2020-2021/"
       kind: page
       children: []
     - title: Tous les artistes
