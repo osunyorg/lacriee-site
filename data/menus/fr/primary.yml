@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Programmation 2022-2023
-  target: "/fr/saisons/2022-2023/"
+- title: Programmation 2023-2024
+  target: "/fr/archives-1/2022-2023/"
   kind: page
   children: []
 - title: Informations pratiques
