@@ -13,7 +13,7 @@ items:
   target: "/fr/mediation-1/"
   kind: page
   children:
-  - title: Par public
+  - title: Les publics
     target: ''
     kind: blank
     children:
