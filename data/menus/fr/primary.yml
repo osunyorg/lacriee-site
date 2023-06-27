@@ -33,7 +33,7 @@ items:
       target: "/fr/mediation-1/periscolaires-et-extra-scolaires/"
       kind: page
       children: []
-  - title: Par thème
+  - title: Les actions
     target: ''
     kind: blank
     children:
