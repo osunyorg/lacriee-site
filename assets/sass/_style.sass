@@ -5,9 +5,25 @@
     border-top: 1px dashed $color-border
 
 .hero 
-    .content 
-        h1 + p
-            margin-top: 0
+    .content
+        hgroup
+            .artist,
+            .dates
+                @include h1
+            h1 + p
+                margin-top: 0
+            h1
+                font-style: italic
+            .dates
+                text-align: right
+        @include media-breakpoint-up(desktop)
+            display: block
+            width: col(5)
+            hgroup
+                width: 100%
+                margin-bottom: $spacing1
+            figure
+                width: 100%
 
 .page__home
     .hero
@@ -15,7 +31,7 @@
 
 .menu 
     .nav-level-2
-        @media (min-width: 992px)
+        @include media-breakpoint-up(desktop)
             grid-template-columns: repeat(2, 1fr)
         > li 
             > span
