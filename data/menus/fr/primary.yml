@@ -77,7 +77,7 @@ items:
     target: "/fr/programmation/expositions/"
     kind: page
     children: []
-  - title: Tous les artistes
+  - title: Les artistes et les œuvres produites
     target: "/fr/artistes/"
     kind: page
     children: []
