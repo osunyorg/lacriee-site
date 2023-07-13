@@ -85,6 +85,10 @@ items:
       target: "/fr/artistes/"
       kind: page
       children: []
+    - title: événements et rendez-vous
+      target: "/fr/les-archives/evenements/"
+      kind: page
+      children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
