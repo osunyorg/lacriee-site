@@ -74,15 +74,15 @@ items:
       kind: page
       children: []
   - title: Archives
-    target: "/fr/archives-1/"
+    target: "/fr/les-archives/"
     kind: page
     children:
     - title: Saison 2021-2022
-      target: "/fr/archives-1/2021-2022/"
+      target: "/fr/les-archives/2021-2022/"
       kind: page
       children: []
     - title: Saison 2020-2021
-      target: "/fr/archives-1/2020-2021/"
+      target: "/fr/les-archives/2020-2021/"
       kind: page
       children: []
     - title: Tous les artistes
