@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Programmation 2023-2024
-  target: "/fr/les-archives/saisons/festina-lente/"
+  target: "/fr/programmation/saisons/festina-lente/"
   kind: page
   children: []
 - title: Informations pratiques
@@ -74,11 +74,11 @@ items:
       kind: page
       children: []
   - title: Archives
-    target: "/fr/les-archives/"
+    target: "/fr/programmation/"
     kind: page
     children:
     - title: Les expositions
-      target: "/fr/les-archives/expositions/"
+      target: "/fr/programmation/expositions/"
       kind: page
       children: []
     - title: Tous les artistes
@@ -86,7 +86,7 @@ items:
       kind: page
       children: []
     - title: événements et rendez-vous
-      target: "/fr/les-archives/evenements/"
+      target: "/fr/programmation/evenements/"
       kind: page
       children: []
 - title: Agenda
