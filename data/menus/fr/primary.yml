@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Programmation 2023-2024
-  target: "/fr/festina-lente/"
+  target: "/fr/les-archives/saisons/festina-lente/"
   kind: page
   children: []
 - title: Informations pratiques
