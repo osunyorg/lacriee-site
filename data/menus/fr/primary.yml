@@ -81,7 +81,7 @@ items:
     target: "/fr/artistes/"
     kind: page
     children: []
-  - title: événements et rendez-vous
+  - title: Les événements et rendez-vous
     target: "/fr/programmation/evenements/"
     kind: page
     children: []
