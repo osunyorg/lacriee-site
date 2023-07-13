@@ -81,10 +81,6 @@ items:
       target: "/fr/les-archives/expositions/"
       kind: page
       children: []
-    - title: Saison 2021-2022
-      target: "/fr/les-archives/2021-2022/"
-      kind: page
-      children: []
     - title: Saison 2020-2021
       target: "/fr/les-archives/2020-2021/"
       kind: page
