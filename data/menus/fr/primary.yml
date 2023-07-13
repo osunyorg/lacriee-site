@@ -69,10 +69,6 @@ items:
     target: "/fr/le-centre-dart/publications/"
     kind: page
     children: []
-  - title: Identité
-    target: ''
-    kind: blank
-    children: []
 - title: Archives
   target: "/fr/programmation/"
   kind: page
