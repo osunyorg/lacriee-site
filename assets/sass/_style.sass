@@ -30,14 +30,17 @@
     .hero
         margin-bottom: $spacing3
 
-.block-chapter--alt_background
-    background: none
-    .rich-text
-        p
-            font-size: px2rem(34)
-            line-height: 130%
-            @include media-breakpoint-down(desktop)
-                font-size: px2rem(22)
+.block-chapter
+    .notes
+        padding-left: offset(1, 7)
+    &--alt_background
+        background: none
+        .rich-text
+            p
+                font-size: px2rem(34)
+                line-height: 130%
+                @include media-breakpoint-down(desktop)
+                    font-size: px2rem(22)
 
 .menu 
     .nav-level-2
