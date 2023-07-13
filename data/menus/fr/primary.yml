@@ -53,42 +53,42 @@ items:
   target: "/fr/le-centre-dart/"
   kind: page
   children:
+  - title: Histoire
+    target: "/fr/le-centre-dart/histoire/"
+    kind: page
+    children: []
+  - title: Mission
+    target: "/fr/le-centre-dart/mission/"
+    kind: page
+    children: []
+  - title: Engagement écologique
+    target: "/fr/le-centre-dart/engagement-ecologique/"
+    kind: page
+    children: []
+  - title: Publications
+    target: "/fr/le-centre-dart/publications/"
+    kind: page
+    children: []
   - title: Identité
     target: ''
     kind: blank
-    children:
-    - title: Histoire
-      target: "/fr/le-centre-dart/histoire/"
-      kind: page
-      children: []
-    - title: Mission
-      target: "/fr/le-centre-dart/mission/"
-      kind: page
-      children: []
-    - title: Engagement écologique
-      target: "/fr/le-centre-dart/engagement-ecologique/"
-      kind: page
-      children: []
-    - title: Publications
-      target: "/fr/le-centre-dart/publications/"
-      kind: page
-      children: []
-  - title: Archives
-    target: "/fr/programmation/"
+    children: []
+- title: Archives
+  target: "/fr/programmation/"
+  kind: page
+  children:
+  - title: Les expositions
+    target: "/fr/programmation/expositions/"
     kind: page
-    children:
-    - title: Les expositions
-      target: "/fr/programmation/expositions/"
-      kind: page
-      children: []
-    - title: Tous les artistes
-      target: "/fr/artistes/"
-      kind: page
-      children: []
-    - title: événements et rendez-vous
-      target: "/fr/programmation/evenements/"
-      kind: page
-      children: []
+    children: []
+  - title: Tous les artistes
+    target: "/fr/artistes/"
+    kind: page
+    children: []
+  - title: événements et rendez-vous
+    target: "/fr/programmation/evenements/"
+    kind: page
+    children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
