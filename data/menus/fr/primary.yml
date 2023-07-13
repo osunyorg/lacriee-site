@@ -81,10 +81,6 @@ items:
       target: "/fr/les-archives/expositions/"
       kind: page
       children: []
-    - title: Saison 2020-2021
-      target: "/fr/les-archives/2020-2021/"
-      kind: page
-      children: []
     - title: Tous les artistes
       target: "/fr/artistes/"
       kind: page
