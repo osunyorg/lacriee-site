@@ -12,3 +12,5 @@ params:
   posts:
     index:
       layout: grid
+  breadcrumb:
+    position: hero-start
