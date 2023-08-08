@@ -74,7 +74,7 @@ items:
     kind: page
     children: []
   - title: Les artistes et les œuvres produites
-    target: "/fr/programmation/artistes/"
+    target: "/fr/programmation/equipe-editoriale/artistes/"
     kind: page
     children: []
   - title: Les événements et rendez-vous
