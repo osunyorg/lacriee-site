@@ -18,5 +18,5 @@ fr:
   permalinks:
     categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
-    persons: /programmation/equipe-editoriale/artistes/:slug/
-    authors: /programmation/equipe-editoriale/artistes/:slug/actualites/
+    persons: /artistes/:slug/
+    authors: /artistes/:slug/actualites/
