@@ -1,6 +1,26 @@
 ---
 title: Menu principal
 items:
+- title: Le centre d'art
+  target: "/fr/le-centre-dart/"
+  kind: page
+  children:
+  - title: Histoire
+    target: "/fr/le-centre-dart/histoire/"
+    kind: page
+    children: []
+  - title: Mission
+    target: "/fr/le-centre-dart/mission/"
+    kind: page
+    children: []
+  - title: Engagement écologique
+    target: "/fr/le-centre-dart/engagement-ecologique/"
+    kind: page
+    children: []
+  - title: Publications
+    target: "/fr/le-centre-dart/publications/"
+    kind: page
+    children: []
 - title: Programmation 2023-2024
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/festina-lente-23-24/"
   kind: page
@@ -49,26 +69,6 @@ items:
       target: "/fr/le-centre-dart/mediation/"
       kind: page
       children: []
-- title: Le centre d'art
-  target: "/fr/le-centre-dart/"
-  kind: page
-  children:
-  - title: Histoire
-    target: "/fr/le-centre-dart/histoire/"
-    kind: page
-    children: []
-  - title: Mission
-    target: "/fr/le-centre-dart/mission/"
-    kind: page
-    children: []
-  - title: Engagement écologique
-    target: "/fr/le-centre-dart/engagement-ecologique/"
-    kind: page
-    children: []
-  - title: Publications
-    target: "/fr/le-centre-dart/publications/"
-    kind: page
-    children: []
 - title: Archives
   target: "/fr/programmation/"
   kind: page
