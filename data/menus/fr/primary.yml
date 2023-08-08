@@ -53,8 +53,8 @@ items:
       target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
       kind: page
       children: []
-    - title: Médiation numérique
-      target: "/fr/le-centre-dart/mediation/"
+    - title: Correspondances
+      target: "/fr/mediation-en-ligne/correspondances/"
       kind: page
       children: []
 - title: Informations pratiques
