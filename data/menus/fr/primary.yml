@@ -22,7 +22,7 @@ items:
   kind: page
   children: []
 - title: Médiation
-  target: "/fr/mediation-1/"
+  target: "/fr/mediation-en-ligne/"
   kind: page
   children:
   - title: Les publics
@@ -34,15 +34,15 @@ items:
       kind: page
       children: []
     - title: Enseignant.e.s
-      target: "/fr/mediation-1/enseignantes/"
+      target: "/fr/mediation-en-ligne/enseignantes/"
       kind: page
       children: []
     - title: Groupe étudiant.e.s
-      target: "/fr/mediation-1/groupe-etudiantes/"
+      target: "/fr/mediation-en-ligne/groupe-etudiantes/"
       kind: page
       children: []
     - title: Périscolaires et extra-scolaires
-      target: "/fr/mediation-1/periscolaires-et-extra-scolaires/"
+      target: "/fr/mediation-en-ligne/periscolaires-et-extra-scolaires/"
       kind: page
       children: []
   - title: Les actions
@@ -50,11 +50,11 @@ items:
     kind: blank
     children:
     - title: Accessibilité
-      target: "/fr/mediation-1/accessibilite-1/"
+      target: "/fr/mediation-en-ligne/accessibilite-1/"
       kind: page
       children: []
     - title: Ressources pédagogiques
-      target: "/fr/mediation-1/ressources-pedagogiques/"
+      target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
       kind: page
       children: []
     - title: Médiation numérique
