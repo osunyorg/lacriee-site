@@ -8,7 +8,6 @@ en:
   permalinks:
     categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
-    organizations: /organisations/:slug/
     persons: /equipe/:slug/
     authors: /equipe/:slug/actualites/
 fr:
@@ -19,6 +18,5 @@ fr:
   permalinks:
     categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
-    organizations: /organisations/:slug/
     persons: /programmation/artistes/:slug/
     authors: /programmation/artistes/:slug/actualites/
