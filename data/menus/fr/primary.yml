@@ -50,7 +50,7 @@ items:
     kind: blank
     children:
     - title: Accessibilité
-      target: "/fr/mediation-en-ligne/accessibilite-1/"
+      target: "/fr/le-centre-dart/mediation/accessibilite-1/"
       kind: page
       children: []
     - title: Ressources pédagogiques
