@@ -65,10 +65,6 @@ items:
       target: "/fr/le-centre-dart/mediation/"
       kind: page
       children: []
-- title: Informations pratiques
-  target: "/fr/informations-pratiques/"
-  kind: page
-  children: []
 - title: Archives
   target: "/fr/programmation/"
   kind: page
@@ -85,6 +81,10 @@ items:
     target: "/fr/programmation/evenements/"
     kind: page
     children: []
+- title: Informations pratiques
+  target: "/fr/informations-pratiques/"
+  kind: page
+  children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
