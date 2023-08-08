@@ -22,8 +22,8 @@ items:
   kind: page
   children: []
 - title: Médiation
-  target: "/fr/mediation-en-ligne/"
-  kind: page
+  target: ''
+  kind: blank
   children:
   - title: Les publics
     target: ''
