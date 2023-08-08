@@ -34,15 +34,15 @@ items:
       kind: page
       children: []
     - title: Enseignant.e.s
-      target: "/fr/mediation-en-ligne/enseignantes/"
+      target: "/fr/le-centre-dart/mediation/enseignantes/"
       kind: page
       children: []
     - title: Groupe étudiant.e.s
-      target: "/fr/mediation-en-ligne/groupe-etudiantes/"
+      target: "/fr/le-centre-dart/mediation/groupe-etudiantes/"
       kind: page
       children: []
     - title: Périscolaires et extra-scolaires
-      target: "/fr/mediation-en-ligne/periscolaires-et-extra-scolaires/"
+      target: "/fr/le-centre-dart/mediation/periscolaires-et-extra-scolaires/"
       kind: page
       children: []
   - title: Les actions
