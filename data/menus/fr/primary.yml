@@ -17,10 +17,10 @@ items:
     target: "/fr/le-centre-dart/publications/"
     kind: page
     children: []
-  - title: Programmation 2023-2024
-    target: "/fr/festina-lente-hate-toi-lentement/"
-    kind: page
-    children: []
+- title: Programmation 2023-2024
+  target: "/fr/festina-lente-hate-toi-lentement/"
+  kind: page
+  children: []
 - title: Médiation
   target: ''
   kind: blank
