@@ -13,10 +13,6 @@ items:
     target: "/fr/le-centre-dart/mission/"
     kind: page
     children: []
-  - title: Engagement écologique
-    target: "/fr/le-centre-dart/engagement-ecologique/"
-    kind: page
-    children: []
   - title: Publications
     target: "/fr/le-centre-dart/publications/"
     kind: page
