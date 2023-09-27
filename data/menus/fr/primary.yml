@@ -5,7 +5,7 @@ items:
   target: "/fr/le-centre-dart/"
   kind: page
   children: []
-- title: Programmation 2023-2024
+- title: Programmation
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
   kind: page
   children: []
