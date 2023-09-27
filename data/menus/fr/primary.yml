@@ -13,26 +13,6 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Les publics
-    target: ''
-    kind: blank
-    children:
-    - title: Individuels et familles
-      target: "/fr/informations-pratiques/"
-      kind: page
-      children: []
-    - title: Enseignant.e.s
-      target: "/fr/le-centre-dart/mediation/enseignantes/"
-      kind: page
-      children: []
-    - title: Groupe étudiant.e.s
-      target: "/fr/le-centre-dart/mediation/groupe-etudiantes/"
-      kind: page
-      children: []
-    - title: Périscolaires et extra-scolaires
-      target: "/fr/le-centre-dart/mediation/periscolaires-et-extra-scolaires/"
-      kind: page
-      children: []
   - title: Médiation en ligne
     target: "/fr/mediation-en-ligne/"
     kind: page
