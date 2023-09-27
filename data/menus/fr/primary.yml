@@ -12,19 +12,7 @@ items:
 - title: Médiation
   target: ''
   kind: blank
-  children:
-  - title: Médiation en ligne
-    target: "/fr/mediation-en-ligne/"
-    kind: page
-    children:
-    - title: Ressources pédagogiques
-      target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
-      kind: page
-      children: []
-    - title: Correspondances
-      target: "/fr/mediation-en-ligne/correspondances/"
-      kind: page
-      children: []
+  children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
