@@ -17,8 +17,8 @@ items:
   target: "/fr/informations-pratiques/"
   kind: page
   children: []
-- title: Agenda
-  target: "/fr/agenda/"
+- title: Ressources
+  target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
   kind: page
   children: []
 
