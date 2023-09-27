@@ -4,11 +4,7 @@ items:
 - title: Centre d'art
   target: "/fr/le-centre-dart/"
   kind: page
-  children:
-  - title: Publications
-    target: "/fr/le-centre-dart/publications/"
-    kind: page
-    children: []
+  children: []
 - title: Programmation 2023-2024
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
   kind: page
