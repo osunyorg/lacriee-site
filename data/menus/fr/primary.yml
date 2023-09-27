@@ -5,10 +5,6 @@ items:
   target: "/fr/le-centre-dart/"
   kind: page
   children:
-  - title: Mission
-    target: "/fr/le-centre-dart/mission/"
-    kind: page
-    children: []
   - title: Publications
     target: "/fr/le-centre-dart/publications/"
     kind: page
