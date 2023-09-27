@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Le centre d'art
+- title: Centre d'art
   target: "/fr/le-centre-dart/"
   kind: page
   children:
