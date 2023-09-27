@@ -17,22 +17,6 @@ items:
   target: "/fr/informations-pratiques/"
   kind: page
   children: []
-- title: Archives
-  target: "/fr/programmation/"
-  kind: page
-  children:
-  - title: Les expositions
-    target: "/fr/programmation/expositions/"
-    kind: page
-    children: []
-  - title: Les artistes et les œuvres produites
-    target: "/fr/programmation/artistes/"
-    kind: page
-    children: []
-  - title: Les événements et rendez-vous
-    target: "/fr/programmation/evenements/"
-    kind: page
-    children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
