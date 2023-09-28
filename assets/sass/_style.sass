@@ -1,26 +1,20 @@
-.lead
-    font-style: italic
+// RANDOM COLORS
+header#document-header,
+footer#document-footer,
+.hero
+    background-color: $color-accent
 
-#document-footer
-    border-top: 1px dashed $color-border
-
-.hero 
-    .content
-        hgroup
-            .artist,
-            .dates
-                @include h1
-            h1 + p
-                margin-top: 0
-            h1
-                font-style: italic
-            .dates
-                @include body-text
-                margin-top: $spacing0
-
-.page__home
-    .hero
-        margin-bottom: $spacing3
+.hero .content hgroup
+    .artist,
+    .dates
+        @include h1
+    h1 + p
+        margin-top: 0
+    h1
+        font-style: italic
+    .dates
+        @include body-text
+        margin-top: $spacing0
 
 .block-chapter
     &--alt_background
@@ -28,21 +22,21 @@
             background: none !important
         .text
             padding: 0 !important
-        .rich-text
-            p
-                font-size: px2rem(32)
-                line-height: 130%
-                @include media-breakpoint-down(desktop)
-                    font-size: px2rem(22)
+        .rich-text p
+            font-size: px2rem(32)
+            line-height: 130%
+            @include media-breakpoint-down(desktop)
+                font-size: px2rem(22)
 
-.menu 
-    .nav-level-2
-        @include media-breakpoint-up(desktop)
-            grid-template-columns: repeat(2, 1fr)
-        > li 
-            > span
-                padding: 0
+.menu .nav-level-2
+    @include media-breakpoint-up(desktop)
+        grid-template-columns: repeat(2, 1fr)
+    > li > span
+        padding: 0
 
-.breadcrumb-nav
-    *
-        font-size: px2rem(14)
+.breadcrumb-nav *
+    font-size: px2rem(14)
+
+// TYPOGRAPHY
+.lead
+    font-style: italic
