@@ -1,6 +1,6 @@
 class PageColor {
     constructor () {
-        this.colors = ["#DCCAED", "#FBD8E0", "#FDF086", "#FC4229", "#FC4229", "#FEBF88", "#CFE4C9"];
+        this.colors = ["#DCCAED", "#FBD8E0", "#FDF086", "#FEBF88", "#CFE4C9", "#D4E9ED"];
         
         this.listen();
     }
