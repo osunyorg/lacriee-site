@@ -141,4 +141,12 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Vidéos
+    target: ''
+    kind: blank
+    children: []
+  - title: Podcasts
+    target: ''
+    kind: blank
+    children: []
 
