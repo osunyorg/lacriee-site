@@ -89,6 +89,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Enseignement supérieur et formation
+    target: ''
+    kind: blank
+    children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
