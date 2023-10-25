@@ -72,7 +72,11 @@ items:
 - title: Médiation
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Présentation
+    target: ''
+    kind: blank
+    children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
