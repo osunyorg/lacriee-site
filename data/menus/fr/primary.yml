@@ -137,4 +137,8 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Correspondances
+    target: ''
+    kind: blank
+    children: []
 
