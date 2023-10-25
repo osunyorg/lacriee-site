@@ -4,7 +4,11 @@ items:
 - title: Centre d'art
   target: "/fr/le-centre-dart/"
   kind: page
-  children: []
+  children:
+  - title: Soutenir la recherche
+    target: ''
+    kind: blank
+    children: []
 - title: Programmation
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
   kind: page
