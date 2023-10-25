@@ -125,6 +125,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Accessibilité
+    target: ''
+    kind: blank
+    children: []
 - title: Ressources
   target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
   kind: page
