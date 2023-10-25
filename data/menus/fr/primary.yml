@@ -108,7 +108,11 @@ items:
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
-  children: []
+  children:
+  - title: Entrée libre et gratuite
+    target: ''
+    kind: blank
+    children: []
 - title: Ressources
   target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
   kind: page
