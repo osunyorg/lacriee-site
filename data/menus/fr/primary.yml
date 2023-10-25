@@ -9,6 +9,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Soutenir la création artistique
+    target: ''
+    kind: blank
+    children: []
 - title: Programmation
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
   kind: page
