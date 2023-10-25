@@ -36,7 +36,11 @@ items:
 - title: Programmation
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
   kind: page
-  children: []
+  children:
+  - title: Cycle thématique
+    target: ''
+    kind: blank
+    children: []
 - title: Médiation
   target: ''
   kind: blank
