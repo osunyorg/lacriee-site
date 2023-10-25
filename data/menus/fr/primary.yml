@@ -93,6 +93,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Champs social
+    target: ''
+    kind: blank
+    children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
