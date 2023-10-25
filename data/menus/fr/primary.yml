@@ -53,6 +53,14 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Éditions et recherche
+    target: ''
+    kind: blank
+    children: []
+  - title: Projets de médiation
+    target: ''
+    kind: blank
+    children: []
 - title: Médiation
   target: ''
   kind: blank
