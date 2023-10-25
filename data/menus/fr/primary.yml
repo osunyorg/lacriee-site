@@ -65,6 +65,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Artistes et oeuvres produites
+    target: ''
+    kind: blank
+    children: []
 - title: Médiation
   target: ''
   kind: blank
