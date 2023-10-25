@@ -41,6 +41,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Expositions
+    target: ''
+    kind: blank
+    children: []
 - title: Médiation
   target: ''
   kind: blank
