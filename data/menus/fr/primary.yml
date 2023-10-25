@@ -21,6 +21,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Histoire du lieu
+    target: ''
+    kind: blank
+    children: []
 - title: Programmation
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
   kind: page
