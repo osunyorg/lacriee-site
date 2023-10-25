@@ -121,6 +121,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Votre visite
+    target: ''
+    kind: blank
+    children: []
 - title: Ressources
   target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
   kind: page
