@@ -61,6 +61,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Jeux d’artistes
+    target: ''
+    kind: blank
+    children: []
 - title: Médiation
   target: ''
   kind: blank
