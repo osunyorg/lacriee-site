@@ -132,5 +132,9 @@ items:
 - title: Ressources
   target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
   kind: page
-  children: []
+  children:
+  - title: Ressources pédagogiques
+    target: ''
+    kind: blank
+    children: []
 
