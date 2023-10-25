@@ -85,6 +85,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Péri-scolaires et centre de loisirs
+    target: ''
+    kind: blank
+    children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
