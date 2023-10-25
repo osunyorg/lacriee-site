@@ -97,6 +97,14 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Santé / handicap
+    target: ''
+    kind: blank
+    children: []
+  - title: Contact
+    target: ''
+    kind: blank
+    children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
