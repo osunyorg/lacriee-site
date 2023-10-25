@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Centre d'art
-  target: "/fr/le-centre-dart/"
+  target: "/fr/centre-dart/"
   kind: page
   children:
   - title: Soutenir la recherche
