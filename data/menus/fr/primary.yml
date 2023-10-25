@@ -13,6 +13,14 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Transmettre
+    target: ''
+    kind: blank
+    children: []
+  - title: Coopérer
+    target: ''
+    kind: blank
+    children: []
 - title: Programmation
   target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
   kind: page
