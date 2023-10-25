@@ -49,6 +49,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Résidences
+    target: ''
+    kind: blank
+    children: []
 - title: Médiation
   target: ''
   kind: blank
