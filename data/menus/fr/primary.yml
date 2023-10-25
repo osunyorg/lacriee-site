@@ -130,7 +130,7 @@ items:
     kind: blank
     children: []
 - title: Ressources
-  target: "/fr/mediation-en-ligne/ressources-pedagogiques/"
+  target: "/fr/mediation-1/ressources-pedagogiques/"
   kind: page
   children:
   - title: Ressources pédagogiques
