@@ -14,3 +14,7 @@ params:
       layout: grid
   breadcrumb:
     position: hero-start
+  search:
+    active: true
+    position: footer
+    appearance: both

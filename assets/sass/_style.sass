@@ -40,3 +40,50 @@ footer#document-footer,
 // TYPOGRAPHY
 .lead
     font-style: italic
+.page__home
+    .hero h1
+        @include h2
+
+// BLOCK AGENDA
+.block-agenda
+    .event 
+        &-subtitle
+            font-style: italic
+    .block-title
+        align-items: center
+        display: flex
+        font-weight: bold
+        text-transform: none
+        &::after
+            background-color: $color-text
+            content: ''
+            flex: 1
+            height: 1px
+            margin-left: $spacing2
+    &--large 
+        @include media-breakpoint-up(xl)
+            .event-content
+                h2, 
+                .event-subtitle,
+                .event-dates span
+                    @include h1
+        @include media-breakpoint-up(desktop)
+            .event
+                position: relative
+                &-content
+                    position: static
+                    .event-dates
+                        text-align: right
+                &-categories 
+                    background-color: $color-accent
+                    display: flex
+                    height: 100%
+                    left: 50%
+                    margin: 0
+                    padding: $spacing0 half($spacing0)
+                    position: absolute
+                    top: 0
+                    transform: translateX(-189%)
+                    span 
+                        writing-mode: tb
+                        transform: rotate(180deg)
