@@ -1,9 +1,4 @@
-// RANDOM COLORS
-header#document-header,
-footer#document-footer,
-.hero
-    background-color: $color-accent
-
+// Hero
 .hero .content hgroup
     .artist,
     .dates
@@ -28,11 +23,14 @@ footer#document-footer,
             @include media-breakpoint-down(desktop)
                 font-size: px2rem(22)
 
-.menu .nav-level-2
-    @include media-breakpoint-up(desktop)
-        grid-template-columns: repeat(2, 1fr)
-    > li > span
-        padding: 0
+.menu
+    .has-children:not(.header-i18n)
+        > a[aria-expanded="true"],
+        > span[aria-expanded="true"] 
+            + .dropdown-menu 
+                @include grid(2, desktop)
+                .nav-level-2
+                    display: block
 
 .breadcrumb-nav *
     font-size: px2rem(14)
@@ -44,7 +42,12 @@ footer#document-footer,
     .hero h1
         @include h2
 
-// BLOCK AGENDA
+// Layout
+.block
+    margin-top: $spacing4
+    margin-bottom: $spacing4
+
+// Block Agenda
 .block-agenda
     .event 
         &-subtitle
@@ -87,3 +90,33 @@ footer#document-footer,
                     span 
                         writing-mode: tb
                         transform: rotate(180deg)
+    &--list
+        @include media-breakpoint-up(desktop)
+            .event
+                padding-bottom: $spacing2
+                margin-bottom: $spacing2
+
+// Footer
+footer#document-footer
+    .footer-logo
+        @include grid(2)
+        a::after
+            display: none
+    .footer-site
+        > .container
+            padding: 0
+            margin: 0
+            margin-top: half($spacing0)
+            justify-content: flex-end
+            .dropdown-languages
+                text-align: left
+    .footer-search 
+        > div
+            border-top: 1px solid $color-border
+            width: 100%
+            padding-top: $spacing1
+            .pagefind-ui__toggle
+                @include h2
+                font-family: $body-font-family
+            .pagefind-ui__result-excerpt mark
+                color: $color-text

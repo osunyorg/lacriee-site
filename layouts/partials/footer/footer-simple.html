@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="footer-logo">
+      {{ partial "footer/logo.html" }}
+      <a class="logo" href="https://metropole.rennes.fr/" target="_blank"><img src="/assets/images/logo-rennes.svg" alt="{{ site.Title }}" height="57" width="275" loading="lazy"></a>
+
+    </div>
+    <div class="footer-site">
+      <div class="footer-social">
+        {{ partial "footer/social.html" }}
+      </div>
+      <div class="footer-legals">
+        {{ partial "footer/legals.html" }}
+      </div>
+      {{ partial "footer/i18n.html" . }}
+    </div>
+  </div>
+  {{ if and (site.Params.search.active) (eq site.Params.search.position "footer")}}
+    <div class="container footer-search">
+      <div>
+        {{ partial "header/search.html"
+          (dict
+          "position" "footer"
+          "context" .
+          )
+        }}
+      </div>
+    </div>
+    {{ end }}
+  
