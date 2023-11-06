@@ -45,7 +45,46 @@
     margin-top: $spacing4
     margin-bottom: $spacing4
 
-// Block Agenda
+// Footer
+footer#document-footer
+    .footer-logo
+        @include grid(2)
+        a::after
+            display: none
+    .footer-site
+        > .container
+            padding: 0
+            margin: 0
+            margin-top: half($spacing0)
+            justify-content: flex-end
+            .dropdown-languages
+                text-align: left
+    .footer-search 
+        > div
+            border-top: 1px solid $color-border
+            width: 100%
+            padding-top: $spacing1
+            .pagefind-ui__toggle
+                @include h2
+                font-family: $body-font-family
+            .pagefind-ui__result-excerpt mark
+                color: $color-text
+
+// Blocks
+.document-content
+    .heading
+        @include media-breakpoint-up(desktop)
+            align-items: center
+            display: flex
+            &::after
+                background-color: $color-text
+                content: ''
+                flex: 1
+                height: 1px
+                margin-left: $spacing1
+    h2
+        @include h4
+
 .block-agenda
     .event 
         &-subtitle
@@ -93,73 +132,50 @@
             .event
                 padding-bottom: $spacing2
                 margin-bottom: $spacing2
-
-// Footer
-footer#document-footer
-    .footer-logo
-        @include grid(2)
-        a::after
-            display: none
-    .footer-site
-        > .container
-            padding: 0
-            margin: 0
-            margin-top: half($spacing0)
-            justify-content: flex-end
-            .dropdown-languages
-                text-align: left
-    .footer-search 
-        > div
-            border-top: 1px solid $color-border
-            width: 100%
-            padding-top: $spacing1
-            .pagefind-ui__toggle
-                @include h2
-                font-family: $body-font-family
-            .pagefind-ui__result-excerpt mark
-                color: $color-text
-
-// Blocks
-.document-content
-    h2
-        @include h4
+    &--grid
         @include media-breakpoint-up(desktop)
-            align-items: center
-            display: flex
-            &::after
-                background-color: $color-text
-                content: ''
-                flex: 1
-                height: 1px
-                margin-left: $spacing1
+            .event-dates
+                @include h3
+                text-align: right
 body:not(.full-width),
 main > .blocks,
 body.full-width
-        .block-image
-            @include media-breakpoint-up(desktop)
+    .block-image
+
+        @include media-breakpoint-up(desktop)
+            .block-content figure
+                background-color: $color-accent
+                text-align: right
+                picture
+                    display: inline-block
+                    filter: grayscale(1)
+                    margin: $spacing1 $spacing1 0
+                    mix-blend-mode: multiply
+                    width: 60%
+                    &:hover
+                        filter: grayscale(0)
+                figcaption
+                    display: inline-block
+                    margin: $spacing1
+                    width: -webkit-fill-available
+                    .credit p
+                        font-family: $h1-font-family
+            &:nth-child(even)
                 .block-content figure
-                    background-color: $color-accent
-                    text-align: right
-                    picture
-                        display: inline-block
-                        filter: grayscale(1)
-                        margin: $spacing1 $spacing1 0
-                        mix-blend-mode: multiply
-                        width: 60%
-                        &:hover
-                            filter: grayscale(0)
+                    picture,
                     figcaption
-                        display: inline-block
-                        margin: $spacing1
-                        width: -webkit-fill-available
-                        .credit p
-                            font-family: $h1-font-family
-                &:nth-child(even)
-                    .block-content figure
-                        picture,
-                        figcaption
-                            margin-right: 40%
-                        figcaption
-                            width: 60%
-                        
-                
+                        margin-right: 40%
+                    figcaption
+                        width: 60%
+    .block-chapter--with-image
+        @include media-breakpoint-up(desktop)
+            .chapter 
+                flex-direction: row-reverse
+                .text
+                    flex: 1
+                    margin-right: $grid-gutter
+                figure
+                    width: col(4, 8)
+                    img
+                        width: 100%
+            
