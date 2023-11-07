@@ -66,8 +66,8 @@ items:
     kind: page
     children: []
   - title: Artistes et oeuvres produites
-    target: ''
-    kind: blank
+    target: "/fr/programmation/artistes/"
+    kind: page
     children: []
 - title: Médiation
   target: ''
