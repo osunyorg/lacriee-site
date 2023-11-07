@@ -98,7 +98,14 @@ footer#document-footer
             gap: $spacing1
     h2
         @include h4
-
+.block-pages--grid .grid
+    article
+        .media 
+            filter: grayscale(1)
+            img
+                aspect-ratio: 1
+        &:hover .media
+            filter: grayscale(0)
 .block-agenda
     .event 
         &-subtitle
@@ -280,12 +287,7 @@ body.full-width
             .media 
                 margin: 0
                 width: col(2.94, 8)
-                filter: grayscale(1)
                 mix-blend-mode: multiply
-                img
-                    aspect-ratio: 1
-            &:hover .media
-                filter: grayscale(0)
             @include media-breakpoint-up(desktop)
                 flex-direction: row
                 gap: $grid-gutter
@@ -296,5 +298,7 @@ body.full-width
             font-style: italic
     @include media-breakpoint-up(desktop)
         &.full-width
+            .block-pages--grid .grid
+                @include grid(4)
             .block-summary
                 width: col(8)
