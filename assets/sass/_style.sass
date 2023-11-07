@@ -244,11 +244,16 @@ body.full-width
                 @include h2
             p
                 font-style: italic
-            .media img
-                aspect-ratio: 1
+            .media 
+                margin: 0
+                width: col(2.94, 8)
+                filter: grayscale(1)
+                mix-blend-mode: multiply
+                img
+                    aspect-ratio: 1
+            &:hover .media
+                filter: grayscale(0)
             @include media-breakpoint-up(desktop)
                 flex-direction: row
                 gap: $grid-gutter
-                .media
-                    margin: 0
-                    width: col(2.94, 8)
+            
