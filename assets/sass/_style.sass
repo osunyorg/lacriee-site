@@ -34,16 +34,12 @@
     font-size: px2rem(14)
 
 // TYPOGRAPHY
-.lead
-    font-style: italic
 .page__home
     .hero h1
         @include h2
-
-// Layout
-.block
-    margin-top: $spacing4
-    margin-bottom: $spacing4
+    .block
+        margin-top: $spacing4
+        margin-bottom: $spacing4
 
 // Footer
 footer#document-footer
@@ -65,10 +61,19 @@ footer#document-footer
             width: 100%
             padding-top: $spacing1
             .pagefind-ui__toggle
+                @include icon(search-inline)
                 @include h2
                 font-family: $body-font-family
+                &::after
+                    display: none
             .pagefind-ui__result-excerpt mark
                 color: $color-text
+
+// TOC
+.toc-container
+    nav 
+        a.active
+            @include icon(outline, after)
 
 // Blocks
 .document-content
@@ -132,6 +137,8 @@ footer#document-footer
             .event
                 padding-bottom: $spacing2
                 margin-bottom: $spacing2
+        .event:last-child
+            border-bottom: 0
     &--grid
         @include media-breakpoint-up(desktop)
             .event-dates
@@ -141,7 +148,6 @@ body:not(.full-width),
 main > .blocks,
 body.full-width
     .block-image
-
         @include media-breakpoint-up(desktop)
             .block-content figure
                 background-color: $color-accent
@@ -178,4 +184,68 @@ body.full-width
                     width: col(4, 8)
                     img
                         width: 100%
-            
+    .block-persons
+        .persons
+            &, &.is-column
+                display: block
+        .person
+            + .person
+                margin-top: $spacing1
+            .avatar 
+                margin-bottom: 0
+                border-radius: 0
+            .description
+                margin: 0
+                &, h3
+                    @include h2
+                    + p
+                        font-style: italic
+            @include media-breakpoint-up(desktop)
+                + .person
+                    margin-top: $spacing3
+                .avatar
+                    margin-right: $grid-gutter
+                    width: col(3, 8)
+// Events
+.events__page
+    .hero
+        .container .content
+            align-items: unset
+        &-informations 
+            @include h1
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            position: relative
+            width: col(6)
+            hgroup
+                h1 + p
+                    font-style: italic
+            .event-dates
+                text-align: right
+            .event-categories
+                position: absolute
+                bottom: 0
+                span
+                    writing-mode: tb
+                    transform: rotate(180deg)
+        figure
+            width: col(6)
+    .block-pages--grid
+        .grid
+            @include grid(1)
+        article
+            @include grid(2)
+            background: $color-accent
+            padding: $spacing1
+            width: 100%
+            h3, p
+                @include h2
+            a::after
+                display: none
+            p
+                font-style: italic
+            .media
+                margin: 0
+                img
+                    aspect-ratio: 1

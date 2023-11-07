@@ -1,0 +1,111 @@
+{{- $title := or .Params.header_text .Title -}}
+{{- $direction := "" -}}
+{{- $breadcrumb_is_after_hero := eq site.Params.breadcrumb.position "after-hero"  -}}
+{{- $subtitle := .Params.subtitle -}}
+{{- $description := .Params.description -}}
+{{ if .Params.image }}
+  {{- $direction = partial "GetImageDirection" .Params.image -}}
+{{ end }}
+
+{{- $summary := partial "PrepareText" .Params.context.Params.summary -}}
+{{- $subtitle_is_summary := false -}}
+
+{{ if not $subtitle }}
+  {{ if and (eq site.Params.summary.position "hero") $summary }}
+   {{ $subtitle = $summary }}
+   {{ $subtitle_is_summary = true }}
+  {{ end }}
+{{ end }}
+
+<header class="hero {{ if .Params.image -}}hero--with-image hero--image-{{- $direction -}}{{- end }} {{ if $breadcrumb_is_after_hero -}} hero--no-margin {{- end }}">
+  <div class="container">
+    {{- if eq site.Params.breadcrumb.position "hero-start" -}}
+      {{- if .Params.breadcrumb | default true -}}
+        {{ partial "header/breadcrumbs.html" .Params.context }}
+      {{- end -}}
+    {{- end -}}
+    <div class="content">
+      <div class="hero-informations">
+        {{- if or $subtitle $description -}}
+          <hgroup>
+            <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
+            {{- if $subtitle -}}
+              <p {{ if $subtitle_is_summary -}} class="lead" {{- end -}}>{{ partial "PrepareHTML" $subtitle }}</p>
+            {{- end -}}
+            {{- if $description -}}
+              <p class="h1">{{ partial "PrepareHTML" .Params.description }}</p>
+            {{- end -}}
+          </hgroup>
+        {{- else -}}
+          <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
+        {{- end -}}
+  
+        {{ if (or .Params.dates.computed.two_lines.short .Params.dates.from.hour .Params.dates.to.hour) }}
+          <div class="event-dates" itemprop="startDate" content="{{- if .Params.dates.from.day -}}{{ .Params.dates.from.day }}{{- end -}} {{- if .Params.dates.from.hour -}}{{ .Params.dates.from.hour }}{{- end -}}">
+            <span>{{ partial "PrepareHTML" .Params.dates.computed.two_lines.short }}</span>
+            {{- if (or .Params.dates.from.hour .Params.dates.to.hour)}}
+              <div class="event-time">
+                {{- if .Params.dates.from.hour }}
+                  <span>{{ .Params.dates.from.hour }}</span>
+                {{ end -}}
+                {{- if .Params.dates.to.hour }}
+                  <span> {{ .Params.dates.to.hour }}</span>
+                {{ end -}}
+              </div>
+            {{ end -}}
+          </div>
+        {{ end }}
+
+        {{ if .Params.categories }}
+          <p class="event-categories">
+            {{- range $index, $category := .GetTerms "categories" -}}
+              <span>{{- $category.Title -}}</span>
+            {{- end -}}
+          </p>
+        {{ end }}
+      </div>
+
+      {{- if .Params.image }}
+        <figure>
+          {{ if not site.Params.image_sizes.design_system.lightbox.disabled }}
+            <a  class="glightbox"
+                role="button"
+                data-glightbox="type: image;{{ if .Params.image.credit }}description: {{ partial "PrepareHTML" .Params.image.credit }}{{ end }}"
+                href="{{ partial "GetLightboxUrl" .Params.image }}"
+                title="{{- i18n "commons.lightbox.link.title" -}}"
+                aria-label="{{- i18n "commons.lightbox.link.title" -}}">
+          {{ end }}
+            {{ partial "commons/image.html"
+              (dict
+                "image"    .Params.image
+                "sizes"    ( .Params.sizes | default site.Params.image_sizes.design_system.hero )
+                "lazy"     false
+              ) }}
+          {{ if not site.Params.image_sizes.design_system.lightbox.disabled }}
+            </a>
+          {{ end }}
+            {{ if partial "GetTextFromHTML" .Params.image.credit }}
+              <figcaption tabindex="0">
+                <div class="credit-content">
+                  {{- partial "PrepareHTML" .Params.image.credit -}}
+                </div>
+              </figcaption>
+            {{ end }}
+        </figure>
+      {{ end -}}
+    </div>
+    {{- if eq site.Params.breadcrumb.position "hero-end" -}}
+      {{- if .breadcrumb | default true -}}
+        {{ partial "header/breadcrumbs.html" .context }}
+      {{- end -}}
+    {{- end -}}
+  </div>
+</header>
+
+{{- if $breadcrumb_is_after_hero -}}
+  {{- if .breadcrumb | default true -}}
+    <div class="container breadcrumb-container">
+      {{ partial "header/breadcrumbs.html" .context }}
+    </div>
+  {{- end -}}
+{{- end -}}

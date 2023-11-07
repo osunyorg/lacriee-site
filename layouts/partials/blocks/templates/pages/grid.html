@@ -1,0 +1,45 @@
+{{ $show_descriptions := .show_descriptions }}
+{{ $show_images := .show_images }}
+
+<div class="grid">
+  {{ range .pages }}
+    {{- $file := false -}}
+    {{/*  Check if . is a map or page url, necessary when pages/grid is called outside block context */}}
+    {{ if reflect.IsMap . }}
+      {{ $file = .file }}
+    {{ else }}
+      {{ $file = . }}
+    {{ end }}
+
+    {{ $page := site.GetPage $file }}
+
+    {{ with $page }}
+      <article>
+        {{ if and $show_descriptions .Params.summary }}
+          <hgroup>
+        {{ end }}
+        <h3>
+          <a href="{{- .Permalink -}}">
+            {{- partial "PrepareHTML" .Title -}}
+          </a>
+        </h3>
+        {{ if and $show_descriptions .Params.summary }}
+          {{ if site.Params.pages.index.truncate_description }}
+            <p>{{ partial "GetTruncateContent" ( dict 
+              "text" .Params.summary
+              "length" site.Params.pages.index.truncate_description
+              ) }}</p>
+          {{ else }}
+            <p>{{ partial "PrepareText" .Params.summary }}</p>
+          {{ end }}
+        {{ end }}
+        {{ if and $show_descriptions .Params.summary }}
+          </hgroup>
+        {{ end }}
+        {{ if $show_images }}
+          {{- partial "pages/page-media.html" . -}}
+        {{ end }}
+      </article>
+    {{- end -}}
+  {{ end }}
+</div>
