@@ -54,8 +54,8 @@ items:
     kind: page
     children: []
   - title: Éditions et recherche
-    target: ''
-    kind: blank
+    target: "/fr/programmation/recherche/"
+    kind: page
     children: []
   - title: Projets de médiation
     target: ''
