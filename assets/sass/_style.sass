@@ -235,17 +235,20 @@ body.full-width
         .grid
             @include grid(1)
         article
-            @include grid(2)
             background: $color-accent
             padding: $spacing1
             width: 100%
-            h3, p
-                @include h2
             a::after
                 display: none
+            h3, p
+                @include h2
             p
                 font-style: italic
-            .media
-                margin: 0
-                img
-                    aspect-ratio: 1
+            .media img
+                aspect-ratio: 1
+            @include media-breakpoint-up(desktop)
+                flex-direction: row
+                gap: $grid-gutter
+                .media
+                    margin: 0
+                    width: col(2.94, 8)
