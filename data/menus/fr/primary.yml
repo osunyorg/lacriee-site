@@ -38,8 +38,8 @@ items:
   kind: page
   children:
   - title: Cycle thématique
-    target: ''
-    kind: blank
+    target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
+    kind: page
     children: []
   - title: Expositions
     target: ''
