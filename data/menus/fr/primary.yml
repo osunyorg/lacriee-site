@@ -138,8 +138,8 @@ items:
     kind: page
     children: []
   - title: Correspondances
-    target: ''
-    kind: blank
+    target: "/fr/mediation-1/correspondances/"
+    kind: page
     children: []
   - title: Vidéos
     target: ''
