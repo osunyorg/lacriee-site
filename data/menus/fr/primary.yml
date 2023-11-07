@@ -150,7 +150,7 @@ items:
     kind: blank
     children: []
   - title: Archives / saisons passées
-    target: ''
-    kind: blank
+    target: "/fr/ressources/archives-saisons-passees/"
+    kind: page
     children: []
 
