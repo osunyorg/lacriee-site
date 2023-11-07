@@ -10,15 +10,19 @@
         margin-left: $spacing1
     
 // Hero
-.hero .content hgroup
-    .artist,
-    .dates
-        @include h1
-    h1 + p
-        margin-top: 0
-    .dates
-        @include body-text
-        margin-top: $spacing0
+.hero .content 
+    hgroup
+        .artist,
+        .dates
+            @include h1
+        h1 + p
+            margin-top: 0
+        .dates
+            @include body-text
+            margin-top: $spacing0
+    figure figcaption
+        .credit-content
+            background: none
 
 .block-chapter
     &--alt_background
@@ -285,4 +289,12 @@ body.full-width
             @include media-breakpoint-up(desktop)
                 flex-direction: row
                 gap: $grid-gutter
-            
+.pages__section
+    .hero
+        .page-summary
+            @include h1
+            font-style: italic
+    @include media-breakpoint-up(desktop)
+        &.full-width
+            .block-summary
+                width: col(8)

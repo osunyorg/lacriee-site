@@ -13,9 +13,6 @@
           <p class="artist">{{ partial "PrepareHTML" . }}</p>
         {{ end }}
         <h1>{{ partial "PrepareHTML" .Title }}</h1>
-        {{ with .Params.summary }}
-          <p class="dates">{{ partial "PrepareHTML" . }}</p>
-        {{ end }}
       </hgroup>
       {{ if $image }}
         <figure>
