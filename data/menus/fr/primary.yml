@@ -50,8 +50,8 @@ items:
     kind: page
     children: []
   - title: Résidences
-    target: ''
-    kind: blank
+    target: "/fr/programmation/residences/"
+    kind: page
     children: []
   - title: Éditions et recherche
     target: ''
