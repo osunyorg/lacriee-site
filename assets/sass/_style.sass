@@ -1,3 +1,14 @@
+// Mixin
+@mixin outline
+    align-items: center
+    display: flex
+    &::after
+        background-color: $color-text
+        content: ''
+        flex: 1
+        height: 1px
+        margin-left: $spacing1
+    
 // Hero
 .hero .content hgroup
     .artist,
@@ -79,14 +90,8 @@ footer#document-footer
 .document-content
     .heading
         @include media-breakpoint-up(desktop)
-            align-items: center
-            display: flex
-            &::after
-                background-color: $color-text
-                content: ''
-                flex: 1
-                height: 1px
-                margin-left: $spacing1
+            @include outline
+            gap: $spacing1
     h2
         @include h4
 
@@ -95,28 +100,32 @@ footer#document-footer
         &-subtitle
             font-style: italic
     .block-title
-        align-items: center
-        display: flex
+        @include outline
         font-weight: bold
         text-transform: none
-        &::after
-            background-color: $color-text
-            content: ''
-            flex: 1
-            height: 1px
-            margin-left: $spacing2
-    &--large 
+        gap: $spacing2
+    &--large
         @include media-breakpoint-up(xl)
             .event-content
                 h2, 
                 .event-subtitle,
                 .event-dates span
                     @include h1
+        .event
+            .more
+                @include icon(arrow-top, after)
         @include media-breakpoint-up(desktop)
             .event
                 position: relative
                 &-content
+                    display: flex
+                    flex-direction: column
+                    justify-content: flex-end
                     position: static
+                    hgroup
+                        flex: 1
+                    h2
+                        margin-bottom: auto
                     .event-dates
                         text-align: right
                 &-categories 
@@ -132,6 +141,19 @@ footer#document-footer
                     span 
                         writing-mode: tb
                         transform: rotate(180deg)
+                &-status
+                    @include h4
+                    @include outline
+                    font-weight: 600
+                    margin-bottom: $spacing0
+                &-description
+                    display: flex
+                    justify-content: space-between
+                    gap: $grid-gutter
+                    p:not(.more)
+                        width: col(4, 6)
+                    .more
+                        margin: 0
     &--list
         @include media-breakpoint-up(desktop)
             .event
@@ -206,6 +228,10 @@ body.full-width
                 .avatar
                     margin-right: $grid-gutter
                     width: col(3, 8)
+    .block-agenda--large
+        @include media-breakpoint-up(desktop)
+            .event
+                align-items: unset
 // Events
 .events__page
     .hero
