@@ -46,8 +46,8 @@ items:
     kind: page
     children: []
   - title: Rendez-vous et évènements
-    target: ''
-    kind: blank
+    target: "/fr/programmation/evenements/"
+    kind: page
     children: []
   - title: Résidences
     target: ''
