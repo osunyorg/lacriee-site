@@ -138,6 +138,10 @@ footer#document-footer
                     display: none
             .pagefind-ui__result-excerpt mark
                 color: $color-text
+    .footer-i18n
+        button:focus-visible
+            outline-offset: 0px
+            border: 4px solid $color-accent
 
 // TOC
 .toc-container
@@ -359,9 +363,12 @@ body.full-width
             p
                 font-style: italic
             .media 
+                filter: grayscale(1)
                 margin: 0
-                width: col(2.94, 8)
                 mix-blend-mode: multiply
+                width: col(2.94, 8)
+            &:hover .media
+                filter: grayscale(0)
             @include media-breakpoint-up(desktop)
                 flex-direction: row
                 gap: $grid-gutter
