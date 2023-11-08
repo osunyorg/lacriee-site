@@ -36,14 +36,30 @@
             @include media-breakpoint-down(desktop)
                 font-size: px2rem(22)
 
-.menu
-    .has-children:not(.header-i18n)
-        > a[aria-expanded="true"],
-        > span[aria-expanded="true"] 
-            + .dropdown-menu 
-                @include grid(2, desktop)
-                .nav-level-2
-                    display: block
+header#document-header nav .menu
+    .menu-title
+        @include h4
+    @include media-breakpoint-up(desktop)
+        .has-children:not(.header-i18n)
+            > a[aria-expanded="true"],
+            > span[aria-expanded="true"] 
+                + .dropdown-menu .container
+                    align-items: flex-start
+                    gap: $grid-gutter
+                    display: flex
+                    .menu-title
+                        @include h2
+                        width: col(3)
+                    .nav-level-2
+                        display: block
+                        width: col(9)
+                        li 
+                            + li
+                                margin-top: $spacing0
+                            a, span
+                                line-height: inherit
+                            span
+                                padding: 0
 
 .breadcrumb-nav *
     font-size: px2rem(14)
@@ -300,5 +316,9 @@ body.full-width
         &.full-width
             .block-pages--grid .grid
                 @include grid(4)
+                h3
+                    @include h4
+                    a::after
+                        display: none
             .block-summary
                 width: col(8)
