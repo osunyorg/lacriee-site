@@ -38,7 +38,33 @@ header#document-header
                 padding-bottom: 0
                 &::after
                     display: none
-
+        @include media-breakpoint-down(desktop)
+            .dropdown-menu .container
+                padding: 0
+            .menu-title
+                @include h4
+        @include media-breakpoint-up(desktop)
+            .has-children:not(.header-i18n)
+                > a[aria-expanded="true"],
+                > span[aria-expanded="true"] 
+                    + .dropdown-menu .container
+                        align-items: flex-start
+                        gap: $grid-gutter
+                        display: flex
+                        .menu-title
+                            @include h2
+                            width: col(3)
+                        .nav-level-2
+                            display: block
+                            width: col(9)
+                            padding: 0
+                            li 
+                                + li
+                                    margin-top: $spacing0
+                                a, span
+                                    line-height: inherit
+                                span
+                                    padding: 0
 // Hero
 .hero .content 
     hgroup
@@ -66,33 +92,7 @@ header#document-header
             @include media-breakpoint-down(desktop)
                 font-size: px2rem(22)
 
-header#document-header nav .menu
-    @include media-breakpoint-down(desktop)
-        .dropdown-menu .container
-            padding: 0
-        .menu-title
-            @include h4
-    @include media-breakpoint-up(desktop)
-        .has-children:not(.header-i18n)
-            > a[aria-expanded="true"],
-            > span[aria-expanded="true"] 
-                + .dropdown-menu .container
-                    align-items: flex-start
-                    gap: $grid-gutter
-                    display: flex
-                    .menu-title
-                        @include h2
-                        width: col(3)
-                    .nav-level-2
-                        display: block
-                        width: col(9)
-                        li 
-                            + li
-                                margin-top: $spacing0
-                            a, span
-                                line-height: inherit
-                            span
-                                padding: 0
+
 
 .breadcrumb-nav *
     font-size: px2rem(14)
