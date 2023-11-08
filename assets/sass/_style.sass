@@ -37,8 +37,11 @@
                 font-size: px2rem(22)
 
 header#document-header nav .menu
-    .menu-title
-        @include h4
+    @include media-breakpoint-down(desktop)
+        .dropdown-menu .container
+            padding: 0
+        .menu-title
+            @include h4
     @include media-breakpoint-up(desktop)
         .has-children:not(.header-i18n)
             > a[aria-expanded="true"],
