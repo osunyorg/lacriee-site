@@ -218,8 +218,11 @@ footer#document-footer
             .event
                 padding-bottom: $spacing2
                 margin-bottom: $spacing2
-        .event:last-child
-            border-bottom: 0
+        .event
+            &:last-child
+                border-bottom: 0
+            .media img
+                aspect-ratio: 1
     &--grid
         @include media-breakpoint-up(desktop)
             .event-dates
