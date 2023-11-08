@@ -19,15 +19,16 @@
     border-radius: 0
 
 // Header
-header#document-header:not(.is-sticky)
-    &::after
-        background: $color-border
-        bottom: half($spacing0)
-        content: ''
-        height: 1px
-        left: $grid-gutter
-        position: absolute
-        width: calc(100% - (#{$grid-gutter} * 2))
+header#document-header
+    &:not(.is-sticky)
+        &::after
+            background: $color-border
+            bottom: half($spacing0)
+            content: ''
+            height: 1px
+            left: $grid-gutter
+            position: absolute
+            width: calc(100% - (#{$grid-gutter} * 2))
     .container
         align-items: flex-end
     .menu
@@ -221,8 +222,9 @@ footer#document-footer
         .event
             &:last-child
                 border-bottom: 0
-            .media img
-                aspect-ratio: 1
+            &--with-image
+                .media img
+                    aspect-ratio: 1
     &--grid
         @include media-breakpoint-up(desktop)
             .event-dates
