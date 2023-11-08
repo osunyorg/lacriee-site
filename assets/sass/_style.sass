@@ -15,7 +15,29 @@
         h2
             max-width: col(8)
             width: unset
-    
+.avatar
+    border-radius: 0
+
+// Header
+header#document-header:not(.is-sticky)
+    &::after
+        background: $color-border
+        bottom: half($spacing0)
+        content: ''
+        height: 1px
+        left: $grid-gutter
+        position: absolute
+        width: calc(100% - (#{$grid-gutter} * 2))
+    .container
+        align-items: flex-end
+    .menu
+        .nav-level-1 > li
+            a,
+            span
+                padding-bottom: 0
+                &::after
+                    display: none
+
 // Hero
 .hero .content 
     hgroup
@@ -232,7 +254,7 @@ body.full-width
                         margin-right: 40%
                     figcaption
                         width: 60%
-    .pages__section
+    &.pages__section
         .block-chapter--with-image
             @include media-breakpoint-up(desktop)
                 .chapter 
@@ -253,7 +275,6 @@ body.full-width
                 margin-top: $spacing1
             .avatar 
                 margin-bottom: 0
-                border-radius: 0
             .description
                 margin: 0
                 &, h3
