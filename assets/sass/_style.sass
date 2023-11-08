@@ -1,5 +1,5 @@
 // Mixin
-@mixin outline
+@mixin large-line
     align-items: center
     display: flex
     &::after
@@ -29,17 +29,20 @@ header#document-header
             left: $grid-gutter
             position: absolute
             width: calc(100% - (#{$grid-gutter} * 2))
-    .container
+    nav .container
         align-items: flex-end
     .menu
         .nav-level-1 > li
             a,
             span
                 padding-bottom: 0
+                &.active::after
+                    @include icon-site(asterisk)
+                    font-size: px2rem(24)
             &:not(.header-i18n)
                 a,
                 span
-                    &::after
+                    &:not(.active)::after
                         display: none
             &.header-i18n [role="button"]
                 @include icon(caret-bottom, after)
@@ -98,8 +101,6 @@ header#document-header
             @include media-breakpoint-down(desktop)
                 font-size: px2rem(22)
 
-
-
 .breadcrumb-nav *
     font-size: px2rem(14)
 
@@ -147,13 +148,16 @@ footer#document-footer
 .toc-container
     nav 
         a.active
-            @include icon(outline, after)
+            &::after
+                @include icon-site(outline)
+                font-size: px2rem(16)
+                margin-left: half($spacing0)
 
 // Blocks
 .document-content
     .heading
         @include media-breakpoint-up(desktop)
-            @include outline
+            @include large-line
             gap: $spacing1
     h2
         @include h4
@@ -168,14 +172,15 @@ footer#document-footer
         &-subtitle
             font-style: italic
     .block-title
-        @include outline
+        @include large-line
         font-weight: bold
         text-transform: none
         gap: $spacing2
     &--large
         .event
-            .more
-                @include icon(arrow-top, after)
+            .more::after
+                @include icon-site(arrow-top)
+                font-size: px2rem(18)
         @include media-breakpoint-up(xl)
             .event-content
                 h2, 
@@ -219,7 +224,7 @@ footer#document-footer
                         transform: rotate(180deg)
                 &-status
                     @include h4
-                    @include outline
+                    @include large-line
                     font-weight: 600
                     margin-bottom: $spacing0
                 .media img

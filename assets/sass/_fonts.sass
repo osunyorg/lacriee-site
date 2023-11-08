@@ -4,3 +4,17 @@
 @include font-face("PolySans", PolySans-BulkyItalic, $weight: bold, $style: italic, $exts: (woff2 woff))
 @include font-face("Rungli", Rungli-Regular, $exts: (eot woff2 woff))
 @include font-face("Rungli", Rungli-Italic, $style: italic, $exts: (eot woff2 woff))
+
+// Icons
+@font-face
+    font-display: block
+    font-family: 'Icon-site'
+    font-style: normal
+    font-weight: 400
+    src: url('/assets/fonts/icons-site/IconFont.woff2') format("woff2"), url('/assets/fonts/icons-site/IconFont.woff') format("woff"), url('/assets/fonts/icons-site/IconFont.ttf') format("truetype")
+
+@mixin icon-site($icon)
+    @include icon
+    content: map-get($icons-site, $icon)
+    font-family: 'Icon-site'
+    font-size: 12px
