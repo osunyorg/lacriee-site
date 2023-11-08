@@ -36,8 +36,14 @@ header#document-header
             a,
             span
                 padding-bottom: 0
-                &::after
-                    display: none
+            &:not(.header-i18n)
+                a,
+                span
+                    &::after
+                        display: none
+            &.header-i18n [role="button"]
+                @include icon(caret-bottom, after)
+                    margin-left: half($spacing0)
         @include media-breakpoint-down(desktop)
             .dropdown-menu .container
                 padding: 0
