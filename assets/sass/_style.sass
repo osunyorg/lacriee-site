@@ -10,6 +10,8 @@
         margin-left: $spacing1
 
 // Base
+html.has-menu-opened body::after
+    opacity: .5
 .heading
     @include in-page-without-sidebar
         h2
@@ -35,6 +37,7 @@ header#document-header
         .nav-level-1 > li
             a,
             span
+                line-height: 100%
                 padding-bottom: 0
                 &.active::after
                     @include icon-site(asterisk)
