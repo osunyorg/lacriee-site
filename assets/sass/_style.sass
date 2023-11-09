@@ -34,23 +34,29 @@ header#document-header
     nav .container
         align-items: flex-end
     .menu
-        .nav-level-1 > li
-            a,
-            span
-                line-height: 100%
-                padding-bottom: 0
-                &.active::after
-                    @include icon-site(asterisk)
-                    font-size: px2rem(24)
-                    width: 10px
-            &:not(.header-i18n)
+        .nav-level-1 
+            align-items: flex-end
+            > li
                 a,
                 span
-                    &:not(.active)::after
-                        display: none
-            &.header-i18n [role="button"]
-                @include icon(caret-bottom, after)
-                    margin-left: half($spacing0)
+                    line-height: 100%
+                    padding-bottom: 0
+                    position: relative
+                    &.active::after
+                        @include icon-site(asterisk)
+                        font-size: px2rem(24)
+                        position: absolute
+                        top: half(-$spacing0)
+                        right: 0
+                        width: 10px
+                &:not(.header-i18n)
+                    a,
+                    span
+                        &:not(.active)::after
+                            display: none
+                &.header-i18n [role="button"]
+                    @include icon(caret-bottom, after)
+                        margin-left: half($spacing0)
         @include media-breakpoint-down(desktop)
             .dropdown-menu .container
                 padding: 0
