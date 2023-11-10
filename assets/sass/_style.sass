@@ -136,6 +136,7 @@ header#document-header
 footer#document-footer
     .footer-logo
         @include grid(2)
+        align-items: flex-start
         a::after
             display: none
     .footer-site
@@ -146,6 +147,9 @@ footer#document-footer
             justify-content: flex-end
             .dropdown-languages
                 text-align: left
+        .footer-legals
+            + .container
+                margin-top: $spacing0
     .footer-search 
         > div
             border-top: 1px solid $color-border
@@ -189,6 +193,8 @@ footer#document-footer
         @include h4
 .block-siblings-navigation
     .siblings-navigation ul 
+        a:hover
+            filter: brightness(0.5)
         .next span::after
             @include icon-site(arrow-right)
         .previous span::before
