@@ -138,7 +138,7 @@ items:
     kind: page
     children: []
   - title: Correspondances
-    target: "/fr/mediation-1/correspondances/"
+    target: "/fr/ressources/correspondances/"
     kind: page
     children: []
   - title: Vidéos
