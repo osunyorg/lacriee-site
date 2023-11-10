@@ -130,7 +130,7 @@ items:
     kind: blank
     children: []
 - title: Ressources
-  target: "/fr/ressources/ressources-pedagogiques/"
+  target: "/fr/ressources/"
   kind: page
   children:
   - title: Ressources pédagogiques
