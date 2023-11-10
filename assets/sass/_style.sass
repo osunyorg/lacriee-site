@@ -152,11 +152,19 @@ footer#document-footer
             width: 100%
             padding-top: $spacing1
             .pagefind-ui__toggle
-                @include icon(search-inline)
                 @include h2
                 font-family: $body-font-family
                 &::after
                     display: none
+                &::before
+                    @include icon-site(search)
+                    font-size: $h2-size
+                @include media-breakpoint-up(desktop)
+                    align-items: flex-end
+                    display: flex
+                    gap: $spacing0
+                    &::before
+                        font-size: $h2-size-desktop
             .pagefind-ui__result-excerpt mark
                 color: $color-text
     .footer-i18n
@@ -181,6 +189,12 @@ footer#document-footer
             gap: $spacing1
     h2
         @include h4
+.block-siblings-navigation
+    .siblings-navigation ul 
+        .next span::after
+            @include icon-site(arrow-right)
+        .previous span::before
+            @include icon-site(arrow-left)
 .block-pages--grid .grid
     article
         h3 a::after
@@ -191,6 +205,9 @@ footer#document-footer
     .event 
         &-subtitle
             font-style: italic
+        &-time
+            span + span::before
+                @include icon-site(arrow-right)
     .block-title
         @include large-line
         font-weight: bold
