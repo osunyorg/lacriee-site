@@ -158,13 +158,11 @@ footer#document-footer
                     display: none
                 &::before
                     @include icon-site(search)
-                    font-size: $h2-size
+                    font-size: inherit
                 @include media-breakpoint-up(desktop)
                     align-items: flex-end
                     display: flex
                     gap: $spacing0
-                    &::before
-                        font-size: $h2-size-desktop
             .pagefind-ui__result-excerpt mark
                 color: $color-text
     .footer-i18n
