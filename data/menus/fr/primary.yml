@@ -130,11 +130,11 @@ items:
     kind: blank
     children: []
 - title: Ressources
-  target: "/fr/mediation-1/ressources-pedagogiques/"
+  target: "/fr/ressources/ressources-pedagogiques/"
   kind: page
   children:
   - title: Ressources pédagogiques
-    target: "/fr/mediation-1/ressources-pedagogiques/"
+    target: "/fr/ressources/ressources-pedagogiques/"
     kind: page
     children: []
   - title: Correspondances
