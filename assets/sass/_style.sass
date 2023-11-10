@@ -24,13 +24,6 @@ html.has-menu-opened body::after
 header#document-header
     .menu
         .nav-level-1 > li
-            &:not(.header-i18n)
-                span,
-                a
-                    &[aria-expanded][aria-expanded="true"]::after
-                        transform: none
-                    &::after
-                        display: none
             &.header-i18n [role="button"]
                 @include icon(caret-bottom, after)
                     margin-left: half($spacing0)
@@ -55,24 +48,35 @@ header#document-header
         .menu
             .nav-level-1 
                 align-items: flex-end
+                li:not(.header-i18n)
+                    a,
+                    span
+                        position: relative
+                        width: fit-content
+                        &.active::after
+                            @include icon-site(asterisk)
+                            font-size: px2rem(24)
+                            position: absolute
+                            top: half(-$spacing0)
+                            right: -$spacing0
+                            width: 10px
+                            display: block
                 > li
                     > a,
                     > span
                         line-height: 100%
                         padding-bottom: 0
-                        position: relative
                     &:not(.header-i18n)
-                        a,
-                        span
+                        > span,
+                        > a
+                            &[aria-expanded][aria-expanded="true"]::after
+                                transform: none
+                            &::after
+                                display: none
                             &.active::after
-                                @include icon-site(asterisk)
-                                font-size: px2rem(24)
-                                position: absolute
-                                top: half(-$spacing0)
                                 right: 0
-                                width: 10px
-                                display: block
-                            
+                .dropdown-menu
+                    padding-top: calc(#{$spacing3} + #{$spacing1})
                 .has-children:not(.header-i18n)
                     > a[aria-expanded="true"],
                     > span[aria-expanded="true"] 
@@ -82,6 +86,7 @@ header#document-header
                             display: flex
                             .menu-title
                                 @include h2
+                                margin-top: -7px
                                 width: col(3)
                             .nav-level-2
                                 display: block
