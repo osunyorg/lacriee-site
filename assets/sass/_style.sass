@@ -353,7 +353,7 @@ body.full-width
             .description
                 margin: 0
                 &, h3
-                    @include h2
+                    @include h3
                     + p
                         font-style: italic
             @include media-breakpoint-up(desktop)
@@ -365,6 +365,8 @@ body.full-width
                 .description
                     width: col(5, 8)
                     border-bottom: 1px solid $color-border
+                    &, h3
+                        @include h2
     .block-agenda--large
         @include media-breakpoint-up(desktop)
             .event
