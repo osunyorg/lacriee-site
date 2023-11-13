@@ -199,12 +199,16 @@ footer#document-footer
 // TOC
 .toc-container
     nav 
-        a.active
-            &::after
-                @include icon-site(outline)
-                font-size: px2rem(16)
-                margin-left: half($spacing0)
-
+        a::after
+            @include icon-site(outline)
+            display: inline-block
+            font-size: px2rem(16)
+            margin-left: half($spacing0)
+            transform: scale(0)
+            transform-origin: bottom left
+        a.active::after
+            transform: scale(1)
+            transition: transform .3s ease
 // Blocks
 .document-content
     .heading
