@@ -101,6 +101,8 @@ header#document-header
                                         padding: 0
 // Hero
 .hero .content 
+    @include media-breakpoint-down(md)
+        padding-top: 0
     hgroup
         .artist,
         .dates
@@ -217,14 +219,23 @@ footer#document-footer
             gap: $spacing1
     h2
         @include h4
+    @include media-breakpoint-down(desktop)
+        .block-summary
+            margin-top: 0
 .block-siblings-navigation
     .siblings-navigation ul 
         a:hover
             filter: brightness(0.5)
-        .next span::after
-            @include icon-site(arrow-right)
-        .previous span::before
-            @include icon-site(arrow-left)
+        @include media-breakpoint-up(desktop)
+            .next span::after
+                @include icon-site(arrow-right)
+            .previous span::before
+                @include icon-site(arrow-left)
+        @include media-breakpoint-down(desktop)
+            .next::after
+                @include icon-site(arrow-right)
+            .previous::before
+                @include icon-site(arrow-left)
 .block-pages--grid .grid
     article
         h3 a::after
@@ -363,20 +374,23 @@ body.full-width
             .description
                 margin: 0
                 &, h3
-                    // @include h3
+                    @include h3
                     + p
                         font-style: italic
             @include media-breakpoint-up(desktop)
                 + .person
                     margin-top: $spacing3
+                .description
+                    width: col(6, 8)
+                    border-bottom: 1px solid $color-border
+                    &, h3
+                        @include h2
+            @include media-breakpoint-up(xl)
                 .avatar
                     margin-right: $grid-gutter
                     width: col(3, 8)
                 .description
                     width: col(5, 8)
-                    border-bottom: 1px solid $color-border
-                    &, h3
-                        @include h2
     .block-agenda--large
         @include media-breakpoint-up(desktop)
             .event
@@ -463,14 +477,17 @@ body.full-width
                 font-style: italic
             .media 
                 filter: grayscale(1)
-                margin: 0
                 mix-blend-mode: multiply
-                width: col(2.94, 8)
+                @include media-breakpoint-up(md)
+                    margin: 0
+                    width: col(2.94, 8)
             &:hover .media
                 filter: grayscale(0)
-            @include media-breakpoint-up(desktop)
+            @include media-breakpoint-up(md)
                 flex-direction: row
                 gap: $grid-gutter
+    .lead 
+        font-family: $lead-font-family
 .pages__section
     .hero
         .page-summary
