@@ -208,10 +208,10 @@ footer#document-footer
             display: inline-block
             font-size: px2rem(16)
             margin-left: half($spacing0)
-            transform: scale(0)
+            transform: scale(0) translateY(15%)
             transform-origin: bottom left
         a.active::after
-            transform: scale(1)
+            transform: scale(1.4) translateY(15%)
             transition: transform .3s ease
 // Blocks
 .document-content
@@ -310,6 +310,7 @@ footer#document-footer
                     position: absolute
                     top: 0
                     transform: translateX(-100%)
+                    writing-mode: sideways-lr
                     span 
                         writing-mode: tb
                         transform: rotate(180deg)
@@ -515,6 +516,7 @@ footer#document-footer
 
 // glightbox
 #glightbox-body
+    top: $spacing0
     .goverlay
         background-color: $color-accent
     .gslide-desc
