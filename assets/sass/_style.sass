@@ -248,6 +248,16 @@ footer#document-footer
             .more::after
                 @include icon-site(arrow-top)
                 font-size: px2rem(18)
+        @include media-breakpoint-down(desktop)
+            .event-categories
+                background-color: $color-accent
+                left: -$spacing1
+                margin: 0
+                padding: half($spacing0) $spacing1
+                position: absolute
+                top: -$spacing0
+                transform: translateY(-100%)
+                width: calc(100% + (#{$spacing1} * 2))
         @include media-breakpoint-up(xl)
             .event-content
                 h2, 
@@ -353,7 +363,7 @@ body.full-width
             .description
                 margin: 0
                 &, h3
-                    @include h3
+                    // @include h3
                     + p
                         font-style: italic
             @include media-breakpoint-up(desktop)
@@ -406,13 +416,13 @@ body.full-width
     .hero
         .container .content
             align-items: unset
+        &--with-image
+            @include media-breakpoint-down(desktop)
+                figure
+                    margin-top: $spacing1
         &-informations 
             @include h1
-            display: flex
-            flex-direction: column
-            justify-content: space-between
             position: relative
-            width: col(6)
             hgroup
                 h1 + p
                     font-style: italic
@@ -420,12 +430,24 @@ body.full-width
                 text-align: right
             .event-categories
                 position: absolute
+                @include media-breakpoint-down(desktop)
+                    top: 0
+                    margin: 0
+                    transform: translateY(-120%)
+        @include media-breakpoint-up(desktop)
+            &-informations 
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                position: relative
+                width: col(6)
+            .event-categories
                 bottom: 0
                 span
                     writing-mode: tb
                     transform: rotate(180deg)
-        figure
-            width: col(6)
+            figure
+                width: col(6)
     .block-pages--grid
         .grid
             @include grid(1)
