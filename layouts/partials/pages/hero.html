@@ -7,6 +7,7 @@
 <header class="hero {{ if $image -}}hero--with-image hero--image-{{- $direction -}}{{- end }}">
   <div class="container">
     {{ partial "header/breadcrumbs.html" . }}
+
     <div class="content">
       <hgroup>
         {{ with .Params.header_text }}

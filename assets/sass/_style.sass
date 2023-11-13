@@ -277,6 +277,7 @@ footer#document-footer
                 .event-subtitle,
                 .event-dates span
                     @include h1
+                    
             .event-description
                 display: flex
                 justify-content: space-between
@@ -303,12 +304,12 @@ footer#document-footer
                     background-color: $color-accent
                     display: flex
                     height: 100%
-                    left: 50%
                     margin: 0
+                    margin-left: -$grid-gutter
                     padding: $spacing0 half($spacing0)
                     position: absolute
                     top: 0
-                    transform: translateX(-189%)
+                    transform: translateX(-100%)
                     span 
                         writing-mode: tb
                         transform: rotate(180deg)
@@ -324,6 +325,7 @@ footer#document-footer
             .event
                 padding-bottom: $spacing2
                 margin-bottom: $spacing2
+                position: relative
         .event
             &:last-child
                 border-bottom: 0
@@ -335,36 +337,34 @@ footer#document-footer
             .event-dates
                 @include h3
                 text-align: right
-body:not(.full-width),
-main > .blocks,
-body.full-width
-    .block-image
-        @include media-breakpoint-up(desktop)
+.block-image
+    @include in-page-with-or-without-sidebar
+        .block-content figure
+            background-color: $color-accent
+            text-align: right
+            picture
+                display: inline-block
+                filter: grayscale(1)
+                margin: $spacing1 $spacing1 0
+                mix-blend-mode: multiply
+                width: 60%
+                &:hover
+                    filter: grayscale(0)
+            figcaption
+                display: inline-block
+                margin: $spacing1
+                width: -webkit-fill-available
+                .credit p
+                    font-family: $h1-font-family
+        &:nth-child(even)
             .block-content figure
-                background-color: $color-accent
-                text-align: right
-                picture
-                    display: inline-block
-                    filter: grayscale(1)
-                    margin: $spacing1 $spacing1 0
-                    mix-blend-mode: multiply
-                    width: 60%
-                    &:hover
-                        filter: grayscale(0)
+                picture,
                 figcaption
-                    display: inline-block
-                    margin: $spacing1
-                    width: -webkit-fill-available
-                    .credit p
-                        font-family: $h1-font-family
-            &:nth-child(even)
-                .block-content figure
-                    picture,
-                    figcaption
-                        margin-right: 40%
-                    figcaption
-                        width: 60%
-    .block-persons
+                    margin-right: 40%
+                figcaption
+                    width: 60%
+.block-persons
+    @include in-page-with-sidebar
         .persons
             &, &.is-column
                 display: block
@@ -393,10 +393,12 @@ body.full-width
                     width: col(3, 8)
                 .description
                     width: col(5, 8)
-    .block-agenda--large
-        @include media-breakpoint-up(desktop)
-            .event
-                align-items: unset
+
+.block-agenda--large
+    @include in-page-with-or-without-sidebar
+        .event
+            align-items: stretch
+
 .block-agenda--list
     @include in-page-with-sidebar
         .event-content
@@ -444,12 +446,6 @@ body.full-width
                     font-style: italic
             .event-dates
                 text-align: right
-            .event-categories
-                position: absolute
-                @include media-breakpoint-down(desktop)
-                    top: 0
-                    margin: 0
-                    transform: translateY(-120%)
         @include media-breakpoint-up(desktop)
             &-informations 
                 display: flex
@@ -458,12 +454,21 @@ body.full-width
                 position: relative
                 width: col(6)
             .event-categories
+                position: absolute
                 bottom: 0
                 span
                     writing-mode: tb
                     transform: rotate(180deg)
             figure
                 width: col(6)
+        @include media-breakpoint-down(desktop)
+            &-informations
+                display: flex
+                flex-direction: column
+                .event-categories
+                    position: relative
+                    margin-top: 0
+                    order: -1
     .block-pages--grid
         .grid
             @include grid(1)
@@ -514,3 +519,26 @@ body.full-width
         background-color: $color-accent
     .gslide-desc
         color: $color-text
+
+.cursor
+    display: block
+    position: fixed
+    opacity: 0
+    pointer-events: none
+    z-index: 100
+    margin-left: -15px
+    margin-top: -15px
+    transform: rotate(190deg) scale(0.4)
+    transition: transform 0.25s, opacity 0.25s
+    border-radius: 50%
+    background: var(--color-accent)
+    width: px2rem(45)
+    height: px2rem(45)
+    line-height: px2rem(45)
+    text-align: center
+    &:after
+        @include icon-site(arrow-top)
+        font-size: px2rem(30)
+    &.visible
+        opacity: 1
+        transform: rotate(0) scale(1)

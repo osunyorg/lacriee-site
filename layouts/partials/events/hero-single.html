@@ -21,7 +21,7 @@
   <div class="container">
     {{- if eq site.Params.breadcrumb.position "hero-start" -}}
       {{- if .Params.breadcrumb | default true -}}
-        {{ partial "header/breadcrumbs.html" .Params.context }}
+        {{ partial "header/breadcrumbs.html" . }}
       {{- end -}}
     {{- end -}}
     <div class="content">

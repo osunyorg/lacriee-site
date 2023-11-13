@@ -3,3 +3,4 @@ import './vendors/carousel';
 import './theme/';
 
 import './design-system/pageColor';
+import './design-system/cursor';
