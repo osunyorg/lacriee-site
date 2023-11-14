@@ -11,7 +11,7 @@ class Cursor {
     }
 
     listen () {
-        const a = document.querySelectorAll('.block a');
+        const a = document.querySelectorAll('.block a, .events__section .events a');
         window.addEventListener('mousemove', (e) => {
             this.element.style.left = e.clientX + 'px'
             this.element.style.top = e.clientY + 'px'
