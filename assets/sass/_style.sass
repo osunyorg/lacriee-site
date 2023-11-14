@@ -222,8 +222,8 @@ footer#document-footer
         @include media-breakpoint-up(desktop)
             @include large-line
             gap: $spacing1
-    h2
-        @include h4
+        h2
+            @include h4
     @include media-breakpoint-down(desktop)
         .block-summary
             margin-top: 0
@@ -243,7 +243,7 @@ footer#document-footer
                 @include icon-site(arrow-left)
 .block-pages--grid .grid
     article
-        h3 a::after
+        .page-title a::after
             display: none
         .media img
             aspect-ratio: 1
@@ -276,7 +276,7 @@ footer#document-footer
                 width: calc(100% + (#{$spacing1} * 2))
         @include media-breakpoint-up(xl)
             .event-content
-                h2, 
+                [itemprop="headline"], 
                 .event-subtitle,
                 .event-dates span
                     @include h1
@@ -299,7 +299,7 @@ footer#document-footer
                     position: static
                     hgroup
                         flex: 1
-                    h2
+                    [itemprop="headline"]
                         margin-bottom: auto
                     .event-dates
                         text-align: right
@@ -379,7 +379,7 @@ footer#document-footer
                 margin-bottom: 0
             .description
                 margin: 0
-                &, h3
+                &, .name
                     @include h3
                     + p
                         font-style: italic
@@ -389,7 +389,7 @@ footer#document-footer
                 .description
                     width: col(6, 8)
                     border-bottom: 1px solid $color-border
-                    &, h3
+                    &, .name
                         @include h2
             @include media-breakpoint-up(xl)
                 .avatar
@@ -487,7 +487,7 @@ footer#document-footer
             width: 100%
             a::after
                 display: none
-            h3, p
+            .page-title, p
                 @include h2
             p
                 font-style: italic
@@ -513,7 +513,7 @@ footer#document-footer
         &.full-width
             .block-pages--grid .grid
                 @include grid(4)
-                h3
+                .page-title
                     @include h4
                     a::after
                         display: none
