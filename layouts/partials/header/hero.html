@@ -39,7 +39,7 @@
         <h1>{{ partial "PrepareHTML" .title }}</h1>
       {{- end -}}
 
-      {{ if eq (relURL .URL) ("/" | safeHTML) }}
+      {{ if eq .context.Kind "home" }}
         <div class="home-schedule">
           Ouvert de 13h à 19h<br> 
           du jeudi au dimanche,<br>
