@@ -99,21 +99,24 @@ header#document-header
                                     span
                                         padding: 0
 // Hero
-.hero .content 
-    @include media-breakpoint-down(md)
-        padding-top: 0
-    hgroup
-        .artist,
-        .dates
-            @include h1
-        h1 + p
-            margin-top: 0
-        .dates
-            @include body-text
-            margin-top: $spacing0
-    figure figcaption
-        .credit-content
-            background: none
+.hero 
+    .content 
+        @include media-breakpoint-down(md)
+            padding-top: 0
+        hgroup
+            .artist,
+            .dates
+                @include h1
+            h1 + p
+                margin-top: 0
+            .dates
+                @include body-text
+                margin-top: $spacing0
+        figure figcaption
+            .credit-content
+                background: none
+    .artist + h1
+        font-style: italic
 
 .block-chapter
     &--alt_background
