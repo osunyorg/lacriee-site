@@ -261,9 +261,12 @@ footer#document-footer
         gap: $spacing2
     &--large
         .event
-            .more::after
-                @include icon-site(arrow-top)
-                font-size: px2rem(18)
+            .more
+                font-size: inherit
+                line-height: inherit
+                &::after
+                    @include icon-site(arrow-top)
+                    font-size: px2rem(18)
         @include media-breakpoint-down(desktop)
             .event-categories
                 background-color: $color-accent
