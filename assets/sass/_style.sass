@@ -151,6 +151,15 @@ header#document-header
     .hero 
         h1
             @include h2
+            .asterisk
+                align-items: center
+                display: inline-flex
+                height: $h2-size-desktop
+                width: px2rem(15)
+                &::after
+                    @include icon-site(asterisk)
+                    font-size: $h3-size-desktop
+                
         .content
             position: relative
             .home-schedule
