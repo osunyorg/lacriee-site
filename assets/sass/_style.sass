@@ -20,6 +20,9 @@ html.has-menu-opened body::after
 .avatar
     border-radius: 0
 
+.block
+    margin-bottom: $spacing4
+
 // Header
 header#document-header
     .menu
@@ -120,6 +123,11 @@ header#document-header
                 background: none
     .artist + h1
         font-style: italic
+    body:not(.persons__page) &
+        nav.breadcrumb-nav
+            margin-bottom: $spacing3
+            + .content > hgroup
+                margin-top: 0
     @include media-breakpoint-up(xxl)
         min-height: auto
 
@@ -159,9 +167,6 @@ header#document-header
                         font-size: px2rem(24)
                         position: absolute
                         transform: translate(-100%, 10%)
-    .block
-        margin-top: $spacing4
-        margin-bottom: $spacing4
 
 // Footer
 footer#document-footer
