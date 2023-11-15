@@ -35,13 +35,16 @@ header#document-header
                 @include h4
     @include media-breakpoint-up(desktop)
         &:not(.is-sticky)
-            &::after
-                background: $color-border
-                content: ''
-                height: 1px
-                left: $grid-gutter
-                position: absolute
-                width: calc(100% - (#{$grid-gutter} * 2))
+            nav > .container
+                position: relative
+                &::after
+                    background: $color-border
+                    bottom: -$header-nav-padding-y-desktop
+                    content: ''
+                    height: 1px
+                    left: $grid-gutter
+                    position: absolute
+                    width: calc(100% - (#{$grid-gutter} * 2))
         nav .container
             align-items: flex-end
         .menu
