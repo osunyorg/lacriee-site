@@ -33,10 +33,11 @@ class Cursor {
             element.style.cursor = 'none';
             element.addEventListener('mouseenter', (e) => {
                 this.show();
-                this.element.classList.add('extend')
+                this.element.classList.add('extend');
             });
             element.addEventListener('mouseleave', (e) => {
-                this.hide()
+                this.hide();
+                this.element.classList.remove('extend');
             });
         });
     }
