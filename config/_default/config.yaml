@@ -9,6 +9,8 @@ params:
   persons:
     index:
       layout: grid
+    single:
+      backlinks: true
   posts:
     index:
       layout: grid
@@ -18,3 +20,6 @@ params:
     active: true
     position: footer
     appearance: both
+  organizations:
+    single:
+      backlinks: true
