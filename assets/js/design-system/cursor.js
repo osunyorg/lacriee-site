@@ -11,34 +11,33 @@ class Cursor {
     }
 
     listen () {
-        const a = document.querySelectorAll('.block:not(.block-gallery) a, .events__section .events a');
-        const images = document.querySelectorAll('.block.block-gallery a, .block.block-image a');
+        const containers = document.querySelectorAll('.block, .events__section .events');
 
         window.addEventListener('mousemove', (e) => {
             this.element.style.left = e.clientX + 'px'
             this.element.style.top = e.clientY + 'px'
         });
 
-        a.forEach((element) => {
-            element.style.cursor = 'none';
-            element.addEventListener('mouseenter', (e) => {
-                this.show()
-            });
-            element.addEventListener('mouseleave', (e) => {
-                this.hide()
-            });
-        });
-        
-        images.forEach((element) => {
-            element.style.cursor = 'none';
-            element.addEventListener('mouseenter', (e) => {
-                this.show();
-                this.element.classList.add('extend');
-            });
-            element.addEventListener('mouseleave', (e) => {
-                this.hide();
-                this.element.classList.remove('extend');
-            });
+        containers.forEach((container) => {
+            const links = container.querySelectorAll('a');
+            if (links) {
+                links.forEach((element) => {
+                    element.style.cursor = 'none';
+                    element.addEventListener('mouseenter', (e) => {
+                        if (container.classList.contains('block-gallery') || container.classList.contains('block-image')) {
+                            this.element.classList.add('extend');
+                        }
+                        else if (this.element.classList.contains('extend')) {
+                            this.element.classList.remove('extend');
+                        }
+                        this.show()
+                    });
+                    element.addEventListener('mouseleave', (e) => {
+                        this.hide()
+                    });
+                })
+                
+            }
         });
     }
     show() {
