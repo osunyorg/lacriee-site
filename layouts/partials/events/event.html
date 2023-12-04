@@ -41,7 +41,7 @@
           {{ end -}}
         </div>
       {{ end }}
-      {{ if and (.Params.categories) ($show_status) }}
+      {{ if and (.Params.events_categories) ($show_status) }}
         <p class="event-status">{{ .Params.dates.status }}</p>
       {{ end }}
 
@@ -65,10 +65,10 @@
           </div>
         {{- end -}}
   
-        {{ if and (.Params.categories) ($show_category) }}
+        {{ if and (.Params.events_categories) ($show_category) }}
           <p class="event-categories">
-            {{- range $index, $category := .GetTerms "categories" -}}
-              <span>{{- $category.Title -}}</span>
+            {{- range $index, $events_category := .GetTerms "events_categories" -}}
+              <span>{{- $events_category.Title -}}</span>
             {{- end -}}
           </p>
         {{ end }}
