@@ -252,16 +252,10 @@ footer#document-footer
     .siblings-navigation ul 
         a:hover
             filter: brightness(0.5)
-        @include media-breakpoint-up(desktop)
-            .next span::after
-                @include icon-site(arrow-right)
-            .previous span::before
-                @include icon-site(arrow-left)
-        @include media-breakpoint-down(desktop)
-            .next::after
-                @include icon-site(arrow-right)
-            .previous::before
-                @include icon-site(arrow-left)
+        .next span::after
+            @include icon-site(arrow-right)
+        .previous span::before
+            @include icon-site(arrow-left)
 .block-pages--grid .grid
     article
         .page-title a::after
