@@ -7,7 +7,17 @@ en:
   languageName: English
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
+    events_categories: /agenda/:slug/
     persons: /equipe/:slug/
+  taxonomies:
+    administrator: administrators
+    author: authors
+    category: categories
+    posts_category: posts_categories
+    events_category: events_categories
+    diploma: diplomas
+    researcher: researchers
+    teacher: teachers
 fr:
   title: La Criée centre d'art contemporain
   contentDir: content/fr
@@ -15,4 +25,14 @@ fr:
   languageName: Français
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
+    events_categories: /agenda/:slug/
     persons: /programmation/artistes/:slug/
+  taxonomies:
+    administrator: administrators
+    author: authors
+    category: categories
+    posts_category: posts_categories
+    events_category: events_categories
+    diploma: diplomas
+    researcher: researchers
+    teacher: teachers
