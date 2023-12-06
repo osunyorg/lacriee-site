@@ -1,12 +1,12 @@
 {{- $direction := "" -}}
 {{- $breadcrumb_is_after_hero := eq site.Params.breadcrumb.position "after-hero"  -}}
-{{- $subtitle := .subtitle -}}
-{{- $description := .description -}}
-{{ if .image }}
-  {{- $direction = partial "GetImageDirection" .image -}}
+{{- $subtitle := .Params.subtitle -}}
+{{- $description := .Params.description -}}
+{{ if .Params.image }}
+  {{- $direction = partial "GetImageDirection" .Params.image -}}
 {{ end }}
 
-{{- $summary := partial "PrepareText" .context.Params.summary -}}
+{{- $summary := partial "PrepareText" .Params.summary -}}
 {{- $subtitle_is_summary := false -}}
 
 
@@ -17,17 +17,17 @@
   {{ end }}
 {{ end }}
 
-<header class="hero {{ if .image -}}hero--with-image hero--image-{{- $direction -}}{{- end }} {{ if $breadcrumb_is_after_hero -}} hero--no-margin {{- end }}">
+<header class="hero {{ if .Params.image -}}hero--with-image hero--image-{{- $direction -}}{{- end }} {{ if $breadcrumb_is_after_hero -}} hero--no-margin {{- end }}">
   <div class="container">
     {{- if eq site.Params.breadcrumb.position "hero-start" -}}
-      {{- if .breadcrumb | default true -}}
-        {{ partial "header/breadcrumbs.html" .context }}
+      {{- if .Params.breadcrumb | default true -}}
+        {{ partial "header/breadcrumbs.html" .Params.context }}
       {{- end -}}
     {{- end -}}
     <div class="content">
       {{- if or $subtitle $description -}}
         <hgroup>
-          <h1>{{ partial "PrepareHTML" .title }}</h1>
+          <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
           {{- if $subtitle -}}
             <p {{ if $subtitle_is_summary -}} class="lead" {{- end -}}>{{ partial "PrepareHTML" $subtitle }}</p>
           {{- end -}}
@@ -36,39 +36,38 @@
           {{- end -}}
         </hgroup>
       {{- else -}}
-        <h1>{{ partial "PrepareHTML" .title }}</h1>
+        <h1>{{ partial "PrepareHTML" .Params.header_text }}</h1>
       {{- end -}}
+      
+      <div class="home-schedule">
+        Ouvert de 13h à 19h<br> 
+        du jeudi au dimanche,<br>
+        de 18h30 à 20h le mercredi
+      </div>
 
-      {{ if eq .context.Kind "home" }}
-        <div class="home-schedule">
-          Ouvert de 13h à 19h<br> 
-          du jeudi au dimanche,<br>
-          de 18h30 à 20h le mercredi
-        </div>
-      {{ end }}
-      {{- if .image }}
+      {{- if .Params.image }}
         <figure>
           {{ if not site.Params.image_sizes.design_system.lightbox.disabled }}
             <a  class="glightbox"
                 role="button"
-                data-glightbox="type: image;{{ if .image.credit }}description: {{ partial "PrepareHTML" .image.credit }}{{ end }}"
+                data-glightbox="type: image;{{ if .image.credit }}description: {{ partial "PrepareHTML" .Params.image.credit }}{{ end }}"
                 href="{{ partial "GetLightboxUrl" .image }}"
                 title="{{- i18n "commons.lightbox.link.title" -}}"
                 aria-label="{{- i18n "commons.lightbox.link.title" -}}">
           {{ end }}
             {{ partial "commons/image.html"
               (dict
-                "image"    .image
+                "image"    .Params.image
                 "sizes"    ( .sizes | default site.Params.image_sizes.design_system.hero )
                 "lazy"     false
               ) }}
           {{ if not site.Params.image_sizes.design_system.lightbox.disabled }}
             </a>
           {{ end }}
-            {{ if partial "GetTextFromHTML" .image.credit }}
+            {{ if partial "GetTextFromHTML" .Params.image.credit }}
               <figcaption tabindex="0">
                 <div class="credit-content">
-                  {{- partial "PrepareHTML" .image.credit -}}
+                  {{- partial "PrepareHTML" .Params.image.credit -}}
                 </div>
               </figcaption>
             {{ end }}
