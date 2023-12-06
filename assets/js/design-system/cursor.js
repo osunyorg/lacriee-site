@@ -11,7 +11,7 @@ class Cursor {
     }
 
     listen () {
-        const containers = document.querySelectorAll('.block, .events__section .events');
+        const containers = document.querySelectorAll('.block, .events__section .events, .hero');
 
         window.addEventListener('mousemove', (e) => {
             this.element.style.left = e.clientX + 'px'
@@ -24,7 +24,7 @@ class Cursor {
                 links.forEach((element) => {
                     element.style.cursor = 'none';
                     element.addEventListener('mouseenter', (e) => {
-                        if (container.classList.contains('block-gallery') || container.classList.contains('block-image')) {
+                        if (container.classList.contains('block-gallery') || container.classList.contains('block-image') || container.classList.contains('hero')) {
                             this.element.classList.add('extend');
                         }
                         else if (this.element.classList.contains('extend')) {
