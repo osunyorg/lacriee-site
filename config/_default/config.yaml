@@ -3,6 +3,9 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  menu:
+    dropdown:
+      linkToLevel1: true
   summary:
     position: content
   plausible: 
