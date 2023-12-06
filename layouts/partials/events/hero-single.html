@@ -59,7 +59,7 @@
         {{ if .Params.events_categories }}
           <p class="event-categories">
             {{- range $index, $events_category := .GetTerms "events_categories" -}}
-              <span>{{- $events_category.Title -}}</span>
+              <a href="{{ $events_category.Permalink }}">{{- $events_category.Title -}}</a>
             {{- end -}}
           </p>
         {{ end }}
