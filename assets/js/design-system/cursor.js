@@ -11,7 +11,7 @@ class Cursor {
     }
 
     listen () {
-        const containers = document.querySelectorAll('.block, .events__section .events');
+        const containers = document.querySelectorAll('.block, .events__section .events, .hero figure');
 
         window.addEventListener('mousemove', (e) => {
             this.element.style.left = e.clientX + 'px'
@@ -19,12 +19,13 @@ class Cursor {
         });
 
         containers.forEach((container) => {
+            console.log(container.nodeName)
             const links = container.querySelectorAll('a');
             if (links) {
                 links.forEach((element) => {
                     element.style.cursor = 'none';
                     element.addEventListener('mouseenter', (e) => {
-                        if (container.classList.contains('block-gallery') || container.classList.contains('block-image')) {
+                        if (container.classList.contains('block-gallery') || container.classList.contains('block-image') || container.nodeName === "FIGURE") {
                             this.element.classList.add('extend');
                         }
                         else if (this.element.classList.contains('extend')) {
