@@ -2,12 +2,12 @@
 @mixin large-line
     align-items: center
     display: flex
+    gap: $spacing1
     &::after
         background-color: $color-text
         content: ''
         flex: 1
         height: 1px
-        margin-left: $spacing1
 
 // Base
 html.has-menu-opened body::after
@@ -330,7 +330,7 @@ footer#document-footer
                     display: flex
                     height: 100%
                     margin: 0
-                    padding: $spacing0 half($spacing0)
+                    padding: half($spacing0)
                 &-status
                     @include h4
                     @include large-line
@@ -347,6 +347,7 @@ footer#document-footer
                 &.event--with-image
                     .event-categories
                         margin-left: -$grid-gutter
+                        padding: $spacing0 half($spacing0)
                         position: absolute
                         top: 0
                         transform: translateX(-100%)
