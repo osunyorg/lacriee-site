@@ -234,10 +234,13 @@ footer#document-footer
             transition: transform .3s ease
 // Blocks
 .document-content
-    .heading
+    .heading,
+    h2
         @include media-breakpoint-up(desktop)
             @include large-line
             gap: $spacing1
+    .block,
+    .heading
         h2
             @include h4
     @include media-breakpoint-down(desktop)
