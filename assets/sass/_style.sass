@@ -286,16 +286,6 @@ footer#document-footer
                 &::after
                     @include icon-site(arrow-top)
                     font-size: px2rem(18)
-        @include media-breakpoint-down(desktop)
-            .event-categories
-                background-color: $color-accent
-                left: -$spacing1
-                margin: 0
-                padding: half($spacing0) $spacing1
-                position: absolute
-                top: -$spacing0
-                transform: translateY(-100%)
-                width: calc(100% + (#{$spacing1} * 2))
         @include media-breakpoint-up(xl)
             .event-content
                 [itemprop="headline"], 
@@ -358,6 +348,26 @@ footer#document-footer
                         span 
                             writing-mode: tb
                             transform: rotate(180deg)
+
+        @include media-breakpoint-down(desktop)
+            .event
+                &-content
+                    display: flex
+                    flex-direction: column
+                .event-categories
+                    background-color: $color-accent
+                    order: -1
+                    padding: half($spacing0)
+                    margin-bottom: $spacing0
+                &.event--with-image
+                    .event-categories
+                        left: -$spacing1
+                        margin: 0
+                        padding: half($spacing0) $spacing1
+                        position: absolute
+                        top: -$spacing0
+                        transform: translateY(-100%)
+                        width: calc(100% + (#{$spacing1} * 2))
                 
     &--list
         @include media-breakpoint-up(desktop)
