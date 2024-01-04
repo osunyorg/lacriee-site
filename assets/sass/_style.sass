@@ -330,15 +330,7 @@ footer#document-footer
                     display: flex
                     height: 100%
                     margin: 0
-                    margin-left: -$grid-gutter
                     padding: $spacing0 half($spacing0)
-                    position: absolute
-                    top: 0
-                    transform: translateX(-100%)
-                    writing-mode: sideways-lr
-                    span 
-                        writing-mode: tb
-                        transform: rotate(180deg)
                 &-status
                     @include h4
                     @include large-line
@@ -348,6 +340,21 @@ footer#document-footer
                     width: col(5)
                     img
                         height: 100%
+                &:not(.event--with-image)
+                    .event-categories
+                        order: -1
+                        margin-bottom: $spacing1
+                &.event--with-image
+                    .event-categories
+                        margin-left: -$grid-gutter
+                        position: absolute
+                        top: 0
+                        transform: translateX(-100%)
+                        writing-mode: sideways-lr
+                        span 
+                            writing-mode: tb
+                            transform: rotate(180deg)
+                
     &--list
         @include media-breakpoint-up(desktop)
             .event
