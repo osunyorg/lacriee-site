@@ -70,8 +70,8 @@ items:
     kind: page
     children: []
 - title: Médiation
-  target: ''
-  kind: blank
+  target: "/fr/mediation-1/"
+  kind: page
   children:
   - title: Présentation
     target: ''
