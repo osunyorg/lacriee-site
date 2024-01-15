@@ -26,12 +26,12 @@ fr:
   languageCode: fr
   languageName: Français
   permalinks:
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
+    posts: /correspondances/:year-:month-:day-:slug/
+    posts_categories: /correspondances/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     persons: /programmation/artistes/:slug/
-    authors: /programmation/artistes/:slug/actualites/
+    authors: /programmation/artistes/:slug/correspondances/
   taxonomies:
     administrator: administrators
     author: authors
