@@ -70,7 +70,7 @@ items:
     kind: page
     children: []
 - title: Médiation
-  target: "/fr/mediation-1/"
+  target: "/fr/mediation/"
   kind: page
   children:
   - title: Présentation
@@ -94,7 +94,7 @@ items:
     kind: blank
     children: []
   - title: Champs social
-    target: "/fr/mediation-1/champs-social/"
+    target: "/fr/mediation/champs-social/"
     kind: page
     children: []
   - title: Santé / handicap
