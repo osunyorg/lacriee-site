@@ -94,8 +94,8 @@ items:
     kind: blank
     children: []
   - title: Champs social
-    target: ''
-    kind: blank
+    target: "/fr/mediation-1/champs-social/"
+    kind: page
     children: []
   - title: Santé / handicap
     target: ''
