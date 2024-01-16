@@ -86,8 +86,8 @@ items:
     kind: page
     children: []
   - title: Péri-scolaires et centre de loisirs
-    target: ''
-    kind: blank
+    target: "/fr/mediation/periscolaires-et-extra-scolaires/"
+    kind: page
     children: []
   - title: Enseignement supérieur et formation
     target: ''
