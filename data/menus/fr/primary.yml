@@ -82,7 +82,7 @@ items:
     kind: blank
     children: []
   - title: Scolaires
-    target: "/fr/mediation/scolaires/"
+    target: "/fr/mediation/jeunes-publics/"
     kind: page
     children: []
   - title: Péri-scolaires et centre de loisirs
