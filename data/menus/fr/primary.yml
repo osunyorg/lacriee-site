@@ -74,8 +74,8 @@ items:
   kind: page
   children:
   - title: Présentation
-    target: ''
-    kind: blank
+    target: "/fr/mediation/presentation/"
+    kind: page
     children: []
   - title: Individuels et familles
     target: ''
