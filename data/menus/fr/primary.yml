@@ -81,7 +81,7 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: Scolaires
+  - title: Jeunes Publics
     target: "/fr/mediation/jeunes-publics/"
     kind: page
     children: []
