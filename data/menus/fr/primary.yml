@@ -5,6 +5,10 @@ items:
   target: "/fr/centre-dart/"
   kind: page
   children:
+  - title: Nos missions
+    target: "/fr/centre-dart/mission/"
+    kind: page
+    children: []
   - title: Soutenir la recherche
     target: ''
     kind: blank
@@ -32,10 +36,6 @@ items:
   - title: Équipe
     target: ''
     kind: blank
-    children: []
-  - title: Nos missions
-    target: "/fr/centre-dart/mission/"
-    kind: page
     children: []
 - title: Programmation
   target: "/fr/programmation/"
