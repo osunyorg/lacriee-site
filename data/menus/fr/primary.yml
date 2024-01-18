@@ -10,8 +10,8 @@ items:
     kind: page
     children: []
   - title: Histoire du lieu
-    target: ''
-    kind: blank
+    target: "/fr/centre-dart/"
+    kind: page
     children: []
   - title: Transition écologique
     target: ''
