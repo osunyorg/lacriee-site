@@ -9,14 +9,6 @@ items:
     target: "/fr/centre-dart/mission/"
     kind: page
     children: []
-  - title: Soutenir la recherche
-    target: ''
-    kind: blank
-    children: []
-  - title: Soutenir la création artistique
-    target: ''
-    kind: blank
-    children: []
   - title: Transmettre
     target: ''
     kind: blank
