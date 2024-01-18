@@ -18,8 +18,8 @@ items:
     kind: page
     children: []
   - title: Équipe
-    target: ''
-    kind: blank
+    target: https://lacriee-site.web.deuxfleurs.fr/fr/centre-dart/#lequipe
+    kind: url
     children: []
 - title: Programmation
   target: "/fr/programmation/"
