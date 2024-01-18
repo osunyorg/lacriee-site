@@ -14,8 +14,8 @@ items:
     kind: page
     children: []
   - title: Transition écologique
-    target: ''
-    kind: blank
+    target: "/fr/centre-dart/transition-ecologique/"
+    kind: page
     children: []
   - title: Équipe
     target: ''
