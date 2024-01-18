@@ -10,7 +10,7 @@ items:
     kind: page
     children: []
   - title: Histoire du lieu
-    target: "/fr/centre-dart/"
+    target: "/fr/centre-dart/histoire/"
     kind: page
     children: []
   - title: Transition écologique
