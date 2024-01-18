@@ -9,10 +9,6 @@ items:
     target: "/fr/centre-dart/mission/"
     kind: page
     children: []
-  - title: Coopérer
-    target: ''
-    kind: blank
-    children: []
   - title: Histoire du lieu
     target: ''
     kind: blank
