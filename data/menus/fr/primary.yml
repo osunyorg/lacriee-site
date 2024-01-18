@@ -33,6 +33,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Nos missions
+    target: "/fr/centre-dart/mission/"
+    kind: page
+    children: []
 - title: Programmation
   target: "/fr/programmation/"
   kind: page
