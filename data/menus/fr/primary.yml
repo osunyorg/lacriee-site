@@ -121,6 +121,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Accès
+    target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#comment-venir
+    kind: url
+    children: []
 - title: Ressources
   target: "/fr/ressources/"
   kind: page
