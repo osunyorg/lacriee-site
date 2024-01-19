@@ -101,6 +101,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: 'Horraire - Gratuité '
+    target: "/fr/informations-pratiques/"
+    kind: page
+    children: []
   - title: Horaires
     target: ''
     kind: blank
@@ -116,10 +120,6 @@ items:
   - title: Accessibilité
     target: ''
     kind: blank
-    children: []
-  - title: 'Horraire - Gratuité '
-    target: "/fr/informations-pratiques/"
-    kind: page
     children: []
 - title: Ressources
   target: "/fr/ressources/"
