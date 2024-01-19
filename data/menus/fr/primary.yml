@@ -102,8 +102,8 @@ items:
     kind: blank
     children: []
   - title: 'Horraire - Gratuité '
-    target: "/fr/informations-pratiques/"
-    kind: page
+    target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/
+    kind: url
     children: []
   - title: Horaires
     target: ''
