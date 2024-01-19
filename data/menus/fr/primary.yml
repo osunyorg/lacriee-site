@@ -101,10 +101,6 @@ items:
     target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/
     kind: url
     children: []
-  - title: Accès
-    target: ''
-    kind: blank
-    children: []
   - title: Votre visite
     target: ''
     kind: blank
