@@ -73,6 +73,10 @@ items:
     target: "/fr/mediation/champs-social/"
     kind: page
     children: []
+  - title: Enseignement supérieur et formation
+    target: ''
+    kind: blank
+    children: []
   - title: Individuels et familles
     target: ''
     kind: blank
@@ -80,10 +84,6 @@ items:
   - title: Péri-scolaires et centre de loisirs
     target: "/fr/mediation/periscolaires-et-extra-scolaires/"
     kind: page
-    children: []
-  - title: Enseignement supérieur et formation
-    target: ''
-    kind: blank
     children: []
   - title: Santé / handicap
     target: ''
