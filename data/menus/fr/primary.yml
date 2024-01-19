@@ -81,6 +81,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: 'Correspondance '
+    target: "/fr/mediation/"
+    kind: page
+    children: []
   - title: Individuels et familles
     target: ''
     kind: blank
@@ -92,10 +96,6 @@ items:
   - title: Santé / handicap
     target: ''
     kind: blank
-    children: []
-  - title: 'Correspondance '
-    target: "/fr/mediation/"
-    kind: page
     children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
