@@ -65,13 +65,13 @@ items:
     target: "/fr/mediation/presentation/"
     kind: page
     children: []
-  - title: Individuels et familles
-    target: ''
-    kind: blank
-    children: []
   - title: Jeunes Publics
     target: "/fr/mediation/jeunes-publics/"
     kind: page
+    children: []
+  - title: Individuels et familles
+    target: ''
+    kind: blank
     children: []
   - title: Péri-scolaires et centre de loisirs
     target: "/fr/mediation/periscolaires-et-extra-scolaires/"
