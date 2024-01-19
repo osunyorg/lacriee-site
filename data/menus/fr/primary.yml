@@ -69,6 +69,10 @@ items:
     target: "/fr/mediation/jeunes-publics/"
     kind: page
     children: []
+  - title: Champs social
+    target: "/fr/mediation/champs-social/"
+    kind: page
+    children: []
   - title: Individuels et familles
     target: ''
     kind: blank
@@ -80,10 +84,6 @@ items:
   - title: Enseignement supérieur et formation
     target: ''
     kind: blank
-    children: []
-  - title: Champs social
-    target: "/fr/mediation/champs-social/"
-    kind: page
     children: []
   - title: Santé / handicap
     target: ''
