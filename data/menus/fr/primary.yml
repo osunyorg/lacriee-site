@@ -78,8 +78,8 @@ items:
     kind: blank
     children: []
   - title: Contact
-    target: ''
-    kind: blank
+    target: https://lacriee-site.web.deuxfleurs.fr/fr/mediation/#contact
+    kind: url
     children: []
   - title: 'Correspondance '
     target: "/fr/mediation/"
