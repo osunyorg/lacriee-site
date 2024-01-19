@@ -77,6 +77,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Contact
+    target: ''
+    kind: blank
+    children: []
   - title: Individuels et familles
     target: ''
     kind: blank
@@ -86,10 +90,6 @@ items:
     kind: page
     children: []
   - title: Santé / handicap
-    target: ''
-    kind: blank
-    children: []
-  - title: Contact
     target: ''
     kind: blank
     children: []
