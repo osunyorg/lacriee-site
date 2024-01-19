@@ -73,7 +73,7 @@ items:
     target: "/fr/mediation/champs-social/"
     kind: page
     children: []
-  - title: Enseignement supérieur et formation
+  - title: 'Enseignement supérieur et adulte '
     target: ''
     kind: blank
     children: []
