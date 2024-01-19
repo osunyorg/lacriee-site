@@ -97,6 +97,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: 'Ressource pédagogique '
+    target: "/fr/mediation/"
+    kind: page
+    children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
