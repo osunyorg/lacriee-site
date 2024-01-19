@@ -85,10 +85,6 @@ items:
     target: "/fr/mediation/"
     kind: page
     children: []
-  - title: Santé / handicap
-    target: ''
-    kind: blank
-    children: []
   - title: 'Ressource pédagogique '
     target: "/fr/mediation/"
     kind: page
