@@ -85,10 +85,6 @@ items:
     target: "/fr/mediation/"
     kind: page
     children: []
-  - title: Individuels et familles
-    target: ''
-    kind: blank
-    children: []
   - title: Péri-scolaires et centre de loisirs
     target: "/fr/mediation/periscolaires-et-extra-scolaires/"
     kind: page
