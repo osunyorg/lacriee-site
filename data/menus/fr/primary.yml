@@ -85,10 +85,6 @@ items:
     target: "/fr/mediation/"
     kind: page
     children: []
-  - title: Péri-scolaires et centre de loisirs
-    target: "/fr/mediation/periscolaires-et-extra-scolaires/"
-    kind: page
-    children: []
   - title: Santé / handicap
     target: ''
     kind: blank
