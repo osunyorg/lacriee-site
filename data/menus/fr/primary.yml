@@ -74,8 +74,8 @@ items:
     kind: page
     children: []
   - title: 'Enseignement supérieur et adulte '
-    target: ''
-    kind: blank
+    target: "/fr/mediation/enseignement-superieur-et-formation/"
+    kind: page
     children: []
   - title: Contact
     target: https://lacriee-site.web.deuxfleurs.fr/fr/mediation/#contact
