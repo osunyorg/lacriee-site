@@ -46,9 +46,9 @@ description_short: >
 header_text: >-
   
 contents_reading_time:
-  seconds: 29
+  seconds: 30
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: heading
     title: >-
@@ -95,7 +95,7 @@ contents:
       self: false
       children: 3
     data:
-      mode: all
+      mode: category
       layout: grid
       description: >-
         
@@ -106,11 +106,45 @@ contents:
       show_summary: false
       show_category: false
       show_status: false
+      category: "/dans-les-murs/"
       events:
-        - path: "/fr/agenda/2023-02-08-judith-kakon-grand-air/"
-          file: "content/fr/events/2023-02-08-judith-kakon-grand-air.html"
-        - path: "/fr/agenda/2024-01-18-gabrielle-manglou-les-merveilles/"
-          file: "content/fr/events/2024-01-18-gabrielle-manglou-les-merveilles.html"
+        - path: "/fr/agenda/2024-02-03-anne-charlotte-finel/"
+          file: "content/fr/events/2024-02-03-anne-charlotte-finel.html"
+        - path: "/fr/agenda/2024-06-01-rasmus-myrup/"
+          file: "content/fr/events/2024-06-01-rasmus-myrup.html"
+
+
+
+  - kind: heading
+    title: >-
+      Résidences
+    position: 2
+    rank: 2
+  - kind: block
+    template: pages
+    title: >-
+      Résidences
+    ranks:
+      self: 3
+      children: 4
+    data:
+      page: 
+        path: "/fr/programmation/residences/"
+        slug: "residences"
+        file: "content/fr/pages/programmation/residences/_index.html"
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/fr/programmation/residences/peux-tu-imaginer/"
+          slug: "peux-tu-imaginer"
+          file: "content/fr/pages/programmation/residences/peux-tu-imaginer/_index.html"
+          external: false
+        - path: "/fr/programmation/residences/les-merveilles/"
+          slug: "les-merveilles"
+          file: "content/fr/pages/programmation/residences/les-merveilles/_index.html"
+          external: false
 
 
 
@@ -127,7 +161,7 @@ contents:
       self: false
       children: 3
     data:
-      mode: all
+      mode: selection
       layout: list
       description: >-
         
@@ -137,14 +171,10 @@ contents:
 
       show_summary: true
       show_category: false
-      show_status: false
+      show_status: true
       events:
-        - path: "/fr/agenda/2024-01-25-nous-sommes-en-montage/"
-          file: "content/fr/events/2024-01-25-nous-sommes-en-montage.html"
         - path: "/fr/agenda/2024-02-03-ecole-europeenne-superieure-d-art-de-bretagne-compagnonnage-avec-l-atelier-vivant/"
           file: "content/fr/events/2024-02-03-ecole-europeenne-superieure-d-art-de-bretagne-compagnonnage-avec-l-atelier-vivant.html"
-        - path: "/fr/agenda/2024-02-03-lea-muller/"
-          file: "content/fr/events/2024-02-03-lea-muller.html"
 
 
 
