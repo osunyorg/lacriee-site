@@ -25,7 +25,7 @@ items:
   target: "/fr/programmation/"
   kind: page
   children:
-  - title: Cycle thématique
+  - title: 'Le cycle en cours '
     target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
     kind: page
     children: []
