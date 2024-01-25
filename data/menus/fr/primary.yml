@@ -110,7 +110,7 @@ items:
   kind: page
   children:
   - title: Ressources pédagogiques
-    target: "/fr/ressources/ressources-pedagogiques/"
+    target: "/fr/mediation/ressources-pedagogiques/"
     kind: page
     children: []
   - title: Correspondances
