@@ -57,6 +57,10 @@ items:
     target: "/fr/programmation/jeux/"
     kind: page
     children: []
+  - title: Expositions
+    target: "/fr/programmation/expositions-2/"
+    kind: page
+    children: []
 - title: Médiation
   target: "/fr/mediation/"
   kind: page
