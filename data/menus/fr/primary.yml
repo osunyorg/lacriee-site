@@ -121,12 +121,12 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: 'Accessibilité '
-    target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#comment-venir
-    kind: url
-    children: []
   - title: 'Votre visite '
     target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#visiter-seules-entre-amies-en-famille
+    kind: url
+    children: []
+  - title: 'Accessibilité '
+    target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#comment-venir
     kind: url
     children: []
 - title: Ressources
