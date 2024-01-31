@@ -93,10 +93,6 @@ items:
     target: "/fr/mediation/enseignement-superieur-et-formation/"
     kind: page
     children: []
-  - title: Champs social
-    target: "/fr/mediation/champs-social/"
-    kind: page
-    children: []
   - title: Santé / Handicap
     target: ''
     kind: blank
