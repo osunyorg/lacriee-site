@@ -89,12 +89,12 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: 'Champs social et handicap '
-    target: "/fr/mediation/champs-social/"
-    kind: page
-    children: []
   - title: Enseignement supérieur et formation
     target: "/fr/mediation/enseignement-superieur-et-formation/"
+    kind: page
+    children: []
+  - title: 'Champs social et handicap '
+    target: "/fr/mediation/champs-social/"
     kind: page
     children: []
   - title: Contact
