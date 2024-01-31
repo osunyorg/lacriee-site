@@ -77,6 +77,10 @@ items:
     target: "/fr/mediation/presentation/"
     kind: page
     children: []
+  - title: Individuels et familles
+    target: ''
+    kind: blank
+    children: []
   - title: Jeunes Publics
     target: "/fr/mediation/jeunes-publics/"
     kind: page
