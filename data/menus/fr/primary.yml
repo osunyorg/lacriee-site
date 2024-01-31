@@ -14,8 +14,8 @@ items:
     kind: page
     children: []
   - title: Transmettre
-    target: ''
-    kind: blank
+    target: "/fr/centre-dart/transmettre/"
+    kind: page
     children: []
   - title: Coopérer
     target: ''
