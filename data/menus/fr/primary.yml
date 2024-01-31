@@ -29,6 +29,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Coopérer
+    target: ''
+    kind: blank
+    children: []
 - title: Programmation
   target: "/fr/programmation/"
   kind: page
