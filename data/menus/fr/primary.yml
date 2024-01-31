@@ -118,8 +118,8 @@ items:
     kind: page
     children: []
   - title: Accès
-    target: ''
-    kind: blank
+    target: "/fr/informations-pratiques/acces/"
+    kind: page
     children: []
   - title: 'Votre visite '
     target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#visiter-seules-entre-amies-en-famille
