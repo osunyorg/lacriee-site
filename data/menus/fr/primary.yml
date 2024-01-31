@@ -102,7 +102,7 @@ items:
     kind: page
     children: []
   - title: Contact
-    target: "/fr/mediation/"
+    target: "/fr/mediation/contact-mediation/"
     kind: page
     children: []
 - title: Informations pratiques
