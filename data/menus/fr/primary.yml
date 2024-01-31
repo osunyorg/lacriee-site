@@ -81,10 +81,6 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: Scolaires
-    target: "/fr/jeunes-publics/"
-    kind: page
-    children: []
   - title: Péri-scolaire et centre de loisirs
     target: ''
     kind: blank
