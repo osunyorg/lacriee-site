@@ -109,9 +109,9 @@ items:
   target: "/fr/informations-pratiques/"
   kind: page
   children:
-  - title: 'Horaire - Gratuité '
-    target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/
-    kind: url
+  - title: Entrée libre et gratuite
+    target: ''
+    kind: blank
     children: []
   - title: 'Accessibilité '
     target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#comment-venir
