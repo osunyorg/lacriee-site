@@ -45,16 +45,16 @@ items:
     target: "/fr/programmation/recherche/"
     kind: page
     children: []
-  - title: Artistes et oeuvres produites
-    target: "/fr/programmation/artistes/"
-    kind: page
-    children: []
   - title: Projets de médiation
     target: ''
     kind: blank
     children: []
   - title: Jeux d’artistes
     target: "/fr/programmation/jeux/"
+    kind: page
+    children: []
+  - title: Artistes et oeuvres produites
+    target: "/fr/programmation/artistes/"
     kind: page
     children: []
 - title: Médiation
