@@ -113,6 +113,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Horaires
+    target: ''
+    kind: blank
+    children: []
   - title: 'Accessibilité '
     target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#comment-venir
     kind: url
@@ -120,10 +124,6 @@ items:
   - title: 'Votre visite '
     target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#visiter-seules-entre-amies-en-famille
     kind: url
-    children: []
-  - title: Horaires
-    target: ''
-    kind: blank
     children: []
 - title: Ressources
   target: "/fr/ressources/"
