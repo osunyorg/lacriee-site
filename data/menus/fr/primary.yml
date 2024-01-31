@@ -93,7 +93,7 @@ items:
     target: "/fr/mediation/enseignement-superieur-et-formation/"
     kind: page
     children: []
-  - title: 'Champs social et handicap '
+  - title: Champs social
     target: "/fr/mediation/champs-social/"
     kind: page
     children: []
