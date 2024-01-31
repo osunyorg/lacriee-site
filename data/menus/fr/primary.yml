@@ -85,6 +85,10 @@ items:
     target: "/fr/mediation/jeunes-publics/"
     kind: page
     children: []
+  - title: Péri-scolaire et centre de loisirs
+    target: ''
+    kind: blank
+    children: []
   - title: 'Champs social et handicap '
     target: "/fr/mediation/champs-social/"
     kind: page
@@ -104,10 +108,6 @@ items:
   - title: 'Ressource pédagogique '
     target: "/fr/mediation/"
     kind: page
-    children: []
-  - title: Péri-scolaire et centre de loisirs
-    target: ''
-    kind: blank
     children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
