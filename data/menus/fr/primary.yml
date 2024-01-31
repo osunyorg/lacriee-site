@@ -94,8 +94,8 @@ items:
     kind: page
     children: []
   - title: Santé et Handicap
-    target: ''
-    kind: blank
+    target: "/fr/mediation/sante-et-handicap/"
+    kind: page
     children: []
   - title: Contact
     target: https://lacriee-site.web.deuxfleurs.fr/fr/mediation/#contact
