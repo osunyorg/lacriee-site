@@ -102,8 +102,8 @@ items:
     kind: page
     children: []
   - title: Contact
-    target: https://lacriee-site.web.deuxfleurs.fr/fr/mediation/#contact
-    kind: url
+    target: "/fr/mediation/"
+    kind: page
     children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
