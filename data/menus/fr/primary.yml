@@ -125,6 +125,10 @@ items:
     target: "/fr/informations-pratiques/votre-visite/"
     kind: page
     children: []
+  - title: 'Accessibilité '
+    target: "/fr/accessibilite-1/"
+    kind: page
+    children: []
 - title: Ressources
   target: "/fr/ressources/"
   kind: page
