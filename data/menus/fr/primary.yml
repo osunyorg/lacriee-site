@@ -13,6 +13,14 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Transmettre
+    target: ''
+    kind: blank
+    children: []
+  - title: Coopérer
+    target: ''
+    kind: blank
+    children: []
   - title: Histoire du lieu
     target: "/fr/centre-dart/histoire/"
     kind: page
@@ -24,14 +32,6 @@ items:
   - title: Équipe
     target: "/fr/centre-dart/equipe/"
     kind: page
-    children: []
-  - title: Transmettre
-    target: ''
-    kind: blank
-    children: []
-  - title: Coopérer
-    target: ''
-    kind: blank
     children: []
 - title: Programmation
   target: "/fr/programmation/"
