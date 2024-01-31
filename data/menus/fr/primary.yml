@@ -9,6 +9,10 @@ items:
     target: "/fr/centre-dart/"
     kind: page
     children: []
+  - title: Soutenir la création artistique
+    target: ''
+    kind: blank
+    children: []
   - title: Histoire du lieu
     target: "/fr/centre-dart/histoire/"
     kind: page
