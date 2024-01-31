@@ -89,7 +89,7 @@ items:
     target: "/fr/mediation/enseignement-superieur-et-formation/"
     kind: page
     children: []
-  - title: Santé / Handicap
+  - title: Santé et Handicap
     target: ''
     kind: blank
     children: []
