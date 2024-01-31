@@ -6,8 +6,8 @@ items:
   kind: page
   children:
   - title: Soutenir la création artistique
-    target: ''
-    kind: blank
+    target: "/fr/centre-dart/soutenir-la-creation-artistique/"
+    kind: page
     children: []
   - title: Soutenir la recherche
     target: "/fr/centre-dart/soutenir-la-creation-artistique/"
