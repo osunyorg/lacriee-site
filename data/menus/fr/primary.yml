@@ -97,13 +97,13 @@ items:
     target: "/fr/mediation/sante-et-handicap/"
     kind: page
     children: []
-  - title: Contact
-    target: https://lacriee-site.web.deuxfleurs.fr/fr/mediation/#contact
-    kind: url
-    children: []
   - title: Champ social
     target: "/fr/mediation/champ-social/"
     kind: page
+    children: []
+  - title: Contact
+    target: https://lacriee-site.web.deuxfleurs.fr/fr/mediation/#contact
+    kind: url
     children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
