@@ -114,8 +114,8 @@ items:
     kind: blank
     children: []
   - title: Horaires
-    target: ''
-    kind: blank
+    target: "/fr/informations-pratiques/horaires/"
+    kind: page
     children: []
   - title: Accès
     target: ''
