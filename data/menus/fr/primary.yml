@@ -5,8 +5,8 @@ items:
   target: "/fr/centre-dart/"
   kind: page
   children:
-  - title: Nos missions
-    target: "/fr/centre-dart/mission/"
+  - title: Soutenir la recherche
+    target: "/fr/centre-dart/"
     kind: page
     children: []
   - title: Histoire du lieu
