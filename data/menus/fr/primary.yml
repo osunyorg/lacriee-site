@@ -18,8 +18,8 @@ items:
     kind: page
     children: []
   - title: Coopérer
-    target: ''
-    kind: blank
+    target: "/fr/centre-dart/cooperer/"
+    kind: page
     children: []
   - title: Histoire du lieu
     target: "/fr/centre-dart/histoire/"
