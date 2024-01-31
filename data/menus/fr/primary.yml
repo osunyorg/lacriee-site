@@ -117,6 +117,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Accès
+    target: ''
+    kind: blank
+    children: []
   - title: 'Accessibilité '
     target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#comment-venir
     kind: url
