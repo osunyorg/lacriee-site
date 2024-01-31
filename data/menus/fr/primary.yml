@@ -125,10 +125,6 @@ items:
     target: "/fr/informations-pratiques/votre-visite/"
     kind: page
     children: []
-  - title: 'Accessibilité '
-    target: https://lacriee-site.web.deuxfleurs.fr/fr/informations-pratiques/#comment-venir
-    kind: url
-    children: []
 - title: Ressources
   target: "/fr/ressources/"
   kind: page
