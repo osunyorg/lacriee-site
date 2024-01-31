@@ -86,8 +86,8 @@ items:
     kind: page
     children: []
   - title: Péri-scolaire et centre de loisirs
-    target: ''
-    kind: blank
+    target: "/fr/mediation/periscolaires-et-centre-de-loisirs/"
+    kind: page
     children: []
   - title: Enseignement supérieur et formation
     target: "/fr/mediation/enseignement-superieur-et-formation/"
