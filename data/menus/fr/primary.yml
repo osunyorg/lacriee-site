@@ -105,6 +105,10 @@ items:
     target: "/fr/mediation/"
     kind: page
     children: []
+  - title: Péri-scolaire et centre de loisirs
+    target: ''
+    kind: blank
+    children: []
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
