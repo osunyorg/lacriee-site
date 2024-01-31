@@ -129,10 +129,6 @@ items:
   target: "/fr/ressources/"
   kind: page
   children:
-  - title: Ressources pédagogiques
-    target: "/fr/mediation/ressources-pedagogiques/"
-    kind: page
-    children: []
   - title: Correspondances
     target: "/fr/ressources/correspondances/"
     kind: page
