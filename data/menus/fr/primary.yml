@@ -10,7 +10,7 @@ items:
     kind: page
     children: []
   - title: Soutenir la recherche
-    target: "/fr/centre-dart/soutenir-la-creation-artistique/"
+    target: "/fr/centre-dart/soutenir-la-recherche-1/"
     kind: page
     children: []
   - title: Transmettre
