@@ -6,7 +6,7 @@ items:
   kind: page
   children:
   - title: Soutenir la recherche
-    target: "/fr/centre-dart/"
+    target: "/fr/centre-dart/soutenir-la-recherche/"
     kind: page
     children: []
   - title: Soutenir la création artistique
