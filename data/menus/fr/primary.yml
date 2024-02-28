@@ -145,8 +145,8 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: Archives / saisons passées
-    target: "/fr/ressources/archives-saisons-passees/"
+  - title: Archives
+    target: "/fr/ressources/archives-1/"
     kind: page
     children: []
 
