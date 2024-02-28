@@ -12,8 +12,8 @@
 
 {{ if not $subtitle }}
   {{ if and (eq site.Params.summary.position "hero") $summary }}
-   {{ $subtitle = $summary }}
-   {{ $subtitle_is_summary = true }}
+    {{ $subtitle = $summary }}
+    {{ $subtitle_is_summary = true }}
   {{ end }}
 {{ end }}
 
@@ -25,7 +25,7 @@
       {{- end -}}
     {{- end -}}
     <div class="content">
-      <div class="hero-informations">
+      <div class="hero-text">
         {{- if or $subtitle $description -}}
           <hgroup>
             <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
