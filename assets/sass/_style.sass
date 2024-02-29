@@ -2,7 +2,7 @@
 @mixin large-line
     align-items: center
     display: flex
-    gap: $spacing1
+    gap: $spacing-3
     &::after
         background-color: $color-text
         content: ''
@@ -15,13 +15,15 @@ html.has-menu-opened body::after
 .heading
     @include in-page-without-sidebar
         h2
-            max-width: col(8)
+            max-width: columns(8)
             width: unset
 .avatar
     border-radius: 0
 
 .block
-    margin-bottom: $spacing4
+    margin-bottom: $spacing-6
+    @include media-breakpoint-down(desktop)
+        margin-bottom: $spacing-5
 
 // Header
 header#document-header
@@ -29,11 +31,13 @@ header#document-header
         .nav-level-1 > li
             &.header-i18n [role="button"]
                 @include icon(caret-bottom, after)
-                    margin-left: half($spacing0)
+                    margin-left: $spacing-1
     @include media-breakpoint-down(desktop)
         .menu
             .dropdown-menu .container
                 padding: 0
+                > a:first-of-type
+                    display: none
             .menu-title
                 @include h4
     @include media-breakpoint-up(desktop)
@@ -45,9 +49,9 @@ header#document-header
                     bottom: -$header-nav-padding-y-desktop
                     content: ''
                     height: 1px
-                    left: $grid-gutter
+                    left: var(--grid-gutter)
                     position: absolute
-                    width: calc(100% - (#{$grid-gutter} * 2))
+                    width: calc(100% - (#{var(--grid-gutter)} * 2))
         nav .container
             align-items: flex-end
         .menu
@@ -60,10 +64,10 @@ header#document-header
                         width: fit-content
                         &.active::after
                             @include icon-site(asterisk)
-                            font-size: px2rem(24)
+                            font-size: pxToRem(24)
                             position: absolute
-                            top: half(-$spacing0)
-                            right: -$spacing0
+                            top: -$spacing-1
+                            right: -$spacing-1
                             width: 10px
                             display: block
                 > li
@@ -81,20 +85,20 @@ header#document-header
                             &.active::after
                                 right: 0
                 .dropdown-menu:not(.dropdown-languages)
-                    padding-top: calc(#{$spacing3} + #{$spacing1})
+                    padding-top: calc(#{$spacing-5} + #{$spacing-3})
                 .has-children:not(.header-i18n)
                     > a[aria-expanded="true"],
                     > span[aria-expanded="true"] 
                         + .dropdown-menu .container
                             align-items: flex-start
-                            gap: $grid-gutter
+                            gap: var(--grid-gutter)
                             display: flex
                             a.dropdown-menu-title
-                                width: col(3)
+                                width: columns(3)
                             .nav-level-2
                                 li 
                                     + li
-                                        margin-top: $spacing0
+                                        margin-top: $spacing-2
                                     a, span
                                         line-height: inherit
                                     span
@@ -112,7 +116,7 @@ header#document-header
                 margin-top: 0
             .dates
                 @include body-text
-                margin-top: $spacing0
+                margin-top: $spacing-2
         figure figcaption
             .credit-content
                 background: none
@@ -120,7 +124,7 @@ header#document-header
         font-style: italic
     body:not(.persons__page) &
         nav.breadcrumb-nav
-            margin-bottom: $spacing3
+            margin-bottom: $spacing-5
             + .content > hgroup
                 margin-top: 0
     @include media-breakpoint-up(xxl)
@@ -133,13 +137,13 @@ header#document-header
         .text
             padding: 0 !important
         .rich-text p
-            font-size: px2rem(32)
+            font-size: pxToRem(32)
             line-height: 130%
             @include media-breakpoint-down(desktop)
-                font-size: px2rem(22)
+                font-size: pxToRem(22)
 
 .breadcrumb-nav *
-    font-size: px2rem(14)
+    font-size: pxToRem(14)
 
 // Home
 .page__home
@@ -150,7 +154,7 @@ header#document-header
                 align-items: center
                 display: inline-flex
                 height: $h2-size-desktop
-                width: px2rem(15)
+                width: pxToRem(15)
                 &::after
                     @include icon-site(asterisk)
                     font-size: $h3-size-desktop
@@ -160,7 +164,7 @@ header#document-header
             .home-schedule
                 @include meta
                 @include media-breakpoint-down(desktop)
-                    margin-top: $spacing2
+                    margin-top: $spacing-4
                 @include media-breakpoint-up(desktop)
                     bottom: 0
                     position: absolute
@@ -168,33 +172,33 @@ header#document-header
                     right: 0
                     &::before
                         @include icon-site(asterisk)
-                        font-size: px2rem(24)
+                        font-size: pxToRem(24)
                         position: absolute
                         transform: translate(-100%, 10%)
 
 // Footer
 footer#document-footer
     .footer-logo
-        @include grid(2)
-        align-items: flex-start
+        display: flex
+        gap: var(--grid-gutter)
         a::after
             display: none
     .footer-site
         > .container
             padding: 0
             margin: 0
-            margin-top: half($spacing0)
+            margin-top: $spacing-1
             justify-content: flex-end
             .dropdown-languages
                 text-align: left
         .footer-legals
             + .container
-                margin-top: $spacing0
+                margin-top: $spacing-2
     .footer-search 
         > div
             border-top: 1px solid $color-border
             width: 100%
-            padding-top: $spacing1
+            padding-top: $spacing-3
             .pagefind-ui__toggle
                 @include h2
                 font-family: $body-font-family
@@ -206,18 +210,20 @@ footer#document-footer
                 @include media-breakpoint-up(desktop)
                     align-items: flex-end
                     display: flex
-                    gap: $spacing0
+                    gap: $spacing-2
             .pagefind-ui__result-excerpt mark
                 color: $color-text
             .pagefind-ui__form::after
                 @include icon-site(search)
-                font-size: px2rem(18)
+                font-size: pxToRem(18)
     .footer-i18n
         button:focus-visible
             outline-offset: 0px
             border: 4px solid $color-accent
     @include media-breakpoint-up(desktop)
-        padding-bottom: calc(#{$spacing3} - #{$spacing1})
+        padding-bottom: calc(#{$spacing-5} - #{$spacing-3})
+        .footer-site
+            width: columns(6)
 
 // TOC
 .toc-container
@@ -225,8 +231,8 @@ footer#document-footer
         a::after
             @include icon-site(outline)
             display: inline-block
-            font-size: px2rem(16)
-            margin-left: half($spacing0)
+            font-size: pxToRem(16)
+            margin-left: $spacing-1
             transform: scale(0) translateY(17%)
             transform-origin: bottom left
         a.active::after
@@ -238,7 +244,7 @@ footer#document-footer
     .top h2
         @include media-breakpoint-up(desktop)
             @include large-line
-            gap: $spacing1
+            gap: $spacing-3
     .block .top,
     .heading
         h2
@@ -277,7 +283,7 @@ footer#document-footer
         @include large-line
         font-weight: bold
         text-transform: none
-        gap: $spacing2
+        gap: $spacing-4
     &--large
         .event
             .more
@@ -285,7 +291,7 @@ footer#document-footer
                 line-height: inherit
                 &::after
                     @include icon-site(arrow-top)
-                    font-size: px2rem(18)
+                    font-size: pxToRem(18)
         @include media-breakpoint-up(xl)
             .event-content
                 [itemprop="headline"], 
@@ -296,9 +302,9 @@ footer#document-footer
             .event-description
                 display: flex
                 justify-content: space-between
-                gap: $grid-gutter
+                gap: var(--grid-gutter)
                 p:not(.more)
-                    width: col(4, 6)
+                    width: columns(4)
                 .more
                     margin: 0
         @include media-breakpoint-up(desktop)
@@ -317,30 +323,30 @@ footer#document-footer
                         color: $color-text
                     .event-dates
                         text-align: right
-                        margin-bottom: $spacing1
+                        margin-bottom: $spacing-3
                 &-categories 
                     background-color: $color-accent
                     display: flex
                     height: 100%
                     margin: 0
-                    padding: half($spacing0)
+                    padding: $spacing-1
                 &-status
                     @include h4
                     @include large-line
                     font-weight: 600
-                    margin-bottom: $spacing0
+                    margin-bottom: $spacing-2
                 .media 
-                    width: col(5)
+                    width: columns(5)
                     img
                         height: 100%
                 &:not(.event--with-image)
                     .event-categories
                         order: -1
-                        margin-bottom: $spacing1
+                        margin-bottom: $spacing-3
                 &.event--with-image
                     .event-categories
-                        margin-left: -$grid-gutter
-                        padding: $spacing0 half($spacing0)
+                        margin-left: -var(--grid-gutter)
+                        padding: $spacing-2 $spacing-1
                         position: absolute
                         top: 0
                         transform: translateX(-100%)
@@ -357,23 +363,23 @@ footer#document-footer
                 .event-categories
                     background-color: $color-accent
                     order: -1
-                    padding: half($spacing0)
-                    margin-bottom: $spacing0
+                    padding: $spacing-1
+                    margin-bottom: $spacing-2
                 &.event--with-image
                     .event-categories
-                        left: -$spacing1
+                        left: -$spacing-3
                         margin: 0
-                        padding: half($spacing0) $spacing1
+                        padding: $spacing-1 $spacing-3
                         position: absolute
-                        top: -$spacing0
+                        top: -$spacing-2
                         transform: translateY(-100%)
-                        width: calc(100% + (#{$spacing1} * 2))
+                        width: calc(100% + (#{$spacing-3} * 2))
                 
     &--list
         @include media-breakpoint-up(desktop)
             .event
-                padding-bottom: $spacing2
-                margin-bottom: $spacing2
+                padding-bottom: $spacing-4
+                margin-bottom: $spacing-4
                 position: relative
         .event
             &:last-child
@@ -395,14 +401,14 @@ footer#document-footer
             picture
                 display: inline-block
                 filter: grayscale(1)
-                margin: $spacing1 $spacing1 0
+                margin: $spacing-3 $spacing-3 0
                 mix-blend-mode: multiply
                 width: 60%
                 &:hover
                     filter: grayscale(0)
             figcaption
                 display: inline-block
-                margin: $spacing1
+                margin: $spacing-3
                 width: -webkit-fill-available
                 .credit p
                     font-family: $h1-font-family
@@ -418,12 +424,13 @@ footer#document-footer
         .persons
             &, &.is-column
                 display: block
-        .person
+        article.person
             + .person
-                margin-top: $spacing1
+                margin-top: $spacing-3
             .avatar 
                 margin-bottom: 0
             .description
+                flex: 1
                 margin: 0
                 &, .name
                     @include h3
@@ -431,18 +438,18 @@ footer#document-footer
                         font-style: italic
             @include media-breakpoint-up(desktop)
                 + .person
-                    margin-top: $spacing3
+                    margin-top: $spacing-5
                 .description
-                    width: col(6, 8)
+                    width: columns(6)
                     border-bottom: 1px solid $color-border
                     &, .name
                         @include h2
             @include media-breakpoint-up(xl)
                 .avatar
-                    margin-right: $grid-gutter
-                    width: col(3, 8)
+                    margin-right: var(--grid-gutter)
+                    width: columns(3)
                 .description
-                    width: col(5, 8)
+                    width: columns(5)
 
 .block-agenda--large
     @include in-page-with-or-without-sidebar
@@ -452,7 +459,7 @@ footer#document-footer
 .block-agenda--list
     @include in-page-with-sidebar
         .event-content
-            grid-column: 4 / 9
+            grid-column: 3 / 7
             width: unset
         .event-dates
             position: absolute
@@ -465,22 +472,31 @@ footer#document-footer
                 display: block
                 &::before
                     display: none
+    @include in-page-without-sidebar
+        .event-content
+            .event-dates
+                grid-column: 1 / 4
+            > hgroup,
+            .event-title,
+            .event-description,
+            .event-categories
+                grid-column: 4 / 11
 .block-chapter--with-image
     @include in-page-with-sidebar
         .chapter 
             flex-direction: row-reverse
             .text
                 flex: 1
-                margin-right: $grid-gutter
+                margin-right: var(--grid-gutter)
             figure
-                width: col(4, 8)
+                width: columns(4)
                 img
                     width: 100%
 .block-pages--cards
     .card .more
         &::after
             @include icon-site(arrow-right)
-            font-size: px2rem(34)
+            font-size: pxToRem(34)
 // Events
 .events__page
     .event-sidebar
@@ -494,11 +510,18 @@ footer#document-footer
     .hero
         .container .content
             align-items: unset
+            gap: var(--grid-gutter)
         &--with-image
             @include media-breakpoint-down(desktop)
                 figure
-                    margin-top: $spacing1
-        &-informations 
+                    margin-top: $spacing-3
+        &--image-portrait,
+        &
+            .hero-text
+                margin-top: 0
+                @include media-breakpoint-up(desktop)
+                    width: columns(6)
+        &-text 
             @include h1
             position: relative
             hgroup
@@ -507,12 +530,12 @@ footer#document-footer
             .event-dates
                 text-align: right
         @include media-breakpoint-up(desktop)
-            &-informations 
+            &-text 
                 display: flex
                 flex-direction: column
                 justify-content: space-between
                 position: relative
-                width: col(6)
+                width: columns(6)
             .event-categories
                 position: absolute
                 bottom: 0
@@ -521,9 +544,9 @@ footer#document-footer
                     writing-mode: tb
                     transform: rotate(180deg)
             figure
-                width: col(6)
+                width: columns(6)
         @include media-breakpoint-down(desktop)
-            &-informations
+            &-text
                 display: flex
                 flex-direction: column
                 .event-categories
@@ -543,7 +566,7 @@ footer#document-footer
             @include grid(1)
         article
             background: $color-accent
-            padding: $spacing1
+            padding: $spacing-3
             width: 100%
             a::after
                 display: none
@@ -556,12 +579,12 @@ footer#document-footer
                 mix-blend-mode: multiply
                 @include media-breakpoint-up(md)
                     margin: 0
-                    width: col(2.94, 8)
+                    width: columns(3) // TODO : check ici
             &:hover .media
                 filter: grayscale(0)
             @include media-breakpoint-up(md)
                 flex-direction: row
-                gap: $grid-gutter
+                gap: var(--grid-gutter)
     .lead 
         font-family: $lead-font-family
 .pages__section
@@ -580,7 +603,7 @@ footer#document-footer
     @include media-breakpoint-up(xl)
         &.full-width
             .block-summary .lead
-                width: col(8)
+                width: columns(8)
 
 // glightbox
 #glightbox-body
@@ -601,16 +624,16 @@ footer#document-footer
     transition: transform 0.25s, opacity 0.25s
     border-radius: 50%
     background: var(--color-accent)
-    width: px2rem(45)
-    height: px2rem(45)
-    line-height: px2rem(45)
+    width: pxToRem(45)
+    height: pxToRem(45)
+    line-height: pxToRem(45)
     text-align: center
     &::after
         @include icon-site(arrow-top)
-        font-size: px2rem(30)
+        font-size: pxToRem(30)
     &.extend::after
         @include icon-site(extend)
-        font-size: px2rem(20)
+        font-size: pxToRem(20)
     &.visible
         opacity: 1
         transform: rotate(0) scale(1)
