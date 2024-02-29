@@ -149,4 +149,8 @@ items:
     target: "/fr/ressources/archives-1/"
     kind: page
     children: []
+  - title: Artistes Alphabétique
+    target: "/fr/ressources/artistes-alphabetique/"
+    kind: page
+    children: []
 
