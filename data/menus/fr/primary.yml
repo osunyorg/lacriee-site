@@ -137,10 +137,6 @@ items:
     target: "/fr/ressources/correspondances/"
     kind: page
     children: []
-  - title: Ressources pédagogiques
-    target: ''
-    kind: blank
-    children: []
   - title: Archives
     target: "/fr/ressources/archives-1/"
     kind: page
