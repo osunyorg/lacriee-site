@@ -150,7 +150,7 @@ items:
     kind: page
     children: []
   - title: Artistes Alphabétique
-    target: "/fr/ressources/artistes-alphabetique/"
+    target: "/fr/ressources/archives-1/artistes-alphabetique/"
     kind: page
     children: []
 
