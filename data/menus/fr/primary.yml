@@ -141,10 +141,6 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: Podcasts
-    target: ''
-    kind: blank
-    children: []
   - title: Archives
     target: "/fr/ressources/archives-1/"
     kind: page
