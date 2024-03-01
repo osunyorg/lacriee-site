@@ -137,7 +137,7 @@ items:
     target: "/fr/ressources/correspondances/"
     kind: page
     children: []
-  - title: Vidéos
+  - title: Ressources pédagogiques
     target: ''
     kind: blank
     children: []
@@ -147,10 +147,6 @@ items:
     children: []
   - title: Archives
     target: "/fr/ressources/archives-1/"
-    kind: page
-    children: []
-  - title: Artistes Alphabétique
-    target: "/fr/ressources/archives-1/artistes-alphabetique/"
     kind: page
     children: []
 
