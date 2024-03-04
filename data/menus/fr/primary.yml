@@ -134,7 +134,7 @@ items:
   kind: page
   children:
   - title: Correspondances
-    target: "/fr/ressources/correspondances/"
+    target: "/fr/ressources/correspondances-1/"
     kind: page
     children: []
   - title: Archives
