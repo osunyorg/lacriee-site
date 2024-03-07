@@ -32,7 +32,7 @@ fr:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    persons: /programmation/artistes/:slug/
+    persons: /programmation/artistes-et-oeuvres-produites/:slug/
   taxonomies:
     administrator: administrators
     author: authors
