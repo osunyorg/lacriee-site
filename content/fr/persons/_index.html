@@ -25,7 +25,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 has:
@@ -61,18 +61,36 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: chapter
     title: >-
-      Artistes, autrices, auteurs, commissaires, etc.
-    position: 0
-    rank: 2
+      
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p><b>Artistes, autrices, auteurs, commissaires, etc.</b><br></p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
   - kind: block
     template: persons
     title: >-
       Artistes, autrices, auteurs, commissaires, etc.
     ranks:
-      self: 3
-      children: 4
+      self: 2
+      children: 3
     data:
       description: >-
         
@@ -122,11 +140,10 @@ contents:
 
 
 
-
   - kind: heading
     title: >-
       Les œuvres produites
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: pages
