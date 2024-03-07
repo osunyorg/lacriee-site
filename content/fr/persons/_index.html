@@ -21,12 +21,12 @@ aliases:
   - /fr/programmation/artistes/
   - /fr/artistes/
 
-full_width: true
+full_width: false
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 has:
   administrators: 
@@ -46,7 +46,7 @@ description: >
   
 
 summary: >
-  Artistes, autrices, auteurs, commissaires, etc.
+  
 
 header_text: >-
   
@@ -55,17 +55,22 @@ header_cta:
   label: 
   target: 
 contents_reading_time:
-  seconds: 246
+  seconds: 248
   text: >-
     4 minutes
 contents:
+  - kind: heading
+    title: >-
+      Artistes, autrices, auteurs, commissaires, etc.
+    position: 0
+    rank: 2
   - kind: block
     template: persons
     title: >-
       
     ranks:
       self: false
-      children: 2
+      children: 3
     data:
       description: >-
         
@@ -115,10 +120,11 @@ contents:
 
 
 
+
   - kind: heading
     title: >-
       Les œuvres produites
-    position: 0
+    position: 1
     rank: 2
   - kind: block
     template: chapter
