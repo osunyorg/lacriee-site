@@ -17,4 +17,8 @@ items:
   target: "/fr/plan-du-site/"
   kind: page
   children: []
+- title: Espace presse
+  target: ''
+  kind: blank
+  children: []
 
