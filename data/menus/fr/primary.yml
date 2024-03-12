@@ -137,8 +137,8 @@ items:
     target: "/fr/ressources/ressources-pedagogiques-1/"
     kind: page
     children: []
-  - title: Correspondances
-    target: "/fr/ressources/correspondances/"
+  - title: Les Correspondants
+    target: "/fr/ressources/les-correspondants/"
     kind: page
     children: []
   - title: Archives
