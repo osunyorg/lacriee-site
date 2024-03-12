@@ -134,7 +134,7 @@ items:
   kind: page
   children:
   - title: Ressources pédagogiques
-    target: "/fr/ressources/ressources-pedagogiques-1/"
+    target: "/fr/ressources/ressources-pedagogiques/"
     kind: page
     children: []
   - title: Les Correspondants
