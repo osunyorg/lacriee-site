@@ -142,7 +142,7 @@ items:
     kind: page
     children: []
   - title: Archives
-    target: "/fr/ressources/archives-1/"
+    target: "/fr/ressources/archives/"
     kind: page
     children: []
 
