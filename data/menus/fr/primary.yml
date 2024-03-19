@@ -145,4 +145,8 @@ items:
     target: "/fr/ressources/archives/"
     kind: page
     children: []
+  - title: Les trois dernières saisons
+    target: "/fr/ressources/saisons-passees/"
+    kind: page
+    children: []
 
