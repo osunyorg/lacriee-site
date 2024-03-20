@@ -61,10 +61,6 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: Jeux d’artistes
-    target: "/fr/programmation/jeux/"
-    kind: page
-    children: []
   - title: Artistes et oeuvres produites
     target: "/fr/programmation/artistes-et-oeuvres-produites/"
     kind: page
