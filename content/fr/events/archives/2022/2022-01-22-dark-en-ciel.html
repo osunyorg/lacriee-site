@@ -66,10 +66,15 @@ summary: >
 events_categories:
   - "dans-les-murs"
 contents_reading_time:
-  seconds: 146
+  seconds: 148
   text: >-
     2 minutes
 contents:
+  - kind: heading
+    title: >-
+      Présentation
+    position: 0
+    rank: 2
   - kind: block
     template: chapter
     title: >-
@@ -93,10 +98,11 @@ contents:
 
 
 
+
   - kind: heading
     title: >-
       Photos de l’exposition
-    position: 0
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -188,7 +194,7 @@ contents:
   - kind: heading
     title: >-
       Événements et rendez-vous
-    position: 1
+    position: 2
     rank: 2
   - kind: block
     template: agenda
@@ -223,13 +229,13 @@ contents:
   - kind: heading
     title: >-
       Œuvres produites
-    position: 2
+    position: 3
     rank: 2
 
   - kind: heading
     title: >-
       Artiste et commissaires de l’exposition
-    position: 3
+    position: 4
     rank: 2
   - kind: block
     template: persons
@@ -261,7 +267,7 @@ contents:
   - kind: heading
     title: >-
       Les documents de l'exposition
-    position: 4
+    position: 5
     rank: 2
   - kind: block
     template: files
@@ -292,8 +298,33 @@ contents:
   - kind: heading
     title: >-
       Les ressources pédagogiques
-    position: 5
+    position: 6
     rank: 2
+
+  - kind: heading
+    title: >-
+      Pour aller plus loin
+    position: 7
+    rank: 2
+  - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      show_main_description: true
+      show_descriptions: false
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/fr/ressources/archives/cycles-passes/"
+          slug: "cycles-passes"
+          file: "pages/ressources/archives/cycles-passes/_index.html"
+          external: false
+
+
 
 
 ---
