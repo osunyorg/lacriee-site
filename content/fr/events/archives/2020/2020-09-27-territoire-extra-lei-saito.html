@@ -8,14 +8,14 @@ dates:
   archive: true
   computed:
     short: >-
-      Du 27 septembre au 24 octobre 2020
+      From September 27 to October 24, 2020
     long: >-
-      Du dimanche 27 septembre au samedi 24 octobre 2020
+      From Sunday September 27 to Saturday October 24, 2020
     two_lines:
       short: >-
-        27 septembre<br>24 octobre 2020
+        September 27<br>October 24, 2020
       long: >-
-        Dimanche 27 septembre<br>Samedi 24 octobre 2020
+        Sunday September 27<br>Saturday October 24, 2020
   from:
     day: 2020-09-27
   to:
@@ -133,12 +133,46 @@ contents:
       
     ranks:
       self: false
+      children: 3
     data:
-      show_main_description: false
+      show_main_description: true
       show_descriptions: false
-      show_images: false
+      show_images: true
       layout: grid
       pages:
+        - path: "/fr/ressources/archives/cycles-passes/"
+          slug: "cycles-passes"
+          file: "pages/ressources/archives/cycles-passes/_index.html"
+          external: false
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: all
+      layout: grid
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      show_summary: false
+      show_category: false
+      show_status: false
+      title_link: "/fr/agenda/"
+      events:
+        - path: "/fr/agenda/2023-07-01-isabelle-arthuis/"
+          file: "events/2023-07-01-isabelle-arthuis.html"
+        - path: "/fr/agenda/2023-09-01-recherche-action-emeline-jaret/"
+          file: "events/2023-09-01-recherche-action-emeline-jaret.html"
+        - path: "/fr/agenda/2023-09-01-ecole-europeenne-superieure-d-art-de-bretagne-compagnonnage-avec-l-atelier-vivant/"
+          file: "events/2023-09-01-ecole-europeenne-superieure-d-art-de-bretagne-compagnonnage-avec-l-atelier-vivant.html"
 
 
 
