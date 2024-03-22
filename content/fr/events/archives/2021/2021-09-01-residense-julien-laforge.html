@@ -44,7 +44,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 translation_key: communication-website-agenda-event-f35d417f-cd16-47d6-8a79-053d9299cd7f
@@ -66,10 +66,15 @@ summary: >
 events_categories:
   - "hors-les-murs"
 contents_reading_time:
-  seconds: 95
+  seconds: 96
   text: >-
     2 minutes
 contents:
+  - kind: heading
+    title: >-
+      Présentation
+    position: 0
+    rank: 2
   - kind: block
     template: chapter
     title: >-
@@ -113,6 +118,57 @@ contents:
 
       credit: >-
         
+
+
+
+
+  - kind: heading
+    title: >-
+      Pour aller plus loin
+    position: 1
+    rank: 2
+  - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      show_main_description: true
+      show_descriptions: false
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/fr/ressources/archives/cycles-passes/"
+          slug: "cycles-passes"
+          file: "pages/ressources/archives/cycles-passes/_index.html"
+          external: false
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: grid
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      show_summary: false
+      show_category: true
+      show_status: false
+      title_link: "/fr/agenda/"
+      events:
+        - path: "/fr/agenda/2022-05-05-exposition-julien-laforge/"
+          file: "events/archives/2022/2022-05-05-exposition-julien-laforge.html"
 
 
 
