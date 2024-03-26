@@ -12,5 +12,6 @@ allowed_domains:
   - "vimeo.com"
   - "player.vimeo.com"
   - "vumbnail.com"
+  - "soundcloud.com"
   - "www.openstreetmap.org"
   - "www.google.com"
