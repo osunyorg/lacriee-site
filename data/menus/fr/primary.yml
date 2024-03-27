@@ -73,8 +73,8 @@ items:
     target: "/fr/mediation/presentation/"
     kind: page
     children: []
-  - title: Individuels et familles
-    target: "/fr/mediation/individuels-et-familles/"
+  - title: Petite enfance
+    target: "/fr/mediation/petite-enfance/"
     kind: page
     children: []
   - title: Scolaires
