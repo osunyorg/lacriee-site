@@ -126,7 +126,7 @@ items:
     kind: page
     children: []
   - title: 'Accessibilité '
-    target: "/fr/accessibilite-1/"
+    target: "/fr/accessibilite/"
     kind: page
     children: []
 - title: Ressources
