@@ -61,8 +61,12 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: Artistes et oeuvres produites
-    target: "/fr/programmation/artistes-et-oeuvres-produites/"
+  - title: Œuvres produites
+    target: "/fr/programmation/oeuvres-produites/"
+    kind: page
+    children: []
+  - title: Artistes, autrices, auteurs, commissaires, etc.
+    target: "/fr/programmation/artistes-autrices-auteurs-commissaires-etc-1/"
     kind: page
     children: []
 - title: Médiation
@@ -85,8 +89,8 @@ items:
     target: "/fr/mediation/periscolaires-et-centre-de-loisirs/"
     kind: page
     children: []
-  - title: Enseignement supérieur et formation
-    target: "/fr/mediation/enseignement-superieur-et-formation/"
+  - title: Formation et enseignement supérieur
+    target: "/fr/mediation/formation-et-enseignement-superieur/"
     kind: page
     children: []
   - title: Santé et Handicap
