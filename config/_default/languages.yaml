@@ -19,6 +19,7 @@ en:
     author: authors
     diploma: diplomas
     events_category: events_categories
+    location: locations
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
@@ -36,13 +37,14 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    persons: /programmation/artistes-et-oeuvres-produites/:slug/
-    authors: /programmation/artistes-et-oeuvres-produites/:slug/actualites/
+    persons: /programmation/oeuvres-produites/:slug/
+    authors: /programmation/oeuvres-produites/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
     diploma: diplomas
     events_category: events_categories
+    location: locations
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
