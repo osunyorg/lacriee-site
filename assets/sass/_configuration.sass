@@ -15,22 +15,15 @@ $h1-weight: normal
 $h1-size-desktop: pxToRem(60)
 $h1-size: pxToRem(30)
 $h1-line-height: 120%
-
 $h2-font-family: $h1-font-family
 $h2-size-desktop: pxToRem(34)
 $h3-font-family: $h1-font-family
 $h3-weight: normal
 
-$lead-font-family: $body-font-family
-$lead-size-desktop: pxToRem(60)
-$lead-size: pxToRem(30)
-$lead-line-height: $h1-line-height
-$lead-weight: normal
-$lead-sidebar-font-family: $lead-font-family
-$lead-sidebar-size-desktop: pxToRem(60)
-$lead-sidebar-line-height: $lead-line-height
-$lead-sidebar-weight: $lead-weight
-
+$block-chapter-layout-accent-color: $color-text
+$block-pages-card-page-color-hover: $color-text
+$body-overlay-color: $color-accent
+$footer-background-color: $color-accent
 $header-border-bottom-width: 0
 $header-logo-height: 50px
 $header-logo-height-desktop: 60px
@@ -38,26 +31,7 @@ $header-background: $color-accent
 $header-sticky-background: $header-background
 $header-dropdown-full: true
 $header-nav-padding-y-desktop: pxToRem(17)
-
-// Lead
-$lead-font-family: $body-font-family
-$lead-size-desktop: pxToRem(34)
-$lead-weight: 300
-$lead-sidebar-font-family: $body-font-family
-$lead-sidebar-size-desktop: pxToRem(34)
-$lead-sidebar-weight: 300
-
-// Hero
 $hero-background-color: $color-accent
-
-// Navs
-$body-overlay-color: $color-accent
-$toc-active-color: $color-text
-
-// Footer
-$footer-background-color: $color-accent
-
-// Icons
 $icons-site: ()
 $icons-site: map-merge($icons-site, ("outline": "\ee14"))
 $icons-site: map-merge($icons-site, ("arrow-top": "\ee15"))
@@ -66,7 +40,13 @@ $icons-site: map-merge($icons-site, ("arrow-right": "\ff02"))
 $icons-site: map-merge($icons-site, ("arrow-left": "\ff00"))
 $icons-site: map-merge($icons-site, ("search": "\ee13"))
 $icons-site: map-merge($icons-site, ("extend": "\ee17"))
-
-// Blocks
-$block-chapter-layout-accent-color: $color-text
-$block-pages-card-page-color-hover: $color-text
+$lead-font-family: $body-font-family
+$lead-size-desktop: pxToRem(34)
+$lead-size: pxToRem(30)
+$lead-line-height: $h1-line-height
+$lead-weight: normal
+$lead-sidebar-font-family: $body-font-family
+$lead-sidebar-size-desktop: pxToRem(34)
+$lead-sidebar-line-height: $lead-line-height
+$lead-sidebar-weight: normal
+$toc-active-color: $color-text
