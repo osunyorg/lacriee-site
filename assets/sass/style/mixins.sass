@@ -1,0 +1,10 @@
+// Mixin
+@mixin large-line
+    align-items: center
+    display: flex
+    gap: $spacing-3
+    &::after
+        background-color: $color-text
+        content: ''
+        flex: 1
+        height: 1px

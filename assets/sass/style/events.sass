@@ -1,0 +1,90 @@
+// Events
+.events__page
+    .event-sidebar
+        .toc-container
+            border-top: none !important
+            padding-top: 0 !important
+        .events-actions > span
+            @include meta
+            color: $color-text-alt
+
+    .hero
+        .container .content
+            align-items: unset
+            gap: var(--grid-gutter)
+        &--with-image
+            @include media-breakpoint-down(desktop)
+                figure
+                    margin-top: $spacing-3
+        &--image-portrait,
+        &
+            .hero-text
+                margin-top: 0
+                @include media-breakpoint-up(desktop)
+                    width: columns(6)
+        &-text 
+            @include h1
+            position: relative
+            hgroup
+                h1 + p
+                    font-style: italic
+            .event-dates
+                text-align: right
+        @include media-breakpoint-up(desktop)
+            &-text 
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                position: relative
+                width: columns(6)
+            .event-categories
+                position: absolute
+                bottom: 0
+                a
+                    text-decoration: none
+                    writing-mode: tb
+                    transform: rotate(180deg)
+            figure
+                width: columns(6)
+        @include media-breakpoint-down(desktop)
+            &-text
+                display: flex
+                flex-direction: column
+                .event-categories
+                    position: relative
+                    margin-top: 0
+                    order: -1
+    @include media-breakpoint-down(desktop)
+        .document-content
+            display: flex
+            flex-direction: column
+            .event-sidebar
+                order: 1
+            .block-siblings-navigation
+                order: 2
+    .block-pages--grid
+        .grid
+            @include grid(1)
+        article
+            background: $color-accent
+            padding: $spacing-3
+            width: 100%
+            a::after
+                display: none
+            .page-title, p
+                @include h2
+            p
+                font-style: italic
+            .media 
+                filter: grayscale(1)
+                mix-blend-mode: multiply
+                @include media-breakpoint-up(md)
+                    margin: 0
+                    width: columns(3) // TODO : check ici
+            &:hover .media
+                filter: grayscale(0)
+            @include media-breakpoint-up(md)
+                flex-direction: row
+                gap: var(--grid-gutter)
+    .lead 
+        font-family: $lead-font-family

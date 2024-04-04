@@ -1,0 +1,276 @@
+.document-content
+    .heading,
+    .top h2
+        @include media-breakpoint-up(desktop)
+            @include large-line
+            gap: $spacing-3
+    .block .top,
+    .heading
+        h2
+            @include h4
+    @include media-breakpoint-down(desktop)
+        .block-summary
+            margin-top: 0
+
+.block
+    margin-bottom: $spacing-6
+    @include media-breakpoint-down(desktop)
+        margin-bottom: $spacing-5
+
+.block-siblings-navigation
+    .siblings-navigation ul 
+        a:hover
+            filter: brightness(0.5)
+        @include media-breakpoint-up(desktop)
+            .next span::after
+                @include icon-site(arrow-right)
+            .previous span::before
+                @include icon-site(arrow-left)
+        @include media-breakpoint-down(desktop)
+            .next::after
+                @include icon-site(arrow-right)
+            .previous::before
+                @include icon-site(arrow-left)
+.block-pages--grid .grid
+    article
+        .page-title a::after
+            display: none
+        .media img
+            aspect-ratio: 1
+.block-agenda
+    .event 
+        &-subtitle
+            font-style: italic
+        &-time
+            span + span::before
+                @include icon-site(arrow-right)
+    .block-title
+        @include large-line
+        font-weight: bold
+        text-transform: none
+        gap: $spacing-4
+    &--large
+        .event
+            .more
+                font-size: inherit
+                line-height: inherit
+                &::after
+                    @include icon-site(arrow-top)
+                    font-size: pxToRem(18)
+        @include media-breakpoint-up(xl)
+            .event-content
+                [itemprop="headline"], 
+                .event-subtitle,
+                .event-dates span
+                    @include h1
+                    
+            .event-description
+                display: flex
+                justify-content: space-between
+                gap: var(--grid-gutter)
+                p:not(.more)
+                    width: columns(4)
+                .more
+                    margin: 0
+        @include media-breakpoint-up(desktop)
+            .event
+                position: relative
+                &-content
+                    display: flex
+                    flex-direction: column
+                    justify-content: flex-end
+                    position: static
+                    hgroup
+                        flex: 1
+                    [itemprop="headline"]
+                        margin-bottom: auto
+                    .event-subtitle
+                        color: $color-text
+                    .event-dates
+                        text-align: right
+                        margin-bottom: $spacing-3
+                &-categories 
+                    background-color: $color-accent
+                    display: flex
+                    height: 100%
+                    margin: 0
+                    padding: $spacing-1
+                &-status
+                    @include h4
+                    @include large-line
+                    font-weight: 600
+                    margin-bottom: $spacing-2
+                .media 
+                    width: columns(5)
+                    img
+                        height: 100%
+                &:not(.event--with-image)
+                    .event-categories
+                        order: -1
+                        margin-bottom: $spacing-3
+                &.event--with-image
+                    .event-categories
+                        margin-left: -var(--grid-gutter)
+                        padding: $spacing-2 $spacing-1
+                        position: absolute
+                        top: 0
+                        transform: translateX(-100%)
+                        writing-mode: sideways-lr
+                        span 
+                            writing-mode: tb
+                            transform: rotate(180deg)
+
+        @include media-breakpoint-down(desktop)
+            .event
+                &-content
+                    display: flex
+                    flex-direction: column
+                .event-categories
+                    background-color: $color-accent
+                    order: -1
+                    padding: $spacing-1
+                    margin-bottom: $spacing-2
+                &.event--with-image
+                    .event-categories
+                        left: -$spacing-3
+                        margin: 0
+                        padding: $spacing-1 $spacing-3
+                        position: absolute
+                        top: -$spacing-2
+                        transform: translateY(-100%)
+                        width: calc(100% + (#{$spacing-3} * 2))
+                
+    &--list
+        @include media-breakpoint-up(desktop)
+            .event
+                padding-bottom: $spacing-4
+                margin-bottom: $spacing-4
+                position: relative
+        .event
+            &:last-child
+                border-bottom: 0
+            &--with-image
+                .media img
+                    aspect-ratio: 1
+                    object-fit: cover
+    &--grid
+        @include media-breakpoint-up(desktop)
+            .event-dates
+                @include h3
+                text-align: right
+.block-image
+    @include in-page-with-or-without-sidebar
+        .block-content figure
+            background-color: $color-accent
+            text-align: right
+            picture
+                display: inline-block
+                filter: grayscale(1)
+                margin: $spacing-3 $spacing-3 0
+                mix-blend-mode: multiply
+                width: 60%
+                &:hover
+                    filter: grayscale(0)
+            figcaption
+                display: inline-block
+                margin: $spacing-3
+                width: -webkit-fill-available
+                .credit p
+                    font-family: $h1-font-family
+        &:nth-child(even)
+            .block-content figure
+                picture,
+                figcaption
+                    margin-right: 40%
+                figcaption
+                    width: 60%
+.block-persons
+    @include in-page-with-sidebar
+        .persons
+            &, &.is-column
+                display: block
+        article.person
+            + .person
+                margin-top: $spacing-3
+            .avatar 
+                margin-bottom: 0
+            .description
+                flex: 1
+                margin: 0
+                &, .name
+                    @include h3
+                    + p
+                        font-style: italic
+            @include media-breakpoint-up(desktop)
+                + .person
+                    margin-top: $spacing-5
+                .description
+                    width: columns(6)
+                    border-bottom: 1px solid $color-border
+                    &, .name
+                        @include h2
+            @include media-breakpoint-up(xl)
+                .avatar
+                    margin-right: var(--grid-gutter)
+                    width: columns(3)
+                .description
+                    width: columns(5)
+
+.block-agenda
+    &--large
+        @include in-page-with-or-without-sidebar
+            .event
+                align-items: stretch
+    &--list
+        @include in-page-with-sidebar
+            .event-content
+                grid-column: 3 / 7
+                width: unset
+            .event-dates
+                position: absolute
+                top: 0
+                left: 0
+                > span
+                    @include h3
+                .event-time
+                    @include meta
+                    display: block
+                    &::before
+                        display: none
+        @include in-page-without-sidebar
+            .event-content
+                .event-dates
+                    grid-column: 1 / 4
+                > hgroup,
+                .event-title,
+                .event-description,
+                .event-categories
+                    grid-column: 4 / 11
+
+.block-chapter
+    &--alt_background
+        &, .chapter
+            background: none !important
+        .text
+            padding: 0 !important
+        .rich-text p
+            font-size: pxToRem(32)
+            line-height: 130%
+            @include media-breakpoint-down(desktop)
+                font-size: pxToRem(22)
+    &--with-image
+        @include in-page-with-sidebar
+            .chapter 
+                flex-direction: row-reverse
+                .text
+                    flex: 1
+                    margin-right: var(--grid-gutter)
+                figure
+                    width: columns(4)
+                    img
+                        width: 100%
+.block-pages--cards
+    .card .more
+        &::after
+            @include icon-site(arrow-right)
+            font-size: pxToRem(34)

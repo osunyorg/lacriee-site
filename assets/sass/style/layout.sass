@@ -1,0 +1,84 @@
+html.has-menu-opened body::after
+    opacity: .5
+.heading
+    @include in-page-without-sidebar
+        h2
+            max-width: columns(8)
+            width: unset
+.avatar
+    border-radius: 0
+
+.hero 
+    .content 
+        @include media-breakpoint-down(md)
+            padding-top: 0
+        hgroup
+            .artist,
+            .dates
+                @include h1
+            h1 + p
+                margin-top: 0
+            .dates
+                @include body-text
+                margin-top: $spacing-2
+        figure figcaption
+            .credit-content
+                background: none
+    .artist + h1
+        font-style: italic
+    body:not(.persons__page) &
+        nav.breadcrumb-nav
+            margin-bottom: $spacing-5
+            + .content > hgroup
+                margin-top: 0
+    @include media-breakpoint-up(xxl)
+        min-height: auto
+
+.breadcrumb-nav *
+    font-size: pxToRem(14)
+
+.toc-container
+    nav 
+        a::after
+            @include icon-site(outline)
+            display: inline-block
+            font-size: pxToRem(16)
+            margin-left: $spacing-1
+            transform: scale(0) translateY(17%)
+            transform-origin: bottom left
+        a.active::after
+            transform: scale(1.4) translateY(17%)
+            transition: transform .3s ease
+
+// glightbox
+#glightbox-body
+    .goverlay
+        background-color: $color-accent
+    .gslide-desc
+        color: $color-text
+
+.cursor
+    display: block
+    position: fixed
+    opacity: 0
+    pointer-events: none
+    z-index: 100
+    margin-left: -15px
+    margin-top: -15px
+    transform: rotate(190deg) scale(0.4)
+    transition: transform 0.25s, opacity 0.25s
+    border-radius: 50%
+    background: var(--color-accent)
+    width: pxToRem(45)
+    height: pxToRem(45)
+    line-height: pxToRem(45)
+    text-align: center
+    &::after
+        @include icon-site(arrow-top)
+        font-size: pxToRem(30)
+    &.extend::after
+        @include icon-site(extend)
+        font-size: pxToRem(20)
+    &.visible
+        opacity: 1
+        transform: rotate(0) scale(1)
