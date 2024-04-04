@@ -28,3 +28,13 @@ params:
   organizations:
     single:
       backlinks: true
+  posts:
+    index:
+      layout: grid
+    share_links:
+      facebook: true
+      twitter: false
+      linkedin: true
+      email: false
+      telegram: false
+      whatsapp: false
