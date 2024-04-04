@@ -3,14 +3,20 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
-  debug:
-    productionUrl: https://lacriee-site.web.deuxfleurs.fr
   menu:
     dropdown:
       linkToLevel1: true
+  breadcrumb:
+    position: hero-start
+  search:
+    active: true
+    position: footer
+    appearance: both
   summary:
     position: content
-  plausible: 
+  events:
+    index:
+      show_categories: true
   persons:
     index:
       layout: grid
@@ -19,12 +25,6 @@ params:
   posts:
     index:
       layout: grid
-  breadcrumb:
-    position: hero-start
-  search:
-    active: true
-    position: footer
-    appearance: both
   organizations:
     single:
       backlinks: true

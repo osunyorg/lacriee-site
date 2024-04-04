@@ -1,0 +1,17 @@
+.pages__section
+    .hero
+        .page-summary
+            @include h1
+            font-style: italic
+    @include media-breakpoint-up(desktop)
+        &.full-width
+            .block-pages--grid .grid
+                @include grid(4)
+                .page-title
+                    @include h4
+                    a::after
+                        display: none
+    @include media-breakpoint-up(xl)
+        &.full-width
+            .block-summary .lead
+                width: columns(8)
