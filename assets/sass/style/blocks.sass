@@ -57,32 +57,38 @@
                 &::after
                     @include icon-site(arrow-top)
                     font-size: pxToRem(18)
-        @include media-breakpoint-up(xl)
-            .event-content
-                [itemprop="headline"], 
-                .event-subtitle,
-                .event-dates span
-                    @include h1
-                    
-            .event-description
-                display: flex
-                justify-content: space-between
-                gap: var(--grid-gutter)
-                p:not(.more)
+            @include in-page-without-sidebar
+                @include media-breakpoint-up(xl)
+                    .event-content
+                        .event-title, 
+                        .event-subtitle,
+                        .event-dates span
+                            @include h1
+            @include media-breakpoint-up(xl)
+                .event-description
                     width: columns(4)
+                    vertical-align: top
+                .event-content
+                    display: flex
+                    flex-wrap: wrap
+                    width: columns(6)
+                    hgroup, .event-dates, .event-status
+                        width: columns(6)
                 .more
                     margin: 0
+                    width: columns(2)
+
         @include media-breakpoint-up(desktop)
             .event
                 position: relative
                 &-content
-                    display: flex
-                    flex-direction: column
-                    justify-content: flex-end
-                    position: static
+                    // display: flex
+                    // flex-direction: column
+                    // justify-content: flex-end
+                    // position: static
                     hgroup
                         flex: 1
-                    [itemprop="headline"]
+                    .event-title
                         margin-bottom: auto
                     .event-subtitle
                         color: $color-text
@@ -110,7 +116,7 @@
                         margin-bottom: $spacing-3
                 &.event--with-image
                     .event-categories
-                        margin-left: -var(--grid-gutter)
+                        margin-left: var(--grid-gutter-negative)
                         padding: $spacing-2 $spacing-1
                         position: absolute
                         top: 0
