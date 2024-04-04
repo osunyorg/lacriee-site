@@ -160,21 +160,39 @@ header#document-header
                     font-size: $h3-size-desktop
                 
         .content
-            position: relative
-            .home-schedule
-                @include meta
-                @include media-breakpoint-down(desktop)
-                    margin-top: $spacing-4
-                @include media-breakpoint-up(desktop)
-                    bottom: 0
-                    position: absolute
-                    text-align: right
-                    right: 0
-                    &::before
-                        @include icon-site(asterisk)
-                        font-size: pxToRem(24)
-                        position: absolute
-                        transform: translate(-100%, 10%)
+            .hero-text
+                hgroup
+                    p
+                        @include meta
+                        @include media-breakpoint-down(desktop)
+                            margin-top: $spacing-4
+            @include media-breakpoint-up(desktop)
+                .hero-text
+                    width: auto
+                    hgroup
+                        display: flex
+                        align-items: end
+                        justify-content: space-between
+                        h1
+                            width: columns(9)
+                        p
+                            width: columns(3)
+                            text-align: right
+                            &::before
+                                @include icon-site(asterisk)
+                                font-size: pxToRem(24)
+                                position: absolute
+                                transform: translate(-100%, 10%)
+            // hgroup > p
+            //     @include meta
+            //     @include media-breakpoint-down(desktop)
+            //         margin-top: $spacing-4
+            //     @include media-breakpoint-up(desktop)
+            //         &::before
+            //             @include icon-site(asterisk)
+            //             font-size: pxToRem(24)
+            //             position: absolute
+            //             transform: translate(-100%, 10%)
 
 // Footer
 footer#document-footer
