@@ -12,9 +12,3 @@
     font-style: normal
     font-weight: 400
     src: url('/assets/fonts/icons-site/IconFont.woff2') format("woff2"), url('/assets/fonts/icons-site/IconFont.woff') format("woff"), url('/assets/fonts/icons-site/IconFont.ttf') format("truetype")
-
-@mixin icon-site($icon)
-    @include icon
-    content: map-get($icons-site, $icon)
-    font-family: 'Icon-site'
-    font-size: pxToRem(16)

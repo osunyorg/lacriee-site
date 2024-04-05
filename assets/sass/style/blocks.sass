@@ -31,12 +31,16 @@
                 @include icon-site(arrow-right)
             .previous::before
                 @include icon-site(arrow-left)
-.block-pages--grid .grid
-    article
-        .page-title a::after
-            display: none
-        .media img
-            aspect-ratio: 1
+
+.block-pages--grid 
+    .grid
+        article
+            .page-title 
+                a::after
+                    display: none
+            .media 
+                img
+                    aspect-ratio: 1
 .block-agenda
     .event 
         &-subtitle
