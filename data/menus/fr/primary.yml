@@ -62,7 +62,7 @@ items:
     kind: blank
     children: []
   - title: Œuvres produites
-    target: "/fr/vieux-trucs/oeuvres-produites-202154561/"
+    target: "/fr/programmation/oeuvres-produites/"
     kind: page
     children: []
   - title: Artistes, autrices, auteurs, commissaires, etc.
