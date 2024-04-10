@@ -37,8 +37,8 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    persons: /programmation/oeuvres-produites/:slug/
-    authors: /programmation/oeuvres-produites/:slug/actualites/
+    persons: /programmation/oeuvres-produites-202154561/:slug/
+    authors: /programmation/oeuvres-produites-202154561/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
