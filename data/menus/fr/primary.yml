@@ -62,7 +62,7 @@ items:
     kind: blank
     children: []
   - title: Œuvres produites
-    target: "/fr/programmation/oeuvres-produites/"
+    target: "/fr/programmation/oeuvres-produites-202154561/"
     kind: page
     children: []
   - title: Artistes, autrices, auteurs, commissaires, etc.
