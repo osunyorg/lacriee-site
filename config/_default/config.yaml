@@ -38,3 +38,9 @@ params:
       email: false
       telegram: false
       whatsapp: false
+  image_sizes:
+    blocks:
+      persons:
+        mobile:   68
+        tablet:   277
+        desktop:  400

@@ -42,6 +42,9 @@
                 img
                     aspect-ratio: 1
 .block-agenda
+    .block-title
+        a::after
+            display: none
     .event 
         &-subtitle
             font-style: italic
@@ -235,6 +238,10 @@
                     width: columns(5)
 
 .block-agenda
+    &--grid
+        .event.event--with-image
+            .media
+                margin-bottom: $spacing-3
     &--large
         @include in-page-with-or-without-sidebar
             .event

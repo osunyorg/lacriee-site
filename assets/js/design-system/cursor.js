@@ -19,7 +19,6 @@ class Cursor {
         });
 
         containers.forEach((container) => {
-            console.log(container.nodeName)
             const links = container.querySelectorAll('a');
             if (links) {
                 links.forEach((element) => {

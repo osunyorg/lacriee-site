@@ -14,8 +14,18 @@
                             font-size: $h3-size-desktop
                 p
                     @include meta
+                    position: relative
+                    &::before
+                        @include icon-site(asterisk)
+                        font-size: pxToRem(24)
+                        position: absolute
+                        transform: translate(-100%, 10%)
                     @include media-breakpoint-down(desktop)
                         margin-top: $spacing-4
+                        width: fit-content
+                        &::before
+                            right: 0
+                            transform: translate(-75%, -10%)
         @include media-breakpoint-up(desktop)
             .hero-text
                 width: auto
@@ -28,8 +38,3 @@
                     p
                         width: columns(3)
                         text-align: right
-                        &::before
-                            @include icon-site(asterisk)
-                            font-size: pxToRem(24)
-                            position: absolute
-                            transform: translate(-100%, 10%)
