@@ -9,12 +9,12 @@ items:
     target: "/fr/centre-dart/soutenir-la-creation-artistique/"
     kind: page
     children: []
-  - title: Soutenir la recherche
-    target: "/fr/centre-dart/soutenir-la-recherche-1/"
-    kind: page
-    children: []
   - title: Transmettre
     target: "/fr/centre-dart/transmettre/"
+    kind: page
+    children: []
+  - title: Soutenir la recherche
+    target: "/fr/centre-dart/soutenir-la-recherche-1/"
     kind: page
     children: []
   - title: Coopérer
