@@ -81,6 +81,10 @@ items:
     target: "/en/art-mediation/early-childhood/"
     kind: page
     children: []
+  - title: Santé et handicap
+    target: "/en/art-mediation/health-and-disability/"
+    kind: page
+    children: []
 - title: Visit
   target: "/en/visit/"
   kind: page
