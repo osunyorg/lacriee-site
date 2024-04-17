@@ -1,22 +1,6 @@
 ---
 title: Main menu
 items:
-- title: Actualités
-  target: "/en/actualites/"
-  kind: page
-  children: []
-- title: Équipe
-  target: "/en/equipe/"
-  kind: page
-  children: []
-- title: Organisations
-  target: "/en/organisations/"
-  kind: page
-  children: []
-- title: Agenda
-  target: "/en/agenda/"
-  kind: page
-  children: []
 - title: Art Center
   target: "/en/art-center/"
   kind: page
@@ -49,16 +33,60 @@ items:
     target: "/en/art-center/equipe-1/"
     kind: page
     children: []
-- title: Programmation
-  target: "/en/programmation/"
+- title: All the Programme
+  target: "/en/all-the-programme/"
   kind: page
   children:
   - title: Cycles
-    target: "/en/programmation/cycles/"
+    target: "/en/all-the-programme/cycles/"
     kind: page
     children:
     - title: Festina Lente (Make haste slowly)
-      target: "/en/programmation/cycles/festina-lente-make-haste-slowly/"
+      target: "/en/all-the-programme/cycles/festina-lente-make-haste-slowly/"
       kind: page
       children: []
+  - title: Exhibitions
+    target: "/en/all-the-programme/exhibitions/"
+    kind: page
+    children: []
+  - title: Events
+    target: "/en/all-the-programme/events/"
+    kind: page
+    children: []
+  - title: Residencies
+    target: "/en/all-the-programme/residencies/"
+    kind: page
+    children: []
+  - title: Research projects and editions
+    target: "/en/all-the-programme/research-projects-and-editions/"
+    kind: page
+    children: []
+  - title: Games
+    target: "/en/all-the-programme/games/"
+    kind: page
+    children: []
+  - title: Artists, authors, curators, etc.
+    target: "/en/all-the-programme/artists-authors-curators-etc/"
+    kind: page
+    children: []
+  - title: Produced works
+    target: "/en/all-the-programme/produced-works/"
+    kind: page
+    children: []
+- title: Actualités
+  target: "/en/actualites/"
+  kind: page
+  children: []
+- title: Équipe
+  target: "/en/equipe/"
+  kind: page
+  children: []
+- title: Organisations
+  target: "/en/organisations/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/en/agenda/"
+  kind: page
+  children: []
 
