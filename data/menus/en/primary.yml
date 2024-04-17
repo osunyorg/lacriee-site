@@ -33,4 +33,24 @@ items:
     target: "/en/art-center/transmettre/"
     kind: page
     children: []
+  - title: Coopérer
+    target: "/en/art-center/cooperer/"
+    kind: page
+    children: []
+  - title: Histoire du lieu
+    target: "/en/art-center/histoire/"
+    kind: page
+    children: []
+  - title: Transition écologique
+    target: "/en/art-center/transition-ecologique/"
+    kind: page
+    children: []
+  - title: Équipe
+    target: "/en/art-center/equipe-1/"
+    kind: page
+    children: []
+- title: Programmation
+  target: "/en/programmation/"
+  kind: page
+  children: []
 
