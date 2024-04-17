@@ -52,5 +52,13 @@ items:
 - title: Programmation
   target: "/en/programmation/"
   kind: page
-  children: []
+  children:
+  - title: Cycles
+    target: "/en/programmation/cycles/"
+    kind: page
+    children:
+    - title: Festina Lente (Make haste slowly)
+      target: "/en/programmation/cycles/festina-lente-make-haste-slowly/"
+      kind: page
+      children: []
 
