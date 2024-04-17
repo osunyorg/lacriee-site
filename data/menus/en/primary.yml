@@ -73,22 +73,6 @@ items:
     target: "/en/all-the-programme/produced-works/"
     kind: page
     children: []
-- title: Actualités
-  target: "/en/actualites/"
-  kind: page
-  children: []
-- title: Équipe
-  target: "/en/equipe/"
-  kind: page
-  children: []
-- title: Organisations
-  target: "/en/organisations/"
-  kind: page
-  children: []
-- title: Agenda
-  target: "/en/agenda/"
-  kind: page
-  children: []
 - title: Art mediation
   target: "/en/art-mediation/"
   kind: page
@@ -105,8 +89,52 @@ items:
     target: "/en/ressources/the-last-three-seasons/"
     kind: page
     children: []
-  - title: Archives
-    target: "/en/ressources/archives-1/"
+  - title: Archive
+    target: "/en/ressources/archive/"
     kind: page
-    children: []
+    children:
+    - title: Expositions
+      target: "/en/ressources/archive/expositions-archives/"
+      kind: page
+      children: []
+    - title: Cycles passés
+      target: "/en/ressources/archive/cycles-passes/"
+      kind: page
+      children: []
+    - title: Artistes, autrices, auteurs, commissaires, etc.
+      target: "/en/ressources/archive/artistes-autrices-auteurs-commissaires-etc/"
+      kind: page
+      children: []
+    - title: Résidences
+      target: "/en/ressources/archive/residences-archives/"
+      kind: page
+      children: []
+    - title: Rendez-vous et évènements
+      target: "/en/ressources/archive/rendez-vous-et-evenements-archives/"
+      kind: page
+      children: []
+    - title: Oeuvres produites
+      target: "/en/ressources/archive/oeuvres-produites-archives/"
+      kind: page
+      children: []
+    - title: Projets de médiation
+      target: "/en/ressources/archive/projets-de-mediation-archives/"
+      kind: page
+      children: []
+    - title: Expositions hors-les-murs
+      target: "/en/ressources/archive/expositions-hors-les-murs-archives/"
+      kind: page
+      children: []
+    - title: Projets de recherche
+      target: "/en/ressources/archive/projets-de-recherche-archives/"
+      kind: page
+      children: []
+    - title: Jeux
+      target: "/en/ressources/archive/jeux-archives/"
+      kind: page
+      children: []
+    - title: Éditions
+      target: "/en/ressources/archive/editions-archives/"
+      kind: page
+      children: []
 
