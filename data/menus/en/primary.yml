@@ -30,7 +30,7 @@ items:
     kind: page
     children: []
   - title: Équipe
-    target: "/en/art-center/equipe-1/"
+    target: "/en/art-center/team/"
     kind: page
     children: []
 - title: All the Programme
