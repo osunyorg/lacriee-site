@@ -105,4 +105,8 @@ items:
     target: "/en/ressources/saisons-passees/"
     kind: page
     children: []
+  - title: Archives
+    target: "/en/ressources/archives/"
+    kind: page
+    children: []
 
