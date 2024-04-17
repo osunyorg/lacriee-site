@@ -29,4 +29,8 @@ items:
     target: "/en/art-center/soutenir-la-recherche-1/"
     kind: page
     children: []
+  - title: Transmettre
+    target: "/en/art-center/transmettre/"
+    kind: page
+    children: []
 
