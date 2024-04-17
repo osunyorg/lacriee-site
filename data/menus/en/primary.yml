@@ -22,7 +22,7 @@ items:
     kind: page
     children: []
   - title: Histoire du lieu
-    target: "/en/art-center/histoire/"
+    target: "/en/art-center/history-of-the-site/"
     kind: page
     children: []
   - title: Transition écologique
