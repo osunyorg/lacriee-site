@@ -6,7 +6,7 @@ items:
   kind: page
   children:
   - title: Soutenir la création artistique
-    target: "/en/art-center/soutenir-la-creation-artistique/"
+    target: "/en/art-center/supporting-artistic-creation/"
     kind: page
     children: []
   - title: Soutenir la recherche
@@ -81,8 +81,24 @@ items:
     target: "/en/art-mediation/early-childhood/"
     kind: page
     children: []
+  - title: Scolaires
+    target: "/en/art-mediation/scolaires/"
+    kind: page
+    children: []
+  - title: Péri-scolaires et centre de loisirs
+    target: "/en/art-mediation/periscolaires-et-centre-de-loisirs/"
+    kind: page
+    children: []
+  - title: Champ social
+    target: "/en/art-mediation/champ-social/"
+    kind: page
+    children: []
   - title: Santé et handicap
     target: "/en/art-mediation/health-and-disability/"
+    kind: page
+    children: []
+  - title: Formation et enseignement supérieur
+    target: "/en/art-mediation/formation-et-enseignement-superieur/"
     kind: page
     children: []
 - title: Visit
