@@ -8,6 +8,10 @@ en:
   languageName: English
   params:
     social:
+      instagram: >-
+        https://www.instagram.com/la_criee_centre_d_art/
+      facebook: >-
+        https://www.facebook.com/la.criee.art.contemporain
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
@@ -33,6 +37,10 @@ fr:
   languageName: Français
   params:
     social:
+      instagram: >-
+        https://www.instagram.com/la_criee_centre_d_art/
+      facebook: >-
+        https://www.facebook.com/la.criee.art.contemporain
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
