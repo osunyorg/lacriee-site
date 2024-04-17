@@ -17,19 +17,19 @@ items:
     target: "/en/art-center/transmit/"
     kind: page
     children: []
-  - title: Coopérer
+  - title: Cooperate
     target: "/en/art-center/cooperate/"
     kind: page
     children: []
-  - title: Histoire du lieu
+  - title: Histoiry
     target: "/en/art-center/history-of-the-site/"
     kind: page
     children: []
-  - title: Transition écologique
+  - title: Ecological transition
     target: "/en/art-center/ecological-transition/"
     kind: page
     children: []
-  - title: Équipe
+  - title: Team
     target: "/en/art-center/team/"
     kind: page
     children: []
@@ -77,7 +77,7 @@ items:
     target: "/en/art-mediation/presentation/"
     kind: page
     children: []
-  - title: Petite enfance
+  - title: Early childwood
     target: "/en/art-mediation/early-childhood/"
     kind: page
     children: []
