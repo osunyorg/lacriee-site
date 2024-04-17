@@ -101,12 +101,12 @@ items:
   target: "/en/ressources/"
   kind: page
   children:
-  - title: Les trois dernières saisons
-    target: "/en/ressources/saisons-passees/"
+  - title: The last three seasons
+    target: "/en/ressources/the-last-three-seasons/"
     kind: page
     children: []
   - title: Archives
-    target: "/en/ressources/archives/"
+    target: "/en/ressources/archives-1/"
     kind: page
     children: []
 
