@@ -5,11 +5,11 @@ items:
   target: "/en/art-center/"
   kind: page
   children:
-  - title: Soutenir la création artistique
+  - title: Supporting artistic creation
     target: "/en/art-center/supporting-artistic-creation/"
     kind: page
     children: []
-  - title: Soutenir la recherche
+  - title: Supporting research
     target: "/en/art-center/supporting-research/"
     kind: page
     children: []
