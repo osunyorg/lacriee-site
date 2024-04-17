@@ -10,7 +10,7 @@ items:
     kind: page
     children: []
   - title: Soutenir la recherche
-    target: "/en/art-center/soutenir-la-recherche-1/"
+    target: "/en/art-center/supporting-research/"
     kind: page
     children: []
   - title: Transmettre
