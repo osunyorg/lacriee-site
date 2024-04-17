@@ -37,12 +37,12 @@ items:
   target: "/en/all-the-programme/"
   kind: page
   children:
-  - title: Cycles
-    target: "/en/all-the-programme/cycles/"
+  - title: Current Cycle
+    target: "/en/all-the-programme/current-cycle/"
     kind: page
     children:
     - title: Festina Lente (Make haste slowly)
-      target: "/en/all-the-programme/cycles/festina-lente-make-haste-slowly/"
+      target: "/en/all-the-programme/current-cycle/festina-lente-make-haste-slowly/"
       kind: page
       children: []
   - title: Exhibitions
@@ -89,8 +89,20 @@ items:
   target: "/en/agenda/"
   kind: page
   children: []
+- title: Art mediation
+  target: "/en/art-mediation/"
+  kind: page
+  children: []
 - title: Visit
   target: "/en/visit/"
   kind: page
   children: []
+- title: Ressources
+  target: "/en/ressources/"
+  kind: page
+  children:
+  - title: Les trois dernières saisons
+    target: "/en/ressources/saisons-passees/"
+    kind: page
+    children: []
 
