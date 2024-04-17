@@ -17,4 +17,16 @@ items:
   target: "/en/agenda/"
   kind: page
   children: []
+- title: Art Center
+  target: "/en/art-center/"
+  kind: page
+  children:
+  - title: Soutenir la création artistique
+    target: "/en/art-center/soutenir-la-creation-artistique/"
+    kind: page
+    children: []
+  - title: Soutenir la recherche
+    target: "/en/art-center/soutenir-la-recherche-1/"
+    kind: page
+    children: []
 
