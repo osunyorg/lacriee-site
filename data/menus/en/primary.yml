@@ -72,7 +72,15 @@ items:
 - title: Art mediation
   target: "/en/art-mediation/"
   kind: page
-  children: []
+  children:
+  - title: Présentation
+    target: "/en/art-mediation/presentation/"
+    kind: page
+    children: []
+  - title: Petite enfance
+    target: "/en/art-mediation/early-childhood/"
+    kind: page
+    children: []
 - title: Visit
   target: "/en/visit/"
   kind: page

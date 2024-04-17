@@ -26,6 +26,10 @@ translation_key: communication-website-page-ae64eebe-d1fb-4d71-8534-d826d6cb590d
 bodyclass: >-
   
 
+children:
+  - "pages/art-mediation/presentation/_index.html"
+  - "pages/art-mediation/early-childhood/_index.html"
+  - "pages/art-mediation/contact-mediation/_index.html"
 meta_description: >
   
 description: >
@@ -51,12 +55,21 @@ contents:
       
     ranks:
       self: false
+      children: 2
     data:
       show_main_description: false
       show_descriptions: false
       show_images: true
       layout: grid
       pages:
+        - path: "/en/art-mediation/presentation/"
+          slug: "presentation"
+          file: "pages/art-mediation/presentation/_index.html"
+          external: false
+        - path: "/en/art-mediation/early-childhood/"
+          slug: "early-childhood"
+          file: "pages/art-mediation/early-childhood/_index.html"
+          external: false
 
 
   - kind: block
