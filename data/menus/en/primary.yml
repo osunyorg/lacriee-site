@@ -21,7 +21,7 @@ items:
     target: "/en/art-center/cooperate/"
     kind: page
     children: []
-  - title: Histoiry
+  - title: History
     target: "/en/art-center/history-of-the-site/"
     kind: page
     children: []
