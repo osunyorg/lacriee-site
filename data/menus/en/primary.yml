@@ -9,12 +9,12 @@ items:
     target: "/en/art-center/supporting-artistic-creation/"
     kind: page
     children: []
-  - title: Supporting research
-    target: "/en/art-center/supporting-research/"
-    kind: page
-    children: []
   - title: Transmit
     target: "/en/art-center/transmit/"
+    kind: page
+    children: []
+  - title: Supporting research
+    target: "/en/art-center/supporting-research/"
     kind: page
     children: []
   - title: Cooperate
