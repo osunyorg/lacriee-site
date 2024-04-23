@@ -54,7 +54,7 @@ header_cta:
   label: 
   target: 
 contents_reading_time:
-  seconds: 720
+  seconds: 709
   text: >-
     12 minutes
 contents:
@@ -588,44 +588,22 @@ contents:
 
 
   - kind: block
-    template: chapter
-    title: >-
-      Le cycle
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p>Cette saison s'inscrit dans le cadre du cycle « Lili, la rozell et le marimba : vernaculaire et création contemporaine » qui associait les artistes et commissaires d'exposition Lotte Arndt, Jean-Roch Bouiller, Baptiste Brun, John Cornu, Katia Kameli et Émilie Renard.</p>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
-  - kind: block
     template: pages
     title: >-
-      Cycles passés
+      
     ranks:
-      self: 3
+      self: false
+      children: 3
     data:
-      page: 
-        path: "/fr/ressources/archives/cycles-passes/"
-        slug: "cycles-passes"
-        file: "pages/ressources/archives/cycles-passes/_index.html"
       show_main_description: false
       show_descriptions: false
-      show_images: true
+      show_images: false
       layout: list
       pages:
+        - path: "/fr/ressources/archives/cycles-passes/"
+          slug: "cycles-passes"
+          file: "pages/ressources/archives/cycles-passes/_index.html"
+          external: false
 
 
   - kind: block
@@ -636,10 +614,10 @@ contents:
       self: false
       children: 3
     data:
-      show_main_description: true
+      show_main_description: false
       show_descriptions: false
-      show_images: true
-      layout: list
+      show_images: false
+      layout: alternate
       pages:
         - path: "/fr/ressources/archives/cycles-passes/"
           slug: "cycles-passes"
