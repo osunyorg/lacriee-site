@@ -1,22 +1,30 @@
 ---
 title: >-
-  Projets
+  Œuvres produites
 breadcrumb_title: >-
-  Projets
-url: "/fr/projets/"
-slug: "projets"
+  Œuvres produites
+url: "/fr/ressources/archives/oeuvres-produites/"
+slug: "oeuvres-produites"
+aliases:
+  - /fr/projets/
 hugo:
-  permalink: "/fr/projets/"
+  permalink: "/fr/ressources/archives/oeuvres-produites/"
   file: "content/fr/projects/_index.html"
-  path: "/fr/projets/"
-  slug: "projets"
+  path: "/fr/ressources/archives/oeuvres-produites/"
+  slug: "oeuvres-produites"
 
 breadcrumbs:
   - title: >-
       La Criée
     path: "/fr/"
   - title: >-
-      Projets
+      Ressources
+    path: "/fr/ressources/"
+  - title: >-
+      Archives
+    path: "/fr/ressources/archives/"
+  - title: >-
+      Œuvres produites
 
 full_width: true
 design:
@@ -51,5 +59,24 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      mode: all
+      layout: grid
+      projects:
+        - slug: "apocalypse-2023"
+          file: "projects/2023-apocalypse-2023.html"
+        - slug: "cercle-de-cues-5-2023"
+          file: "projects/2023-cercle-de-cues-5-2023.html"
+        - slug: "cyclone-2023"
+          file: "projects/2023-cyclone-2023.html"
+
+
 
 ---

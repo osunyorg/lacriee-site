@@ -50,8 +50,8 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
+    projects: /ressources/archives/oeuvres-produites/:year-:slug/
+    projects_categories: /ressources/archives/oeuvres-produites/:slug/
     persons: /auteurices-du-site/:slug/
     persons_categories: /auteurices-du-site/:slug/
     authors: /auteurices-du-site/:slug/actualites/
