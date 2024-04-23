@@ -1,4 +1,16 @@
 ---
 title: Legal
-items: []
+items:
+- title: Legal terms
+  target: "/en/legal-terms/"
+  kind: page
+  children: []
+- title: Sitemap
+  target: "/en/sitemap/"
+  kind: page
+  children: []
+- title: Accessibility
+  target: "/en/accessibility/"
+  kind: page
+  children: []
 
