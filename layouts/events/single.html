@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ partial "events/hero-single.html" . }}
+
+  <div class="document-content" itemscope itemtype="https://schema.org/Event">
+    <meta itemprop="name" content="{{ partial "PrepareHTML" .Title }}">
+    <meta itemprop="url" content="{{ .Permalink }}">
+    {{ with .Params.summary }}<meta itemprop="description" content="{{ . | safeHTML }}">{{ end }}
+
+    {{ partial "events/sidebar.html" . }}
+
+    {{ partial "events/summary.html" (dict
+        "context" .
+        "block_wrapped" true
+      ) }}
+
+    {{ partial "contents/list.html" . }}
+
+    {{ partial "hooks/before-document-content-end.html" . }}
+  </div>
+{{ end }}
