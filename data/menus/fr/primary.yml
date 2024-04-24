@@ -38,7 +38,7 @@ items:
   kind: page
   children:
   - title: Cycle thématique
-    target: "/fr/programmation/cycles/festina-lente-hate-toi-lentement/"
+    target: "/fr/programmation/festina-lente-hate-toi-lentement/"
     kind: page
     children: []
   - title: Expositions
