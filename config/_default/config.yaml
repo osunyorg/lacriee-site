@@ -44,3 +44,6 @@ params:
         mobile:   68
         tablet:   277
         desktop:  400
+  projects:
+    index:
+      show_year: true
