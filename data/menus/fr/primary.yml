@@ -146,7 +146,7 @@ items:
     kind: page
     children: []
   - title: Archives
-    target: "/fr/ressources/archives/"
+    target: "/fr/ressources/archives-bon-contenu-mais-mauvaise-utilisation/"
     kind: page
     children: []
 
