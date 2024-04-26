@@ -14,7 +14,7 @@ items:
     kind: page
     children: []
   - title: Soutenir la recherche
-    target: "/fr/centre-dart/soutenir-la-recherche-1/"
+    target: "/fr/centre-dart/soutenir-la-recherche/"
     kind: page
     children: []
   - title: Coopérer
