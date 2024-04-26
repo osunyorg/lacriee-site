@@ -89,13 +89,15 @@
             .media 
                 filter: grayscale(1)
                 mix-blend-mode: multiply
-                @include media-breakpoint-up(md)
-                    margin: 0
-                    width: columns(3) // TODO : check ici
             &:hover .media
                 filter: grayscale(0)
             @include media-breakpoint-up(md)
                 flex-direction: row
                 gap: var(--grid-gutter)
+                .media
+                    margin: 0
+                    width: calc(#{columns(3)} - #{$spacing-3})
+                .page-title
+                    flex: 1
     .lead 
         font-family: $lead-font-family
