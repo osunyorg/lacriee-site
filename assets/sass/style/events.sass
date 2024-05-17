@@ -42,6 +42,11 @@
                     font-style: italic
             .event-dates
                 text-align: right
+                .event-time
+                    justify-content: flex-end
+                    @include media-breakpoint-down(sm)
+                        &::before
+                            display: none
         @include media-breakpoint-up(desktop)
             .hero-text 
                 display: flex
