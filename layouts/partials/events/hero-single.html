@@ -26,18 +26,18 @@
     {{- end -}}
     <div class="content">
       <div class="hero-text">
-        {{- if or $subtitle $description -}}
+        {{- if or .Params.title $description -}}
           <hgroup>
-            <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
-            {{- if $subtitle -}}
-              <p {{ if $subtitle_is_summary -}} class="lead" {{- end -}}>{{ partial "PrepareHTML" $subtitle }}</p>
+            <h1>{{ partial "PrepareHTML" $subtitle }}</h1>
+            {{- if .Params.title -}}
+              <p>{{ partial "PrepareHTML" .Params.title }}</p>
             {{- end -}}
             {{- if $description -}}
               <p class="h1">{{ partial "PrepareHTML" .Params.description }}</p>
             {{- end -}}
           </hgroup>
         {{- else -}}
-          <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
+          <h1>{{ partial "PrepareHTML" $subtitle }}</h1>
         {{- end -}}
   
         {{ if (or .Params.dates.computed.two_lines.short .Params.dates.from.hour .Params.dates.to.hour) }}
