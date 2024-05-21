@@ -80,7 +80,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -110,25 +110,25 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
-    template: pages
+    template: projects
     title: >-
       
     ranks:
       self: false
       children: 3
     data:
-      show_main_description: true
-      show_descriptions: false
-      show_images: true
-      layout: grid
-      pages:
-        - path: "/fr/programmation/oeuvres-produites/cecile-guettier-manoela-prates-et-mathilde-monnet-joli-mauvais-reve-oeuvres-produites/"
-          slug: "cecile-guettier-manoela-prates-et-mathilde-monnet-joli-mauvais-reve-oeuvres-produites"
-          file: "pages/programmation/oeuvres-produites/cecile-guettier-manoela-prates-et-mathilde-monnet-joli-mauvais-reve-oeuvres-produites/_index.html"
-          external: false
+      mode: selection
+      layout: list
+      projects:
+        - slug: "nao-fui-eu"
+          file: "projects/2020-nao-fui-eu.html"
+        - slug: "sans-titre-eclipse"
+          file: "projects/2020-sans-titre-eclipse.html"
+        - slug: "clothilde"
+          file: "projects/2020-clothilde.html"
 
 
 
@@ -136,7 +136,7 @@ contents:
     title: >-
       Pour aller plus loin
     slug: "pour-aller-plus-loin"
-    position: 3
+    position: 2
     rank: 2
   - kind: block
     template: pages
