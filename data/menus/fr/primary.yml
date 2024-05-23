@@ -57,10 +57,6 @@ items:
     target: "/fr/programmation/editions-et-recherche/"
     kind: page
     children: []
-  - title: Projets de médiation
-    target: ''
-    kind: blank
-    children: []
   - title: Œuvres produites
     target: "/fr/programmation/oeuvres-produites/"
     kind: page
