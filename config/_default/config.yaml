@@ -52,3 +52,5 @@ params:
       gallery:
         grid:
           desktop:  555
+      persons:
+        desktop:  400
