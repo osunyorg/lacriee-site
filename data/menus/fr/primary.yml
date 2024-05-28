@@ -138,11 +138,11 @@ items:
     kind: page
     children: []
   - title: Les trois dernières saisons
-    target: "/fr/ressources/saisons-passees/"
+    target: "/fr/ressources/les-trois-dernieres-saisons/"
     kind: page
     children: []
   - title: Archives
-    target: "/fr/ressources/archives-1/"
+    target: "/fr/ressources/archives-de-la-criee/"
     kind: page
     children: []
 
