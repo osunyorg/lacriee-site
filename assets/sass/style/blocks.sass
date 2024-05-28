@@ -332,3 +332,14 @@
                 padding: 0
                 a
                     @include h4
+
+.block-gallery
+    &--grid
+        .gallery
+            figure
+                @include in-page-with-sidebar
+                    @supports not (gap: 0)
+                        &:nth-child(even)
+                            margin-left: var(--grid-gutter)
+                        + figure:not(:nth-child(2))
+                            margin-top: var(--grid-gutter)
