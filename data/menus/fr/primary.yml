@@ -106,8 +106,8 @@ items:
   kind: page
   children:
   - title: Entrée libre et gratuite
-    target: ''
-    kind: blank
+    target: "/fr/informations-pratiques/entree-libre-et-gratuite/"
+    kind: page
     children: []
   - title: Horaires
     target: "/fr/informations-pratiques/horaires/"
@@ -122,7 +122,7 @@ items:
     kind: page
     children: []
   - title: 'Accessibilité '
-    target: "/fr/accessibilite/"
+    target: "/fr/informations-pratiques/accessibilite-a-la-criee/"
     kind: page
     children: []
 - title: Ressources
@@ -138,11 +138,11 @@ items:
     kind: page
     children: []
   - title: Les trois dernières saisons
-    target: "/fr/ressources/saisons-passees/"
+    target: "/fr/ressources/les-trois-dernieres-saisons/"
     kind: page
     children: []
   - title: Archives
-    target: "/fr/ressources/archives-1/"
+    target: "/fr/ressources/archives-de-la-criee/"
     kind: page
     children: []
 
