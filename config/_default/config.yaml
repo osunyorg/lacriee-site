@@ -54,3 +54,7 @@ params:
           desktop:  555
       persons:
         desktop:  400
+    sections:
+      events:
+        item:
+          desktop:  864
