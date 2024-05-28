@@ -299,31 +299,3 @@
         &::after
             @include icon-site(arrow-right)
             font-size: pxToRem(34)
-
-.block-links
-    .links
-        li
-            .link-content
-                padding: 0
-                a
-                    @include h3
-                a::after
-                    display: none
-            .media
-                margin-bottom: $spacing-3
-                aspect-ratio: 1
-                img
-                    height: 100%
-    @include in-page-without-sidebar
-        .top
-            display: block
-            .block-title
-                width: 100%
-            .description
-                margin-top: $spacing-3
-        .links
-            @include grid(4)
-            .link-content
-                padding: 0
-                a
-                    @include h4
