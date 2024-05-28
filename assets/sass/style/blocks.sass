@@ -46,8 +46,11 @@
         a::after
             display: none
     .event 
-        &-subtitle
+        &-title
             font-style: italic
+        &-subtitle
+            font-style: normal
+            color: $color-text
         &-time
             span + span::before
                 @include icon-site(arrow-right)
