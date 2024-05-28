@@ -2,8 +2,18 @@ footer#document-footer
     .footer-logo
         display: flex
         gap: var(--grid-gutter)
-        a::after
-            display: none
+        flex-wrap: wrap
+        a
+            height: fit-content
+            &::after
+                display: none
+        p
+            width: 100%
+        @include media-breakpoint-up(desktop)
+            row-gap: 0
+            p
+                height: 100%
+                margin-top: $spacing-4
     .footer-site
         > .container
             padding: 0
