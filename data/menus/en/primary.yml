@@ -57,14 +57,6 @@ items:
     target: "/en/all-the-programme/research-projects-and-editions/"
     kind: page
     children: []
-  - title: Games
-    target: "/en/all-the-programme/games/"
-    kind: page
-    children: []
-  - title: Artists, authors, curators, etc.
-    target: "/en/all-the-programme/artists-authors-curators-etc/"
-    kind: page
-    children: []
   - title: Produced works
     target: "/en/all-the-programme/produced-works/"
     kind: page

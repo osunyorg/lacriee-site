@@ -38,7 +38,7 @@ items:
   kind: page
   children:
   - title: Cycle thématique
-    target: "/fr/programmation/festina-lente-hate-toi-lentement/"
+    target: "/fr/programmation/cycle-thematique-festina-lente-hate-toi-lentement/"
     kind: page
     children: []
   - title: Expositions
@@ -56,10 +56,6 @@ items:
   - title: Éditions et recherche
     target: "/fr/programmation/editions-et-recherche/"
     kind: page
-    children: []
-  - title: Projets de médiation
-    target: ''
-    kind: blank
     children: []
   - title: Œuvres produites
     target: "/fr/programmation/oeuvres-produites/"
@@ -110,8 +106,8 @@ items:
   kind: page
   children:
   - title: Entrée libre et gratuite
-    target: ''
-    kind: blank
+    target: "/fr/informations-pratiques/entree-libre-et-gratuite/"
+    kind: page
     children: []
   - title: Horaires
     target: "/fr/informations-pratiques/horaires/"
@@ -126,7 +122,7 @@ items:
     kind: page
     children: []
   - title: 'Accessibilité '
-    target: "/fr/accessibilite/"
+    target: "/fr/informations-pratiques/accessibilite-a-la-criee/"
     kind: page
     children: []
 - title: Ressources
@@ -142,11 +138,11 @@ items:
     kind: page
     children: []
   - title: Les trois dernières saisons
-    target: "/fr/ressources/saisons-passees/"
+    target: "/fr/ressources/les-trois-dernieres-saisons/"
     kind: page
     children: []
   - title: Archives
-    target: "/fr/ressources/archives-bon-contenu-mais-mauvaise-utilisation/"
+    target: "/fr/ressources/archives-de-la-criee/"
     kind: page
     children: []
 

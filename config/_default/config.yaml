@@ -47,3 +47,10 @@ params:
   projects:
     index:
       show_year: true
+  image_sizes:
+    blocks:
+      gallery:
+        grid:
+          desktop:  555
+      persons:
+        desktop:  400
