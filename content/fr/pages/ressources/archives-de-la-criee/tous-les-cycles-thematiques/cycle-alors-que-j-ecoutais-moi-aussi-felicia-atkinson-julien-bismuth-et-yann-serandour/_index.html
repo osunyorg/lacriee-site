@@ -143,7 +143,7 @@ contents:
     title: >-
       Résidences
     slug: "residences-1-1"
-    position: 3
+    position: 2
     rank: 2
   - kind: block
     template: agenda
@@ -177,7 +177,36 @@ contents:
     title: >-
       Projets de recherche
     slug: "recherche-1-1"
-    position: 6
+    position: 3
+    rank: 2
+
+  - kind: heading
+    title: >-
+      Éditions
+    slug: "editions-1-1"
+    position: 4
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: grid
+      projects:
+        - slug: "catalogue-en-parlant-en-ecoutant"
+          file: "projects/2019-catalogue-en-parlant-en-ecoutant.html"
+
+
+
+  - kind: heading
+    title: >-
+      Projets de médiation
+    slug: "projets-de-mediation"
+    position: 5
     rank: 2
   - kind: block
     template: agenda
@@ -207,51 +236,51 @@ contents:
 
   - kind: heading
     title: >-
-      Éditions
-    slug: "editions-1-1"
-    position: 7
+      Œuvres produites
+    slug: "oeuvres-produites-1-1"
+    position: 6
     rank: 2
   - kind: block
     template: projects
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      mode: selection
+      layout: grid
+      projects:
+
+
+  - kind: block
+    template: agenda
     title: >-
       
     ranks:
       self: false
       children: 3
     data:
-      mode: selection
+      mode: all
       layout: grid
-      projects:
-        - slug: "catalogue-en-parlant-en-ecoutant"
-          file: "projects/2019-catalogue-en-parlant-en-ecoutant.html"
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      show_summary: false
+      show_category: false
+      show_status: false
+      title_link: "/fr/agenda/"
+      events:
+        - path: "/fr/agenda/2023-07-01-fantaisies/"
+          file: "events/2023-07-01-fantaisies.html"
+        - path: "/fr/agenda/2023-09-01-latelier-vivant/"
+          file: "events/2023-09-01-latelier-vivant.html"
+        - path: "/fr/agenda/2023-10-01-peux-tu-imaginer-l-endroit-dans-lequel-je-vis-et-ou-pousse-la-foret/"
+          file: "events/2023-10-01-peux-tu-imaginer-l-endroit-dans-lequel-je-vis-et-ou-pousse-la-foret.html"
 
 
-
-  - kind: heading
-    title: >-
-      Œuvres produites
-    slug: "oeuvres-produites-1-1"
-    position: 8
-    rank: 2
-  - kind: block
-    template: projects
-    title: >-
-      
-    ranks:
-      self: false
-    data:
-      mode: selection
-      layout: grid
-      projects:
-
-
-
-  - kind: heading
-    title: >-
-      Projets de médiation
-    slug: "projets-de-mediation"
-    position: 9
-    rank: 2
 
 
 ---
