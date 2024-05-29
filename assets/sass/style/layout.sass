@@ -33,6 +33,11 @@ html.has-menu-opened body::after
                 margin-top: 0
     @include media-breakpoint-up(xxl)
         min-height: auto
+    .projects__page &,
+    .events__page &
+        hgroup
+            display: flex
+            flex-direction: column-reverse
 
 .breadcrumb-nav *
     font-size: pxToRem(14)
