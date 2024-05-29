@@ -80,7 +80,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -110,7 +110,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -239,14 +239,43 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 3
+    position: 2
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "rochers"
+          file: "projects/2019-rochers.html"
+        - slug: "echiquier-othello"
+          file: "projects/2019-echiquier-othello.html"
+        - slug: "adam"
+          file: "projects/2019-adam.html"
+        - slug: "la-reine"
+          file: "projects/2019-la-reine.html"
+        - slug: "l-enfant"
+          file: "projects/2019-l-enfant.html"
+        - slug: "olifant"
+          file: "projects/2019-olifant.html"
+        - slug: "cabanes-jumelles"
+          file: "projects/2019-cabanes-jumelles.html"
+        - slug: "cabane-perchee"
+          file: "projects/2019-cabane-perchee.html"
+
+
 
   - kind: heading
     title: >-
       Artiste et commissaire de l’exposition
     slug: "artiste-et-commissaire-de-l-exposition"
-    position: 4
+    position: 3
     rank: 2
   - kind: block
     template: persons
@@ -277,7 +306,7 @@ contents:
     title: >-
       Pour aller plus loin
     slug: "pour-aller-plus-loin"
-    position: 5
+    position: 4
     rank: 2
   - kind: block
     template: pages
@@ -296,35 +325,6 @@ contents:
           slug: "cycle-lili-la-rozell-et-le-marimba-vernaculaire-et-creation-contemporaine"
           file: "pages/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-lili-la-rozell-et-le-marimba-vernaculaire-et-creation-contemporaine/_index.html"
           external: false
-
-
-  - kind: block
-    template: projects
-    title: >-
-      
-    ranks:
-      self: false
-      children: 3
-    data:
-      mode: selection
-      layout: list
-      projects:
-        - slug: "rochers"
-          file: "projects/2019-rochers.html"
-        - slug: "echiquier-othello"
-          file: "projects/2019-echiquier-othello.html"
-        - slug: "adam"
-          file: "projects/2019-adam.html"
-        - slug: "la-reine"
-          file: "projects/2019-la-reine.html"
-        - slug: "l-enfant"
-          file: "projects/2019-l-enfant.html"
-        - slug: "olifant"
-          file: "projects/2019-olifant.html"
-        - slug: "cabanes-jumelles"
-          file: "projects/2019-cabanes-jumelles.html"
-        - slug: "cabane-perchee"
-          file: "projects/2019-cabane-perchee.html"
 
 
 
