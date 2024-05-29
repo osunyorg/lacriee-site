@@ -4,8 +4,10 @@ commons:
   credit: Site éco-conçu avec <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
   footer:
     text: >-
-      La Criée est un équipement de la ville de Rennes.<br>
-      Elle est labellisée centre d'art contemporain d'intérêt national.
+      La Criée centre d'art contemporain est un équipement de la ville de Rennes.<br>
+      Elle est labellisée Centre d'art contemporain d'intérêt national.
+
+
 persons:
   backlinks:
     projects: Productions mentionnant
