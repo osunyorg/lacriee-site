@@ -59,6 +59,11 @@
         font-weight: bold
         text-transform: none
         gap: $spacing-4
+    &--grid
+        @include media-breakpoint-up(desktop)
+            .event-dates
+                .event-time
+                    justify-content: flex-end
     &--large
         .event
             .event-title, .event-subtitle
