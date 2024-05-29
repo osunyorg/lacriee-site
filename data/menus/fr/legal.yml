@@ -5,10 +5,6 @@ items:
   target: "/fr/mentions-legales/"
   kind: page
   children: []
-- title: Politique de confidentialité
-  target: "/fr/politique-de-confidentialite/"
-  kind: page
-  children: []
 - title: Accessibilité
   target: "/fr/accessibilite/"
   kind: page
