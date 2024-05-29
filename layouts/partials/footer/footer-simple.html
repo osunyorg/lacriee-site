@@ -1,31 +1,32 @@
 <div class="container">
-    <div class="footer-logo">
-      <a class="logo" href="https://www.culture.gouv.fr/" target="_blank"><img src="/assets/images/footer/ministere-culture.svg" alt="Ministère de la culture" height="60" width="60" loading="lazy"></a>
-      <a class="logo" href="https://www.bretagne.bzh/" target="_blank"><img src="/assets/images/footer/region-bretagne.svg" alt="Région Bretagne" height="60" width="60" loading="lazy"></a>
-      <a class="logo" href="https://www.ille-et-vilaine.fr/" target="_blank"><img src="/assets/images/footer/ille-et-vilaine.svg" alt="Département Ille-et-Vilaine" height="60" width="60" loading="lazy"></a>
-      <a class="logo" href="https://metropole.rennes.fr/" target="_blank"><img src="/assets/images/footer/rennes-ville.svg" alt="Rennes ville" height="57" width="275" loading="lazy"></a>
-      <p class="meta">{{ safeHTML (i18n "commons.footer.text") }}</p>
+  <div class="footer-logo">
+    <a class="logo" href="https://www.culture.gouv.fr/" target="_blank"><img src="/assets/images/footer/ministere-culture.svg" alt="Ministère de la culture" height="60" width="60" loading="lazy"></a>
+    <a class="logo" href="https://www.bretagne.bzh/" target="_blank"><img src="/assets/images/footer/region-bretagne.svg" alt="Région Bretagne" height="60" width="60" loading="lazy"></a>
+    <a class="logo" href="https://www.ille-et-vilaine.fr/" target="_blank"><img src="/assets/images/footer/ille-et-vilaine.svg" alt="Département Ille-et-Vilaine" height="60" width="60" loading="lazy"></a>
+    <a class="logo" href="https://metropole.rennes.fr/" target="_blank"><img src="/assets/images/footer/rennes-ville.svg" alt="Rennes ville" height="57" width="275" loading="lazy"></a>
+  </div>
+  <div class="footer-social">
+    {{ partial "footer/social.html" }}
+  </div>
+</div>
+<div class="container footer-nav">
+  <p class="meta">{{ safeHTML (i18n "commons.footer.text") }}</p>
+  <div class="footer-site">
+    <div class="footer-legals">
+      {{ partial "footer/legals.html" }}
     </div>
-    <div class="footer-site">
-      <div class="footer-social">
-        {{ partial "footer/social.html" }}
-      </div>
-      <div class="footer-legals">
-        {{ partial "footer/legals.html" }}
-      </div>
-      {{ partial "footer/i18n.html" . }}
+    {{ partial "footer/i18n.html" . }}
+  </div>
+</div>
+{{ if and (site.Params.search.active) (eq site.Params.search.position "footer")}}
+  <div class="container footer-search">
+    <div>
+      {{ partial "header/search.html"
+        (dict
+        "position" "footer"
+        "context" .
+        )
+      }}
     </div>
   </div>
-  {{ if and (site.Params.search.active) (eq site.Params.search.position "footer")}}
-    <div class="container footer-search">
-      <div>
-        {{ partial "header/search.html"
-          (dict
-          "position" "footer"
-          "context" .
-          )
-        }}
-      </div>
-    </div>
-  {{ end }}
-  
+{{ end }}

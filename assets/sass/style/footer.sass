@@ -14,17 +14,27 @@ footer#document-footer
             p
                 height: 100%
                 margin-top: $spacing-4
-    .footer-site
-        > .container
-            padding: 0
-            margin: 0
-            margin-top: $spacing-1
-            justify-content: flex-end
-            .dropdown-languages
-                text-align: left
-        .footer-legals
-            + .container
-                margin-top: $spacing-2
+    .footer-social
+        .nav-social + .site-links
+            margin-top: 0
+            li
+                &::after
+                    line-height: inherit
+    .container + .footer-nav
+        align-items: flex-start
+        padding-top: 0
+    .footer-nav
+        .footer-site
+            > .container
+                padding: 0
+                margin: 0
+                margin-top: $spacing-1
+                justify-content: flex-end
+                .dropdown-languages
+                    text-align: left
+            .footer-legals
+                + .container
+                    margin-top: $spacing-2
     .footer-search 
         > div
             border-top: 1px solid $color-border
@@ -47,6 +57,8 @@ footer#document-footer
             .pagefind-ui__form::after
                 @include icon-site(search)
                 font-size: pxToRem(18)
+        @include media-breakpoint-up(desktop)
+            padding-top: $spacing-5 !important
     .footer-i18n
         button:focus-visible
             outline-offset: 0px
