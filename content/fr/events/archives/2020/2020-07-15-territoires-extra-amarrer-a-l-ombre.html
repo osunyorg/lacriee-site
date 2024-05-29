@@ -235,9 +235,16 @@ contents:
 
   - kind: heading
     title: >-
+      Œuvres produites
+    slug: "oeuvres-produites"
+    position: 2
+    rank: 2
+
+  - kind: heading
+    title: >-
       Pour aller plus loin
     slug: "pour-aller-plus-loin"
-    position: 2
+    position: 3
     rank: 2
   - kind: block
     template: pages
@@ -258,13 +265,25 @@ contents:
           external: false
 
 
-
-  - kind: heading
+  - kind: block
+    template: projects
     title: >-
-      Œuvres produites
-    slug: "oeuvres-produites"
-    position: 3
-    rank: 2
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: all
+      layout: grid
+      projects:
+        - slug: "actes-de-la-journee-d-etudes-du-8-decembre-2022"
+          file: "projects/2024-actes-de-la-journee-d-etudes-du-8-decembre-2022.html"
+        - slug: "bertille-bak-faux-et-usage-de-faux"
+          file: "projects/2024-bertille-bak-faux-et-usage-de-faux.html"
+        - slug: "revue-n1-festina-lente-hate-toi-lentement"
+          file: "projects/2024-revue-n1-festina-lente-hate-toi-lentement.html"
+
+
 
 
 ---
