@@ -310,10 +310,12 @@
         li
             .link-content
                 padding: 0
+                min-height: unset
                 a
                     @include h3
                 a::after
-                    display: none
+                    display: contents
+                    position: relative
             .media
                 margin-bottom: $spacing-3
                 aspect-ratio: 1
@@ -332,7 +334,7 @@
                 padding: 0
                 a
                     @include h4
-
+// FIX PROVISOIRE DE LA GALERIE
 .block-gallery
     &--grid
         .gallery
