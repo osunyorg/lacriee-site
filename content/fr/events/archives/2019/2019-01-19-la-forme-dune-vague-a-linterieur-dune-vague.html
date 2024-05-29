@@ -80,7 +80,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -110,7 +110,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -203,14 +203,35 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 3
+    position: 2
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "proposition-pour-changer-le-nom-des-jours-et-la-taille-de-la-semaine"
+          file: "projects/2020-proposition-pour-changer-le-nom-des-jours-et-la-taille-de-la-semaine.html"
+        - slug: "berceuse-pour-un-paysage"
+          file: "projects/2019-berceuse-pour-un-paysage.html"
+        - slug: "carte-de-bretagne-un-mercredi"
+          file: "projects/2019-carte-de-bretagne-un-mercredi.html"
+        - slug: "nostalgia-18-janvier-2019-10-mars-2019-a-la-criee-centre-d-art-contemporain-rennes-france"
+          file: "projects/2019-nostalgia-18-janvier-2019-10-mars-2019-a-la-criee-centre-d-art-contemporain-rennes-france.html"
+
+
 
   - kind: heading
     title: >-
       Artiste et commissaire de l’exposition
     slug: "artiste-et-commissaire-de-l-exposition"
-    position: 4
+    position: 3
     rank: 2
   - kind: block
     template: persons
