@@ -98,13 +98,15 @@
                 mix-blend-mode: multiply
             &:hover .media
                 filter: grayscale(0)
-            @include media-breakpoint-up(md)
-                @include grid(2)
-                .media
-                    margin: 0
-                    width: calc(#{columns(3)} - #{$spacing-3})
-                .page-title
-                    grid-column: 2 / 8
+        &.with-images
+            article
+                @include media-breakpoint-up(md)
+                    @include grid(2)
+                    .media
+                        margin: 0
+                        width: calc(#{columns(3)} - #{$spacing-3})
+                    .page-title
+                        grid-column: 2 / 8
     .lead 
         font-family: $lead-font-family
 
