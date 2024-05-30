@@ -350,11 +350,6 @@
 .block-gallery
     &--grid
         .gallery
-            figure
-                @include in-page-with-sidebar
-                    // PROBLEME DE GAP POUR SAFARI
-                    @supports (background: -webkit-named-image(i))
-                        &:nth-child(even)
-                            margin-left: var(--grid-gutter)
-                        + figure:not(:nth-child(2))
-                            margin-top: var(--grid-gutter)
+            @include grid(2)
+            @include in-page-without-sidebar
+                @include grid(4, desktop)
