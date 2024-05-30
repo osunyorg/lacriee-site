@@ -107,6 +107,13 @@
                             margin-bottom: 0
                         .more
                             margin: 0
+        // FIX DU GAP IGNORÉ PAR SAFARI
+        @include in-page-with-or-without-sidebar
+            @supports (background: -webkit-named-image(i))
+                .event
+                    gap: 0
+                    &-content
+                        margin-left: var(--grid-gutter)
 
         @include media-breakpoint-up(desktop)
             .event
@@ -345,7 +352,8 @@
         .gallery
             figure
                 @include in-page-with-sidebar
-                    @supports not (gap: 0)
+                    // PROBLEME DE GAP POUR SAFARI
+                    @supports (background: -webkit-named-image(i))
                         &:nth-child(even)
                             margin-left: var(--grid-gutter)
                         + figure:not(:nth-child(2))
