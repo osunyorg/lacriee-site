@@ -114,7 +114,7 @@ items:
     kind: page
     children: []
   - title: Accès
-    target: "/fr/informations-pratiques/acces/"
+    target: "/fr/informations-pratiques/contact/"
     kind: page
     children: []
   - title: 'Votre visite '
