@@ -121,7 +121,7 @@ items:
     target: "/fr/informations-pratiques/accessibilite-a-la-criee/"
     kind: page
     children: []
-  - title: Accès
+  - title: Contact
     target: "/fr/informations-pratiques/contact/"
     kind: page
     children: []
