@@ -110,7 +110,7 @@ items:
     kind: page
     children: []
   - title: Horaires
-    target: "/fr/informations-pratiques/horaires/"
+    target: "/fr/informations-pratiques/acces-et-horaires/"
     kind: page
     children: []
   - title: Accès
