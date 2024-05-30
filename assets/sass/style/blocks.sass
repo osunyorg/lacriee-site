@@ -109,11 +109,8 @@
                             margin: 0
         // FIX DU GAP IGNORÉ PAR SAFARI
         @include in-page-with-or-without-sidebar
-            @supports (background: -webkit-named-image(i))
-                .event
-                    gap: 0
-                    &-content
-                        margin-left: var(--grid-gutter)
+            .event
+                @include grid(2, desktop)
 
         @include media-breakpoint-up(desktop)
             .event
