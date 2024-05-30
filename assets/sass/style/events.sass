@@ -99,13 +99,12 @@
             &:hover .media
                 filter: grayscale(0)
             @include media-breakpoint-up(md)
-                flex-direction: row
-                gap: var(--grid-gutter)
+                @include grid(2)
                 .media
                     margin: 0
                     width: calc(#{columns(3)} - #{$spacing-3})
                 .page-title
-                    flex: 1
+                    grid-column: 2 / 8
     .lead 
         font-family: $lead-font-family
 
