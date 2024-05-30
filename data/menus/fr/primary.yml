@@ -109,7 +109,7 @@ items:
     target: "/fr/informations-pratiques/entree-libre-et-gratuite/"
     kind: page
     children: []
-  - title: Horaires
+  - title: Accès et horaires
     target: "/fr/informations-pratiques/acces-et-horaires/"
     kind: page
     children: []
