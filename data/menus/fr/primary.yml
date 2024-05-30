@@ -113,16 +113,16 @@ items:
     target: "/fr/informations-pratiques/acces-et-horaires/"
     kind: page
     children: []
-  - title: Accès
-    target: "/fr/informations-pratiques/contact/"
-    kind: page
-    children: []
   - title: 'Votre visite '
     target: "/fr/informations-pratiques/votre-visite/"
     kind: page
     children: []
   - title: 'Accessibilité '
     target: "/fr/informations-pratiques/accessibilite-a-la-criee/"
+    kind: page
+    children: []
+  - title: Accès
+    target: "/fr/informations-pratiques/contact/"
     kind: page
     children: []
 - title: Ressources
