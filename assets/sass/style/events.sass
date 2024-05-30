@@ -109,6 +109,13 @@
                         grid-column: 2 / 8
     .lead 
         font-family: $lead-font-family
+    // FIX SAFARI GAP
+    @supports not (background: -webkit-named-image(i))
+        .event-infos
+            .events-actions
+                * + *
+                    margin-top: space()
+                
 
 .events__section
     .event--with-image
