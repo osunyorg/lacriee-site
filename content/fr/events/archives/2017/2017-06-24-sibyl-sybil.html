@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -111,7 +111,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -216,14 +216,43 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 3
+    position: 2
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "nasse"
+          file: "projects/2017-nasse.html"
+        - slug: "nilly"
+          file: "projects/2017-nilly.html"
+        - slug: "jest"
+          file: "projects/2017-jest.html"
+        - slug: "jests"
+          file: "projects/2017-jests.html"
+        - slug: "chaque-chose-a-son-visage-et-chaque-visage-a-sa-chose"
+          file: "projects/2017-chaque-chose-a-son-visage-et-chaque-visage-a-sa-chose.html"
+        - slug: "lettres-a-l-exposition"
+          file: "projects/2017-lettres-a-l-exposition.html"
+        - slug: "caspar"
+          file: "projects/2017-caspar.html"
+        - slug: "sibyl-sybil"
+          file: "projects/2017-sibyl-sybil.html"
+
+
 
   - kind: heading
     title: >-
       Artiste et commissaire de l’exposition
     slug: "artiste-et-commissaire-de-l-exposition"
-    position: 4
+    position: 3
     rank: 2
   - kind: block
     template: persons
@@ -247,25 +276,6 @@ contents:
           role: >-
             
 
-
-
-  - kind: block
-    template: projects
-    title: >-
-      
-    ranks:
-      self: false
-      children: 3
-    data:
-      mode: all
-      layout: grid
-      projects:
-        - slug: "actes-de-la-journee-d-etudes-du-8-decembre-2022"
-          file: "projects/2024-actes-de-la-journee-d-etudes-du-8-decembre-2022.html"
-        - slug: "bertille-bak-faux-et-usage-de-faux"
-          file: "projects/2024-bertille-bak-faux-et-usage-de-faux.html"
-        - slug: "revue-n1-festina-lente-hate-toi-lentement"
-          file: "projects/2024-revue-n1-festina-lente-hate-toi-lentement.html"
 
 
 
