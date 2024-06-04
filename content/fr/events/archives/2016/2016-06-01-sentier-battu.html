@@ -26,7 +26,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 dates:
@@ -73,7 +73,7 @@ summary: >
 events_categories:
   - "residences"
 contents_reading_time:
-  seconds: 100
+  seconds: 103
   text: >-
     2 minutes
 contents:
@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -123,6 +123,110 @@ contents:
           title: >-
             Document visiteur
 
+
+
+  - kind: block
+    template: persons
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      description: >-
+        
+
+      with_link: true
+      with_photo: true
+      persons:
+        - slug: "simon-augade"
+          role: >-
+            
+
+
+
+
+  - kind: heading
+    title: >-
+      Photos de la résidence
+    slug: "photos-de-la-residence"
+    position: 1
+    rank: 2
+  - kind: block
+    template: gallery
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      description: >-
+        
+
+      layout: grid
+      images:
+
+
+
+  - kind: heading
+    title: >-
+      Oeuvres produites
+    slug: "oeuvres-produites"
+    position: 2
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: grid
+      projects:
+        - slug: "sentier-battu"
+          file: "projects/2015-sentier-battu.html"
+
+
+
+  - kind: heading
+    title: >-
+      Pour aller plus loin
+    slug: "pour-aller-plus-loin"
+    position: 3
+    rank: 2
+  - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      show_main_description: false
+      show_descriptions: false
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-thematique-courir-les-rues-battre-la-campagne-fendre-les-flots/"
+          slug: "cycle-thematique-courir-les-rues-battre-la-campagne-fendre-les-flots"
+          file: "pages/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-thematique-courir-les-rues-battre-la-campagne-fendre-les-flots/_index.html"
+          external: false
+
+
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: grid
+      projects:
+        - slug: "tas-de-cailloux-battre-la-campagne"
+          file: "projects/2016-tas-de-cailloux-battre-la-campagne.html"
 
 
 
