@@ -73,7 +73,7 @@ summary: >
 events_categories:
   - "residences"
 contents_reading_time:
-  seconds: 84
+  seconds: 85
   text: >-
     1 minute
 contents:
@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -109,10 +109,60 @@ contents:
 
   - kind: heading
     title: >-
+      Oeuvres produites
+    slug: "oeuvres-produites"
+    position: 1
+    rank: 2
+
+  - kind: heading
+    title: >-
       Pour aller plus loin
     slug: "pour-aller-plus-loin"
     position: 2
     rank: 2
+  - kind: block
+    template: agenda
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: grid
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      show_summary: false
+      show_category: false
+      show_status: false
+      title_link: "/fr/agenda/"
+      events:
+        - path: "/fr/agenda/2013-05-16-acting-in-eindhoven/"
+          file: "events/archives/2013/2013-05-16-acting-in-eindhoven.html"
+        - path: "/fr/agenda/2013-10-04-acting-in-cluj/"
+          file: "events/archives/2013/2013-10-04-acting-in-cluj.html"
+        - path: "/fr/agenda/2013-01-18-act-demockracy-two-lines-of-life-or-why-a-rabbit-likes-weeds/"
+          file: "events/archives/2013/2013-01-18-act-demockracy-two-lines-of-life-or-why-a-rabbit-likes-weeds.html"
+        - path: "/fr/agenda/2011-06-24-demockracy-1/"
+          file: "events/archives/2011/2011-06-24-demockracy-1.html"
+
+
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      mode: selection
+      layout: grid
+      projects:
+
+
 
 
 ---
