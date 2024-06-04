@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -111,7 +111,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -192,14 +192,37 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 3
+    position: 2
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "grande-boucle"
+          file: "projects/2013-grande-boucle.html"
+        - slug: "trou-dans-le-miroir"
+          file: "projects/2013-trou-dans-le-miroir.html"
+        - slug: "souches"
+          file: "projects/2013-souches.html"
+        - slug: "sans-titre-6"
+          file: "projects/2013-sans-titre-6.html"
+        - slug: "fourmis"
+          file: "projects/2013-fourmis.html"
+
+
 
   - kind: heading
     title: >-
       Artistes et commissaire de l’exposition
     slug: "artistes-et-commissaire-de-l-exposition"
-    position: 4
+    position: 3
     rank: 2
   - kind: block
     template: persons
@@ -223,25 +246,6 @@ contents:
           role: >-
             
 
-
-
-  - kind: block
-    template: projects
-    title: >-
-      
-    ranks:
-      self: false
-      children: 3
-    data:
-      mode: all
-      layout: grid
-      projects:
-        - slug: "actes-de-la-journee-d-etudes-du-8-decembre-2022"
-          file: "projects/2024-actes-de-la-journee-d-etudes-du-8-decembre-2022.html"
-        - slug: "bertille-bak-faux-et-usage-de-faux"
-          file: "projects/2024-bertille-bak-faux-et-usage-de-faux.html"
-        - slug: "revue-n1-festina-lente-hate-toi-lentement"
-          file: "projects/2024-revue-n1-festina-lente-hate-toi-lentement.html"
 
 
 
