@@ -26,7 +26,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 dates:
@@ -77,31 +77,6 @@ contents_reading_time:
   text: >-
     4 minutes
 contents:
-  - kind: heading
-    title: >-
-      Œuvres produites
-    slug: "oeuvres-produites"
-    position: 1
-    rank: 2
-  - kind: block
-    template: projects
-    title: >-
-      
-    ranks:
-      self: false
-      children: 3
-    data:
-      mode: selection
-      layout: list
-      projects:
-        - slug: "espaces-museaux"
-          file: "projects/2010-espaces-museaux.html"
-        - slug: "white-cube"
-          file: "projects/2010-white-cube.html"
-        - slug: "le-couloir"
-          file: "projects/2011-le-couloir.html"
-
-
   - kind: block
     template: chapter
     title: >-
@@ -125,6 +100,38 @@ contents:
 
 
 
+  - kind: heading
+    title: >-
+      Œuvres produites
+    slug: "oeuvres-produites"
+    position: 0
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "espaces-museaux"
+          file: "projects/2010-espaces-museaux.html"
+        - slug: "white-cube"
+          file: "projects/2010-white-cube.html"
+        - slug: "le-couloir"
+          file: "projects/2011-le-couloir.html"
+
+
+
+  - kind: heading
+    title: >-
+      Présentation
+    slug: "presentation"
+    position: 1
+    rank: 2
 
 
 ---
