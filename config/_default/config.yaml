@@ -1,4 +1,4 @@
-theme: osuny-hugo-theme-aaa
+theme: osuny
 paginate: 36
 enableRobotsTXT: true
 removePathAccents: true
