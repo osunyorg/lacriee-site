@@ -62,12 +62,12 @@ image:
     <p> Olga Kisselva, 2011 identité visuelle © Lieux Communs </p>
 
 
-meta_description: >
+meta_description: >-
   
-description: >
+description: >-
   
 
-summary: >
+summary: >-
   Le projet « Divers Faits » est construit autour d’une série photographique de natures mortes contemporaines. Les références historiques du projet se situent dans la peinture hollandaise de XVIIe siècle, qui contient un véritable dictionnaire d’allégories visuelles développé par les peintres de la Renaissance du Nord, où chaque nature morte dissimule, une « deuxième ligne » de sujet racontée à travers toutes sortes de denrées.
 
 events_categories:
@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -111,7 +111,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -180,14 +180,31 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 3
+    position: 2
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "divers-faits"
+          file: "projects/2010-divers-faits.html"
+        - slug: "a-l-heure-de-moscou-rennes-2011"
+          file: "projects/2011-a-l-heure-de-moscou-rennes-2011.html"
+
+
 
   - kind: heading
     title: >-
       Artiste et commissaire de l’exposition
     slug: "artiste-et-commissaire-de-l-exposition"
-    position: 4
+    position: 3
     rank: 2
   - kind: block
     template: persons

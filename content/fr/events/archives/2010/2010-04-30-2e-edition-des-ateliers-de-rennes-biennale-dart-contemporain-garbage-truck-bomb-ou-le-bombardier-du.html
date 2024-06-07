@@ -62,12 +62,12 @@ image:
     <p> identité visuelle © Lieux Communs </p>
 
 
-meta_description: >
+meta_description: >-
   
-description: >
+description: >-
   
 
-summary: >
+summary: >-
   Le 30 avril 2010 s’ouvre la deuxième édition des Ateliers de Rennes – biennale d’art contemporain. Cette manifestation interroge les relations entre l’art et l’économie. Intitulée cette année Ce qui vient, la nouvelle édition des Ateliers de Rennes s’attache à faire apparaître les formes, les processus et les contradictions de notre relation à demain. À cette occasion, l’association Art to be et La Criée invitent le plasticien sonore Damien Marchal pour sa disponibilité à questionner l’individu sur ses choix, à le faire interagir avec l’avenir qu’il lui soit propre ou plus global.
 
 events_categories:
@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -111,7 +111,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -168,14 +168,29 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 3
+    position: 2
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "garbage-truck-bomb"
+          file: "projects/2010-garbage-truck-bomb.html"
+
+
 
   - kind: heading
     title: >-
       Artiste et commissaires de l’exposition
     slug: "artiste-et-commissaires-de-l-exposition"
-    position: 4
+    position: 3
     rank: 2
   - kind: block
     template: persons
