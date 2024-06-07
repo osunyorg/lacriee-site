@@ -19,7 +19,7 @@ en:
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
     persons: /authors-on-this-website/:slug/
-    persons_categories: /authors-on-this-website/:slug/
+    persons_categories: /authors-on-this-website/categories/:slug/
     authors: /authors-on-this-website/:slug/actualites/
   taxonomies:
     administrator: administrators
@@ -53,7 +53,7 @@ fr:
     projects: /productions/:year-:slug/
     projects_categories: /productions/:slug/
     persons: /auteurices-du-site/:slug/
-    persons_categories: /auteurices-du-site/:slug/
+    persons_categories: /auteurices-du-site/categories/:slug/
     authors: /auteurices-du-site/:slug/actualites/
   taxonomies:
     administrator: administrators
