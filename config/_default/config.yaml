@@ -3,6 +3,7 @@ paginate: 36
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  plausible: la-criee.org
   menu:
     dropdown:
       linkToLevel1: true
