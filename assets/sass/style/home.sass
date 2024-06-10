@@ -13,22 +13,29 @@
                             @include icon-site(asterisk)
                             font-size: $h3-size-desktop
                         @include media-breakpoint-down(desktop)
-                            display: inline-block
                             line-height: 90%
+                            width: pxToRem(10)
+                            height: pxToRem(10)
                 p
                     @include meta
                     position: relative
                     &::before
                         @include icon-site(asterisk)
                         font-size: pxToRem(24)
-                        position: absolute
-                        transform: translate(-100%, 10%)
+                        @include media-breakpoint-up(desktop)
+                            position: absolute
+                            transform: translate(-100%, 10%)
                     @include media-breakpoint-down(desktop)
                         margin-top: $spacing-4
-                        width: fit-content
+                        display: flex
+                        flex-direction: row-reverse
+                        justify-content: flex-end
+                        text-align: left
+                        width: 100%
                         &::before
-                            right: 0
-                            transform: translateX(space(4))
+                            display: inline-flex
+                            margin-left: space(1)
+                            width: pxToRem(11)
         @include media-breakpoint-up(desktop)
             .hero-text
                 width: auto

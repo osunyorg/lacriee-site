@@ -51,9 +51,20 @@
         &-subtitle
             font-style: normal
             color: $color-text
-        &-time
-            span + span::before
-                @include icon-site(arrow-right)
+        @include media-breakpoint-down(desktop)
+            &-dates
+                display: inline-flex
+            &-time
+                &::before
+                    @include icon-site(asterisk)
+                    font-size: $body-size-desktop
+                    font-weight: normal
+                    height: var(--meta-size)
+                    margin-left: $spacing-1
+                    transform: translateY(20%)
+                    width: pxToRem(11)
+                span + span::before
+                    @include icon-site(arrow-right)
     .block-title
         @include large-line
         font-weight: bold

@@ -87,3 +87,17 @@ html.has-menu-opened body::after
     &.visible
         opacity: 1
         transform: rotate(0) scale(1)
+
+// Fix global du thème ?
+@include media-breakpoint-down(desktop)
+    .persons__page
+        .hero
+            figure
+                figcaption
+                    position: absolute
+                    &::before
+                        padding-right: 0
+                    .credit-content
+                        padding-left: 0
+                        padding-bottom: 0
+                        padding-right: calc(#{$spacing-2} + #{space(1)})
