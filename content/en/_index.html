@@ -18,7 +18,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 position: 1
@@ -56,16 +56,66 @@ header_cta:
     
   target: ""
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     less than a minute
 contents:
-
-
   - kind: heading
     title: >-
       Today
     slug: "today"
+    position: 0
+    rank: 2
+  - kind: block
+    template: agenda
+    title: >-
+      Today
+    ranks:
+      self: 3
+    data:
+      mode: category
+      layout: large
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      show_summary: false
+      show_category: true
+      show_status: false
+      title_link: "/en/agenda/at-the-art-center/"
+      category: "/at-the-art-center/"
+      events:
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      Coming soon
+    ranks:
+      self: 3
+    data:
+      mode: all
+      layout: list
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      show_summary: true
+      show_category: true
+      show_status: false
+      title_link: "/en/agenda/"
+      events:
+
+
+
+  - kind: heading
+    title: >-
+      Coming soon
+    slug: "coming-soon"
     position: 1
     rank: 2
 
