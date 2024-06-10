@@ -12,6 +12,9 @@
                         &::after
                             @include icon-site(asterisk)
                             font-size: $h3-size-desktop
+                        @include media-breakpoint-down(desktop)
+                            display: inline-block
+                            line-height: 90%
                 p
                     @include meta
                     position: relative
