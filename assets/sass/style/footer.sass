@@ -42,7 +42,9 @@ footer#document-footer
             padding-top: $spacing-3
             .pagefind-ui__toggle
                 @include h2
+                display: flex
                 font-family: $body-font-family
+                gap: $spacing-2
                 &::after
                     display: none
                 &::before
@@ -50,8 +52,6 @@ footer#document-footer
                     font-size: inherit
                 @include media-breakpoint-up(desktop)
                     align-items: flex-end
-                    display: flex
-                    gap: $spacing-2
             .pagefind-ui__result-excerpt mark
                 color: $color-text
             .pagefind-ui__form::after
