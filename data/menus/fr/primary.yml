@@ -61,8 +61,8 @@ items:
     target: "/fr/programmation/oeuvres-produites/"
     kind: page
     children: []
-  - title: Artistes, autrices, auteurs, commissaires, etc.
-    target: "/fr/programmation/artistes-autrices-auteurs-commissaires-etc-1/"
+  - title: Artistes, autrices, auteurs, commissaires, etc. de la saison
+    target: "/fr/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison/"
     kind: page
     children: []
 - title: Médiation
