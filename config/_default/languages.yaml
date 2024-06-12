@@ -52,9 +52,9 @@ fr:
     events_categories: /agenda/:slug/
     projects: /productions/:year-:slug/
     projects_categories: /productions/:slug/
-    persons: /auteurices-du-site/:slug/
-    persons_categories: /auteurices-du-site/categories/:slug/
-    authors: /auteurices-du-site/:slug/actualites/
+    persons: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/
+    persons_categories: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/categories/:slug/
+    authors: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
