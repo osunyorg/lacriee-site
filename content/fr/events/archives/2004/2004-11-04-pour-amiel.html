@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -111,7 +111,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -204,14 +204,33 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 3
+    position: 2
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "torino-junknews"
+          file: "projects/2004-torino-junknews.html"
+        - slug: "breaking-icons"
+          file: "projects/2004-breaking-icons.html"
+        - slug: "motherfuckers-never-die"
+          file: "projects/2004-motherfuckers-never-die.html"
+
+
 
   - kind: heading
     title: >-
       Artiste et commissaire de l’exposition
     slug: "artiste-et-commissaire-de-l-exposition"
-    position: 4
+    position: 3
     rank: 2
   - kind: block
     template: persons
