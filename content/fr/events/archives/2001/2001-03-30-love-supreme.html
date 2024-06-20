@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -111,14 +111,29 @@ contents:
     title: >-
       Œuvres produites
     slug: "oeuvres-produites"
-    position: 2
+    position: 1
     rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "personal-props"
+          file: "projects/2001-personal-props.html"
+
+
 
   - kind: heading
     title: >-
       Artistes et commissaire de l’exposition
     slug: "artistes-et-commissaire-de-l-exposition"
-    position: 3
+    position: 2
     rank: 2
   - kind: block
     template: persons
