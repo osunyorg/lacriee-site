@@ -81,7 +81,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -111,7 +111,7 @@ contents:
     title: >-
       Photos de l’exposition
     slug: "photos-de-l-exposition"
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: gallery
@@ -214,6 +214,30 @@ contents:
 
   - kind: heading
     title: >-
+      Œuvres produites
+    slug: "oeuvres-produites"
+    position: 2
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "world-markets"
+          file: "projects/2004-world-markets.html"
+        - slug: "le-tunnel-d-espace-temps"
+          file: "projects/2004-le-tunnel-d-espace-temps.html"
+
+
+
+  - kind: heading
+    title: >-
       Artiste et commissaire de l’exposition
     slug: "artiste-et-commissaire-de-l-exposition"
     position: 3
@@ -236,30 +260,6 @@ contents:
           role: >-
             
 
-
-
-
-  - kind: heading
-    title: >-
-      Œuvres produites
-    slug: "oeuvres-produites"
-    position: 4
-    rank: 2
-  - kind: block
-    template: projects
-    title: >-
-      
-    ranks:
-      self: false
-      children: 3
-    data:
-      mode: selection
-      layout: list
-      projects:
-        - slug: "world-markets"
-          file: "projects/2004-world-markets.html"
-        - slug: "le-tunnel-d-espace-temps"
-          file: "projects/2004-le-tunnel-d-espace-temps.html"
 
 
 
