@@ -28,9 +28,6 @@
         <div class="event-dates" itemprop="startDate" content="{{- if .Params.dates.from.day -}}{{ .Params.dates.from.day }}{{- end -}}{{- if .Params.dates.from.hour -}}T{{ .Params.dates.from.hour }}{{- end -}}">
           <span>
             {{ $date_format := .Params.dates.computed.two_lines.short }}
-            {{ if and (ne $layout "list") (ne $layout "large") }}
-              {{ $date_format = .Params.dates.computed.short }}
-            {{ end }}
             {{ partial "PrepareHTML" $date_format }}
           </span>
           {{- if (or .Params.dates.from.hour .Params.dates.to.hour) }}
