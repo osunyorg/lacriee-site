@@ -1,5 +1,4 @@
-{{ $show_descriptions := .show_descriptions }}
-{{ $show_images := .show_images }}
+{{ $options := .options }}
 {{ $heading_level := .heading_level | default 3 }}
 {{ $heading_tag := partial "GetHeadingTag" (dict 
         "level" $heading_level
@@ -20,7 +19,7 @@
 
     {{ with $page }}
       <article>
-        {{ if and $show_descriptions .Params.summary }}
+        {{ if and $options.summary .Params.summary }}
           <hgroup>
         {{ end }}
         {{ $heading_tag.open }}
@@ -28,7 +27,7 @@
             {{- partial "PrepareHTML" .Title -}}
           </a>
         {{ $heading_tag.close }}
-        {{ if and $show_descriptions .Params.summary }}
+        {{ if and $options.summary .Params.summary }}
           {{ if site.Params.pages.index.truncate_description }}
             <p>{{ partial "GetTruncateContent" ( dict 
               "text" .Params.summary
@@ -38,10 +37,10 @@
             <p>{{ partial "PrepareText" .Params.summary }}</p>
           {{ end }}
         {{ end }}
-        {{ if and $show_descriptions .Params.summary }}
+        {{ if and $options.summary .Params.summary }}
           </hgroup>
         {{ end }}
-        {{ if $show_images }}
+        {{ if $options.image }}
           {{- partial "pages/page-media.html" . -}}
         {{ end }}
       </article>
