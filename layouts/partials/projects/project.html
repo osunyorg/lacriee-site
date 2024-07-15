@@ -37,7 +37,10 @@
         {{ if or $options.categories (and $options.year .Params.year) }}
           <div class="project-informations">
             {{ if $options.categories }}
-              {{- partial "projects/categories" . -}}
+              {{ partial "commons/categories" ( dict
+                "context" .
+                "kind" "project"
+              )}}
             {{ end }}
             {{ if and $options.year .Params.year }}
               <div class="project-meta">
