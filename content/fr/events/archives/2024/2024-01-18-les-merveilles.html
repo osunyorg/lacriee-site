@@ -85,7 +85,7 @@ contents:
     title: >-
       Présentation
     slug: "presentation"
-    position: 0
+    position: 1
     rank: 2
   - kind: block
     template: chapter
@@ -140,7 +140,7 @@ contents:
     title: >-
       Photos de la résidence
     slug: "photos-de-la-residence"
-    position: 1
+    position: 2
     rank: 2
   - kind: block
     template: gallery
@@ -423,9 +423,55 @@ contents:
 
   - kind: heading
     title: >-
+      Œuvres produites
+    slug: "oeuvres-produites"
+    position: 3
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      options:
+        categories: true
+        image: true
+        summary: false
+        year: true
+
+      projects:
+        - slug: "enfants-paysages-encadres"
+          file: "projects/2024-enfants-paysages-encadres.html"
+        - slug: "enfants-paysages-libre-sur-tige-de-bambous"
+          file: "projects/2024-enfants-paysages-libre-sur-tige-de-bambous.html"
+        - slug: "enfants-paysages-plies"
+          file: "projects/2024-enfants-paysages-plies.html"
+        - slug: "pli-bois"
+          file: "projects/2024-pli-bois.html"
+        - slug: "pli-joie"
+          file: "projects/2024-pli-joie.html"
+        - slug: "pli-tache"
+          file: "projects/2024-pli-tache.html"
+        - slug: "fetiche-mais"
+          file: "projects/2024-fetiche-mais.html"
+        - slug: "fetiches-encadres"
+          file: "projects/2024-fetiches-encadres.html"
+        - slug: "satellite"
+          file: "projects/2024-satellite.html"
+        - slug: "vases"
+          file: "projects/2024-vases.html"
+
+
+
+  - kind: heading
+    title: >-
       Les ressources pédagogiques
     slug: "les-ressources-pedagogiques"
-    position: 2
+    position: 4
     rank: 2
   - kind: block
     template: pages
@@ -456,7 +502,7 @@ contents:
     title: >-
       Pour aller plus loin
     slug: "pour-aller-plus-loin"
-    position: 3
+    position: 5
     rank: 2
   - kind: block
     template: pages
@@ -515,38 +561,6 @@ contents:
           file: "events/archives/2024/2024-05-21-les-enfants-paysages.html"
         - path: "/fr/agenda/2024-05-16-le-temps-s-ouvre-an-digor-amzer/"
           file: "events/archives/2024/2024-05-16-le-temps-s-ouvre-an-digor-amzer.html"
-
-
-
-  - kind: heading
-    title: >-
-      Œuvres produites
-    slug: "oeuvres-produites"
-    position: 4
-    rank: 2
-  - kind: block
-    template: projects
-    title: >-
-      
-    ranks:
-      self: false
-      children: 3
-    data:
-      mode: all
-      layout: grid
-      options:
-        categories: true
-        image: true
-        summary: false
-        year: true
-
-      projects:
-        - slug: "actes-de-la-journee-d-etudes-du-8-decembre-2022"
-          file: "projects/2024-actes-de-la-journee-d-etudes-du-8-decembre-2022.html"
-        - slug: "agrippe-hardgreipr"
-          file: "projects/2024-agrippe-hardgreipr.html"
-        - slug: "bertille-bak-faux-et-usage-de-faux"
-          file: "projects/2024-bertille-bak-faux-et-usage-de-faux.html"
 
 
 
