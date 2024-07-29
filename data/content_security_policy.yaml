@@ -18,6 +18,5 @@ allowed_domains:
   - "www.dailymotion.com"
   - "dai.ly"
   - "*.dmcdn.net"
-  - "www.arte.tv"
   - "correspondances.la-criee.org"
   - "www.google.com"
