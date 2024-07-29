@@ -122,7 +122,7 @@ items:
     kind: page
     children: []
   - title: Contact
-    target: "/fr/informations-pratiques/contact/"
+    target: "/fr/informations-pratiques/contact-et-newsletter/"
     kind: page
     children: []
 - title: Ressources
