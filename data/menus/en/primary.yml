@@ -105,8 +105,8 @@ items:
   target: "/en/ressources/"
   kind: page
   children:
-  - title: Page d'accueil
-    target: "/en/"
+  - title: Archives
+    target: "/en/ressources/archives-de-la-criee/"
     kind: page
     children: []
   - title: The three last seasons
