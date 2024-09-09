@@ -61,6 +61,10 @@ items:
     target: "/en/all-the-programme/produced-works/"
     kind: page
     children: []
+  - title: Artists, authors, curators, etc. of the season
+    target: "/en/all-the-programme/artists-authors-curators-etc-of-the-season/"
+    kind: page
+    children: []
 - title: Art mediation
   target: "/en/art-mediation/"
   kind: page
