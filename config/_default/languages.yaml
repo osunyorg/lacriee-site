@@ -18,9 +18,9 @@ en:
     events_categories: /agenda/:slug/
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
-    persons: /authors-on-this-website/:slug/
-    persons_categories: /authors-on-this-website/categories/:slug/
-    authors: /authors-on-this-website/:slug/actualites/
+    persons: /artists-authors-curators-etc/:slug/
+    persons_categories: /artists-authors-curators-etc/categories/:slug/
+    authors: /artists-authors-curators-etc/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
