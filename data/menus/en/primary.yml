@@ -105,10 +105,6 @@ items:
   target: "/en/ressources/"
   kind: page
   children:
-  - title: The last three seasons
-    target: "/en/ressources/the-last-three-seasons/"
-    kind: page
-    children: []
   - title: Archive
     target: "/en/ressources/archive/"
     kind: page
