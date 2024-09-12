@@ -26,7 +26,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 dates:
@@ -71,16 +71,23 @@ summary: >-
 events_categories:
   - "expositions-a-la-criee"
 contents_reading_time:
-  seconds: 0
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
+  - kind: heading
+    title: >-
+      Artistes et commissaire de l’exposition
+    slug: "artistes-et-commissaire-de-l-exposition"
+    position: 0
+    rank: 2
   - kind: block
     template: persons
     title: >-
       
     ranks:
       self: false
+      children: 3
     data:
       description: >-
         
@@ -91,6 +98,42 @@ contents:
         link: true
 
       persons:
+        - slug: "sophie-kaplan"
+          role: >-
+            
+
+        - slug: "violaine-lochu"
+          role: >-
+            
+
+
+
+
+  - kind: heading
+    title: >-
+      Pour aller plus loin
+    slug: "pour-aller-plus-loin"
+    position: 1
+    rank: 2
+  - kind: block
+    template: pages
+    title: >-
+      Cycle thématique - Festina Lente (Hâte-toi lentement)
+    ranks:
+      self: 3
+    data:
+      page: 
+        path: "/fr/programmation/cycle-thematique-festina-lente-hate-toi-lentement/"
+        slug: "cycle-thematique-festina-lente-hate-toi-lentement"
+        file: "pages/programmation/cycle-thematique-festina-lente-hate-toi-lentement/_index.html"
+      options:
+        image: true
+        main_summary: true
+        summary: false
+
+      layout: grid
+      pages:
+
 
 
 
