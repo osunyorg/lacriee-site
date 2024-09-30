@@ -13,14 +13,15 @@ en:
       facebook: >-
         https://www.facebook.com/la.criee.art.contemporain
   permalinks:
-    posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
+    posts: /posts/:year-:month-:day-:slug/
+    posts_categories: /posts/:slug/
     persons: /artists-authors-curators-etc/:slug/
     persons_categories: /artists-authors-curators-etc/categories/:slug/
-    authors: /artists-authors-curators-etc/:slug/actualites/
+    authors: /artists-authors-curators-etc/:slug/posts/
   taxonomies:
     administrator: administrators
     author: authors
@@ -47,11 +48,12 @@ fr:
       facebook: >-
         https://www.facebook.com/la.criee.art.contemporain
   permalinks:
-    posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     projects: /productions/:year-:slug/
     projects_categories: /productions/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
     persons: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/
     persons_categories: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/categories/:slug/
     authors: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/actualites/

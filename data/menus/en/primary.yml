@@ -38,7 +38,7 @@ items:
   kind: page
   children:
   - title: Current Cycle
-    target: "/en/all-the-programme/current-cycle/festina-lente-make-haste-slowly/"
+    target: "/en/all-the-programme/festina-lente-make-haste-slowly/"
     kind: page
     children: []
   - title: Exhibitions
