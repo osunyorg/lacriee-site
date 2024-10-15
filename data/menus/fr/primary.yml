@@ -133,7 +133,7 @@ items:
     target: "/fr/ressources/ressources-pedagogiques/"
     kind: page
     children: []
-  - title: Les Correspondants
+  - title: Correspondances
     target: "/fr/ressources/les-correspondants/"
     kind: page
     children: []
