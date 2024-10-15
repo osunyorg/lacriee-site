@@ -134,7 +134,7 @@ items:
     kind: page
     children: []
   - title: Correspondances
-    target: "/fr/ressources/les-correspondants/"
+    target: "/fr/ressources/correspondances/"
     kind: page
     children: []
   - title: Les trois dernières saisons
