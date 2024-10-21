@@ -28,14 +28,10 @@
           </a>
         {{ $heading_tag.close }}
         {{ if and $options.summary .Params.summary }}
-          {{ if site.Params.pages.index.truncate_description }}
-            <p>{{ partial "GetTruncateContent" ( dict 
-              "text" .Params.summary
-              "length" site.Params.pages.index.truncate_description
-              ) }}</p>
-          {{ else }}
-            <p>{{ partial "PrepareText" .Params.summary }}</p>
-          {{ end }}
+          {{ partial "GetRichSummary" ( dict 
+            "summary" .Params.summary
+            "kind" "pages"
+          )}}
         {{ end }}
         {{ if and $options.summary .Params.summary }}
           </hgroup>
