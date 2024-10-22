@@ -69,6 +69,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -92,6 +94,8 @@ contents:
     template: posts
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 2
@@ -114,15 +118,23 @@ contents:
         - "2023/2023-03-20-echos-dexpo-2-rencontre-avec-fanny-martel-a-ledulab-pasteur"
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       L'exposition
-    slug: "l-exposition"
-    position: 1
-    rank: 2
+    slug: >-
+      l-exposition
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -148,7 +160,6 @@ contents:
       events:
         - path: "/fr/agenda/2023-02-04-grand-air/"
           file: "events/archives/2023/2023-02-04-grand-air.html"
-
 
 
 
