@@ -55,15 +55,23 @@ contents_reading_time:
   text: >-
     less than a minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Editions
-    slug: "editions"
-    position: 1
-    rank: 2
+    slug: >-
+      editions
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: projects
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -80,16 +88,23 @@ contents:
       projects:
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Research projects
-    slug: "research-projects"
-    position: 2
-    rank: 2
+    slug: >-
+      research-projects
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -117,7 +132,6 @@ contents:
           file: "events/archives/2023/2023-09-01-recherche-action-emeline-jaret.html"
         - path: "/en/agenda/2023-09-01-l-atelier-vivant/"
           file: "events/archives/2023/2023-09-01-l-atelier-vivant.html"
-
 
 
 

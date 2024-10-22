@@ -59,15 +59,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       à La Criée
-    slug: "a-la-criee"
-    position: 1
-    rank: 2
+    slug: >-
+      a-la-criee
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -99,43 +107,24 @@ contents:
           file: "events/2024-10-10-biomimetic-stories.html"
 
 
+
   - kind: block
-    template: agenda
-    title: >-
-      hors-les-murs
-    ranks:
-      self: 3
-    data:
-      mode: selection
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-      description: >-
-        
-
-      no_event_message: >-
-        
-
-      title_link: "/fr/agenda/"
-      events:
-
-
-
-  - kind: heading
+    template: title
     title: >-
       Pour découvrir les expositions passées
-    slug: "pour-decouvrir-les-expositions-passees"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-decouvrir-les-expositions-passees
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: links
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -177,7 +166,6 @@ contents:
           image:
             id: "0f3475ea-68a0-4658-b1d2-6fe6be13b430"
             file: "0f3475ea-68a0-4658-b1d2-6fe6be13b430"
-
 
 
 

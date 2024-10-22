@@ -75,15 +75,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -108,6 +116,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -127,16 +137,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Connections with the research
-    slug: "connections-with-the-research"
-    position: 2
-    rank: 2
+    slug: >-
+      connections-with-the-research
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -153,7 +170,6 @@ contents:
           slug: "festina-lente-make-haste-slowly"
           file: "pages/all-the-programme/festina-lente-make-haste-slowly/_index.html"
           external: false
-
 
 
 
