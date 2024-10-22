@@ -78,15 +78,23 @@ contents_reading_time:
   text: >-
     3 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Présentation
-    slug: "presentation"
-    position: 1
-    rank: 2
+    slug: >-
+      presentation
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -111,6 +119,8 @@ contents:
     template: persons
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -130,16 +140,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Photos de la résidence
-    slug: "photos-de-la-residence"
-    position: 2
-    rank: 2
+    slug: >-
+      photos-de-la-residence
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: gallery
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -259,16 +276,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 3
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -285,7 +309,6 @@ contents:
           slug: "tous-les-cycles-thematiques"
           file: "pages/ressources/archives-de-la-criee/tous-les-cycles-thematiques/_index.html"
           external: false
-
 
 
 
