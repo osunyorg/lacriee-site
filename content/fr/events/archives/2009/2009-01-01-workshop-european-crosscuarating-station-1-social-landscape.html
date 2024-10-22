@@ -75,15 +75,23 @@ contents_reading_time:
   text: >-
     2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Présentation
-    slug: "presentation"
-    position: 1
-    rank: 2
+    slug: >-
+      presentation
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -108,6 +116,8 @@ contents:
     template: persons
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -127,16 +137,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -164,7 +181,6 @@ contents:
           file: "events/archives/2010/2010-04-30-2e-edition-des-ateliers-de-rennes-biennale-dart-contemporain-garbage-truck-bomb-ou-le-bombardier-du.html"
         - path: "/fr/agenda/2011-01-14-katy-dove/"
           file: "events/archives/2011/2011-01-14-katy-dove.html"
-
 
 
 

@@ -80,15 +80,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Informations pratiques
-    slug: "informations-pratiques"
-    position: 1
-    rank: 2
+    slug: >-
+      informations-pratiques
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -109,16 +117,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -140,6 +155,8 @@ contents:
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -165,7 +182,6 @@ contents:
       events:
         - path: "/fr/agenda/2017-04-01-spoken-word-une-chanson-parlee/"
           file: "events/archives/2017/2017-04-01-spoken-word-une-chanson-parlee.html"
-
 
 
 

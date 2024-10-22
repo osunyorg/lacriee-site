@@ -77,15 +77,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       À propos
-    slug: "a-propos"
-    position: 1
-    rank: 2
+    slug: >-
+      a-propos
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -106,16 +114,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -141,7 +156,6 @@ contents:
       events:
         - path: "/fr/agenda/2019-09-21-le-plus-tot-cest-deux-jours-mieux/"
           file: "events/archives/2019/2019-09-21-le-plus-tot-cest-deux-jours-mieux.html"
-
 
 
 
