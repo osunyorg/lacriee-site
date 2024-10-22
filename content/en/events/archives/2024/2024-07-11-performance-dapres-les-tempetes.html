@@ -77,15 +77,23 @@ contents_reading_time:
   text: >-
     less than a minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -106,16 +114,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -137,6 +152,8 @@ contents:
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -164,7 +181,6 @@ contents:
           file: "events/archives/2023/2023-10-01-residence-for-research-creation-and-transmission-in-a-forest-environment-peux-tu-imaginer-l-endroit.html"
         - path: "/en/agenda/2024-03-09-une-apres-midi-en-foret/"
           file: "events/archives/2024/2024-03-09-une-apres-midi-en-foret.html"
-
 
 
 

@@ -71,19 +71,27 @@ summary: >-
   <p>Surveying is a collective reading method. A book is divided into as many parts as there are participants. After an individual reading, the members recount and summarise their reading.</p>
 
 contents_reading_time:
-  seconds: 89
+  seconds: 90
   text: >-
-    1 minute
+    2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -104,17 +112,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Practical informations
-    slug: "practical-informations"
-    position: 2
-    rank: 2
+    slug: >-
+      practical-informations
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Nastassja Martin
+    slug: >-
+      nastassja-martin
     ranks:
       self: 3
     data:
@@ -134,16 +149,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Connections with the event
-    slug: "connections-with-the-event"
-    position: 3
-    rank: 2
+    slug: >-
+      connections-with-the-event
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -165,6 +187,8 @@ contents:
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -190,7 +214,6 @@ contents:
       events:
         - path: "/en/agenda/2023-10-12-avaler-les-cyclones-swallowing-hurricanes/"
           file: "events/archives/2023/2023-10-12-avaler-les-cyclones-swallowing-hurricanes.html"
-
 
 
 

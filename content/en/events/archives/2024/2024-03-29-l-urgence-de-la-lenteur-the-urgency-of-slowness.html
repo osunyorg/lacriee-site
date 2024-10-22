@@ -77,15 +77,23 @@ contents_reading_time:
   text: >-
     2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -106,16 +114,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Practical informations
-    slug: "practical-informations"
-    position: 2
-    rank: 2
+    slug: >-
+      practical-informations
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -136,16 +151,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Connections with the event
-    slug: "connections-with-the-event"
-    position: 3
-    rank: 2
+    slug: >-
+      connections-with-the-event
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -162,33 +184,6 @@ contents:
           slug: "festina-lente-make-haste-slowly"
           file: "pages/all-the-programme/festina-lente-make-haste-slowly/_index.html"
           external: false
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      
-    ranks:
-      self: false
-    data:
-      mode: selection
-      options:
-        categories: true
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-      description: >-
-        
-
-      no_event_message: >-
-        
-
-      title_link: "/en/agenda/"
-      events:
 
 
 

@@ -73,15 +73,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       À propos
-    slug: "a-propos"
-    position: 1
-    rank: 2
+    slug: >-
+      a-propos
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -102,16 +110,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -133,6 +148,8 @@ contents:
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -158,7 +175,6 @@ contents:
       events:
         - path: "/en/agenda/2024-03-29-l-urgence-de-la-lenteur-the-urgency-of-slowness/"
           file: "events/archives/2024/2024-03-29-l-urgence-de-la-lenteur-the-urgency-of-slowness.html"
-
 
 
 

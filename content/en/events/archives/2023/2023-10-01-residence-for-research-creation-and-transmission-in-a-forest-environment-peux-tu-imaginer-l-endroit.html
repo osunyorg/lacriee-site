@@ -75,15 +75,23 @@ contents_reading_time:
   text: >-
     less than a minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -108,6 +116,8 @@ contents:
     template: persons
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -127,16 +137,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Connections with the residency
-    slug: "connections-with-the-residency"
-    position: 2
-    rank: 2
+    slug: >-
+      connections-with-the-residency
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -158,6 +175,8 @@ contents:
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -183,7 +202,6 @@ contents:
       events:
         - path: "/en/agenda/2024-03-09-une-apres-midi-en-foret/"
           file: "events/archives/2024/2024-03-09-une-apres-midi-en-foret.html"
-
 
 
 
