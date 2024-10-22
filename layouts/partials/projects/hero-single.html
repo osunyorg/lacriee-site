@@ -9,7 +9,7 @@
 
 {{ $button := .Params.button | default .Params.header_cta }}
 
-{{- $summary := partial "PrepareText" .Params.summary -}}
+{{- $summary := safeHTML .Params.summary -}}
 
 <header class="hero {{ if .Params.image }}hero--with-image hero--image-{{- $direction }}{{ end }} {{ if $breadcrumb_is_after_hero }} hero--no-margin {{ end }}">
   <div class="container">
