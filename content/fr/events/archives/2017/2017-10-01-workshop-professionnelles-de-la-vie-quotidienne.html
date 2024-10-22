@@ -75,15 +75,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Présentation
-    slug: "presentation"
-    position: 1
-    rank: 2
+    slug: >-
+      presentation
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -108,6 +116,8 @@ contents:
     template: persons
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -127,23 +137,35 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Photos du projet
-    slug: "photos-du-projet"
-    position: 2
-    rank: 2
+    slug: >-
+      photos-du-projet
+    ranks:
+      self: 2
+    data:
+      layout: classic
 
-  - kind: heading
+
+  - kind: block
+    template: title
     title: >-
       Oeuvres produites
-    slug: "oeuvres-produites"
-    position: 3
-    rank: 2
+    slug: >-
+      oeuvres-produites
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: projects
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -165,16 +187,23 @@ contents:
           file: "projects/2016-livre-d-artiste-rythme.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 4
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -191,20 +220,6 @@ contents:
           slug: "cycle-lili-la-rozell-et-le-marimba-vernaculaire-et-creation-contemporaine"
           file: "pages/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-lili-la-rozell-et-le-marimba-vernaculaire-et-creation-contemporaine/_index.html"
           external: false
-
-
-  - kind: block
-    template: gallery
-    title: >-
-      
-    ranks:
-      self: false
-    data:
-      description: >-
-        
-
-      layout: grid
-      images:
 
 
 

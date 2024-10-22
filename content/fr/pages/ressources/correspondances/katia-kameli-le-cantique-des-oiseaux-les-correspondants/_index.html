@@ -69,6 +69,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -92,6 +94,8 @@ contents:
     template: posts
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 2
@@ -113,15 +117,23 @@ contents:
         - "2022/2022-06-30-atelier-dencre-et-de-couleur-a-lecole-jacques-prevert"
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       L'exposition
-    slug: "l-exposition"
-    position: 1
-    rank: 2
+    slug: >-
+      l-exposition
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -147,7 +159,6 @@ contents:
       events:
         - path: "/fr/agenda/2022-05-21-le-cantique-des-oiseaux/"
           file: "events/archives/2022/2022-05-21-le-cantique-des-oiseaux.html"
-
 
 
 

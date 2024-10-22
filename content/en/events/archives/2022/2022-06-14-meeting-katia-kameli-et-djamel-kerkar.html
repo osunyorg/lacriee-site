@@ -77,15 +77,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -106,16 +114,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Practical informations
-    slug: "practical-informations"
-    position: 2
-    rank: 2
+    slug: >-
+      practical-informations
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -140,6 +155,8 @@ contents:
     template: persons
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -159,16 +176,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Connections with the event
-    slug: "connections-with-the-event"
-    position: 3
-    rank: 2
+    slug: >-
+      connections-with-the-event
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -200,6 +224,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -210,7 +236,6 @@ contents:
 
       layout: grid
       pages:
-
 
 
 
