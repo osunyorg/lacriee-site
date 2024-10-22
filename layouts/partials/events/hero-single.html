@@ -7,7 +7,7 @@
   {{- $direction = partial "GetImageDirection" .Params.image -}}
 {{ end }}
 
-{{- $summary := partial "PrepareText" .Params.summary -}}
+{{- $summary := safeHTML .Params.summary -}}
 {{- $subtitle_is_summary := false -}}
 
 {{ if not $subtitle }}

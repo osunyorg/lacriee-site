@@ -21,10 +21,10 @@
     <div class="content">
       <div class="hero-text">
         {{- if or $summary -}}
-          <hgroup>
+          <hgroup class="h1">
             <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
             {{- if $summary -}}
-              <p class="h1">{{ partial "PrepareHTML" $summary }}</p>
+              {{ partial "PrepareHTML" $summary }}
             {{- end -}}
           </hgroup>
         {{- else -}}
