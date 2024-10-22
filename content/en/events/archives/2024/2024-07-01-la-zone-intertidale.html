@@ -73,15 +73,23 @@ contents_reading_time:
   text: >-
     3 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -106,6 +114,8 @@ contents:
     template: persons
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -129,6 +139,8 @@ contents:
     template: organizations
     title: >-
       With
+    slug: >-
+      with
     ranks:
       self: 3
     data:
@@ -152,16 +164,23 @@ contents:
           external: true
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Photography of the residency
-    slug: "photography-of-the-residency"
-    position: 2
-    rank: 2
+    slug: >-
+      photography-of-the-residency
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: gallery
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -317,16 +336,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Connections with the residency
-    slug: "connections-with-the-residency"
-    position: 3
-    rank: 2
+    slug: >-
+      connections-with-the-residency
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -343,7 +369,6 @@ contents:
           slug: "festina-lente-make-haste-slowly"
           file: "pages/all-the-programme/festina-lente-make-haste-slowly/_index.html"
           external: false
-
 
 
 
