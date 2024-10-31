@@ -78,7 +78,8 @@
     &--large
         .event
             &-title, 
-            &-subtitle
+            &-subtitle,
+            &-dates
                 font-family: $h1-font-family !important
             &-time
                 justify-content: flex-end
@@ -91,9 +92,6 @@
                 &::after
                     @include icon-site(arrow-top)
                     font-size: pxToRem(18)
-            @include media-breakpoint-up(desktop)
-                &-dates span
-                    @include h2
         @include in-page-without-sidebar
             .event
                 align-items: start
@@ -106,6 +104,8 @@
                         margin-bottom: $spacing-2
                     hgroup, .event-dates, .event-status
                         width: columns(6)
+                    .event-dates span
+                        @include h2
                     .more
                         text-align: right
                     @include media-breakpoint-up(xl)
