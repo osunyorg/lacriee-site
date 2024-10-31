@@ -77,11 +77,12 @@
                     justify-content: flex-end
     &--large
         .event
-            .event-title, .event-subtitle
+            &-title, 
+            &-subtitle
                 font-family: $h1-font-family !important
-            .event-time
+            &-time
                 justify-content: flex-end
-            .event-status
+            &-status
                 @include h4
                 @include large-line
             .more
@@ -90,6 +91,9 @@
                 &::after
                     @include icon-site(arrow-top)
                     font-size: pxToRem(18)
+            @include media-breakpoint-up(desktop)
+                &-dates span
+                    @include h2
         @include in-page-without-sidebar
             .event
                 align-items: start
