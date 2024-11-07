@@ -12,7 +12,7 @@
         .block-summary
             margin-top: 0
 
-.block
+.block:not(.block-title)
     margin-bottom: $spacing-6
     @include media-breakpoint-down(desktop)
         margin-bottom: $spacing-5
@@ -86,12 +86,18 @@
             &-status
                 @include h4
                 @include large-line
+            &-dates span
+                @include h2
             .more
                 font-size: inherit
                 line-height: inherit
                 &::after
                     @include icon-site(arrow-top)
                     font-size: pxToRem(18)
+        // FIX DU GAP IGNORÉ PAR SAFARI
+        @include in-page-with-or-without-sidebar
+            .event
+                @include grid(2, desktop)
         @include in-page-without-sidebar
             .event
                 align-items: start
@@ -122,11 +128,6 @@
                             margin-bottom: 0
                         .more
                             margin: 0
-        // FIX DU GAP IGNORÉ PAR SAFARI
-        @include in-page-with-or-without-sidebar
-            .event
-                @include grid(2, desktop)
-
         @include media-breakpoint-up(desktop)
             .event
                 position: relative
@@ -191,11 +192,6 @@
                         margin: 0 var(--grid-gutter-negative)
                         padding: $spacing-2 var(--grid-gutter)
     &--list
-        @include media-breakpoint-up(desktop)
-            .event
-                padding-bottom: $spacing-4
-                margin-bottom: $spacing-4
-                position: relative
         .event
             &:last-child
                 border-bottom: 0
@@ -203,6 +199,13 @@
                 .media img
                     aspect-ratio: 1
                     object-fit: cover
+            &-categories
+                gap: $spacing-2
+        @include media-breakpoint-up(desktop)
+            .event
+                padding-bottom: $spacing-4
+                margin-bottom: $spacing-4
+                position: relative
     &--grid
         @include media-breakpoint-up(desktop)
             .event-dates
