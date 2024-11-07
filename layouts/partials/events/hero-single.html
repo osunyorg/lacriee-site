@@ -26,12 +26,12 @@
     {{- end -}}
     <div class="content">
       <div class="hero-text">
-        {{- if or $subtitle $description -}}
-          <hgroup>
+        {{ if or $subtitle $description }}
+          <hgroup {{ if $subtitle_is_summary -}} class="has-lead" {{- end }}>
             <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
-            {{- if $subtitle -}}
-              <p {{ if $subtitle_is_summary -}} class="lead" {{- end -}}>{{ partial "PrepareHTML" $subtitle }}</p>
-            {{- end -}}
+            {{ with $subtitle }}
+              <p>{{ safeHTML . }}</p>
+            {{ end }}
             {{- if $description -}}
               <p class="h1">{{ partial "PrepareHTML" .Params.description }}</p>
             {{- end -}}
