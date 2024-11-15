@@ -78,10 +78,10 @@
         .event
             &-title, 
             &-subtitle,
-            &-dates
+            &-dates,
+            &-time
+                @include h2
                 font-family: $h1-font-family !important
-                span
-                    @include h2
             &-time
                 justify-content: flex-end
             &-status
@@ -109,7 +109,7 @@
                         margin-bottom: $spacing-2
                     hgroup, .event-schedule, .event-status
                         width: columns(6)
-                    .event-dates
+                    .event-schedule
                         @include h2
                     .more
                         text-align: right
@@ -209,7 +209,8 @@
                 position: relative
     &--grid
         @include media-breakpoint-up(desktop)
-            .event-schedule
+            .event-dates,
+            .event-time
                 @include h3
                 text-align: right
 .block-image
