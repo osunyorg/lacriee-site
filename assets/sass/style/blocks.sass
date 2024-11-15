@@ -64,8 +64,6 @@
                     margin-left: $spacing-1
                     transform: translateY(20%)
                     width: pxToRem(11)
-                span + span::before
-                    @include icon-site(arrow-right)
     .block-title
         @include large-line
         font-weight: bold
@@ -282,6 +280,10 @@
             .event
                 align-items: stretch
     &--list
+        .event-time
+            span + span
+                &::before
+                    content: '—'
         @include in-page-with-sidebar
             .event-content
                 grid-column: 3 / 7
