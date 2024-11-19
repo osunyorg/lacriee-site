@@ -21,7 +21,6 @@ en:
     posts_categories: /posts/:slug/
     persons: /artists-authors-curators-etc/:slug/
     persons_categories: /artists-authors-curators-etc/categories/:slug/
-    authors: /artists-authors-curators-etc/:slug/posts/
   taxonomies:
     administrator: administrators
     author: authors
@@ -56,7 +55,6 @@ fr:
     posts_categories: /actualites/:slug/
     persons: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/
     persons_categories: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/categories/:slug/
-    authors: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
