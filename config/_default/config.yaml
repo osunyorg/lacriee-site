@@ -4,6 +4,8 @@ pagination:
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  debug:
+    productionUrl: https://www.la-criee.org
   plausible: la-criee.org
   menu:
     dropdown:
