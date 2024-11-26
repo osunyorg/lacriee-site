@@ -9,30 +9,38 @@ items:
     target: "/en/art-center/supporting-artistic-creation/"
     kind: page
     children: []
+    file: content/en/pages/art-center/supporting-artistic-creation/_index.html
   - title: Transmit
     target: "/en/art-center/transmit/"
     kind: page
     children: []
+    file: content/en/pages/art-center/transmit/_index.html
   - title: Supporting research
     target: "/en/art-center/supporting-research/"
     kind: page
     children: []
+    file: content/en/pages/art-center/supporting-research/_index.html
   - title: Cooperate
     target: "/en/art-center/cooperate/"
     kind: page
     children: []
+    file: content/en/pages/art-center/cooperate/_index.html
   - title: History
     target: "/en/art-center/history-of-the-site/"
     kind: page
     children: []
+    file: content/en/pages/art-center/history-of-the-site/_index.html
   - title: Ecological transition
     target: "/en/art-center/ecological-transition/"
     kind: page
     children: []
+    file: content/en/pages/art-center/ecological-transition/_index.html
   - title: Team
     target: "/en/art-center/team/"
     kind: page
     children: []
+    file: content/en/pages/art-center/team/_index.html
+  file: content/en/pages/art-center/_index.html
 - title: All the Programme
   target: "/en/all-the-programme/"
   kind: page
@@ -41,30 +49,38 @@ items:
     target: "/en/all-the-programme/festina-lente-make-haste-slowly/"
     kind: page
     children: []
+    file: content/en/pages/all-the-programme/festina-lente-make-haste-slowly/_index.html
   - title: Exhibitions
     target: "/en/all-the-programme/exhibitions/"
     kind: page
     children: []
+    file: content/en/pages/all-the-programme/exhibitions/_index.html
   - title: Events
     target: "/en/all-the-programme/events/"
     kind: page
     children: []
+    file: content/en/pages/all-the-programme/events/_index.html
   - title: Residencies
     target: "/en/all-the-programme/residencies/"
     kind: page
     children: []
+    file: content/en/pages/all-the-programme/residencies/_index.html
   - title: Research projects and editions
     target: "/en/all-the-programme/research-projects-and-editions/"
     kind: page
     children: []
+    file: content/en/pages/all-the-programme/research-projects-and-editions/_index.html
   - title: Produced works
     target: "/en/all-the-programme/produced-works/"
     kind: page
     children: []
+    file: content/en/pages/all-the-programme/produced-works/_index.html
   - title: Artists, authors, curators, etc. of the season
     target: "/en/all-the-programme/artists-authors-curators-etc-of-the-season/"
     kind: page
     children: []
+    file: content/en/pages/all-the-programme/artists-authors-curators-etc-of-the-season/_index.html
+  file: content/en/pages/all-the-programme/_index.html
 - title: Art mediation
   target: "/en/art-mediation/"
   kind: page
@@ -73,34 +89,43 @@ items:
     target: "/en/art-mediation/presentation/"
     kind: page
     children: []
+    file: content/en/pages/art-mediation/presentation/_index.html
   - title: Early childwood
     target: "/en/art-mediation/early-childhood/"
     kind: page
     children: []
+    file: content/en/pages/art-mediation/early-childhood/_index.html
   - title: Education
     target: "/en/art-mediation/scolaires/"
     kind: page
     children: []
+    file: content/en/pages/art-mediation/scolaires/_index.html
   - title: Péri-scolaires et centre de loisirs
     target: "/en/art-mediation/periscolaires-et-centre-de-loisirs/"
     kind: page
     children: []
+    file: content/en/pages/art-mediation/periscolaires-et-centre-de-loisirs/_index.html
   - title: Champ social
     target: "/en/art-mediation/champ-social/"
     kind: page
     children: []
+    file: content/en/pages/art-mediation/champ-social/_index.html
   - title: Health and disability
     target: "/en/art-mediation/health-and-disability/"
     kind: page
     children: []
+    file: content/en/pages/art-mediation/health-and-disability/_index.html
   - title: Formation et enseignement supérieur
     target: "/en/art-mediation/formation-et-enseignement-superieur/"
     kind: page
     children: []
+    file: content/en/pages/art-mediation/formation-et-enseignement-superieur/_index.html
+  file: content/en/pages/art-mediation/_index.html
 - title: Visit
   target: "/en/visit/"
   kind: page
   children: []
+  file: content/en/pages/visit/_index.html
 - title: Ressources
   target: "/en/ressources/"
   kind: page
@@ -109,8 +134,11 @@ items:
     target: "/en/ressources/archives-1/"
     kind: page
     children: []
+    file: content/en/pages/ressources/archives-1/_index.html
   - title: The three last seasons
     target: "/en/ressources/les-trois-dernieres-saisons/"
     kind: page
     children: []
+    file: content/en/pages/ressources/les-trois-dernieres-saisons/_index.html
+  file: content/en/pages/ressources/_index.html
 
