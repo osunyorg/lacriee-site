@@ -17,7 +17,7 @@
   {{ end }}
 {{ end }}
 
-<header class="hero {{ if .Params.image -}}hero--with-image hero--image-{{- $direction -}}{{- end }} {{ if $breadcrumb_is_after_hero -}} hero--no-margin {{- end }}">
+<header class="hero {{ if .Params.image -}}hero--with-image hero--image-{{- $direction -}}{{- end }} {{ if $breadcrumb_is_after_hero -}} hero--no-margin {{- end }}" itemscope itemtype="https://schema.org/Event">
   <div class="container">
     {{- if eq site.Params.breadcrumb.position "hero-start" -}}
       {{- if .Params.breadcrumb | default true -}}
