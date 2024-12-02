@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - main
+  # schedule:
+  #   - cron: '0 2 * * *'
+
+name: 'Daily W3C Validation'
+
+jobs:
+  validate:
+    timeout-minutes: 120
+    runs-on: ubuntu-latest
+
+    name: 'Validate against W3C'
+    strategy:
+      matrix:
+        url:
+          - https://www.la-criee.org/fr/
+          - https://www.la-criee.org/fr/ressources/les-trois-dernieres-saisons/
+          - https://www.la-criee.org/fr/programmation/cycle-thematique-festina-lente-hate-toi-lentement/
+          - https://www.la-criee.org/fr/agenda/residences/
+          - https://www.la-criee.org/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/gilles-a-tiberghien/
+          - https://www.la-criee.org/fr/agenda/2024-10-10-biomimetic-stories/
+          - https://www.la-criee.org/fr/agenda/2025-02-08-euridice-zaituna-kala/
+
+    steps:
+      - name: Send request to W3C with URL to validate
+        run: |
+          curl -G "https://validator.w3.org/nu/" --data-urlencode "doc=${{ matrix.url }}" --data-urlencode "out=json" > w3c-response.json
+      - name: Send JSON response to webhook
+        run: |
+          curl --write-out '%{http_code}' --silent --output /dev/null -X POST -H "Content-Type: application/json" -H "X-Secret-Token: ${{ secrets.W3C_CI_API_SECRET }}" -d @w3c-response.json ${{ secrets.W3C_CI_API_URL }}
