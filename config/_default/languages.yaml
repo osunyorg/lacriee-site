@@ -7,11 +7,19 @@ en:
   languageCode: en
   languageName: English
   params:
-    social:
-      instagram: >-
-        https://www.instagram.com/la_criee_centre_d_art/
-      facebook: >-
-        https://www.facebook.com/la.criee.art.contemporain
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            la.criee.art.contemporain
+          value: >-
+            https://www.facebook.com/la.criee.art.contemporain
+        instagram:
+          label: >-
+            la_criee_centre_d_art
+          value: >-
+            https://instagram.com/la_criee_centre_d_art
+
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
@@ -42,11 +50,19 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      instagram: >-
-        https://www.instagram.com/la_criee_centre_d_art/
-      facebook: >-
-        https://www.facebook.com/la.criee.art.contemporain
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            la.criee.art.contemporain
+          value: >-
+            https://www.facebook.com/la.criee.art.contemporain
+        instagram:
+          label: >-
+            la_criee_centre_d_art
+          value: >-
+            https://instagram.com/la_criee_centre_d_art
+
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
