@@ -10,7 +10,7 @@
     {{- $file := false -}}
     {{/*  Check if . is a map or page url, necessary when pages/grid is called outside block context */}}
     {{ if reflect.IsMap . }}
-      {{ $file = .file }}
+      {{ $file = .path }}
     {{ else }}
       {{ $file = . }}
     {{ end }}
