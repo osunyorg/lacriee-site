@@ -4,13 +4,14 @@ breadcrumb_title: >-
 title: >-
   La Criée centre d'art contemporain
 url: "/en/"
+slug: ""
 date: 2023-06-26T18:45:45+02:00
 lastmod: 2024-10-01T12:10:03+02:00
 meta:
   hugo:
     permalink: "/en/"
+    path: "/"
     file: "content/en/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2023-05-22T14:23:10+02:00
@@ -104,10 +105,17 @@ contents:
         
 
       title_link: "/en/agenda/exhibitions/"
-      category: "/exhibitions/"
+      category: 
+        permalink: "/en/agenda/exhibitions/"
+        path: "/events_categories/exhibitions"
+        slug: "exhibitions"
+        file: "content/en/events_categories/exhibitions/_index.html"
       events:
-        - path: "/en/agenda/2024-10-10-biomimetic-stories/"
-          file: "events/2024-10-10-biomimetic-stories.html"
+        - permalink: "/en/agenda/2024-10-10-biomimetic-stories/"
+          path: "/events/2024-10-10-biomimetic-stories"
+          slug: "biomimetic-stories"
+          file: "content/en/events/2024-10-10-biomimetic-stories.html"
+
 
 
 
