@@ -15,7 +15,7 @@ meta:
     slug: "jeu-lizellba"
   dates:
     created_at: 2024-03-22T14:12:23+01:00
-    updated_at: 2024-09-30T11:13:26+02:00
+    updated_at: 2024-12-18T11:25:06+01:00
     published_at: 2024-07-29T17:00:54+02:00
 
 breadcrumbs:
@@ -95,7 +95,14 @@ contents:
     slug: >-
       presentation
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Présentation
+        heading: 2
     data:
       layout: classic
 
@@ -107,7 +114,9 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
+    top:
+      active: false
     data:
       layout: no_background
       text: >-
@@ -126,13 +135,48 @@ contents:
 
 
   - kind: block
+    template: projects
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      mode: selection
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+        - permalink: "/fr/productions/2022-lizellba-jeu-de-plateau-1/"
+          path: "/projects/2022-lizellba-jeu-de-plateau-1"
+          slug: "lizellba-jeu-de-plateau-1"
+          file: "content/fr/projects/2022-lizellba-jeu-de-plateau-1.html"
+
+
+  - kind: block
     template: title
     title: >-
       Le jeu en ligne
     slug: >-
       le-jeu-en-ligne
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Le jeu en ligne
+        heading: 2
     data:
       layout: classic
 
@@ -144,7 +188,9 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
+    top:
+      active: false
     data:
       layout: no_background
       text: >-
@@ -169,7 +215,14 @@ contents:
     slug: >-
       artistes
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artistes
+        heading: 2
     data:
       layout: classic
 
@@ -181,7 +234,9 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
+    top:
+      active: false
     data:
       layout: no_background
       text: >-
@@ -206,8 +261,10 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
       children: 3
+    top:
+      active: false
     data:
       description: >-
         
@@ -248,7 +305,14 @@ contents:
     slug: >-
       pour-aller-plus-loin
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Pour aller plus loin
+        heading: 2
     data:
       layout: classic
 
@@ -260,8 +324,10 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
       children: 3
+    top:
+      active: false
     data:
       options:
         image: true
@@ -284,8 +350,15 @@ contents:
     slug: >-
       les-correspondants
     ranks:
+      base: 3
       self: 3
       children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Les Correspondants
+        heading: 3
     data:
       options:
         image: true
@@ -308,8 +381,10 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
       children: 3
+    top:
+      active: false
     data:
       mode: selection
       options:
@@ -334,32 +409,6 @@ contents:
           slug: "ilots-ekspo"
           file: "content/fr/events/archives/2023/2023-03-01-ilots-ekspo.html"
 
-
-
-  - kind: block
-    template: projects
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      self: 2
-      children: 3
-    data:
-      mode: selection
-      layout: grid
-      options:
-        categories: true
-        image: true
-        subtitle: true
-        summary: false
-        year: true
-
-      projects:
-        - permalink: "/fr/productions/2022-lizellba-jeu-de-plateau-1/"
-          path: "/projects/2022-lizellba-jeu-de-plateau-1"
-          slug: "lizellba-jeu-de-plateau-1"
-          file: "content/fr/projects/2022-lizellba-jeu-de-plateau-1.html"
 
 
 
