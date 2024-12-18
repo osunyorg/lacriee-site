@@ -4,46 +4,54 @@ items:
 - title: Centre d'art
   target: "/fr/centre-dart/"
   kind: page
+  new_tab: false
   children:
   - title: Soutenir la création artistique
     target: "/fr/centre-dart/soutenir-la-creation-artistique/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/centre-dart/soutenir-la-creation-artistique"
     file: content/fr/pages/centre-dart/soutenir-la-creation-artistique/_index.html
   - title: Transmettre
     target: "/fr/centre-dart/transmettre/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/centre-dart/transmettre"
     file: content/fr/pages/centre-dart/transmettre/_index.html
   - title: Soutenir la recherche
     target: "/fr/centre-dart/soutenir-la-recherche/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/centre-dart/soutenir-la-recherche"
     file: content/fr/pages/centre-dart/soutenir-la-recherche/_index.html
   - title: Coopérer
     target: "/fr/centre-dart/cooperer/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/centre-dart/cooperer"
     file: content/fr/pages/centre-dart/cooperer/_index.html
   - title: Histoire du lieu
     target: "/fr/centre-dart/histoire/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/centre-dart/histoire"
     file: content/fr/pages/centre-dart/histoire/_index.html
   - title: Transition écologique
     target: "/fr/centre-dart/transition-ecologique/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/centre-dart/transition-ecologique"
     file: content/fr/pages/centre-dart/transition-ecologique/_index.html
   - title: Équipe
     target: "/fr/centre-dart/equipe/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/centre-dart/equipe"
     file: content/fr/pages/centre-dart/equipe/_index.html
@@ -52,46 +60,54 @@ items:
 - title: Programmation
   target: "/fr/programmation/"
   kind: page
+  new_tab: false
   children:
   - title: Cycle thématique
     target: "/fr/programmation/cycle-thematique-festina-lente-hate-toi-lentement/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmation/cycle-thematique-festina-lente-hate-toi-lentement"
     file: content/fr/pages/programmation/cycle-thematique-festina-lente-hate-toi-lentement/_index.html
   - title: Expositions
     target: "/fr/programmation/expositions/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmation/expositions"
     file: content/fr/pages/programmation/expositions/_index.html
   - title: Rendez-vous et évènements
     target: "/fr/programmation/rendez-vous-et-evenement/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmation/rendez-vous-et-evenement"
     file: content/fr/pages/programmation/rendez-vous-et-evenement/_index.html
   - title: Résidences
     target: "/fr/programmation/residences/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmation/residences"
     file: content/fr/pages/programmation/residences/_index.html
   - title: Éditions et recherche
     target: "/fr/programmation/editions-et-recherche/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmation/editions-et-recherche"
     file: content/fr/pages/programmation/editions-et-recherche/_index.html
   - title: Œuvres produites
     target: "/fr/programmation/oeuvres-produites/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmation/oeuvres-produites"
     file: content/fr/pages/programmation/oeuvres-produites/_index.html
   - title: Artistes, autrices, auteurs, commissaires, etc. de la saison
     target: "/fr/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison"
     file: content/fr/pages/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison/_index.html
@@ -100,52 +116,61 @@ items:
 - title: Médiation
   target: "/fr/mediation/"
   kind: page
+  new_tab: false
   children:
   - title: Présentation
     target: "/fr/mediation/presentation/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/presentation"
     file: content/fr/pages/mediation/presentation/_index.html
   - title: Petite enfance
     target: "/fr/mediation/petite-enfance/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/petite-enfance"
     file: content/fr/pages/mediation/petite-enfance/_index.html
   - title: Scolaires
     target: "/fr/mediation/scolaires/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/scolaires"
     file: content/fr/pages/mediation/scolaires/_index.html
   - title: Péri-scolaire et centres de loisirs
     target: "/fr/mediation/periscolaires-et-centres-de-loisirs/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/periscolaires-et-centres-de-loisirs"
     file: content/fr/pages/mediation/periscolaires-et-centres-de-loisirs/_index.html
   - title: Formation et enseignement supérieur
     target: "/fr/mediation/formation-et-enseignement-superieur/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/formation-et-enseignement-superieur"
     file: content/fr/pages/mediation/formation-et-enseignement-superieur/_index.html
   - title: Santé et Handicap
     target: "/fr/mediation/sante-et-handicap/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/sante-et-handicap"
     file: content/fr/pages/mediation/sante-et-handicap/_index.html
   - title: Champ social
     target: "/fr/mediation/champ-social/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/champ-social"
     file: content/fr/pages/mediation/champ-social/_index.html
   - title: Contact
     target: "/fr/mediation/contact-mediation/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/mediation/contact-mediation"
     file: content/fr/pages/mediation/contact-mediation/_index.html
@@ -154,34 +179,40 @@ items:
 - title: Informations pratiques
   target: "/fr/informations-pratiques/"
   kind: page
+  new_tab: false
   children:
   - title: Entrée libre et gratuite
     target: "/fr/informations-pratiques/entree-libre-et-gratuite/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/informations-pratiques/entree-libre-et-gratuite"
     file: content/fr/pages/informations-pratiques/entree-libre-et-gratuite/_index.html
   - title: Accès et horaires
     target: "/fr/informations-pratiques/acces-et-horaires/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/informations-pratiques/acces-et-horaires"
     file: content/fr/pages/informations-pratiques/acces-et-horaires/_index.html
   - title: 'Votre visite '
     target: "/fr/informations-pratiques/votre-visite/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/informations-pratiques/votre-visite"
     file: content/fr/pages/informations-pratiques/votre-visite/_index.html
   - title: 'Accessibilité '
     target: "/fr/informations-pratiques/accessibilite-a-la-criee/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/informations-pratiques/accessibilite-a-la-criee"
     file: content/fr/pages/informations-pratiques/accessibilite-a-la-criee/_index.html
   - title: Contact et newsletter
     target: "/fr/informations-pratiques/contact-et-newsletter/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/informations-pratiques/contact-et-newsletter"
     file: content/fr/pages/informations-pratiques/contact-et-newsletter/_index.html
@@ -190,28 +221,33 @@ items:
 - title: Ressources
   target: "/fr/ressources/"
   kind: page
+  new_tab: false
   children:
   - title: Ressources pédagogiques
     target: "/fr/ressources/ressources-pedagogiques/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/ressources/ressources-pedagogiques"
     file: content/fr/pages/ressources/ressources-pedagogiques/_index.html
   - title: Correspondances
     target: "/fr/ressources/correspondances/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/ressources/correspondances"
     file: content/fr/pages/ressources/correspondances/_index.html
   - title: Les trois dernières saisons
     target: "/fr/ressources/les-trois-dernieres-saisons/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/ressources/les-trois-dernieres-saisons"
     file: content/fr/pages/ressources/les-trois-dernieres-saisons/_index.html
   - title: Archives
     target: "/fr/ressources/archives-de-la-criee/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/ressources/archives-de-la-criee"
     file: content/fr/pages/ressources/archives-de-la-criee/_index.html
