@@ -3,13 +3,16 @@ pagination:
   pagerSize: 36
 enableRobotsTXT: true
 removePathAccents: true
+ignoreLogs: ['warning-goldmark-raw-html']
 params:
   debug:
     productionUrl: https://www.la-criee.org
   plausible: la-criee.org
   menu:
-    dropdown:
-      linkToLevel1: true
+    primary:
+      level_2:
+        title:
+          active: true
   breadcrumb:
     position: hero-start
   search:

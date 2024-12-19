@@ -8,22 +8,25 @@ header#document-header
         .menu
             .dropdown-menu .container
                 padding: 0
-                > a:first-of-type
+                > .dropdown-menu-heading
                     display: none
-            .menu-title
+                .nav-level-2
+                    margin-top: 0
+            .dropdown-menu-title
                 @include h4
     @include media-breakpoint-up(desktop)
         &:not(.is-sticky)
-            nav > .container
-                position: relative
-                &::after
-                    background: $color-border
-                    bottom: -$header-nav-padding-y-desktop
-                    content: ''
-                    height: 1px
-                    left: var(--grid-gutter)
-                    position: absolute
-                    width: calc(100% - (#{var(--grid-gutter)} * 2))
+            nav
+                padding-bottom: 0
+                > .container
+                    &::after
+                        background: $color-border
+                        content: ''
+                        height: 1px
+                        left: var(--grid-gutter)
+                        width: 100%
+                        flex-shrink: 0
+                        margin-top: $header-nav-padding-y-desktop
         nav .container
             align-items: flex-end
         .menu
@@ -57,7 +60,7 @@ header#document-header
                             &.active::after
                                 right: 0
                 .dropdown-menu:not(.dropdown-languages)
-                    padding-top: calc(#{$spacing-5} + #{$spacing-3})
+                    padding-top: $spacing-5
                 .has-children:not(.header-i18n)
                     > a[aria-expanded="true"],
                     > span[aria-expanded="true"] 
@@ -65,7 +68,7 @@ header#document-header
                             align-items: flex-start
                             gap: var(--grid-gutter)
                             display: flex
-                            a.dropdown-menu-title
+                            .dropdown-menu-heading
                                 width: columns(3)
                             .nav-level-2
                                 li 
