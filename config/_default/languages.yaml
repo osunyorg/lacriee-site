@@ -27,6 +27,8 @@ en:
     projects_categories: /projects/:slug/
     posts: /posts/:year-:month-:day-:slug/
     posts_categories: /posts/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /artists-authors-curators-etc/:slug/
     persons_categories: /artists-authors-curators-etc/categories/:slug/
     authors: /artists-authors-curators-etc/:slug/posts/
@@ -70,6 +72,8 @@ fr:
     projects_categories: /productions/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/
     persons_categories: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/categories/:slug/
     authors: /tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/:slug/actualites/
