@@ -35,16 +35,17 @@ footer#document-footer
             .footer-legals
                 + .container
                     margin-top: $spacing-2
-    .footer-search 
+    .footer-search
         > div
             border-top: 1px solid $color-border
             width: 100%
             padding-top: $spacing-3
-            .pagefind-ui__toggle
+            .search-button
                 @include h2
                 display: flex
                 font-family: $body-font-family
                 gap: $spacing-2
+                white-space: break-spaces
                 &::after
                     display: none
                 &::before

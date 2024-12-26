@@ -18,15 +18,11 @@
     {{ partial "footer/i18n.html" . }}
   </div>
 </div>
-{{ if and (site.Params.search.active) (eq site.Params.search.position "footer")}}
+
+{{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
   <div class="container footer-search">
     <div>
-      {{ partial "header/search.html"
-        (dict
-        "position" "footer"
-        "context" .
-        )
-      }}
+      {{ partial "commons/search/button.html" "footer" }}
     </div>
   </div>
 {{ end }}

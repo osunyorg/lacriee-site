@@ -17,8 +17,8 @@ params:
     position: hero-start
   search:
     active: true
-    position: footer
-    appearance: both
+    positions:
+      - footer
   summary:
     position: content
   events:
