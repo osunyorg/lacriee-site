@@ -1,97 +1,15 @@
 {{- $title := or .Params.header_text .Title -}}
-{{- $direction := "" -}}
-{{- $breadcrumb_is_after_hero := eq site.Params.breadcrumb.position "after-hero"  -}}
-{{- $subtitle := .Params.subtitle -}}
-{{- $description := .Params.description -}}
-{{ if .Params.image }}
-  {{- $direction = partial "GetImageDirection" .Params.image -}}
-{{ end }}
-
-{{ $button := .Params.button | default .Params.header_cta }}
-
 {{- $summary := safeHTML .Params.summary -}}
 
-<header class="hero {{ if .Params.image }}hero--with-image hero--image-{{- $direction }}{{ end }} {{ if $breadcrumb_is_after_hero }} hero--no-margin {{ end }}">
-  <div class="container">
-    {{- if eq site.Params.breadcrumb.position "hero-start" -}}
-      {{- if .Params.breadcrumb | default true -}}
-        {{ partial "header/breadcrumbs.html" . }}
-      {{- end -}}
-    {{- end -}}
-    <div class="content">
-      <div class="hero-text">
-        {{- if or $summary -}}
-          <hgroup class="h1">
-            <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
-            {{- if $summary -}}
-              {{ partial "PrepareHTML" $summary }}
-            {{- end -}}
-          </hgroup>
-        {{- else -}}
-          <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
-        {{- end -}}
+{{ with .Params.subtitle }}
+  {{- $title = printf "%s <span>%s</span>" $title . -}}
+{{ end }}
 
-        {{ with $button }}
-          {{ if and .display .target .label }}
-            <a href="{{ .target }}" class="btn">{{ .label }}</a>
-          {{ end }}
-        {{ end }}
-
-        {{ if or .Params.projects_categories .Params.year }}
-          <div class="project-infos">
-            {{ with .Params.year }}
-              <div class="year">
-                <time datetime="{{ . }}">{{ . }}</time>
-              </div>
-            {{ end }}
-            {{ if .Params.projects_categories }}
-              <div class="terms">
-                {{ partial "commons/categories" ( dict
-                  "context" .
-                  "kind" "project"
-                )}}
-              </div>
-            {{ end }}
-          </div>
-        {{ end }}
-
-        {{ if site.Params.projects.share_links.enabled | default site.Params.share_links.enabled }}
-          <div class="dropdown-share">
-            <button type="button" aria-expanded="false">{{ i18n "commons.share" }}</button>
-            <div class="dropdown-menu">
-              {{ partial "commons/share.html" . }}
-            </div>
-          </div>
-        {{ end }}
-      </div>
-
-      {{ if .Params.image }}
-        <!-- TODO Peut etre aligner la stucture des données avec les autres cas d'images -->
-        {{ partial "commons/image-figure.html" (dict
-          "image"    .Params.image
-          "sizes"    ( .Params.sizes | default site.Params.image_sizes.design_system.hero )
-          "lazy"      false
-          )
-        }}
-      {{ end }}
-    </div>
-  </div>
-
-  {{ if .Params.hero_complement }}
-    {{ partial .Params.hero_complement . }}
-  {{ end }}
-
-  {{- if eq site.Params.breadcrumb.position "hero-end" -}}
-    {{- if .breadcrumb | default true -}}
-      {{ partial "header/breadcrumbs.html" .context }}
-    {{- end -}}
-  {{- end -}}
-</header>
-
-{{- if $breadcrumb_is_after_hero -}}
-  {{- if .breadcrumb | default true -}}
-    <div class="container breadcrumb-container">
-      {{ partial "header/breadcrumbs.html" .context }}
-    </div>
-  {{- end -}}
-{{- end -}}
+{{- partial "header/hero.html" (dict
+      "title" $title
+      "subtitle" $summary
+      "image" .Params.image
+      "sizes" site.Params.image_sizes.sections.projects.hero_single
+      "hero_text_complement" "projects/project-infos.html"
+      "context" .
+) -}}
