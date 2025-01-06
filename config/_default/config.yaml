@@ -64,8 +64,10 @@ params:
         grid:
           desktop:  555
       persons:
-        desktop:  400
-    sections:
+        grid:
+          desktop:  400
       events:
-        item:
+        large:
           desktop:  864
+        list:
+          desktop:  245
