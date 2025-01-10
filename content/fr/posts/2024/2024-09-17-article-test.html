@@ -6,7 +6,7 @@ subtitle: >-
 url: "/fr/actualites/2024-09-17-article-test/"
 slug: "article-test"
 date: 2024-09-17T17:17:06+02:00
-lastmod: 2025-01-10T18:17:23+01:00
+lastmod: 2025-01-10T18:23:13+01:00
 meta:
   hugo:
     permalink: "/fr/actualites/2024-09-17-article-test/"
@@ -15,7 +15,7 @@ meta:
     slug: "article-test"
   dates:
     created_at: 2024-09-17T17:08:31+02:00
-    updated_at: 2025-01-10T18:17:23+01:00
+    updated_at: 2025-01-10T18:23:13+01:00
     published_at: 2024-09-17T17:17:06+02:00
 
 breadcrumbs:
@@ -54,7 +54,7 @@ summary: >-
   <p>Ceci est un article test réalisé dans le cadre du tutoriel pour apprendre à mettre en ligne un article sur le site internet de La Criée</p>
 
 contents_reading_time:
-  seconds: 279
+  seconds: 278
   text: >-
     5 minutes
 contents:
@@ -267,6 +267,32 @@ contents:
 
 
   - kind: block
+    template: image
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      text: >-
+        <p>Image test en vert avec un escargot <br>(pour donner encore plus d'info sur l'image)</p>
+
+      image:
+        id: "866cb792-a32c-42c6-a993-a4434de66c53"
+        file: "866cb792-a32c-42c6-a993-a4434de66c53"
+
+        alt: >-
+          explication de l'image pour les personnes en situation de handicap
+
+        credit: >-
+          <p>crédits : Alias Sandi</p>
+
+
+
+  - kind: block
     template: title
     title: >-
       Lexique
@@ -317,32 +343,6 @@ contents:
 
 
   - kind: block
-    template: image
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-    top:
-      active: false
-    data:
-      text: >-
-        <p>Image test en vert avec un escargot <br>(pour donner encore plus d'info sur l'image)</p>
-
-      image:
-        id: "866cb792-a32c-42c6-a993-a4434de66c53"
-        file: "866cb792-a32c-42c6-a993-a4434de66c53"
-
-        alt: >-
-          explication de l'image pour les personnes en situation de handicap
-
-        credit: >-
-          <p>crédits : Alias Sandi</p>
-
-
-
-  - kind: block
     template: title
     title: >-
       Lorem Ipsum - version son
@@ -387,9 +387,9 @@ contents:
   - kind: block
     template: title
     title: >-
-      Un tableau de données
+      Un tableau de données, une frise chronologique, etc.
     slug: >-
-      un-tableau-de-donnees
+      un-tableau-de-donnees-une-frise-chronologique-etc
     ranks:
       base: 2
       self: 2
@@ -397,10 +397,10 @@ contents:
       active: true
       title: 
         value: >-
-          Un tableau de données
+          Un tableau de données, une frise chronologique, etc.
         heading: 2
     data:
-      layout: classic
+      layout: collapsed
 
 
   - kind: block
@@ -429,25 +429,6 @@ contents:
       caption: >-
         répartition actions à la Criée selon période (informations factices)
 
-
-
-  - kind: block
-    template: title
-    title: >-
-      Une frise chronologique
-    slug: >-
-      une-frise-chronologique
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Une frise chronologique
-        heading: 2
-    data:
-      layout: classic
 
 
   - kind: block
@@ -488,25 +469,6 @@ contents:
           text: >-
             <p>Element de fin de la frise</p>
 
-
-
-  - kind: block
-    template: title
-    title: >-
-      Fichier
-    slug: >-
-      fichier
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Fichier
-        heading: 2
-    data:
-      layout: classic
 
 
   - kind: block
@@ -554,46 +516,106 @@ contents:
   - kind: block
     template: contact
     title: >-
-      
+      Contact
     slug: >-
-      
+      contact
     ranks:
       base: 3
-      children: 3
+      self: 3
+      children: 4
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Contact
+        heading: 3
     data:
       description: >-
         
 
       name: >-
-        
+        La Criée centre d'art contemporain
 
       information: >-
         
 
       contact_details:
+        postal_address:
+          data:
+            address_name: >-
+              
+            address: >-
+              Place Honoré Comeurec
+            address_additional: >-
+              
+            zipcode: >-
+              35000
+            city: >-
+              Rennes
+            country:
+              name: >-
+                France
+              alpha2: >-
+                FR
+              alpha3: >-
+                FRA
+          text: >-
+            Place Honoré Comeurec 35000 Rennes FRANCE
+          html: >-
+            <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Place Honoré Comeurec</span> <span itemprop="postalCode">35000</span> <span itemprop="addressLocality">Rennes</span> <span itemprop="addressCountry">FRANCE</span></address>
+        phone_numbers:
+          list:
+            - label: >-
+                0223622510
+              value: >-
+                tel:0223622510
+        emails:
+          list:
+            - label: >-
+                la-criee@ville-rennes.fr
+              value: >-
+                mailto:la-criee@ville-rennes.fr
+        websites:
+          website:
+            label: >-
+              www.la-criee.org/fr/
+            value: >-
+              https://www.la-criee.org/fr/
+        social_networks:
+          facebook:
+            label: >-
+              la.criee.art.contemporain
+            value: >-
+              https://www.facebook.com/la.criee.art.contemporain
+          instagram:
+            label: >-
+              la_criee_centre_d_art
+            value: >-
+              https://instagram.com/la_criee_centre_d_art
 
       timetable:
+        - title: >-
+            Lundi (fermé)
 
+          time_slot_morning:
+            from: ""
+            to: ""
 
-  - kind: block
-    template: title
-    title: >-
-      Lien
-    slug: >-
-      lien
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Lien
-        heading: 2
-    data:
-      layout: classic
+          time_slot_afternoon:
+            from: ""
+            to: ""
+
+        - title: >-
+            Du mardi au dimanche
+
+          time_slot_morning:
+            from: ""
+            to: ""
+
+          time_slot_afternoon:
+            from: "13:00"
+            to: "19:00"
+
 
 
   - kind: block
@@ -659,25 +681,6 @@ contents:
             id: "c87c2536-f5d6-442b-8c4e-53f9d987dce8"
             file: "c87c2536-f5d6-442b-8c4e-53f9d987dce8"
 
-
-
-  - kind: block
-    template: title
-    title: >-
-      Des liens pour aller plus loin ?
-    slug: >-
-      des-liens-pour-aller-plus-loin
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Des liens pour aller plus loin ?
-        heading: 2
-    data:
-      layout: classic
 
 
   - kind: block
@@ -930,111 +933,6 @@ contents:
           file: "content/fr/persons/sophie-kaplan.html"
           role: >-
             
-
-
-
-  - kind: block
-    template: contact
-    title: >-
-      Contact
-    slug: >-
-      contact
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Contact
-        heading: 3
-    data:
-      description: >-
-        
-
-      name: >-
-        La Criée centre d'art contemporain
-
-      information: >-
-        
-
-      contact_details:
-        postal_address:
-          data:
-            address_name: >-
-              
-            address: >-
-              Place Honoré Comeurec
-            address_additional: >-
-              
-            zipcode: >-
-              35000
-            city: >-
-              Rennes
-            country:
-              name: >-
-                France
-              alpha2: >-
-                FR
-              alpha3: >-
-                FRA
-          text: >-
-            Place Honoré Comeurec 35000 Rennes FRANCE
-          html: >-
-            <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Place Honoré Comeurec</span> <span itemprop="postalCode">35000</span> <span itemprop="addressLocality">Rennes</span> <span itemprop="addressCountry">FRANCE</span></address>
-        phone_numbers:
-          list:
-            - label: >-
-                0223622510
-              value: >-
-                tel:0223622510
-        emails:
-          list:
-            - label: >-
-                la-criee@ville-rennes.fr
-              value: >-
-                mailto:la-criee@ville-rennes.fr
-        websites:
-          website:
-            label: >-
-              www.la-criee.org/fr/
-            value: >-
-              https://www.la-criee.org/fr/
-        social_networks:
-          facebook:
-            label: >-
-              la.criee.art.contemporain
-            value: >-
-              https://www.facebook.com/la.criee.art.contemporain
-          instagram:
-            label: >-
-              la_criee_centre_d_art
-            value: >-
-              https://instagram.com/la_criee_centre_d_art
-
-      timetable:
-        - title: >-
-            Lundi (fermé)
-
-          time_slot_morning:
-            from: ""
-            to: ""
-
-          time_slot_afternoon:
-            from: ""
-            to: ""
-
-        - title: >-
-            Du mardi au dimanche
-
-          time_slot_morning:
-            from: ""
-            to: ""
-
-          time_slot_afternoon:
-            from: "13:00"
-            to: "19:00"
 
 
 
@@ -1574,6 +1472,25 @@ contents:
           slug: "atelier-1-merci"
           file: "content/fr/posts/2024/2024-02-20-atelier-1-merci.html"
 
+
+
+  - kind: block
+    template: title
+    title: >-
+      Blocs Image et Galerie
+    slug: >-
+      blocs-image-et-galerie
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Blocs Image et Galerie
+        heading: 2
+    data:
+      layout: collapsed
 
 
 
