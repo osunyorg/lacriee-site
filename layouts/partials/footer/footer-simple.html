@@ -14,8 +14,12 @@
   <div class="footer-site">
     <div class="footer-legals">
       {{ partial "footer/legals.html" }}
+      {{ partial "footer/credit.html" }}
     </div>
-    {{ partial "footer/i18n.html" . }}
+    {{ partial "commons/i18n.html" (dict
+        "context" .
+        "position" "footer"
+      )}}
   </div>
 </div>
 
