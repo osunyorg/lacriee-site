@@ -19,6 +19,11 @@ params:
     active: true
     positions:
       - footer
+  i18n:
+    positions:
+      - primary
+      # - upper-menu
+      # - footer
   summary:
     position: content
   events:
