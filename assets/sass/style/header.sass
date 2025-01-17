@@ -1,7 +1,7 @@
 header#document-header
     .menu
         .nav-level-1 > li
-            &.header-i18n [role="button"]
+            &.primary-i18n [role="button"]
                 @include icon(arrow-down-s-line, after)
                     margin-left: $spacing-1
     @include media-breakpoint-down(desktop)
@@ -32,7 +32,7 @@ header#document-header
         .menu
             .nav-level-1 
                 align-items: flex-end
-                li:not(.header-i18n)
+                li:not(.primary-i18n)
                     a,
                     span
                         position: relative
@@ -50,7 +50,7 @@ header#document-header
                     > span
                         line-height: 100%
                         padding-bottom: 0
-                    &:not(.header-i18n)
+                    &:not(.primary-i18n)
                         > span,
                         > a
                             &[aria-expanded][aria-expanded="true"]::after
@@ -61,7 +61,7 @@ header#document-header
                                 right: 0
                 .dropdown-menu:not(.dropdown-languages)
                     padding-top: $spacing-5
-                .has-children:not(.header-i18n)
+                .has-children:not(.primary-i18n)
                     > a[aria-expanded="true"],
                     > span[aria-expanded="true"] 
                         + .dropdown-menu .container
