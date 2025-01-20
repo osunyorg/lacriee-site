@@ -23,3 +23,4 @@ allowed_domains:
   - "*.dmcdn.net"
   - "correspondances.la-criee.org"
   - "www.google.com"
+  - "sketchfab.com"
