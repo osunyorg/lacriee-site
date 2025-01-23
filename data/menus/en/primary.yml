@@ -133,12 +133,12 @@ items:
     path: "/pages/art-education/early-childhood"
     file: content/en/pages/art-education/early-childhood/_index.html
   - title: Education
-    target: "/en/art-education/scolaires/"
+    target: "/en/art-education/education/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-education/scolaires"
-    file: content/en/pages/art-education/scolaires/_index.html
+    path: "/pages/art-education/education"
+    file: content/en/pages/art-education/education/_index.html
   - title: Péri-scolaires et centre de loisirs
     target: "/en/art-education/periscolaires-et-centre-de-loisirs/"
     kind: page
