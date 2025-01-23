@@ -114,61 +114,61 @@ items:
   path: "/pages/all-the-programme"
   file: content/en/pages/all-the-programme/_index.html
 - title: Art Education
-  target: "/en/art-mediation/"
+  target: "/en/art-education/"
   kind: page
   new_tab: false
   children:
   - title: Présentation
-    target: "/en/art-mediation/presentation/"
+    target: "/en/art-education/presentation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/presentation"
-    file: content/en/pages/art-mediation/presentation/_index.html
+    path: "/pages/art-education/presentation"
+    file: content/en/pages/art-education/presentation/_index.html
   - title: Early childwood
-    target: "/en/art-mediation/early-childhood/"
+    target: "/en/art-education/early-childhood/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/early-childhood"
-    file: content/en/pages/art-mediation/early-childhood/_index.html
+    path: "/pages/art-education/early-childhood"
+    file: content/en/pages/art-education/early-childhood/_index.html
   - title: Education
-    target: "/en/art-mediation/scolaires/"
+    target: "/en/art-education/scolaires/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/scolaires"
-    file: content/en/pages/art-mediation/scolaires/_index.html
+    path: "/pages/art-education/scolaires"
+    file: content/en/pages/art-education/scolaires/_index.html
   - title: Péri-scolaires et centre de loisirs
-    target: "/en/art-mediation/periscolaires-et-centre-de-loisirs/"
+    target: "/en/art-education/periscolaires-et-centre-de-loisirs/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/periscolaires-et-centre-de-loisirs"
-    file: content/en/pages/art-mediation/periscolaires-et-centre-de-loisirs/_index.html
+    path: "/pages/art-education/periscolaires-et-centre-de-loisirs"
+    file: content/en/pages/art-education/periscolaires-et-centre-de-loisirs/_index.html
   - title: Champ social
-    target: "/en/art-mediation/champ-social/"
+    target: "/en/art-education/champ-social/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/champ-social"
-    file: content/en/pages/art-mediation/champ-social/_index.html
+    path: "/pages/art-education/champ-social"
+    file: content/en/pages/art-education/champ-social/_index.html
   - title: Health and disability
-    target: "/en/art-mediation/health-and-disability/"
+    target: "/en/art-education/health-and-disability/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/health-and-disability"
-    file: content/en/pages/art-mediation/health-and-disability/_index.html
+    path: "/pages/art-education/health-and-disability"
+    file: content/en/pages/art-education/health-and-disability/_index.html
   - title: Formation et enseignement supérieur
-    target: "/en/art-mediation/formation-et-enseignement-superieur/"
+    target: "/en/art-education/formation-et-enseignement-superieur/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/formation-et-enseignement-superieur"
-    file: content/en/pages/art-mediation/formation-et-enseignement-superieur/_index.html
-  path: "/pages/art-mediation"
-  file: content/en/pages/art-mediation/_index.html
+    path: "/pages/art-education/formation-et-enseignement-superieur"
+    file: content/en/pages/art-education/formation-et-enseignement-superieur/_index.html
+  path: "/pages/art-education"
+  file: content/en/pages/art-education/_index.html
 - title: Visit
   target: "/en/visit/"
   kind: page
