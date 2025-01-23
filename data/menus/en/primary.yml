@@ -113,7 +113,7 @@ items:
     file: content/en/pages/all-the-programme/artists-authors-curators-etc-of-the-season/_index.html
   path: "/pages/all-the-programme"
   file: content/en/pages/all-the-programme/_index.html
-- title: Art mediation
+- title: Art Education
   target: "/en/art-mediation/"
   kind: page
   new_tab: false
