@@ -140,12 +140,12 @@ items:
     path: "/pages/art-education/education"
     file: content/en/pages/art-education/education/_index.html
   - title: Péri-scolaires et centre de loisirs
-    target: "/en/art-education/periscolaires-et-centre-de-loisirs/"
+    target: "/en/art-education/after-school-and-leisure-centers/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-education/periscolaires-et-centre-de-loisirs"
-    file: content/en/pages/art-education/periscolaires-et-centre-de-loisirs/_index.html
+    path: "/pages/art-education/after-school-and-leisure-centers"
+    file: content/en/pages/art-education/after-school-and-leisure-centers/_index.html
   - title: Champ social
     target: "/en/art-education/champ-social/"
     kind: page
