@@ -139,7 +139,7 @@ items:
     children: []
     path: "/pages/art-education/education"
     file: content/en/pages/art-education/education/_index.html
-  - title: Péri-scolaires et centre de loisirs
+  - title: After-school and Leisure Centers
     target: "/en/art-education/after-school-and-leisure-centers/"
     kind: page
     new_tab: false
