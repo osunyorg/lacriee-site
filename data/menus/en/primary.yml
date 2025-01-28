@@ -146,20 +146,6 @@ items:
     children: []
     path: "/pages/art-education/after-school-and-leisure-centers"
     file: content/en/pages/art-education/after-school-and-leisure-centers/_index.html
-  - title: Social Field
-    target: "/en/art-education/social-field/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/art-education/social-field"
-    file: content/en/pages/art-education/social-field/_index.html
-  - title: Health and disability
-    target: "/en/art-education/health-and-disability/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/art-education/health-and-disability"
-    file: content/en/pages/art-education/health-and-disability/_index.html
   - title: Formation et enseignement supérieur
     target: "/en/art-education/formation-et-enseignement-superieur/"
     kind: page
@@ -167,6 +153,20 @@ items:
     children: []
     path: "/pages/art-education/formation-et-enseignement-superieur"
     file: content/en/pages/art-education/formation-et-enseignement-superieur/_index.html
+  - title: Health and disability
+    target: "/en/art-education/health-and-disability/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/art-education/health-and-disability"
+    file: content/en/pages/art-education/health-and-disability/_index.html
+  - title: Social Field
+    target: "/en/art-education/social-field/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/art-education/social-field"
+    file: content/en/pages/art-education/social-field/_index.html
   path: "/pages/art-education"
   file: content/en/pages/art-education/_index.html
 - title: Visit
