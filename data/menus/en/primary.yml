@@ -147,12 +147,12 @@ items:
     path: "/pages/art-education/after-school-and-leisure-centers"
     file: content/en/pages/art-education/after-school-and-leisure-centers/_index.html
   - title: Formation et enseignement supérieur
-    target: "/en/art-education/formation-et-enseignement-superieur/"
+    target: "/en/art-education/trainings-and-higher-education/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-education/formation-et-enseignement-superieur"
-    file: content/en/pages/art-education/formation-et-enseignement-superieur/_index.html
+    path: "/pages/art-education/trainings-and-higher-education"
+    file: content/en/pages/art-education/trainings-and-higher-education/_index.html
   - title: Health and disability
     target: "/en/art-education/health-and-disability/"
     kind: page
