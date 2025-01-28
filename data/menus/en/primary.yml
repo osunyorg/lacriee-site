@@ -118,7 +118,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Présentation
+  - title: Presentation
     target: "/en/art-education/presentation/"
     kind: page
     new_tab: false
