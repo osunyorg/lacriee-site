@@ -189,12 +189,12 @@ items:
   new_tab: false
   children:
   - title: Archives
-    target: "/en/ressources/archives-1/"
+    target: "/en/ressources/archives-of-la-criee/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/ressources/archives-1"
-    file: content/en/pages/ressources/archives-1/_index.html
+    path: "/pages/ressources/archives-of-la-criee"
+    file: content/en/pages/ressources/archives-of-la-criee/_index.html
   - title: The three last seasons
     target: "/en/ressources/les-trois-dernieres-saisons/"
     kind: page
