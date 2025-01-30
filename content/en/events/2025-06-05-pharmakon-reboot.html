@@ -32,7 +32,7 @@ design:
     present: true
     offcanvas: false
 
-weight: 128
+weight: 127
 dates:
   status: "future"
   archive: false
@@ -74,12 +74,16 @@ summary: >-
 
 events_categories:
   - "exhibitions"
-free_categories:
-  - permalink: "/en/agenda/exhibitions/"
-    path: "/events_categories/exhibitions"
-    slug: "exhibitions"
-    file: "content/en/events_categories/exhibitions/_index.html"
-    name: "Exhibitions at the art center"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/en/agenda/exhibitions/"
+        path: "/events_categories/exhibitions"
+        slug: "exhibitions"
+        file: "content/en/events_categories/exhibitions/_index.html"
+        name: "Exhibitions at the art center"
+
 
 contents_reading_time:
   seconds: 17
