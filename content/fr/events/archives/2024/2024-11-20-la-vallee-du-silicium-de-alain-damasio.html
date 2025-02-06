@@ -15,7 +15,7 @@ meta:
     slug: "la-vallee-du-silicium-de-alain-damasio"
   dates:
     created_at: 2024-09-02T12:52:23+02:00
-    updated_at: 2024-11-13T17:36:39+01:00
+    updated_at: 2025-02-06T11:05:39+01:00
     published_at: 2024-09-02T19:05:02+02:00
 
 breadcrumbs:
@@ -103,19 +103,38 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
+    template: title
+    title: >-
+      À propos
+    slug: >-
+      a-propos
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          À propos
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
     template: chapter
     title: >-
       
     slug: >-
       
     ranks:
-      base: 2
+      base: 3
     top:
       active: false
     data:
       layout: no_background
       text: >-
-        <p>En écho à l'exposition de Pierre Jean Giloux, « Biomimetic Stories », cet arpentage portera sur le livre <i>La Vallée du silicium</i>, un essai inspiré d'un séjour dans la Silicon valley, par l'auteur de science-fiction Alain Damasio (ed. Seuil, 2024)</p>
+        <p>En écho à l'exposition de Pierre Jean Giloux, <i>Biomimetic Stories</i>, cet arpentage portera sur le livre <i>La Vallée du silicium</i>, un essai inspiré d'un séjour dans la Silicon valley, par l'auteur de science-fiction Alain Damasio (ed. Seuil, 2024)</p>
 
       notes: >-
         
@@ -161,7 +180,7 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>-- gratuit<br>-- 20 places disponibles<br>-- <a href="https://www.eventbrite.fr/e/billets-arpentage-3-la-vallee-du-silicium-1059470317239?aff=oddtdtcreator" target="_blank">lien pour inscription <span class="sr-only">(lien externe)</span></a></p>
+        <p>-- gratuit<br>-- 20 places disponibles<br>-- <a href="https://www.eventbrite.fr/e/billets-arpentage-3-la-vallee-du-silicium-1059470317239?aff=oddtdtcreator" target="_blank" rel="noreferrer">lien pour inscription <span class="sr-only">(lien externe)</span></a></p>
 
       notes: >-
         
@@ -234,11 +253,11 @@ contents:
     data:
       mode: selection
       options:
-        categories: false
+        categories: true
         dates: true
         image: true
         subtitle: true
-        summary: true
+        summary: false
         status: false
 
       layout: grid
