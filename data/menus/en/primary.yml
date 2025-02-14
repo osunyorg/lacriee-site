@@ -113,62 +113,69 @@ items:
     file: content/en/pages/all-the-programme/artists-authors-curators-etc-of-the-season/_index.html
   path: "/pages/all-the-programme"
   file: content/en/pages/all-the-programme/_index.html
-- title: Art mediation
-  target: "/en/art-mediation/"
+- title: Art Education
+  target: "/en/art-education/"
   kind: page
   new_tab: false
   children:
-  - title: Présentation
-    target: "/en/art-mediation/presentation/"
+  - title: Presentation
+    target: "/en/art-education/presentation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/presentation"
-    file: content/en/pages/art-mediation/presentation/_index.html
+    path: "/pages/art-education/presentation"
+    file: content/en/pages/art-education/presentation/_index.html
   - title: Early childwood
-    target: "/en/art-mediation/early-childhood/"
+    target: "/en/art-education/early-childhood/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/early-childhood"
-    file: content/en/pages/art-mediation/early-childhood/_index.html
+    path: "/pages/art-education/early-childhood"
+    file: content/en/pages/art-education/early-childhood/_index.html
   - title: Education
-    target: "/en/art-mediation/scolaires/"
+    target: "/en/art-education/education/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/scolaires"
-    file: content/en/pages/art-mediation/scolaires/_index.html
-  - title: Péri-scolaires et centre de loisirs
-    target: "/en/art-mediation/periscolaires-et-centre-de-loisirs/"
+    path: "/pages/art-education/education"
+    file: content/en/pages/art-education/education/_index.html
+  - title: After-school and Leisure Centers
+    target: "/en/art-education/after-school-and-leisure-centers/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/periscolaires-et-centre-de-loisirs"
-    file: content/en/pages/art-mediation/periscolaires-et-centre-de-loisirs/_index.html
-  - title: Champ social
-    target: "/en/art-mediation/champ-social/"
+    path: "/pages/art-education/after-school-and-leisure-centers"
+    file: content/en/pages/art-education/after-school-and-leisure-centers/_index.html
+  - title: Trainings and Higher Education
+    target: "/en/art-education/trainings-and-higher-education/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/champ-social"
-    file: content/en/pages/art-mediation/champ-social/_index.html
+    path: "/pages/art-education/trainings-and-higher-education"
+    file: content/en/pages/art-education/trainings-and-higher-education/_index.html
   - title: Health and disability
-    target: "/en/art-mediation/health-and-disability/"
+    target: "/en/art-education/health-and-disability/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/health-and-disability"
-    file: content/en/pages/art-mediation/health-and-disability/_index.html
-  - title: Formation et enseignement supérieur
-    target: "/en/art-mediation/formation-et-enseignement-superieur/"
+    path: "/pages/art-education/health-and-disability"
+    file: content/en/pages/art-education/health-and-disability/_index.html
+  - title: Social Field
+    target: "/en/art-education/social-field/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/art-mediation/formation-et-enseignement-superieur"
-    file: content/en/pages/art-mediation/formation-et-enseignement-superieur/_index.html
-  path: "/pages/art-mediation"
-  file: content/en/pages/art-mediation/_index.html
+    path: "/pages/art-education/social-field"
+    file: content/en/pages/art-education/social-field/_index.html
+  - title: Contact
+    target: "/en/art-education/contact-mediation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/art-education/contact-mediation"
+    file: content/en/pages/art-education/contact-mediation/_index.html
+  path: "/pages/art-education"
+  file: content/en/pages/art-education/_index.html
 - title: Visit
   target: "/en/visit/"
   kind: page
@@ -182,12 +189,12 @@ items:
   new_tab: false
   children:
   - title: Archives
-    target: "/en/ressources/archives-1/"
+    target: "/en/ressources/archives-of-la-criee/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/ressources/archives-1"
-    file: content/en/pages/ressources/archives-1/_index.html
+    path: "/pages/ressources/archives-of-la-criee"
+    file: content/en/pages/ressources/archives-of-la-criee/_index.html
   - title: The three last seasons
     target: "/en/ressources/les-trois-dernieres-saisons/"
     kind: page

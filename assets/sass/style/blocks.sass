@@ -47,7 +47,7 @@
             display: none
     .event 
         &-title
-            font-style: italic
+            font-style: italic !important
         &-subtitle
             font-style: normal
             color: $color-text
@@ -352,8 +352,8 @@
                     position: relative
             .media
                 margin-bottom: $spacing-3
-                aspect-ratio: 1
-                img
+                picture
+                    aspect-ratio: 1
                     height: 100%
     @include in-page-without-sidebar
         .top
