@@ -1,0 +1,15 @@
+{{- $title := or .Params.header_text .Title -}}
+{{- $summary := safeHTML .Params.summary -}}
+
+{{ with .Params.subtitle }}
+  {{- $title = printf "%s <span>%s</span>" $title . -}}
+{{ end }}
+
+{{- partial "header/hero.html" (dict
+      "title" $title
+      "subtitle" $summary
+      "image" .Params.image
+      "sizes" site.Params.image_sizes.sections.projects.hero_single
+      "hero_text_complement" "projects/single/hero/infos.html"
+      "context" .
+) -}}
