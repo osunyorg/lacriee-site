@@ -12,7 +12,7 @@ params:
   breadcrumb:
     position: hero-start
   search:
-    active: true
+    active: false
     positions:
       - footer
   i18n:
