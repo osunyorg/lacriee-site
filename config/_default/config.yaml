@@ -1,5 +1,11 @@
 theme: osuny
 _merge: deep
+outputs:
+  page:
+  - html
+  section:
+  - html
+  - rss
 params:
   debug:
     productionUrl: https://www.la-criee.org
