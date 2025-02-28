@@ -16,14 +16,14 @@
         .container 
             .content
                 align-items: unset
-                gap: var(--grid-gutter)
-        &--with-image
-            @include media-breakpoint-down(desktop)
-                figure
-                    margin-top: $spacing-3
+                @include media-breakpoint-down(desktop)
+                    .event-schedule
+                        margin-top: $spacing-2
         @include media-breakpoint-up(desktop)
-            figure
-                order: 2
+            .content
+                gap: var(--grid-gutter)
+                figure
+                    order: 2
             &--image-portrait,
             &--image-square
                 .container
