@@ -22,6 +22,6 @@ allowed_domains:
   - "geo.dailymotion.com"
   - "dai.ly"
   - "*.dmcdn.net"
-  - "sketchfab.com"
   - "correspondances.la-criee.org"
+  - "sketchfab.com"
   - "www.google.com"
