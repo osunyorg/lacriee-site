@@ -32,6 +32,11 @@ params:
     index:
       options:
         categories: true
+        dates: true
+      layout: list
+    single:
+      calendar_links: true
+      meta_in_sidebar: true
   persons:
     index:
       layout: grid

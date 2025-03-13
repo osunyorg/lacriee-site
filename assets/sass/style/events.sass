@@ -1,23 +1,29 @@
 // Events
 .events__page
     .event-sidebar
+        > div
+            display: flex
+            flex-direction: column
         .toc-container
             border-top: none !important
             padding-top: 0 !important
         .events-actions > span
             @include meta
             color: $color-text-alt
-
+        aside
+            order: 2
     .hero
         .container 
             .content
                 align-items: unset
-                gap: var(--grid-gutter)
-        &--with-image
-            @include media-breakpoint-down(desktop)
-                figure
-                    margin-top: $spacing-3
+                @include media-breakpoint-down(desktop)
+                    .event-schedule
+                        margin-top: $spacing-2
         @include media-breakpoint-up(desktop)
+            .content
+                gap: var(--grid-gutter)
+                figure
+                    order: 2
             &--image-portrait,
             &--image-square
                 .container
@@ -121,6 +127,16 @@
                 
 
 .events__section
+    &.full-width
+        @include media-breakpoint-up(desktop)
+            .events--list
+                .event
+                    &-content
+                        > .event-title, > hgroup, .event-description, .event-categories, .event-status
+                            grid-column: 4 / 10
+                        > .event-schedule
+                            grid-column: 1 / 4
+                            grid-row: 1 / 4
     .event--with-image
         .media
             img
