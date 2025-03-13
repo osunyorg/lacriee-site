@@ -21,6 +21,7 @@ params:
     active: true
     positions:
       - footer
+      - primary
   i18n:
     positions:
       - primary
@@ -37,6 +38,8 @@ params:
     single:
       calendar_links: true
       meta_in_sidebar: true
+      navigation: 
+        active: false
   persons:
     index:
       layout: grid
