@@ -25,21 +25,19 @@
         @include media-breakpoint-up(desktop)
             .content
                 gap: var(--grid-gutter)
+                .hero-text
+                    flex: 1
                 figure
                     order: 2
             &--image-portrait,
             &--image-square
                 .container
                     .content
-                        .hero-text
-                            width: columns(9)
                         figure
                             width: columns(3)
             &--image-landscape
                 .container
                     .content
-                        .hero-text
-                            width: columns(6)
                         figure
                             width: columns(6)
         .hero-text
