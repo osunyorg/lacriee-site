@@ -29,6 +29,9 @@ params:
       # - footer
   summary:
     position: content
+  home:
+    head:
+      title: site
   events:
     index:
       options:
