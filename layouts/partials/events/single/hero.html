@@ -40,19 +40,9 @@
           <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
         {{- end -}}
   
-        {{ if (or .Params.dates.computed.two_lines.short .Params.dates.from.hour .Params.dates.to.hour) }}
-          <div class="event-schedule" itemprop="startDate" content="{{- if .Params.dates.from.day -}}{{ .Params.dates.from.day }}{{- end -}} {{- if .Params.dates.from.hour -}}{{ .Params.dates.from.hour }}{{- end -}}">
+        {{ if .Params.dates.computed.two_lines.short }}
+          <div class="event-schedule">
             <p class="event-dates">{{ partial "PrepareHTML" .Params.dates.computed.two_lines.short }}</p>
-            {{/*  {{- if (or .Params.dates.from.hour .Params.dates.to.hour)}}
-              <div class="event-time">
-                {{- if .Params.dates.from.hour }}
-                  <span>{{ .Params.dates.from.hour }}</span>
-                {{ end -}}
-                {{- if .Params.dates.to.hour }}
-                  <span> {{ .Params.dates.to.hour }}</span>
-                {{ end -}}
-              </div>
-            {{ end -}}  */}}
           </div>
         {{ end }}
 
