@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/"
 slug: ""
 date: 2023-12-04T11:59:57+01:00
-lastmod: 2025-05-16T17:17:23+02:00
+lastmod: 2025-05-16T18:21:16+02:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2023-05-02T15:29:38+02:00
-    updated_at: 2025-05-16T17:17:23+02:00
+    updated_at: 2025-05-16T18:21:16+02:00
     published_at: 2023-12-04T11:59:57+01:00
 search:
   id: "422c6036-e983-4afb-aeb2-016c8acd9d66"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Ouvert de 13h à 19h du mardi au dimanche</p>
   body: >-
-    <p>Aujourd'hui  <br> À venir  <br> Les projets en cours </p>  <p> En vente à La Criée </p>
+    <p>Aujourd'hui  <br> À venir  <br> Les projets en cours </p>  <p> En vente à La Criée  </p>
 
 breadcrumbs:
   - title: >-
@@ -249,29 +249,43 @@ contents:
 
 
   - kind: block
-    template: projects
+    template: title
     title: >-
       En vente à La Criée
     slug: >-
       en-vente-a-la-criee
     ranks:
-      base: 3
-      self: 3
-      children: 4
+      base: 2
+      self: 2
     top:
       active: true
       title: 
         value: >-
           En vente à La Criée
-        heading: 3
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: projects
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
     data:
       mode: selection
-      layout: grid
+      layout: list
       options:
         categories: true
         image: true
         subtitle: true
-        summary: false
+        summary: true
         year: true
 
       projects:
