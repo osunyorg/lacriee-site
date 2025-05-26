@@ -23,7 +23,7 @@ en:
 
   permalinks:
     events: /agenda/:year/:slug/
-    exhibitions: /:year-:month-:day-:slug/
+    exhibitions: /exhibitions-1/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
     projects: /projects/:year-:slug/
@@ -73,7 +73,7 @@ fr:
 
   permalinks:
     events: /agenda/:year/:slug/
-    exhibitions: /:year-:month-:day-:slug/
+    exhibitions: /expositions-1/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
     projects: /productions/:year-:slug/
