@@ -1,5 +1,6 @@
 // Events
-.events__page
+.events__page,
+.exhibitions__page
     .event-access
         .event-slots
             border-top: 0 !important
@@ -119,12 +120,79 @@
                         grid-column: 2 / 8
     .lead 
         font-family: $lead-font-family
+    .event-parent
+        .event
+            .event-content
+                display: flex
+                flex-direction: column
+            .event-title,
+            .event-subtitle
+                @include h2
+                color: var(--color-text)
+            .event-title
+                font-style: italic
+            .event-schedule
+                @include h2
+                margin-top: auto
+            .more
+                font-size: inherit
+                line-height: inherit
+                &::after
+                    @include icon-site(arrow-top)
+                    font-size: pxToRem(18)
+                    padding-left: $spacing-1
+            .media img
+                aspect-ratio: 1
+                object-fit: cover
+            .event-categories
+                background-color: $color-accent
+                display: flex
+                height: 100%
+                margin: 0
+                padding: $spacing-1
+        @include media-breakpoint-down(desktop)
+            .event--with-image
+                .event-content
+                    > hgroup,
+                    > .event-title
+                        margin-bottom: $spacing-3
+                .media,
+                .event-categories
+                    margin-left: var(--grid-gutter-negative) !important
+                    margin-right: var(--grid-gutter-negative) !important
+                .event-categories
+                    margin-top: var(--grid-gutter-negative) !important
+                    order: -1
+                .event-title
+                    margin-top: $spacing-3
+        @include media-breakpoint-up(desktop)
+            padding-left: offset(4)
+            .event-schedule,
+            .more
+                text-align: right
+            .event--with-image
+                .event-categories
+                    margin-left: var(--grid-gutter-negative)
+                    padding: $spacing-2 $spacing-1
+                    position: absolute
+                    top: 0
+                    transform: translateX(-100%)
+                    writing-mode: sideways-lr
+                    li
+                        writing-mode: tb
+                        transform: rotate(180deg)
+                        a
+                            text-decoration: none
+                .media
+                    width: columns(5)
+                    order: -1
     // FIX SAFARI GAP
     @supports not (background: -webkit-named-image(i))
         .event-infos
             .events-actions
                 * + *
                     margin-top: space()
+    
                 
 
 .events__section
