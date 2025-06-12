@@ -90,13 +90,13 @@ items:
     children: []
     path: "/pages/programmation/residences"
     file: content/fr/pages/programmation/residences/_index.html
-  - title: Éditions et recherche
-    target: "/fr/programmation/editions-et-recherche/"
+  - title: Éditions, multiples et projets de recherche
+    target: "/fr/programmation/editions-multiples-et-projets-de-recherche/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/programmation/editions-et-recherche"
-    file: content/fr/pages/programmation/editions-et-recherche/_index.html
+    path: "/pages/programmation/editions-multiples-et-projets-de-recherche"
+    file: content/fr/pages/programmation/editions-multiples-et-projets-de-recherche/_index.html
   - title: Œuvres produites
     target: "/fr/programmation/oeuvres-produites/"
     kind: page

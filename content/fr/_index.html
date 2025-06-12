@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/"
 slug: ""
 date: 2023-12-04T11:59:57+01:00
-lastmod: 2025-03-07T14:22:09+01:00
+lastmod: 2025-06-10T12:11:17+02:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -17,10 +17,11 @@ meta:
     slug: ""
   dates:
     created_at: 2023-05-02T15:29:38+02:00
-    updated_at: 2025-03-07T14:22:09+01:00
+    updated_at: 2025-06-10T12:11:17+02:00
     published_at: 2023-12-04T11:59:57+01:00
 search:
   id: "422c6036-e983-4afb-aeb2-016c8acd9d66"
+  about_id: "bb359272-fbcc-4dfb-986e-1b3ab97900c1"
   url: "/fr/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -29,7 +30,7 @@ search:
   summary: >-
     <p>Ouvert de 13h à 19h du mardi au dimanche</p>
   body: >-
-    <p>Aujourd'hui  <br> À venir  <br> Les projets en cours </p>
+    <p>Aujourd'hui  <br> À venir  <br> Les projets en cours </p>  <p> En vente à La Criée  </p>
 
 breadcrumbs:
   - title: >-
@@ -41,6 +42,8 @@ design:
     present: true
     offcanvas: true
 
+
+
 position: 1
 weight: 1
 
@@ -51,6 +54,7 @@ translationKey: communication-website-page-bb359272-fbcc-4dfb-986e-1b3ab97900c1
 children:
   - "authors/_index.html"
   - "pages/centre-dart/_index.html"
+  - "exhibitions/_index.html"
   - "pages/programmation/_index.html"
   - "pages/mediation/_index.html"
   - "pages/informations-pratiques/_index.html"
@@ -79,7 +83,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 2
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
@@ -115,6 +119,10 @@ contents:
       active: false
     data:
       mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: true
         dates: true
@@ -131,18 +139,18 @@ contents:
         
 
       title_link: "/fr/agenda/expositions-a-la-criee/"
-      category: 
+      category:
         permalink: "/fr/agenda/expositions-a-la-criee/"
         path: "/events_categories/expositions-a-la-criee"
         slug: "expositions-a-la-criee"
         file: "content/fr/events_categories/expositions-a-la-criee/_index.html"
       events:
-        - permalink: "/fr/agenda/2025/daylighting-mais-cest-leau-qui-parle/"
-          path: "/events/2025/02/08-daylighting-mais-cest-leau-qui-parle"
-          slug: "daylighting-mais-cest-leau-qui-parle"
-          file: "content/fr/events/2025/02/08-daylighting-mais-cest-leau-qui-parle.html"
+        - permalink: "/fr/agenda/2025/pharmakon-reboot/"
+          path: "/events/2025/06/05-pharmakon-reboot"
+          slug: "pharmakon-reboot"
+          file: "content/fr/events/2025/06/05-pharmakon-reboot.html"
 
-
+      quantity: 1
 
 
 
@@ -178,6 +186,10 @@ contents:
       active: false
     data:
       mode: all
+      kinds:
+        parent: true
+        child: false
+        recurring: true
       options:
         categories: true
         dates: true
@@ -195,62 +207,77 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
-        - permalink: "/fr/agenda/2025/decoloniser-le-droit-de-marine-calmet/"
-          path: "/events/2025/03/18-15-00-decoloniser-le-droit-de-marine-calmet"
-          slug: "decoloniser-le-droit-de-marine-calmet"
-          file: "content/fr/events/2025/03/18-15-00-decoloniser-le-droit-de-marine-calmet.html"
-        - permalink: "/fr/agenda/2025/projection-ai-african-intelligence/"
-          path: "/events/2025/03/30-18-45-projection-ai-african-intelligence"
-          slug: "projection-ai-african-intelligence"
-          file: "content/fr/events/2025/03/30-18-45-projection-ai-african-intelligence.html"
-        - permalink: "/fr/agenda/2025/pharmakon-reboot/"
-          path: "/events/2025/06/05-pharmakon-reboot"
-          slug: "pharmakon-reboot"
-          file: "content/fr/events/2025/06/05-pharmakon-reboot.html"
+        - permalink: "/fr/agenda/2025/territoires-extra-ceramique-on-tour/"
+          path: "/events/2025/07/18-territoires-extra-ceramique-on-tour"
+          slug: "territoires-extra-ceramique-on-tour"
+          file: "content/fr/events/2025/07/18-territoires-extra-ceramique-on-tour.html"
+        - permalink: "/fr/agenda/2025/visite-descriptive-et-tactile-violaine-lochu/"
+          path: "/events/2025/06/27-17-30-visite-descriptive-et-tactile-violaine-lochu"
+          slug: "visite-descriptive-et-tactile-violaine-lochu"
+          file: "content/fr/events/2025/06/27-17-30-visite-descriptive-et-tactile-violaine-lochu.html"
+        - permalink: "/fr/agenda/2025/performance-hybird/"
+          path: "/events/2025/09/06-16-30-performance-hybird"
+          slug: "performance-hybird"
+          file: "content/fr/events/2025/09/06-16-30-performance-hybird.html"
 
+      quantity: 4
 
 
   - kind: block
-    template: agenda
+    template: title
     title: >-
-      Les projets en cours
+      En vente à La Criée
     slug: >-
-      les-projets-en-cours
+      en-vente-a-la-criee
     ranks:
-      base: 3
-      self: 3
-      children: 4
+      base: 2
+      self: 2
     top:
       active: true
       title: 
         value: >-
-          Les projets en cours
-        heading: 3
+          En vente à La Criée
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: projects
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
     data:
       mode: selection
+      layout: list
       options:
         categories: true
-        dates: true
         image: true
         subtitle: true
         summary: true
-        status: false
+        year: true
 
-      layout: list
-      description: >-
-        
+      projects:
+        - permalink: "/fr/productions/2025-flower-in-december/"
+          path: "/projects/2025-flower-in-december"
+          slug: "flower-in-december"
+          file: "content/fr/projects/2025-flower-in-december.html"
+        - permalink: "/fr/productions/2025-pollen/"
+          path: "/projects/2025-pollen"
+          slug: "pollen"
+          file: "content/fr/projects/2025-pollen.html"
+        - permalink: "/fr/productions/2025-revue-n3-festina-lente-hate-toi-lentement/"
+          path: "/projects/2025-revue-n3-festina-lente-hate-toi-lentement"
+          slug: "revue-n3-festina-lente-hate-toi-lentement"
+          file: "content/fr/projects/2025-revue-n3-festina-lente-hate-toi-lentement.html"
 
-      no_event_message: >-
-        
-
-      title_link: ""
-      events:
-        - permalink: "/fr/agenda/2024/la-multiplicite-des-etoiles/"
-          path: "/events/2024/11/05-la-multiplicite-des-etoiles"
-          slug: "la-multiplicite-des-etoiles"
-          file: "content/fr/events/2024/11/05-la-multiplicite-des-etoiles.html"
-
-
+      quantity: 3
 
 
 ---

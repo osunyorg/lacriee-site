@@ -12,7 +12,7 @@ aliases:
   - /fr/les-archives/expositions/
   - /fr/category/art-au-centre/art-au-centre-expositions/
 date: 2023-08-04T18:18:00+02:00
-lastmod: 2025-01-29T12:07:01+01:00
+lastmod: 2025-06-06T15:07:15+02:00
 meta:
   hugo:
     permalink: "/fr/programmation/expositions/"
@@ -21,10 +21,11 @@ meta:
     slug: "expositions"
   dates:
     created_at: 2023-06-27T16:45:20+02:00
-    updated_at: 2025-01-29T12:07:01+01:00
+    updated_at: 2025-06-06T15:07:15+02:00
     published_at: 2023-08-04T18:18:00+02:00
 search:
   id: "3825406a-61cc-40e0-b610-b1606f07f54b"
+  about_id: "98e2338b-b675-43d9-bbf4-20dec8444baa"
   url: "/fr/programmation/expositions/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -33,7 +34,7 @@ search:
   summary: >-
     <p>Depuis 1986, La Criée centre d'art contemporain conçoit, produit, coproduit et présente chaque année des expositions temporaires représentatives de la création contemporaine. Personnelles ou collectives, ces expositions, sont des invitations faites à des artistes travaillant en Bretagne, en France et à l’international, émergeant·e·s ou reconnu·e·s. Le centre d'art coproduit également plusieurs expositions hors-les-murs chaque saison, à Rennes, en Bretagne, en France comme  à l'international.</p>
   body: >-
-    <p>à La Criée  <br> hors-les-murs </p>  <p> Pour découvrir les expositions passées  <br>   <br>Toutes les expositions à La Criée</p>  <p>/fr/agenda/expositions-dans-les-murs/</p>  <p>Toutes les expositions hors-les-murs</p>  <p>/fr/agenda/expositions-hors-les-murs/</p>
+    <p>à La Criée  <br> hors-les-murs  <br> Pour découvrir les expositions passées  <br>   <br>Toutes les expositions à La Criée</p>  <p>/fr/agenda/expositions-dans-les-murs/</p>  <p>Toutes les expositions hors-les-murs</p>  <p>/fr/agenda/expositions-hors-les-murs/</p>
 
 breadcrumbs:
   - title: >-
@@ -51,8 +52,9 @@ design:
     present: true
     offcanvas: false
 
-position: 2
-weight: 2
+
+position: 3
+weight: 3
 
 translationKey: communication-website-page-98e2338b-b675-43d9-bbf4-20dec8444baa
 
@@ -110,6 +112,10 @@ contents:
       active: false
     data:
       mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: false
         dates: true
@@ -140,26 +146,44 @@ contents:
           slug: "biomimetic-stories"
           file: "content/fr/events/2024/10/10-biomimetic-stories.html"
 
-
+      quantity: 3
 
   - kind: block
-    template: agenda
+    template: title
     title: >-
       hors-les-murs
     slug: >-
       hors-les-murs
     ranks:
-      base: 3
-      self: 3
-      children: 4
+      base: 2
+      self: 2
     top:
       active: true
       title: 
         value: >-
           hors-les-murs
-        heading: 3
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
     data:
       mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: false
         dates: true
@@ -177,12 +201,20 @@ contents:
 
       title_link: ""
       events:
+        - permalink: "/fr/agenda/2025/le-matin-les-champs-de-fleurs-et-la-lune-emotive-2/"
+          path: "/events/2025/04/30-le-matin-les-champs-de-fleurs-et-la-lune-emotive-2"
+          slug: "le-matin-les-champs-de-fleurs-et-la-lune-emotive-2"
+          file: "content/fr/events/2025/04/30-le-matin-les-champs-de-fleurs-et-la-lune-emotive-2.html"
+        - permalink: "/fr/agenda/2025/le-matin-les-champs-de-fleurs-et-la-lune-emotive/"
+          path: "/events/2025/04/29-16-15-le-matin-les-champs-de-fleurs-et-la-lune-emotive"
+          slug: "le-matin-les-champs-de-fleurs-et-la-lune-emotive"
+          file: "content/fr/events/2025/04/29-16-15-le-matin-les-champs-de-fleurs-et-la-lune-emotive.html"
         - permalink: "/fr/agenda/2024/vision-dun-avenir/"
           path: "/events/2024/12/02-vision-dun-avenir"
           slug: "vision-dun-avenir"
           file: "content/fr/events/2024/12/02-vision-dun-avenir.html"
 
-
+      quantity: 3
 
   - kind: block
     template: title
@@ -221,9 +253,6 @@ contents:
         - title: >-
             Toutes les expositions à La Criée
 
-          alt_title: >-
-            
-
           description: >-
             
 
@@ -237,9 +266,6 @@ contents:
 
         - title: >-
             Toutes les expositions hors-les-murs
-
-          alt_title: >-
-            
 
           description: >-
             

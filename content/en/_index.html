@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/en/"
 slug: ""
 date: 2023-06-26T18:45:45+02:00
-lastmod: 2025-01-06T16:07:56+01:00
+lastmod: 2025-06-06T15:07:50+02:00
 meta:
   hugo:
     permalink: "/en/"
@@ -17,10 +17,11 @@ meta:
     slug: ""
   dates:
     created_at: 2023-05-22T14:23:10+02:00
-    updated_at: 2025-01-06T16:07:56+01:00
+    updated_at: 2025-06-06T15:07:50+02:00
     published_at: 2023-06-26T18:45:45+02:00
 search:
   id: "ea8351d8-6c2a-4eb9-8caa-2afb14af84ed"
+  about_id: "bb359272-fbcc-4dfb-986e-1b3ab97900c1"
   url: "/en/"
   kind: "Communication::Website::Page::Localization"
   lang: "en"
@@ -29,7 +30,7 @@ search:
   summary: >-
     <p>Open 1pm - 7pm from Tuesday to Sunday</p>
   body: >-
-    <p>Today  <br> Coming soon  <br> Current projects  </p>
+    <p>Today  <br> Coming soon  <br> Current projects </p>  <p> for sale at La Criée  </p>
 
 breadcrumbs:
   - title: >-
@@ -40,6 +41,8 @@ design:
   toc:
     present: true
     offcanvas: true
+
+
 
 position: 1
 weight: 1
@@ -52,6 +55,7 @@ children:
   - "authors/_index.html"
   - "pages/art-center/_index.html"
   - "pages/all-the-programme/_index.html"
+  - "exhibitions/_index.html"
   - "pages/art-education/_index.html"
   - "pages/visit/_index.html"
   - "pages/ressources/_index.html"
@@ -76,7 +80,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 1
+  seconds: 3
   text: >-
     less than a minute
 contents:
@@ -112,6 +116,10 @@ contents:
       active: false
     data:
       mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: true
         dates: true
@@ -128,18 +136,18 @@ contents:
         
 
       title_link: "/en/agenda/exhibitions/"
-      category: 
+      category:
         permalink: "/en/agenda/exhibitions/"
         path: "/events_categories/exhibitions"
         slug: "exhibitions"
         file: "content/en/events_categories/exhibitions/_index.html"
       events:
-        - permalink: "/en/agenda/2025/daylighting-mais-cest-leau-qui-parle/"
-          path: "/events/2025/02/08-daylighting-mais-cest-leau-qui-parle"
-          slug: "daylighting-mais-cest-leau-qui-parle"
-          file: "content/en/events/2025/02/08-daylighting-mais-cest-leau-qui-parle.html"
+        - permalink: "/en/agenda/2025/pharmakon-reboot/"
+          path: "/events/2025/06/05-pharmakon-reboot"
+          slug: "pharmakon-reboot"
+          file: "content/en/events/2025/06/05-pharmakon-reboot.html"
 
-
+      quantity: 1
 
   - kind: block
     template: title
@@ -173,6 +181,10 @@ contents:
       active: false
     data:
       mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: true
         dates: true
@@ -190,27 +202,20 @@ contents:
 
       title_link: "/en/agenda/"
       events:
-        - permalink: "/en/agenda/2025/decoloniser-le-droit-by-marine-calmet/"
-          path: "/events/2025/03/18-15-00-decoloniser-le-droit-by-marine-calmet"
-          slug: "decoloniser-le-droit-by-marine-calmet"
-          file: "content/en/events/2025/03/18-15-00-decoloniser-le-droit-by-marine-calmet.html"
-        - permalink: "/en/agenda/2025/projection-ai-african-intelligence/"
-          path: "/events/2025/03/30-18-45-projection-ai-african-intelligence"
-          slug: "projection-ai-african-intelligence"
-          file: "content/en/events/2025/03/30-18-45-projection-ai-african-intelligence.html"
-        - permalink: "/en/agenda/2025/pharmakon-reboot/"
-          path: "/events/2025/06/05-pharmakon-reboot"
-          slug: "pharmakon-reboot"
-          file: "content/en/events/2025/06/05-pharmakon-reboot.html"
+        - permalink: "/en/agenda/2025/conversation-violaine-lochu-vanessa-desclaux/"
+          path: "/events/2025/09/06-17-00-conversation-violaine-lochu-vanessa-desclaux"
+          slug: "conversation-violaine-lochu-vanessa-desclaux"
+          file: "content/en/events/2025/09/06-17-00-conversation-violaine-lochu-vanessa-desclaux.html"
 
+      quantity: 3
 
 
   - kind: block
     template: title
     title: >-
-      Current projects
+      for sale at La Criée
     slug: >-
-      current-projects
+      for-sale-at-la-criee
     ranks:
       base: 2
       self: 2
@@ -218,14 +223,14 @@ contents:
       active: true
       title: 
         value: >-
-          Current projects
+          for sale at La Criée
         heading: 2
     data:
       layout: classic
 
 
   - kind: block
-    template: agenda
+    template: projects
     title: >-
       
     slug: >-
@@ -237,29 +242,29 @@ contents:
       active: false
     data:
       mode: selection
+      layout: list
       options:
         categories: true
-        dates: true
         image: true
         subtitle: true
         summary: true
-        status: false
+        year: true
 
-      layout: list
-      description: >-
-        
+      projects:
+        - permalink: "/en/projects/2025-flower-in-december/"
+          path: "/projects/2025-flower-in-december"
+          slug: "flower-in-december"
+          file: "content/en/projects/2025-flower-in-december.html"
+        - permalink: "/en/projects/2025-pollen/"
+          path: "/projects/2025-pollen"
+          slug: "pollen"
+          file: "content/en/projects/2025-pollen.html"
+        - permalink: "/en/projects/2025-revue-n3-festina-lente-make-haste-slowly/"
+          path: "/projects/2025-revue-n3-festina-lente-make-haste-slowly"
+          slug: "revue-n3-festina-lente-make-haste-slowly"
+          file: "content/en/projects/2025-revue-n3-festina-lente-make-haste-slowly.html"
 
-      no_event_message: >-
-        
-
-      title_link: ""
-      events:
-        - permalink: "/en/agenda/2024/la-multiplicite-des-etoiles/"
-          path: "/events/2024/11/05-la-multiplicite-des-etoiles"
-          slug: "la-multiplicite-des-etoiles"
-          file: "content/en/events/2024/11/05-la-multiplicite-des-etoiles.html"
-
-
+      quantity: 3
 
 
 ---

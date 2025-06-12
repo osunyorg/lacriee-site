@@ -90,13 +90,13 @@ items:
     children: []
     path: "/pages/all-the-programme/residencies"
     file: content/en/pages/all-the-programme/residencies/_index.html
-  - title: Research projects and editions
-    target: "/en/all-the-programme/research-projects-and-editions/"
+  - title: Editions, artist's multiple and research projects
+    target: "/en/all-the-programme/editions-artist-s-multiple-and-research-projects/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/all-the-programme/research-projects-and-editions"
-    file: content/en/pages/all-the-programme/research-projects-and-editions/_index.html
+    path: "/pages/all-the-programme/editions-artist-s-multiple-and-research-projects"
+    file: content/en/pages/all-the-programme/editions-artist-s-multiple-and-research-projects/_index.html
   - title: Produced works
     target: "/en/all-the-programme/produced-works/"
     kind: page
