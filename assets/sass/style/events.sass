@@ -4,6 +4,8 @@
     .event-access
         .event-slots
             border-top: 0 !important
+        > div:last-child
+            border-bottom: 0 !important
     .event-sidebar
         > div
             display: flex
@@ -199,16 +201,16 @@
 
 .events__section
     --dropdown-hover-color: var(--color-text)
-    &.full-width
-        @include media-breakpoint-up(desktop)
-            .events--list
-                .event
-                    &-content
-                        > .event-title, > hgroup, .event-description, .event-categories, .event-status
-                            grid-column: 4 / 10
-                        > .event-schedule
-                            grid-column: 1 / 4
-                            grid-row: 1 / 4
+    // &.full-width
+        // @include media-breakpoint-up(desktop)
+        //     .events--list
+        //         .event
+        //             &-content
+        //                 > .event-title, > hgroup, .event-description, .event-categories, .event-status
+        //                     grid-column: 4 / 10
+        //                 > .event-schedule
+        //                     grid-column: 1 / 4
+        //                     grid-row: 1 / 4
     .event--with-image
         .media
             img
