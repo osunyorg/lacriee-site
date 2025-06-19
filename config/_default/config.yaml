@@ -37,10 +37,10 @@ params:
       options:
         categories: true
         dates: true
-      layout: list
+      # layout: list
     single:
-      calendar_links: true
-      meta_in_sidebar: true
+    #   calendar_links: true
+    #   meta_in_sidebar: true
       navigation: 
         active: false
   persons:
