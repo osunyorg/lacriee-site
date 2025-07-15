@@ -36,7 +36,7 @@ params:
     index:
       options:
         categories: true
-        dates: true
+        dates: false
       # layout: list
     single:
     #   calendar_links: true
