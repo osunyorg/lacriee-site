@@ -1,11 +1,14 @@
 $color-1: #cde4df
 
-$color-accent: var(--color-accent)
 $color-text: #000000
+$color-accent: $color-text
 $color-text-alt: #454545
 $color-border: #1A1919
 $color-background-alt: #F2F2F2
 $color-background: #FFFFFF
+
+// for random colors
+$color-site: $color-accent
 
 $body-font-family: "PolySans", sans-serif
 $heading-font-family: $body-font-family
@@ -23,17 +26,17 @@ $h3-weight: normal
 
 $block-chapter-layout-accent-color: $color-text
 $block-pages-card-page-color-hover: $color-text
-$body-overlay-color: $color-accent
-$footer-background-color: $color-accent
+$body-overlay-color: var(--color-site)
+$footer-background-color: var(--color-site)
 $footer-logo-height-desktop: pxToRem(60)
 $header-border-bottom-width: 0
 $header-logo-height: 50px
 $header-logo-height-desktop: 60px
-$header-background: $color-accent
+$header-background: var(--color-site)
 $header-sticky-background: $header-background
 $header-dropdown-full: true
 $header-nav-padding-y-desktop: pxToRem(17)
-$hero-background-color: $color-accent
+$hero-background-color: var(--color-site)
 $icons-site: ()
 $icons-site: map-merge($icons-site, ("outline": "\ee14"))
 $icons-site: map-merge($icons-site, ("arrow-top": "\ee15"))
@@ -51,9 +54,12 @@ $lead-sidebar-font-family: $body-font-family
 $lead-sidebar-size-desktop: pxToRem(34)
 $lead-sidebar-line-height: $lead-line-height
 $lead-sidebar-weight: normal
-$lightbox-background-color: $color-accent
+$lightbox-background-color: var(--color-site)
 $toc-active-color: $color-text
 
 $block-links-card-background: transparent
 $block-links-card-hover-background: transparent
 $block-links-card-hover-color: $color-text
+
+$block-pages-card-page-background-hover: var(--color-site)
+$block-pages-card-page-color-hover: var(--color-text)

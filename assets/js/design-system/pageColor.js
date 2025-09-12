@@ -12,7 +12,7 @@ class PageColor {
         this.setColorVariable();
     }
     setColorVariable () {
-        document.documentElement.style.setProperty("--color-accent", this.colorVariable);
+        document.documentElement.style.setProperty("--color-site", this.colorVariable);
     }
 }
 

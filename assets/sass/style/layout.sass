@@ -1,3 +1,7 @@
+// random color: new variable
+\:root
+    --color-site: #{$color-site}
+
 html.has-menu-opened body::after
     opacity: .5
 .heading
@@ -67,7 +71,7 @@ html.has-menu-opened body::after
     transform: rotate(190deg) scale(0.4)
     transition: transform 0.25s, opacity 0.25s
     border-radius: 50%
-    background: var(--color-accent)
+    background: var(--color-site)
     width: pxToRem(45)
     height: pxToRem(45)
     line-height: pxToRem(45)
@@ -95,6 +99,3 @@ html.has-menu-opened body::after
                         padding-left: 0
                         padding-bottom: 0
                         padding-right: calc(#{$spacing-2} + #{space(1)})
-
-a
-    --color-accent: var(--color-text)
