@@ -82,6 +82,11 @@
             &-time
                 @include h2
                 font-family: $h1-font-family !important
+            &-dates
+                span
+                    display: block
+                    + span::before
+                        content: none
             &-time
                 justify-content: flex-end
             &-status
@@ -93,6 +98,7 @@
                 &::after
                     @include icon-site(arrow-top)
                     font-size: pxToRem(18)
+                    margin-left: $spacing-1
         // FIX DU GAP IGNORÉ PAR SAFARI
         @include in-page-with-or-without-sidebar
             .event
@@ -119,13 +125,10 @@
                         .event-dates
                             @include h1
                         .event-description
-                            // display: flex
-                            // justify-content: space-between
                             width: columns(4)
                         .event-schedule
                             margin-bottom: 0
                         .more
-                            // margin: 0
                             text-align: left
         @include media-breakpoint-up(desktop)
             .event
@@ -155,10 +158,8 @@
                     @include large-line
                     font-weight: 600
                     margin-bottom: $spacing-2
-                .media 
-                    width: columns(5)
-                    img
-                        height: 100%
+                .media img
+                    height: 100%
                 &:not(.event--with-image)
                     .event-categories
                         order: -1
@@ -166,6 +167,7 @@
                 &.event--with-image
                     .event-categories
                         margin-left: var(--grid-gutter-negative)
+                        margin-top: 0
                         padding: $spacing-2 $spacing-1
                         position: absolute
                         top: 0
@@ -176,6 +178,7 @@
                             transform: rotate(180deg)
                             a
                                 text-decoration: none
+        
         @include media-breakpoint-down(desktop)
             .event
                 gap: 0
@@ -192,6 +195,12 @@
                     .event-categories
                         margin: 0 var(--grid-gutter-negative)
                         padding: $spacing-2 var(--grid-gutter)
+        
+        @include in-page-without-sidebar
+            .event
+                .media
+                    width: columns(5)
+    
     &--list
         .event
             &:last-child

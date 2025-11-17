@@ -33,6 +33,7 @@ params:
     head:
       title: site
   events:
+    date_format: "02 January 2006"
     index:
       options:
         categories: true
