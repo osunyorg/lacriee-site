@@ -57,6 +57,11 @@ fr:
             la_criee_centre_d_art
           value: >-
             https://instagram.com/la_criee_centre_d_art
+        linkedin:
+          label: >-
+            fr.la-criée-centre-d’art-contemporain
+          value: >-
+            https://fr.linkedin.com/company/la-cri%C3%A9e-centre-d%E2%80%99art-contemporain/
 
   taxonomies:
     administrator: administrators
