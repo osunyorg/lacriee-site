@@ -186,7 +186,9 @@
                 &-content
                     display: flex
                     flex-direction: column
-                    gap: $spacing-2
+                    hgroup,
+                    > .event-title
+                        margin-top: $spacing-2
                 .event-categories
                     background-color: var(--color-site)
                     order: -1
@@ -215,6 +217,7 @@
                     .event-categories
                         width: offset(5)
                         height: auto
+                
                 &--with-image
                     .event-content
                         @include grid(7, desktop, $gap-y: space(5))
