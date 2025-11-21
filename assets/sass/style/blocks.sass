@@ -152,7 +152,6 @@
                     display: flex
                     height: 100%
                     margin: 0
-                    padding: $spacing-2 $spacing-1
                 .events-status
                     @include h4
                     @include large-line
@@ -166,9 +165,11 @@
                     .event-categories
                         order: -1
                         margin-bottom: $spacing-3
+                        padding: $spacing-1 $spacing-2
                 &.event--with-image
                     .event-categories
                         margin-top: 0
+                        padding: $spacing-2 $spacing-1 !important
                         position: absolute
                         top: 0
                         transform: translateX(-100%)
@@ -212,7 +213,7 @@
 
                 &:not(.event--with-image)
                     .event-categories
-                        width: columns(5)
+                        width: offset(5)
                         height: auto
                 &--with-image
                     .event-content
