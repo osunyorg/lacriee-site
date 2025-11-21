@@ -99,10 +99,12 @@
                     @include icon-site(arrow-top)
                     font-size: pxToRem(18)
                     margin-left: $spacing-1
+        
         // FIX DU GAP IGNORÉ PAR SAFARI
         @include in-page-with-or-without-sidebar
             .event
                 @include grid(2, desktop)
+        
         @include in-page-without-sidebar
             .event
                 align-items: start
@@ -130,6 +132,7 @@
                             margin-bottom: 0
                         .more
                             text-align: left
+        
         @include media-breakpoint-up(desktop)
             .event
                 position: relative
@@ -137,7 +140,6 @@
                     display: flex
                     flex-direction: column
                     justify-content: flex-end
-                    // position: static
                     hgroup
                         flex: 1
                     .event-title
@@ -153,7 +155,7 @@
                     height: 100%
                     margin: 0
                     padding: $spacing-1
-                &-status
+                .events-status
                     @include h4
                     @include large-line
                     font-weight: 600
@@ -166,7 +168,6 @@
                         margin-bottom: $spacing-3
                 &.event--with-image
                     .event-categories
-                        margin-left: var(--grid-gutter-negative)
                         margin-top: 0
                         padding: $spacing-2 $spacing-1
                         position: absolute
@@ -195,9 +196,45 @@
                     .event-categories
                         margin: 0 var(--grid-gutter-negative)
                         padding: $spacing-2 var(--grid-gutter)
+                .media
+                    margin-bottom: 0
+        
+        @include in-page-with-sidebar
+            .event
+                .event-categories
+                    left: columns(4)
+                    height: columns(4)
         
         @include in-page-without-sidebar
             .event
+                .event-content
+                    @include grid(7, desktop, $gap-y: space(5))
+                    aspect-ratio: unset
+                    padding-right: 0
+                    width: columns(7)
+                    align-content: space-between
+                    > * 
+                        margin: 0 !important
+                        width: unset !important
+                    .event-title,
+                    hgroup,
+                    .event-schedule,
+                    .events-status
+                        grid-column: 1 / 8
+                    .events-status
+                        transform: translateY(100%)
+                    .event-description
+                        grid-column: 1 / 5
+                        margin-top: 0
+                    .more
+                        grid-column: 5 / 8
+                        margin-top: 0
+                        text-align: right
+                        
+                .event-categories
+                    left: columns(5)
+                    height: columns(5)
+                
                 .media
                     width: columns(5)
     
@@ -216,6 +253,7 @@
                 padding-bottom: $spacing-4
                 margin-bottom: $spacing-4
                 position: relative
+    
     &--grid
         @include media-breakpoint-up(desktop)
             .event-dates,
