@@ -115,8 +115,6 @@
                     width: columns(6)
                     > hgroup, > .event-title
                         margin-bottom: $spacing-2
-                    hgroup, .event-schedule, .event-status
-                        width: columns(6)
                     .event-schedule
                         @include h2
                     .more
@@ -154,7 +152,7 @@
                     display: flex
                     height: 100%
                     margin: 0
-                    padding: $spacing-1
+                    padding: $spacing-2 $spacing-1
                 .events-status
                     @include h4
                     @include large-line
@@ -163,13 +161,14 @@
                 .media img
                     height: 100%
                 &:not(.event--with-image)
+                    .event-content
+                        position: relative
                     .event-categories
                         order: -1
                         margin-bottom: $spacing-3
                 &.event--with-image
                     .event-categories
                         margin-top: 0
-                        padding: $spacing-2 $spacing-1
                         position: absolute
                         top: 0
                         transform: translateX(-100%)
@@ -201,42 +200,50 @@
         
         @include in-page-with-sidebar
             .event
-                .event-categories
-                    left: columns(4)
-                    height: columns(4)
+                &--with-image
+                    .event-categories
+                        left: columns(4)
+                        height: columns(4)
         
         @include in-page-without-sidebar
             .event
                 .event-content
-                    @include grid(7, desktop, $gap-y: space(5))
                     aspect-ratio: unset
-                    padding-right: 0
-                    width: columns(7)
-                    align-content: space-between
-                    > * 
-                        margin: 0 !important
-                        width: unset !important
-                    .event-title,
-                    hgroup,
-                    .event-schedule,
-                    .events-status
-                        grid-column: 1 / 8
-                    .events-status
-                        transform: translateY(100%)
-                    .event-description
-                        grid-column: 1 / 5
-                        margin-top: 0
-                    .more
-                        grid-column: 5 / 8
-                        margin-top: 0
-                        text-align: right
-                        
-                .event-categories
-                    left: columns(5)
-                    height: columns(5)
+
+                &:not(.event--with-image)
+                    .event-categories
+                        width: columns(5)
+                        height: auto
+                &--with-image
+                    .event-content
+                        @include grid(7, desktop, $gap-y: space(5))
+                        padding-right: 0
+                        width: columns(7)
+                        align-content: space-between
+                        > * 
+                            margin: 0 !important
+                            width: unset !important
+                        .event-title,
+                        hgroup,
+                        .event-schedule,
+                        .events-status
+                            grid-column: 1 / 8
+                        .events-status
+                            transform: translateY(100%)
+                        .event-description
+                            grid-column: 1 / 5
+                            margin-top: 0
+                        .more
+                            grid-column: 5 / 8
+                            margin-top: 0
+                            text-align: right
+                            
+                    .event-categories
+                        left: columns(5)
+                        height: columns(5)
                 
-                .media
-                    width: columns(5)
+                    .media
+                        width: columns(5)
     
     &--list
         .event
