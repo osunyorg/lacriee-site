@@ -90,6 +90,13 @@ items:
     children: []
     path: "/pages/programmation/residences"
     file: content/fr/pages/programmation/residences/_index.html
+  - title: Projets de médiation
+    target: "/fr/programmation/projets-de-mediation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/programmation/projets-de-mediation"
+    file: content/fr/pages/programmation/projets-de-mediation/_index.html
   - title: Éditions, multiples et projets de recherche
     target: "/fr/programmation/editions-multiples-et-projets-de-recherche/"
     kind: page
