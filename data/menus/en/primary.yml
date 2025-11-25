@@ -90,6 +90,13 @@ items:
     children: []
     path: "/pages/all-the-programme/residencies"
     file: content/en/pages/all-the-programme/residencies/_index.html
+  - title: Education projects
+    target: "/en/all-the-programme/education-projects/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/all-the-programme/education-projects"
+    file: content/en/pages/all-the-programme/education-projects/_index.html
   - title: Editions, artist's multiple and research projects
     target: "/en/all-the-programme/editions-artist-s-multiple-and-research-projects/"
     kind: page
