@@ -120,18 +120,18 @@
                     .more
                         text-align: right
                 
-                @include media-breakpoint-up(xl)
-                    .event-content
-                        .event-title,
-                        .event-subtitle,
-                        .event-dates
-                            @include h1
-                        .event-description
-                            width: columns(4)
-                        .event-schedule
-                            margin-bottom: 0
-                        .more
-                            text-align: left
+            @include media-breakpoint-up(xl)
+                .event-content
+                    .event-title,
+                    .event-subtitle,
+                    .event-dates
+                        @include h1
+                    .event-description
+                        width: columns(4)
+                    .event-schedule
+                        margin-bottom: 0
+                    .more
+                        text-align: left
         
         @include media-breakpoint-up(desktop)
             .event
@@ -222,20 +222,22 @@
                 
                 &--with-image
                     .event-content
-                        @include grid(7, desktop, $gap-y: space(5))
+                        @include grid(6, desktop, $gap-y: space(5))
+                        // align-content: flex-end
+                        height: 100%
                         padding-right: 0
-                        width: columns(7)
-                        align-content: space-between
+                        width: columns(6)
                         > * 
                             margin: 0 !important
                             width: unset !important
-                        .event-title,
+                        > .event-title,
+                        hgroup
+                            self-align: flex-start
+                        > .event-title,
                         hgroup,
                         .event-schedule,
                         .events-status
                             grid-column: 1 / 8
-                        .events-status
-                            transform: translateY(100%)
                         .event-description
                             grid-column: 1 / 5
                             margin-top: 0
@@ -245,12 +247,26 @@
                             text-align: right
                             
                     .event-categories
-                        left: columns(5)
-                        height: columns(5)
+                        left: columns(6)
+                        height: columns(6)
                 
                     .media
-                        width: columns(5)
-    
+                        width: columns(6)
+
+                    @include media-breakpoint-up(xxxl)
+                        .event-content
+                            > .event-title,
+                            hgroup
+                                grid-row: 1 / 5
+                            .event-schedule
+                                grid-row: 6 / 8
+                            .events-status
+                                grid-row: 7
+                            .event-description
+                                grid-row: 8
+                            .more
+                                grid-row: 8
+
     &--list
         .event
             &:last-child
