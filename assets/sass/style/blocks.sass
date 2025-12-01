@@ -33,7 +33,7 @@
                 @include icon-site(arrow-left)
 
 .block-pages--grid 
-    .grid
+    .pages
         article
             .page-title 
                 a::after
@@ -119,7 +119,9 @@
                         @include h2
                     .more
                         text-align: right
-                    @include media-breakpoint-up(xl)
+                
+                @include media-breakpoint-up(xl)
+                    .event-content
                         .event-title,
                         .event-subtitle,
                         .event-dates
@@ -298,33 +300,37 @@
                 figcaption
                     width: 60%
 .block-persons
-    @include in-page-with-sidebar
-        .persons
+    .persons
+        > li + li
+            margin-top: $spacing-3
+        
+        @include in-page-with-sidebar
             &, &.is-column
                 display: block
-        article.person
-            + .person
-                margin-top: $spacing-3
-            .avatar 
-                margin-bottom: 0
-            .description
-                flex: 1
-                margin: 0
-                &, .person-name
-                    @include h3
-                    + p
-                        font-style: italic
-            @include media-breakpoint-up(desktop)
-                + .person
-                    margin-top: $spacing-5
+                margin-top: $spacing-5
+            
+            > li + li
+                margin-top: $spacing-5
+        
+            .person
+                gap: var(--grid-gutter)
+                .avatar 
+                    margin-bottom: 0
+                
                 .description
-                    width: columns(6)
                     border-bottom: 1px solid $color-border
+                    flex: 1
+                    margin: 0
+                    
                     &, .person-name
                         @include h2
-            @include media-breakpoint-up(xl)
+                    
+                    .person-role
+                        font-style: italic
+
+        @include media-breakpoint-up(xl)
+            .person
                 .avatar
-                    margin-right: var(--grid-gutter)
                     width: columns(3)
                 .description
                     width: columns(5)

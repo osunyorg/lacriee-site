@@ -65,12 +65,6 @@ params:
       email: false
       telegram: false
       whatsapp: false
-  image_sizes:
-    blocks:
-      persons:
-        mobile:   68
-        tablet:   277
-        desktop:  400
   projects:
     index:
       options:
@@ -82,11 +76,16 @@ params:
       gallery:
         grid:
           desktop:  555
-      persons:
-        grid:
-          desktop:  400
+    sections:
       events:
-        large:
-          desktop:  864
-        list:
-          desktop:  245
+        layouts:
+          large:
+            desktop:  864
+          list:
+            desktop:  245
+      persons:
+        layouts:
+          grid:
+            mobile:   100
+            tablet:   277
+            desktop:  400
