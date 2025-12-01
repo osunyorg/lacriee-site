@@ -55,13 +55,12 @@
         {{ end }}
       </div>
       {{ if .Params.image }}
-        <!-- TODO Peut etre aligner la stucture des données avec les autres cas d'images -->
         {{ partial "commons/image-figure.html" (dict
-          "image"    .Params.image
-          "sizes"    ( .Params.sizes | default site.Params.image_sizes.design_system.hero )
-          "lazy"      false
-          )
-        }}
+            "image" .Params.image
+            "sizes" ( .Params.sizes | default site.Params.image_sizes._default.hero )
+            "lazy" false
+            "focusable_figcaption" true
+          ) }}
       {{ end }}
     </div>
     {{- if eq site.Params.breadcrumb.position "hero-end" -}}
