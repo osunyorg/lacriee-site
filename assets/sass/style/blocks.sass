@@ -278,10 +278,11 @@
             &-categories
                 gap: $spacing-2
         @include media-breakpoint-up(desktop)
-            .event
+            .events > li
                 padding-bottom: $spacing-4
                 margin-bottom: $spacing-4
-                position: relative
+                .event
+                    position: relative
     
     &--grid
         @include media-breakpoint-up(desktop)
