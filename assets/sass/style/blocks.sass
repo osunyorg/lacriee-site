@@ -279,10 +279,14 @@
                 gap: $spacing-2
         @include media-breakpoint-up(desktop)
             .events > li
-                padding-bottom: $spacing-4
-                margin-bottom: $spacing-4
-                .event
-                    position: relative
+                &:not(:last-child)
+                    margin-bottom: $spacing-4
+                    padding-bottom: $spacing-4
+                &:last-child
+                    margin-bottom: 0
+                    padding-bottom: 0
+            .event
+                position: relative
     
     &--grid
         @include media-breakpoint-up(desktop)
