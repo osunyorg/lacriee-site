@@ -202,13 +202,6 @@ items:
     children: []
     path: "/pages/ressources/archives-of-la-criee"
     file: content/en/pages/ressources/archives-of-la-criee/_index.html
-  - title: The three last seasons
-    target: "/en/ressources/les-trois-dernieres-saisons/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/ressources/les-trois-dernieres-saisons"
-    file: content/en/pages/ressources/les-trois-dernieres-saisons/_index.html
   path: "/pages/ressources"
   file: content/en/pages/ressources/_index.html
 
