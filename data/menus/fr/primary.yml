@@ -90,7 +90,7 @@ items:
     children: []
     path: "/pages/programmation/residences"
     file: content/fr/pages/programmation/residences/_index.html
-  - title: Projets de médiation
+  - title: Projets de médiation et jeux
     target: "/fr/programmation/projets-de-mediation/"
     kind: page
     new_tab: false
