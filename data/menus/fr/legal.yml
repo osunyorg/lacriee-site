@@ -2,24 +2,30 @@
 title: Informations légales
 items:
 - title: Mentions légales
+  slug: mentions-legales
   target: "/fr/mentions-legales/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
 - title: Plan du site
+  slug: plan-du-site
   target: "/fr/plan-du-site/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
 - title: Espace Presse
+  slug: espace-presse
   target: "/fr/espace-presse/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/espace-presse"
   file: content/fr/pages/espace-presse/_index.html
 

@@ -2,206 +2,288 @@
 title: Main menu
 items:
 - title: Art Center
+  slug: art-center
   target: "/en/art-center/"
   kind: page
   new_tab: false
   children:
   - title: Supporting artistic creation
+    slug: supporting-artistic-creation
     target: "/en/art-center/supporting-artistic-creation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-center/supporting-artistic-creation"
     file: content/en/pages/art-center/supporting-artistic-creation/_index.html
   - title: Transmit
+    slug: transmit
     target: "/en/art-center/transmit/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-center/transmit"
     file: content/en/pages/art-center/transmit/_index.html
   - title: Supporting research
+    slug: supporting-research
     target: "/en/art-center/supporting-research/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-center/supporting-research"
     file: content/en/pages/art-center/supporting-research/_index.html
   - title: Cooperate
+    slug: cooperate
     target: "/en/art-center/cooperate/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-center/cooperate"
     file: content/en/pages/art-center/cooperate/_index.html
   - title: History
+    slug: history
     target: "/en/art-center/history-of-the-site/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-center/history-of-the-site"
     file: content/en/pages/art-center/history-of-the-site/_index.html
   - title: Ecological transition
+    slug: ecological-transition
     target: "/en/art-center/ecological-transition/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-center/ecological-transition"
     file: content/en/pages/art-center/ecological-transition/_index.html
   - title: Team
+    slug: team
     target: "/en/art-center/team/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-center/team"
     file: content/en/pages/art-center/team/_index.html
+  descendants_targets:
+  - "/en/art-center/cooperate/"
+  - "/en/art-center/ecological-transition/"
+  - "/en/art-center/history-of-the-site/"
+  - "/en/art-center/supporting-artistic-creation/"
+  - "/en/art-center/supporting-research/"
+  - "/en/art-center/team/"
+  - "/en/art-center/transmit/"
   path: "/pages/art-center"
   file: content/en/pages/art-center/_index.html
 - title: All the Programme
+  slug: all-the-programme
   target: "/en/all-the-programme/"
   kind: page
   new_tab: false
   children:
   - title: Current Cycle
+    slug: current-cycle
     target: "/en/all-the-programme/festina-lente-make-haste-slowly/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/festina-lente-make-haste-slowly"
     file: content/en/pages/all-the-programme/festina-lente-make-haste-slowly/_index.html
   - title: Exhibitions
+    slug: exhibitions
     target: "/en/all-the-programme/exhibitions/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/exhibitions"
     file: content/en/pages/all-the-programme/exhibitions/_index.html
   - title: Events
+    slug: events
     target: "/en/all-the-programme/events/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/events"
     file: content/en/pages/all-the-programme/events/_index.html
   - title: Residencies
+    slug: residencies
     target: "/en/all-the-programme/residencies/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/residencies"
     file: content/en/pages/all-the-programme/residencies/_index.html
   - title: Education projects
+    slug: education-projects
     target: "/en/all-the-programme/education-projects/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/education-projects"
     file: content/en/pages/all-the-programme/education-projects/_index.html
   - title: Editions, artist's multiple and research projects
+    slug: editions-artist-s-multiple-and-research-projects
     target: "/en/all-the-programme/editions-artist-s-multiple-and-research-projects/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/editions-artist-s-multiple-and-research-projects"
     file: content/en/pages/all-the-programme/editions-artist-s-multiple-and-research-projects/_index.html
   - title: Produced works
+    slug: produced-works
     target: "/en/all-the-programme/produced-works/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/produced-works"
     file: content/en/pages/all-the-programme/produced-works/_index.html
   - title: Artists, authors, curators, etc. of the season
+    slug: artists-authors-curators-etc-of-the-season
     target: "/en/all-the-programme/artists-authors-curators-etc-of-the-season/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/all-the-programme/artists-authors-curators-etc-of-the-season"
     file: content/en/pages/all-the-programme/artists-authors-curators-etc-of-the-season/_index.html
+  descendants_targets:
+  - "/en/all-the-programme/artists-authors-curators-etc-of-the-season/"
+  - "/en/all-the-programme/editions-artist-s-multiple-and-research-projects/"
+  - "/en/all-the-programme/education-projects/"
+  - "/en/all-the-programme/events/"
+  - "/en/all-the-programme/exhibitions/"
+  - "/en/all-the-programme/festina-lente-make-haste-slowly/"
+  - "/en/all-the-programme/produced-works/"
+  - "/en/all-the-programme/residencies/"
   path: "/pages/all-the-programme"
   file: content/en/pages/all-the-programme/_index.html
 - title: Art Education
+  slug: art-education
   target: "/en/art-education/"
   kind: page
   new_tab: false
   children:
   - title: Presentation
+    slug: presentation
     target: "/en/art-education/presentation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/presentation"
     file: content/en/pages/art-education/presentation/_index.html
   - title: Early childwood
+    slug: early-childwood
     target: "/en/art-education/early-childhood/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/early-childhood"
     file: content/en/pages/art-education/early-childhood/_index.html
   - title: Education
+    slug: education
     target: "/en/art-education/education/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/education"
     file: content/en/pages/art-education/education/_index.html
   - title: After-school and Leisure Centers
+    slug: after-school-and-leisure-centers
     target: "/en/art-education/after-school-and-leisure-centers/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/after-school-and-leisure-centers"
     file: content/en/pages/art-education/after-school-and-leisure-centers/_index.html
   - title: Trainings and Higher Education
+    slug: trainings-and-higher-education
     target: "/en/art-education/trainings-and-higher-education/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/trainings-and-higher-education"
     file: content/en/pages/art-education/trainings-and-higher-education/_index.html
   - title: Health and disability
+    slug: health-and-disability
     target: "/en/art-education/health-and-disability/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/health-and-disability"
     file: content/en/pages/art-education/health-and-disability/_index.html
   - title: Social Field
+    slug: social-field
     target: "/en/art-education/social-field/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/social-field"
     file: content/en/pages/art-education/social-field/_index.html
   - title: Contact
+    slug: contact
     target: "/en/art-education/contact-mediation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/art-education/contact-mediation"
     file: content/en/pages/art-education/contact-mediation/_index.html
+  descendants_targets:
+  - "/en/art-education/after-school-and-leisure-centers/"
+  - "/en/art-education/contact-mediation/"
+  - "/en/art-education/early-childhood/"
+  - "/en/art-education/education/"
+  - "/en/art-education/health-and-disability/"
+  - "/en/art-education/presentation/"
+  - "/en/art-education/social-field/"
+  - "/en/art-education/trainings-and-higher-education/"
   path: "/pages/art-education"
   file: content/en/pages/art-education/_index.html
 - title: Visit
+  slug: visit
   target: "/en/visit/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/visit"
   file: content/en/pages/visit/_index.html
 - title: Ressources
+  slug: ressources
   target: "/en/ressources/"
   kind: page
   new_tab: false
   children:
   - title: Archives
+    slug: archives
     target: "/en/ressources/archives-of-la-criee/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/ressources/archives-of-la-criee"
     file: content/en/pages/ressources/archives-of-la-criee/_index.html
+  descendants_targets:
+  - "/en/ressources/archives-of-la-criee/"
   path: "/pages/ressources"
   file: content/en/pages/ressources/_index.html
 
