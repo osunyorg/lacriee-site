@@ -97,6 +97,7 @@ contents:
       layout: classic
 
 
+
   - kind: block
     template: agenda
 
@@ -110,36 +111,30 @@ contents:
     data:
       mode: category
       kinds:
-        parent: false
+        parent: true
         child: true
-        recurring: true
+        recurring: false
       options:
         categories: true
         dates: true
         image: true
         subtitle: true
-        summary: false
+        summary: true
         status: false
 
       layout: large
 
 
-      title_link: "/en/agenda/exhibitions/"
-      category:
-        permalink: "/en/agenda/exhibitions/"
-        path: "/events_categories/exhibitions"
-        slug: "exhibitions"
-        file: "content/en/events_categories/exhibitions/_index.html"
+      title_link: ""
       events:
-        - permalink: "/en/agenda/2026/la-criee-is-closed-we-are-setting-up/"
-          path: "/events/2026/01/19-la-criee-is-closed-we-are-setting-up"
-          slug: "la-criee-is-closed-we-are-setting-up"
-          file: "content/en/events/2026/01/19-la-criee-is-closed-we-are-setting-up.html"
+        - permalink: "/en/agenda/2026/opening/"
+          path: "/events/2026/02/13-18-30-opening"
+          slug: "opening"
+          file: "content/en/events/2026/02/13-18-30-opening.html"
           name: >-
-            La Criée is closed, we are setting up
+            Opening - La voyage dans la Lune (A Trip to the Moon)
 
       quantity: 1
-
 
   - kind: block
     template: agenda
@@ -228,12 +223,6 @@ contents:
 
       title_link: "/en/agenda/"
       events:
-        - permalink: "/en/agenda/2026/opening/"
-          path: "/events/2026/02/13-18-30-opening"
-          slug: "opening"
-          file: "content/en/events/2026/02/13-18-30-opening.html"
-          name: >-
-            Opening - La voyage dans la Lune (A Trip to the Moon)
         - permalink: "/en/agenda/2026/le-voyage-dans-la-lune/"
           path: "/events/2026/02/14-le-voyage-dans-la-lune"
           slug: "le-voyage-dans-la-lune"
@@ -259,7 +248,7 @@ contents:
           name: >-
             Bienvenue à La Criée
 
-      quantity: 5
+      quantity: 4
 
   - kind: block
     template: title
