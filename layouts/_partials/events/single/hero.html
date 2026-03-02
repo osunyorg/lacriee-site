@@ -4,7 +4,7 @@
 {{- $subtitle := .Params.subtitle -}}
 {{- $description := .Params.description -}}
 {{ if .Params.image }}
-  {{- $direction = partial "GetImageDirection" .Params.image -}}
+  {{- $direction = partial "commons/image/helpers/GetDirection" .Params.image -}}
 {{ end }}
 
 {{- $summary := safeHTML .Params.summary -}}
@@ -55,7 +55,7 @@
         {{ end }}
       </div>
       {{ if .Params.image }}
-        {{ partial "commons/image-figure.html" (dict
+        {{ partial "commons/image/figure.html" (dict
             "image" .Params.image
             "sizes" ( .Params.sizes | default site.Params.image_sizes._default.hero )
             "lazy" false

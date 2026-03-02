@@ -51,9 +51,6 @@ params:
       layout: grid
     single:
       backlinks: true
-  posts:
-    index:
-      layout: grid
   organizations:
     single:
       backlinks: true
