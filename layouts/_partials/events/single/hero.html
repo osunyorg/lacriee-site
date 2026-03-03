@@ -28,21 +28,21 @@
       <div class="hero-text">
         {{ if or $subtitle $description }}
           <hgroup {{ if $subtitle_is_summary -}} class="has-lead" {{- end }}>
-            <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
+            <h1>{{ safeHTML .Params.title }}</h1>
             {{ with $subtitle }}
               <p>{{ safeHTML . }}</p>
             {{ end }}
             {{- if $description -}}
-              <p class="h1">{{ partial "PrepareHTML" .Params.description }}</p>
+              <p class="h1">{{ safeHTML .Params.description }}</p>
             {{- end -}}
           </hgroup>
         {{- else -}}
-          <h1>{{ partial "PrepareHTML" .Params.title }}</h1>
+          <h1>{{ safeHTML .Params.title }}</h1>
         {{- end -}}
   
         {{ if .Params.dates.computed.two_lines.short }}
           <div class="event-schedule">
-            <p class="event-dates">{{ partial "PrepareHTML" .Params.dates.computed.two_lines.short }}</p>
+            <p class="event-dates">{{ safeHTML .Params.dates.computed.two_lines.short }}</p>
           </div>
         {{ end }}
 
