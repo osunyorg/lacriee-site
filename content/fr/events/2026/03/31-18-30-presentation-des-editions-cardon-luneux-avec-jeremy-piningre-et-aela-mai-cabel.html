@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>En écho à sa résidence<i> Les appareils et les Ktronics</i> se déroulant à l'école Jacques Prévert (Rennes), Jérémy Piningre présente les éditions Cardon Luneux avec Aëla Maï Cabel.</p>
   body: >-
-    <p>Pour aller plus loin  </p>
+    <p>En partenariat avec </p>  <p>Librairie Comment dire <br>https://www.librairiecommentdire.fr/</p>  <p> Pour aller plus loin  </p>
 
 date: "2026-03-31T18:30:00+02:00"
 dates:
@@ -154,10 +154,48 @@ text: >-
 header_cta:
 
 contents_reading_time:
-  seconds: 1
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: organizations
+    title: >-
+      En partenariat avec
+    slug: >-
+      en-partenariat-avec
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          En partenariat avec
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - 
+          name: >-
+            Librairie Comment dire
+          url: >-
+            https://www.librairiecommentdire.fr/
+          logo: "8c32dfa2-a033-4936-9eae-4c348a5e3776"
+          external: true
+
+      quantity: 1
+
+
   - kind: block
     template: title
     title: >-
@@ -215,6 +253,24 @@ contents:
             Les appareils et les Ktronics
 
       quantity: 1
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+
+
+
+
+
+
 
 
 ---
