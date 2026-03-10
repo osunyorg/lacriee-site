@@ -88,13 +88,13 @@ items:
   children:
   - title: Current Cycle
     slug: current-cycle
-    target: "/en/all-the-programme/festina-lente-make-haste-slowly/"
+    target: "/en/festina-lente-make-haste-slowly/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/all-the-programme/festina-lente-make-haste-slowly"
-    file: content/en/pages/all-the-programme/festina-lente-make-haste-slowly/_index.html
+    path: "/pages/festina-lente-make-haste-slowly"
+    file: content/en/pages/festina-lente-make-haste-slowly/_index.html
   - title: Exhibitions
     slug: exhibitions
     target: "/en/all-the-programme/exhibitions/"
@@ -164,9 +164,9 @@ items:
   - "/en/all-the-programme/education-projects/"
   - "/en/all-the-programme/events/"
   - "/en/all-the-programme/exhibitions/"
-  - "/en/all-the-programme/festina-lente-make-haste-slowly/"
   - "/en/all-the-programme/produced-works/"
   - "/en/all-the-programme/residencies/"
+  - "/en/festina-lente-make-haste-slowly/"
   path: "/pages/all-the-programme"
   file: content/en/pages/all-the-programme/_index.html
 - title: Art Education

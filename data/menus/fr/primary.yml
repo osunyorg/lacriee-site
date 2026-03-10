@@ -88,13 +88,13 @@ items:
   children:
   - title: Cycle thématique
     slug: cycle-thematique
-    target: "/fr/programmation/cycle-thematique-festina-lente-hate-toi-lentement/"
+    target: "/fr/cycle-thematique-festina-lente-hate-toi-lentement/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/programmation/cycle-thematique-festina-lente-hate-toi-lentement"
-    file: content/fr/pages/programmation/cycle-thematique-festina-lente-hate-toi-lentement/_index.html
+    path: "/pages/cycle-thematique-festina-lente-hate-toi-lentement"
+    file: content/fr/pages/cycle-thematique-festina-lente-hate-toi-lentement/_index.html
   - title: Expositions
     slug: expositions
     target: "/fr/programmation/expositions/"
@@ -159,8 +159,8 @@ items:
     path: "/pages/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison"
     file: content/fr/pages/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison/_index.html
   descendants_targets:
+  - "/fr/cycle-thematique-festina-lente-hate-toi-lentement/"
   - "/fr/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison/"
-  - "/fr/programmation/cycle-thematique-festina-lente-hate-toi-lentement/"
   - "/fr/programmation/editions-multiples-et-projets-de-recherche/"
   - "/fr/programmation/expositions/"
   - "/fr/programmation/oeuvres-produites/"
