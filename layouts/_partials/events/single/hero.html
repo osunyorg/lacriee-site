@@ -56,11 +56,11 @@
       </div>
       {{ if .Params.image }}
         {{ partial "commons/image/figure.html" (dict
-            "image" .Params.image
-            "sizes" ( .Params.sizes | default site.Params.image_sizes._default.hero )
-            "lazy" false
-            "focusable_figcaption" true
-          ) }}
+          "image" .Params.image
+          "sizes" ( .Params.sizes | default site.Params.image_sizes._default.hero )
+          "lazy" false
+          "focusable_figcaption" true
+        ) }}
       {{ end }}
     </div>
     {{- if eq site.Params.breadcrumb.position "hero-end" -}}
