@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>En écho à sa résidence<i> Les appareils et les Ktronics</i> se déroulant à l'école Jacques Prévert (Rennes), Jérémy Piningre présente les éditions Cardon Luneux avec Aëla Maï Cabel.</p>
   body: >-
-    <p>  <br>Co-fondée en 2022, la maison de micro-édition Cardon Luneux rassemble Jérémy Piningre et Aëla Maï Cabel. Ensemble, iels explorent la réécriture de contes traditionnels  <br>des territoires qu'iels traversent en les agrémentant de préoccupations contemporaines de genre, de classe et d'écologies.</p>  <p> En partenariat avec </p>  <p>Librairie Comment dire <br>https://www.librairiecommentdire.fr/</p>  <p> Pour aller plus loin  </p>
+    <p>À propos  <br>   <br>Co-fondée en 2022, la maison de micro-édition Cardon Luneux rassemble Jérémy Piningre et Aëla Maï Cabel. Ensemble, iels explorent la réécriture de contes traditionnels  <br>des territoires qu'iels traversent en les agrémentant de préoccupations contemporaines de genre, de classe et d'écologies.</p>  <p> En partenariat avec </p>  <p>Librairie Comment dire <br>https://www.librairiecommentdire.fr/</p>  <p> Pour aller plus loin  </p>
 
 date: "2026-03-31T18:30:00+02:00"
 dates:
@@ -102,7 +102,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 current_time_slot:
@@ -159,11 +159,31 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
+    template: title
+    title: >-
+      À propos
+    slug: >-
+      a-propos
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          À propos
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
     template: chapter
 
 
     ranks:
-      base: 2
+      base: 3
     top:
       active: false
 
@@ -184,14 +204,14 @@ contents:
     slug: >-
       en-partenariat-avec
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           En partenariat avec
-        heading: 2
+        heading: 3
 
     data:
       layout: grid
