@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Echoing his residency <i>Les appareils et les Ktronics</i> at the Jacques Prévert school (Rennes), Jérémy Piningre presents Cardon Luneux editions with Aëla Maï Cabel.</p>
   body: >-
-    <p>  <br>Co-founded in 2022, the micro-publishing house Cardon Lunaux brings together Jérémy Piningre and Aëla Mai Cabel. Together, they explore the rewriting of traditional tales <br>of the territories they pass through with contemporary concerns of gender, class and ecology.</p>  <p> partnerships </p>  <p>Librairie Comment dire <br>https://www.librairiecommentdire.fr/</p>  <p> Connection  </p>
+    <p>About  <br>   <br>Co-founded in 2022, the micro-publishing house Cardon Lunaux brings together Jérémy Piningre and Aëla Mai Cabel. Together, they explore the rewriting of traditional tales <br>of the territories they pass through with contemporary concerns of gender, class and ecology.</p>  <p> partnerships </p>  <p>Librairie Comment dire <br>https://www.librairiecommentdire.fr/</p>  <p> Connection  </p>
 
 date: "2026-03-31T18:30:00+02:00"
 dates:
@@ -102,7 +102,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 current_time_slot:
@@ -159,11 +159,31 @@ contents_reading_time:
     less than a minute
 contents:
   - kind: block
+    template: title
+    title: >-
+      About
+    slug: >-
+      about
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          About
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
     template: chapter
 
 
     ranks:
-      base: 2
+      base: 3
     top:
       active: false
 
@@ -184,14 +204,14 @@ contents:
     slug: >-
       partnerships
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           partnerships
-        heading: 2
+        heading: 3
 
     data:
       layout: grid
