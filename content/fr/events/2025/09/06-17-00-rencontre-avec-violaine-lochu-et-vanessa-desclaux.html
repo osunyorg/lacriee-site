@@ -27,7 +27,7 @@ search:
   summary: >-
     <p>À l’occasion de la sortie de la monographie de Violaine Lochu, <i>Inventaire / Langage</i>, éditée chez Paraguay Press, Vanessa Desclaux, critique d’art, reviendra sur les notions de rituel, soin et combat présents dans l’œuvre de l’artiste.</p>
   body: >-
-    <p>Informations pratiques  <br>   <br>À La Criée entrée libre dans la limite des places disponibles</p>  <p> Pour aller plus loin  </p>
+    <p>Informations pratiques  <br>   <br>À La Criée entrée libre dans la limite des places disponibles</p>  <p> Artistes  <br> Pour aller plus loin  </p>
 
 date: "2025-09-06T17:00:00+02:00"
 dates:
@@ -207,6 +207,59 @@ contents:
   - kind: block
     template: title
     title: >-
+      Artistes
+    slug: >-
+      artistes
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artistes
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/violaine-lochu-1/"
+          path: "/persons/violaine-lochu-1"
+          slug: "violaine-lochu-1"
+          file: "content/fr/persons/violaine-lochu-1.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/vanessa-desclaux/"
+          path: "/persons/vanessa-desclaux"
+          slug: "vanessa-desclaux"
+          file: "content/fr/persons/vanessa-desclaux.html"
+
+      quantity: 2
+
+
+  - kind: block
+    template: title
+    title: >-
       Pour aller plus loin
     slug: >-
       pour-aller-plus-loin
@@ -290,39 +343,6 @@ contents:
             Pharmakon / Reboot
 
       quantity: 1
-
-  - kind: block
-    template: persons
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-
-      layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/violaine-lochu-1/"
-          path: "/persons/violaine-lochu-1"
-          slug: "violaine-lochu-1"
-          file: "content/fr/persons/violaine-lochu-1.html"
-
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/vanessa-desclaux/"
-          path: "/persons/vanessa-desclaux"
-          slug: "vanessa-desclaux"
-          file: "content/fr/persons/vanessa-desclaux.html"
-
-      quantity: 2
-
 
 
 ---

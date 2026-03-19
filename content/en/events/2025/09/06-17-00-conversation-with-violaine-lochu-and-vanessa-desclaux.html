@@ -27,7 +27,7 @@ search:
   summary: >-
     <p>On the occasion of the release of Violaine Lochu's monograph, <i>Inventaire / Langage</i>, published by Paraguay Press, art critic Vanessa Desclaux will revisit the notions of ritual, care, and struggle present in the artist's work.</p>
   body: >-
-    <p>Practical informations  <br>   <br>At La Criée  free entry, subject to availability</p>  <p> Connections  </p>
+    <p>Practical informations  <br>   <br>At La Criée  free entry, subject to availability</p>  <p> Artists  <br> Connections  </p>
 
 date: "2025-09-06T17:00:00+02:00"
 dates:
@@ -202,6 +202,59 @@ contents:
 
 
 
+
+
+  - kind: block
+    template: title
+    title: >-
+      Artists
+    slug: >-
+      artists
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artists
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/en/artists-authors-curators-etc/violaine-lochu/"
+          path: "/persons/violaine-lochu"
+          slug: "violaine-lochu"
+          file: "content/en/persons/violaine-lochu.html"
+
+        - permalink: "/en/artists-authors-curators-etc/vanessa-desclaux/"
+          path: "/persons/vanessa-desclaux"
+          slug: "vanessa-desclaux"
+          file: "content/en/persons/vanessa-desclaux.html"
+
+      quantity: 2
 
 
   - kind: block
