@@ -36,6 +36,9 @@ jobs:
     - name: Compilation du site
       run: yarn osuny build
 
+    - name: Remove Pagefind in public dir
+      run: rm -rf public/pagefind
+
     - name: Déploiement Garage
       run: npx --yes dxfl deploy www.la-criee.org public/ --yes
       env:
