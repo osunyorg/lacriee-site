@@ -30,14 +30,11 @@ jobs:
     - name: Installation de Hugo
       uses: noesya/actions-hugo@release
       with:
-        hugo-version: '0.154.5'
+        hugo-version: '0.157.0'
         extended: true
 
     - name: Compilation du site
       run: yarn osuny build
-
-    - name: Remove Pagefind in public dir
-      run: rm -rf public/pagefind
 
     - name: Déploiement Garage
       run: npx --yes dxfl deploy www.la-criee.org public/ --yes
