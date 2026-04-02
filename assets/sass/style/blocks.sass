@@ -339,24 +339,19 @@
                 gap: var(--grid-gutter)
                 .avatar 
                     margin-bottom: 0
+                    width: columns(3)
                 
                 .description
                     border-bottom: 1px solid $color-border
                     flex: 1
                     margin: 0
+                    width: columns(5)
                     
                     &, .person-name
                         @include h2
                     
                     .person-role
                         font-style: italic
-
-        @include media-breakpoint-up(xl)
-            .person
-                .avatar
-                    width: columns(3)
-                .description
-                    width: columns(5)
 
 .block-agenda
     &--grid
