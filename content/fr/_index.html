@@ -166,6 +166,48 @@ contents:
       layout: classic
 
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+
+
+      title_link: "/fr/agenda/expositions-a-la-criee/"
+      category:
+        permalink: "/fr/agenda/expositions-a-la-criee/"
+        path: "/events_categories/expositions-a-la-criee"
+        slug: "expositions-a-la-criee"
+        file: "content/fr/events_categories/expositions-a-la-criee/_index.html"
+      events:
+        - permalink: "/fr/agenda/2026/la-criee-est-en-montage/"
+          path: "/events/2026/05/11-la-criee-est-en-montage"
+          slug: "la-criee-est-en-montage"
+          file: "content/fr/events/2026/05/11-la-criee-est-en-montage.html"
+          name: >-
+            La Criée est en montage
+
+      quantity: 1
 
 
   - kind: block
@@ -272,12 +314,6 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
-        - permalink: "/fr/agenda/2026/la-criee-est-en-montage/"
-          path: "/events/2026/06/12-la-criee-est-en-montage"
-          slug: "la-criee-est-en-montage"
-          file: "content/fr/events/2026/06/12-la-criee-est-en-montage.html"
-          name: >-
-            La Criée est en montage
         - permalink: "/fr/agenda/2026/bienvenue-a-la-criee/"
           path: "/events/2026/06/13-bienvenue-a-la-criee"
           slug: "bienvenue-a-la-criee"
@@ -285,7 +321,7 @@ contents:
           name: >-
             40 ans de création et bien plus encore
 
-      quantity: 2
+      quantity: 1
 
   - kind: block
     template: title
