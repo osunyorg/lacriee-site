@@ -27,7 +27,7 @@ search:
   summary: >-
     <p>Lucie Rico est l’une des voix du troisième numéro de<i> Festina Lente</i>, revue éditée par La Criée. Ses textes, traversés par humour et inquiétude, interrogent nos attachements et nos récits. En octobre, elle prolongera ces réflexions lors d’une rencontre publique.</p>
   body: >-
-    <p>Pour aller plus loin  </p>
+    <p>L'artiste  <br> Pour aller plus loin  </p>
 
 date: "2025-10-21T18:00:00+02:00"
 dates:
@@ -104,7 +104,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 current_time_slot:
@@ -164,17 +164,37 @@ text: >-
 header_cta:
 
 contents_reading_time:
-  seconds: 1
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      L'artiste
+    slug: >-
+      l-artiste
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          L'artiste
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: persons
 
 
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
 
