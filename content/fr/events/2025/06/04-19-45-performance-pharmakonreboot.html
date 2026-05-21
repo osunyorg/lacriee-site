@@ -27,7 +27,7 @@ search:
   summary: >-
     <p>À l'occasion du vernissage de l'exposition de Violaine Lochu, trois performeuses interprètent les partitions brodées sur les capes de l'installation <i>Pharmakon / Reboot</i> et déploient des gestes et chants de guérison.</p>
   body: >-
-    <p>Pour aller plus loin  </p>
+    <p>Artiste  <br> Pour aller plus loin  </p>
 
 date: "2025-06-04T19:45:00+02:00"
 dates:
@@ -105,7 +105,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 current_time_slot:
@@ -180,6 +180,54 @@ contents:
   - kind: block
     template: title
     title: >-
+      Artiste
+    slug: >-
+      artiste
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artiste
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/violaine-lochu-1/"
+          path: "/persons/violaine-lochu-1"
+          slug: "violaine-lochu-1"
+          file: "content/fr/persons/violaine-lochu-1.html"
+
+      quantity: 1
+
+
+  - kind: block
+    template: title
+    title: >-
       Pour aller plus loin
     slug: >-
       pour-aller-plus-loin
@@ -234,34 +282,6 @@ contents:
             Pharmakon / Reboot
 
       quantity: 1
-
-  - kind: block
-    template: persons
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-
-      layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/violaine-lochu-1/"
-          path: "/persons/violaine-lochu-1"
-          slug: "violaine-lochu-1"
-          file: "content/fr/persons/violaine-lochu-1.html"
-
-      quantity: 1
-
 
 
 ---
