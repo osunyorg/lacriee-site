@@ -2183,6 +2183,10 @@ from = "/en/agenda/2021-09-25-molusma-elvia-teotski/index.html"
 to = "/en/agenda/2021/molusma-elvia-teotski/"
 
 [[redirects]]
+from = "/fr/agenda/1998/felis-varini/index.html"
+to = "/fr/agenda/1998/felice-varini/"
+
+[[redirects]]
 from = "/fr/agenda/2022-04-03-line-simon-3/index.html"
 to = "/fr/agenda/2022/atelier-en-famille-en-lsf-la-petite-fabrique/"
 
