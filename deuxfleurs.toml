@@ -4571,6 +4571,10 @@ from = "/fr/auteurices-du-site/muriel-bordier/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/muriel-bordier/"
 
 [[redirects]]
+from = "/fr/actualites/2026-05-26-atelier-dimpression-du-fanzine-avec-la-machine-riso/index.html"
+to = "/fr/actualites/2026-04-15-atelier-dimpression-du-fanzine-avec-la-machine-riso/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/cledat-petitpierre/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/cledat-petitpierre/"
 
