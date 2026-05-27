@@ -16,7 +16,7 @@ meta:
     slug: "le-jardin-des-soupirs"
   dates:
     created_at: 2024-05-22T14:05:26+02:00
-    updated_at: 2026-05-27T15:20:59+02:00
+    updated_at: 2026-05-27T15:31:39+02:00
     published_at: 2024-05-22T14:05:57+02:00
 search:
   id: "6cc74da5-7703-43d6-8b65-2472b71cfb7d"
@@ -28,7 +28,7 @@ search:
     Le jardin des soupirs Hans Van den Ban
 
   body: >-
-    <p>Présentation  </p>
+    <p>Présentation  <br>   <br>Pour cette fin d'année, La Criée propose un ensemble d'œuvres récentes du sculpteur hollandais Hans Van den Ban. Cette exposition à Rennes constitue le quatrième volet (après Ivry, Troyes et Tournus) d'un périple d'expositions chaque fois renouvelées. Fondée sur la récupération d'objets et de différents matériaux issus de l'industrie, la sculpture de Van den Ban se caractérise par la subtilité de ses associations, autant héritière de la tradition néerlandaise de la nature morte que proche, à certains égards, des développements les plus récents d'une nouvelle sculpture du détournement. L'exposition à La Criée, constituée pour la plupart d’œuvres nouvelles, est intitulée « Le Jardin des Soupirs ». Habituellement, la sculpture vient peupler le jardin d'agrément. Ici, l'exposition tente de reconstituer l'ambiance même du jardin : parterres, buissons, clairières, sentiers pour la promenade…</p>  <p> Artiste et commissaire   <br>  </p>  <p>Artiste </p>  <p>Commissaire </p>  <p> Pour aller plus loin   </p>
 
 breadcrumbs:
   - title: >-
@@ -43,7 +43,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 date: "1988-12-03T00:00:00+00:00"
@@ -111,9 +111,9 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 1
+  seconds: 44
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: block
     template: title
@@ -146,12 +146,105 @@ contents:
 
     data:
       layout: no_background
+      text: >-
+        <p>Pour cette fin d'année, La Criée propose un ensemble d'œuvres récentes du sculpteur hollandais Hans Van den Ban. Cette exposition à Rennes constitue le quatrième volet (après Ivry, Troyes et Tournus) d'un périple d'expositions chaque fois renouvelées.</p><p>Fondée sur la récupération d'objets et de différents matériaux issus de l'industrie, la sculpture de Van den Ban se caractérise par la subtilité de ses associations, autant héritière de la tradition néerlandaise de la nature morte que proche, à certains égards, des développements les plus récents d'une nouvelle sculpture du détournement.</p><p>L'exposition à La Criée, constituée pour la plupart d’œuvres nouvelles, est intitulée « Le Jardin des Soupirs ». Habituellement, la sculpture vient peupler le jardin d'agrément. Ici, l'exposition tente de reconstituer l'ambiance même du jardin : parterres, buissons, clairières, sentiers pour la promenade…</p>
 
 
 
 
 
 
+  - kind: block
+    template: title
+    title: >-
+      Artiste et commissaire
+    slug: >-
+      artiste-et-commissaire
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artiste et commissaire
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/yannick-miloux/"
+          path: "/persons/yannick-miloux"
+          slug: "yannick-miloux"
+          file: "content/fr/persons/yannick-miloux.html"
+          role: >-
+            Commissaire
+      quantity: 1
+
+
+  - kind: block
+    template: title
+    title: >-
+      Pour aller plus loin
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Pour aller plus loin
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: projects
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+
+      quantity: 0
 
 
 ---
