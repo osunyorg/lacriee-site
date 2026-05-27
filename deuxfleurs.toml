@@ -1591,6 +1591,10 @@ from = "/fr/agenda/2016-03-30-rayon-vert-projection-et-rencontre/index.html"
 to = "/fr/agenda/2016/rayon-vert-projection-et-rencontre/"
 
 [[redirects]]
+from = "/fr/agenda/2021/lectures-conference-performance-paroles-paroles-paroles/index.html"
+to = "/fr/agenda/2020/lectures-conference-performance-paroles-paroles-paroles/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/la-criee/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/la-criee/"
 
@@ -2684,7 +2688,7 @@ to = "/fr/agenda/2023/art-is-magic/"
 
 [[redirects]]
 from = "/fr/agenda/2021-01-14-lecture-conference-performance-parole-parole-parole/index.html"
-to = "/fr/agenda/2021/lectures-conference-performance-paroles-paroles-paroles/"
+to = "/fr/agenda/2020/lectures-conference-performance-paroles-paroles-paroles/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/vlad-nanca/index.html"
@@ -5516,7 +5520,7 @@ to = "/en/artists-authors-curators-etc/aliocha-imhoff/"
 
 [[redirects]]
 from = "/fr/agenda/2021-01-14-lectures-conference-performance-paroles-paroles-paroles/index.html"
-to = "/fr/agenda/2021/lectures-conference-performance-paroles-paroles-paroles/"
+to = "/fr/agenda/2020/lectures-conference-performance-paroles-paroles-paroles/"
 
 [[redirects]]
 from = "/fr/agenda/2021-07-07-la-chucoterie-lillico/index.html"
@@ -5876,7 +5880,7 @@ to = "/en/artists-authors-curators-etc/eugenie-zely/"
 
 [[redirects]]
 from = "/fr/agenda/2021-01-14-remi-baert-mathis-collins-paul-collins-helena-de-laurens-et-esme-planchon-emilie-renard/index.html"
-to = "/fr/agenda/2021/lectures-conference-performance-paroles-paroles-paroles/"
+to = "/fr/agenda/2020/lectures-conference-performance-paroles-paroles-paroles/"
 
 [[redirects]]
 from = "/fr/agenda/2020-10-04-la-petite-fabrique/index.html"
@@ -6337,6 +6341,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/aliocha-imhoff
 [[redirects]]
 from = "/fr/auteurices-du-site/lutz-guggisberg/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/lutz-guggisberg/"
+
+[[redirects]]
+from = "/en/agenda/2021/lecture-conference-performance-parole-parole-parole/index.html"
+to = "/en/agenda/2020/lecture-conference-performance-parole-parole-parole/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/paul-armand-gette/index.html"
@@ -6800,7 +6808,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/julien-laforge
 
 [[redirects]]
 from = "/en/agenda/2021-01-14-lecture-conference-performance-parole-parole-parole/index.html"
-to = "/en/agenda/2021/lecture-conference-performance-parole-parole-parole/"
+to = "/en/agenda/2020/lecture-conference-performance-parole-parole-parole/"
 
 [[redirects]]
 from = "/en/authors-on-this-website/lea-muller/index.html"
