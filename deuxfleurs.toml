@@ -1159,10 +1159,6 @@ from = "/en/art-center/soutenir-la-creation-artistique/index.html"
 to = "/en/art-center/supporting-artistic-creation/"
 
 [[redirects]]
-from = "/fr/agenda/2025/vernissage-daylighting-mais-cest-leau-qui-parle/index.html"
-to = "/fr/agenda/2026/vernissage/"
-
-[[redirects]]
 from = "/fr/agenda/2015-07-05-la-rhetorique-des-marees-vol-1/index.html"
 to = "/fr/agenda/2015/la-rhetorique-des-marees-vol-1/"
 
@@ -1549,10 +1545,6 @@ to = "/fr/agenda/2009/diffusion-proust-lu-variations/"
 [[redirects]]
 from = "/fr/auteurices-du-site/nicolas-prioux/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/nicolas-prioux/"
-
-[[redirects]]
-from = "/en/agenda/2025/vernissage-dansetremblenage/index.html"
-to = "/en/agenda/2026/opening/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/jota-castro/index.html"
@@ -3547,10 +3539,6 @@ from = "/fr/projets/2023-cyclone-2023/index.html"
 to = "/fr/productions/2023-cyclone/"
 
 [[redirects]]
-from = "/en/agenda/2025/vernissage-pharmakon-reboot/index.html"
-to = "/en/agenda/2026/opening/"
-
-[[redirects]]
 from = "/en/art-mediation/early-childhood/index.html"
 to = "/en/art-education/early-childhood/"
 
@@ -4691,10 +4679,6 @@ from = "/fr/agenda/2025-02-07-vernissage-daylighting-mais-c-est-l-eau-qui-parle/
 to = "/fr/agenda/2026/la-criee-est-en-montage/"
 
 [[redirects]]
-from = "/en/agenda/2026/vernissage-dansetremblenage/index.html"
-to = "/en/agenda/2026/opening/"
-
-[[redirects]]
 from = "/fr/auteurices-du-site/jennifer-lacey/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jennifer-lacey/"
 
@@ -5343,10 +5327,6 @@ from = "/fr/auteurices-du-site/leroy-stevens/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/leroy-stevens/"
 
 [[redirects]]
-from = "/fr/agenda/2025/vernissage-pharmakon-reboot/index.html"
-to = "/fr/agenda/2026/vernissage/"
-
-[[redirects]]
 from = "/en/agenda/2024-07-01-la-zone-intertidale/index.html"
 to = "/en/agenda/2024/the-intertidal-zone/"
 
@@ -5733,10 +5713,6 @@ to = "/fr/agenda/2015/theatre-performance-impromptus-morphologie-des-elements/"
 [[redirects]]
 from = "/fr/agenda/2017-12-16-alors-que-jecoutais-moi-aussi-david-eleanor-mariana-jean-mark-genk-david-daphne-pierre-shima-simon-z/index.html"
 to = "/fr/agenda/2017/alors-que-jecoutais-moi-aussi-david-eleanor-mariana-jean-mark-genk-david-daphne-pierre-shima-simon-z/"
-
-[[redirects]]
-from = "/fr/agenda/2025/vernissage-dansetremblenage/index.html"
-to = "/fr/agenda/2026/vernissage/"
 
 [[redirects]]
 from = "/fr/agenda/2011-09-09-deplier/index.html"
@@ -7129,8 +7105,4 @@ to = "/fr/mediation/"
 [[redirects]]
 from = "/fr/agenda/2023-01-01-residence-the-final-cut-ines-dobelle/index.html"
 to = "/fr/agenda/2023/territoires-extra-6-the-final-cut/"
-
-[[redirects]]
-from = "/en/agenda/2025/vernissage-daylighting-mais-cest-leau-qui-parle/index.html"
-to = "/en/agenda/2026/opening/"
 
