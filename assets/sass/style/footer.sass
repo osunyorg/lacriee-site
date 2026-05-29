@@ -41,18 +41,21 @@ footer#document-footer
             width: 100%
             padding-top: $spacing-3
             .search-button
-                @include h2
-                display: flex
-                font-family: $body-font-family
-                gap: $spacing-2
-                white-space: break-spaces
-                &::after
-                    display: none
-                &::before
-                    @include icon-site(search)
-                    font-size: inherit
-                @include media-breakpoint-up(desktop)
-                    align-items: flex-end
+                button
+                    @include h2
+                    align-items: center
+                    display: flex
+                    font-family: $body-font-family
+                    gap: $spacing-2
+                    text-align: left
+                    white-space: break-spaces
+                    &::after
+                        display: none
+                    &::before
+                        @include icon-site(search)
+                        font-size: inherit
+                    @include media-breakpoint-up(desktop)
+                        align-items: flex-end
             .pagefind-ui__result-excerpt mark
                 color: $color-text
             .pagefind-ui__form::after
