@@ -10,7 +10,7 @@ header_text: >-
 url: "/fr/"
 slug: ""
 date: 2023-12-04T11:59:57+01:00
-lastmod: 2026-05-11T19:15:09+02:00
+lastmod: 2026-05-29T09:12:26+02:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2023-05-02T15:29:38+02:00
-    updated_at: 2026-05-11T19:15:09+02:00
+    updated_at: 2026-05-29T09:12:26+02:00
     published_at: 2023-12-04T11:59:57+01:00
 search:
   id: "422c6036-e983-4afb-aeb2-016c8acd9d66"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Ouvert de 13h à 19h du mardi au dimanche</p>
   body: >-
-    <p>Aujourd'hui  <br> À venir  <br> Les projets en cours  <br> En vente à La Criée  </p>
+    <p>Aujourd'hui  <br> Et aussi hors-les-murs  <br> À venir  <br> Les derniers articles du blog Correspondances  <br>   <br>Dans cet espace contributif, les groupes engagés dans des projets de  <br>médiation sur le long terme avec La Criée prennent la parole. </p>
 
 breadcrumbs:
   - title: >-
@@ -142,7 +142,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 3
+  seconds: 9
   text: >-
     moins d'une minute
 contents:
@@ -211,6 +211,27 @@ contents:
 
 
   - kind: block
+    template: title
+    title: >-
+      Et aussi hors-les-murs
+    slug: >-
+      et-aussi-hors-les-murs
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Et aussi hors-les-murs
+        heading: 2
+
+    data:
+      layout: classic
+
+
+
+  - kind: block
     template: agenda
 
 
@@ -234,7 +255,7 @@ contents:
         summary: true
         status: false
 
-      layout: large
+      layout: list
 
 
       title_link: "/fr/agenda/expositions-hors-les-murs/"
@@ -332,9 +353,9 @@ contents:
   - kind: block
     template: title
     title: >-
-      Les projets en cours
+      Les derniers articles du blog Correspondances
     slug: >-
-      les-projets-en-cours
+      les-derniers-articles-du-blog-correspondances
     ranks:
       base: 2
       self: 2
@@ -342,7 +363,7 @@ contents:
       active: true
       title: 
         value: >-
-          Les projets en cours
+          Les derniers articles du blog Correspondances
         heading: 2
 
     data:
@@ -350,7 +371,26 @@ contents:
 
 
   - kind: block
-    template: agenda
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p> Dans cet espace contributif, les groupes engagés dans des projets de  médiation sur le long terme avec La Criée prennent la parole.   </p>
+
+
+
+
+
+
+  - kind: block
+    template: posts
 
 
     ranks:
@@ -360,100 +400,39 @@ contents:
       active: false
 
     data:
-      mode: selection
-      kinds:
-        parent: false
-        child: true
-        recurring: true
+      mode: all
+      layout: grid
       options:
-        categories: true
-        dates: true
+        author: false
+        categories: false
+        date: false
         image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: list
-
-
-      title_link: ""
-      events:
-        - permalink: "/fr/agenda/2025/les-appareils-et-les-ktronics/"
-          path: "/events/2025/10/07-les-appareils-et-les-ktronics"
-          slug: "les-appareils-et-les-ktronics"
-          file: "content/fr/events/2025/10/07-les-appareils-et-les-ktronics.html"
-          name: >-
-            Les appareils et les Ktronics
-
-      quantity: 1
-
-  - kind: block
-    template: title
-    title: >-
-      En vente à La Criée
-    slug: >-
-      en-vente-a-la-criee
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          En vente à La Criée
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: projects
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      mode: selection
-      layout: list
-      options:
-        categories: true
-        image: true
+        reading_time: false
         subtitle: true
         summary: true
-        year: true
 
-      projects:
-        - permalink: "/fr/productions/2026-revue-n4-festina-lente-hate-toi-lentement/"
-          path: "/projects/2026/revue-n4-festina-lente-hate-toi-lentement"
-          slug: "revue-n4-festina-lente-hate-toi-lentement"
-          file: "content/fr/projects/2026/revue-n4-festina-lente-hate-toi-lentement.html"
+      posts:
+        - permalink: "/fr/actualites/2026-05-22-les-grandes-histoires-des-petits-peuples/"
+          path: "/posts/2026/2026-05-22-les-grandes-histoires-des-petits-peuples"
+          slug: "les-grandes-histoires-des-petits-peuples"
+          file: "content/fr/posts/2026/2026-05-22-les-grandes-histoires-des-petits-peuples.html"
           name: >-
-            Revue n°4 - Festina Lente (Hâte-toi lentement)
-        - permalink: "/fr/productions/2025-john-cornu/"
-          path: "/projects/2025/john-cornu"
-          slug: "john-cornu"
-          file: "content/fr/projects/2025/john-cornu.html"
+            Les grandes histoires des petits peuples
+        - permalink: "/fr/actualites/2026-05-20-les-appareils-et-les-ktronics-a-la-bibliotheque-des-champs-manceaux/"
+          path: "/posts/2026/2026-05-20-les-appareils-et-les-ktronics-a-la-bibliotheque-des-champs-manceaux"
+          slug: "les-appareils-et-les-ktronics-a-la-bibliotheque-des-champs-manceaux"
+          file: "content/fr/posts/2026/2026-05-20-les-appareils-et-les-ktronics-a-la-bibliotheque-des-champs-manceaux.html"
           name: >-
-            John Cornu
-        - permalink: "/fr/productions/2025-biomimetic-stories/"
-          path: "/projects/2025/biomimetic-stories"
-          slug: "biomimetic-stories"
-          file: "content/fr/projects/2025/biomimetic-stories.html"
+            Les Ktronics à la bibliothèque des Champs Manceaux
+        - permalink: "/fr/actualites/2026-05-06-restitution-de-la-residence-les-appareils-et-les-ktronics/"
+          path: "/posts/2026/2026-05-06-restitution-de-la-residence-les-appareils-et-les-ktronics"
+          slug: "restitution-de-la-residence-les-appareils-et-les-ktronics"
+          file: "content/fr/posts/2026/2026-05-06-restitution-de-la-residence-les-appareils-et-les-ktronics.html"
           name: >-
-            Biomimetic Stories
-        - permalink: "/fr/productions/2025-inventaire-langages/"
-          path: "/projects/2025/inventaire-langages"
-          slug: "inventaire-langages"
-          file: "content/fr/projects/2025/inventaire-langages.html"
-          name: >-
-            Inventaire Langages
+            Restitution de la résidence les Appareils et les Ktronics
 
-      quantity: 4
+      quantity: 3
+
 
 
 ---
