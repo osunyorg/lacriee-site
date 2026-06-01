@@ -15,7 +15,7 @@ meta:
     slug: "desir"
   dates:
     created_at: 2026-06-01T10:38:35+02:00
-    updated_at: 2026-06-01T10:50:18+02:00
+    updated_at: 2026-06-01T10:51:23+02:00
     published_at: 2026-06-01T10:38:35+02:00
 search:
   id: "c57d83dd-5d76-4ab7-b906-88096acb2f16"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Françoise Quardon </p>
   body: >-
-      <p>Production : La Criée centre d'art contemporain, Rennes </p>
+      <p>Production : La Criée centre d'art contemporain, Rennes </p>  <p>  </p>  <p>Artiste </p>  <p> Pour aller plus loin   </p>
 
 breadcrumbs:
   - title: >-
@@ -80,7 +80,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 2
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
@@ -109,6 +109,7 @@ contents:
 
     ranks:
       base: 2
+      children: 2
     top:
       active: false
 
@@ -122,8 +123,72 @@ contents:
         contact: false
 
       persons:
-      quantity: 0
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/francoise-quardon/"
+          path: "/persons/francoise-quardon"
+          slug: "francoise-quardon"
+          file: "content/fr/persons/francoise-quardon.html"
+          role: >-
+            Artiste
+      quantity: 1
 
+
+  - kind: block
+    template: title
+    title: >-
+      Pour aller plus loin
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Pour aller plus loin
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+
+
+      title_link: ""
+      events:
+        - permalink: "/fr/agenda/1990/quatro-pensees-fur-you/"
+          path: "/events/1990/03/03-quatro-pensees-fur-you"
+          slug: "quatro-pensees-fur-you"
+          file: "content/fr/events/1990/03/03-quatro-pensees-fur-you.html"
+          name: >-
+            Quatro pensées für you
+
+      quantity: 1
 
 
 ---
