@@ -27,7 +27,7 @@ search:
     Conférence sur son œuvre  Jochen Gerz
 
   body: >-
-    <p>Pour aller plus loin   </p>
+    <p>Artiste   <br>  </p>  <p>Artiste </p>  <p> Pour aller plus loin   </p>
 
 date: "1987-03-11T16:00:00+01:00"
 dates:
@@ -103,7 +103,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 current_time_slot:
@@ -163,10 +163,59 @@ text: >-
 header_cta:
 
 contents_reading_time:
-  seconds: 1
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Artiste
+    slug: >-
+      artiste
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artiste
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jochen-gerz/"
+          path: "/persons/jochen-gerz"
+          slug: "jochen-gerz"
+          file: "content/fr/persons/jochen-gerz.html"
+          role: >-
+            Artiste
+      quantity: 1
+
+
   - kind: block
     template: title
     title: >-
@@ -204,11 +253,11 @@ contents:
         child: true
         recurring: true
       options:
-        categories: false
+        categories: true
         dates: true
         image: true
         subtitle: true
-        summary: true
+        summary: false
         status: false
 
       layout: grid
