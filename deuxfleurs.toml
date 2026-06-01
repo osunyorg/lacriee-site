@@ -3735,6 +3735,10 @@ from = "/fr/agenda/1995-10-20-vito-acconci/index.html"
 to = "/fr/agenda/1995/vito-acconci/"
 
 [[redirects]]
+from = "/fr/agenda/1991/conference-sur-son-oeuvre/index.html"
+to = "/fr/agenda/1990/conference-sur-son-oeuvre/"
+
+[[redirects]]
 from = "/fr/programmation/oeuvres-produites-202154561/evariste-richer/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/evariste-richer/"
 
