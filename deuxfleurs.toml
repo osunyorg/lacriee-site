@@ -3931,6 +3931,10 @@ from = "/fr/auteurices-du-site/isabella-zamboni/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/isabella-zamboni/"
 
 [[redirects]]
+from = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/ilya-lossifovich-kabavov/index.html"
+to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/ilya-lossifovich-kabakov/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/ziad-antar/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/ziad-antar/"
 
