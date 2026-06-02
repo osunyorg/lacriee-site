@@ -16,7 +16,7 @@ meta:
     slug: "lhyper-centre-dart-a-rennes"
   dates:
     created_at: 2024-05-22T14:39:16+02:00
-    updated_at: 2024-09-30T11:16:26+02:00
+    updated_at: 2026-06-02T17:36:16+02:00
     published_at: 2024-05-22T14:39:24+02:00
 search:
   id: "848c00ea-e07f-4160-a64d-7fcfa4fadb22"
@@ -27,7 +27,8 @@ search:
   title: >-
     L'hyper-centre d'art à Rennes Marcel Dinahet, Jochen Gerz
 
-
+  body: >-
+    <p>Présentation  <br>   <br>La Criée, halle d'art contemporain, invite chacun des 22 autres centres d’art au prorata de leurs surfaces d’exposition. Un rapide calcul permet d’envisager la surface totale dévolue aux expositions par les centres d'art en France autour de 16 000 m². La surface de la Criée est de 160 m². Chaque centre d’art sera représenté au centième de ses surfaces d’exposition. Chaque directeur est invité à désigner l’artiste, puis l’œuvre qui la « représentera au mieux » dans les limites ci-dessus précisées. Pour ce faire, il est possible soit de trouver une œuvre déjà existante (dans une collection, par exemple), soit de demander à l’artiste en question une intervention particulière.  L’ensemble des œuvres sera présenté dans les salles d'exposition de La Criée. Les surfaces au centième feront l’objet d’un marquage au sol (sans doute blanc/gris). Chaque œuvre sera légendée par un cartel comprenant les indications habituelles (nom de l’artiste, titre de l’œuvre, date de réalisation, collection) plus la mention : choisi par M. X, directeur du centre d’art X, lieu. Les deux petites salles annexes seront momentanément converties en bibliothèques de consultation dans la mesure où chaque centre d'art voudra bien mettre à disposition un échantillonnage complet de ses publications.</p>  <p> Artiste et commissaire   <br>  </p>  <p>Artiste </p>  <p>Artiste </p>
 
 breadcrumbs:
   - title: >-
@@ -42,7 +43,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 date: "1994-04-09T00:00:00+00:00"
@@ -110,9 +111,103 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 60
   text: >-
-    moins d'une minute
+    1 minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Présentation
+    slug: >-
+      presentation
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Présentation
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>La Criée, halle d'art contemporain, invite chacun des 22 autres centres d’art au prorata de leurs surfaces d’exposition. Un rapide calcul permet d’envisager la surface totale dévolue aux expositions par les centres d'art en France autour de 16 000 m². La surface de la Criée est de 160 m².</p><p>Chaque centre d’art sera représenté au centième de ses surfaces d’exposition. Chaque directeur est invité à désigner l’artiste, puis l’œuvre qui la « représentera au mieux » dans les limites ci-dessus précisées. Pour ce faire, il est possible soit de trouver une œuvre déjà existante (dans une collection, par exemple), soit de demander à l’artiste en question une intervention particulière. </p><p>L’ensemble des œuvres sera présenté dans les salles d'exposition de La Criée. Les surfaces au centième feront l’objet d’un marquage au sol (sans doute blanc/gris). Chaque œuvre sera légendée par un cartel comprenant les indications habituelles (nom de l’artiste, titre de l’œuvre, date de réalisation, collection) plus la mention : choisi par M. X, directeur du centre d’art X, lieu.</p><p>Les deux petites salles annexes seront momentanément converties en bibliothèques de consultation dans la mesure où chaque centre d'art voudra bien mettre à disposition un échantillonnage complet de ses publications.</p>
+
+
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Artiste et commissaire
+    slug: >-
+      artiste-et-commissaire
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artiste et commissaire
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/marcel-dinahet/"
+          path: "/persons/marcel-dinahet"
+          slug: "marcel-dinahet"
+          file: "content/fr/persons/marcel-dinahet.html"
+          role: >-
+            Artiste
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jochen-gerz/"
+          path: "/persons/jochen-gerz"
+          slug: "jochen-gerz"
+          file: "content/fr/persons/jochen-gerz.html"
+          role: >-
+            Artiste
+      quantity: 2
+
+
 
 ---
