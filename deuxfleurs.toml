@@ -4344,7 +4344,7 @@ to = "/en/agenda/2021/concert-piano-day/"
 
 [[redirects]]
 from = "/fr/agenda/1999-05-11-franz-erhard-walthe/index.html"
-to = "/fr/agenda/1999/franz-erhard-walthe/"
+to = "/fr/agenda/1999/franz-erhard-walther/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/francois-seigneur/index.html"
@@ -4889,6 +4889,10 @@ to = "/fr/agenda/2016/visite-de-traverse-l-effet-reel/"
 [[redirects]]
 from = "/fr/ressources/saison-2021-2022/index.html"
 to = "/fr/ressources/les-trois-dernieres-saisons/saison-2021-2022/"
+
+[[redirects]]
+from = "/fr/agenda/1999/franz-erhard-walthe/index.html"
+to = "/fr/agenda/1999/franz-erhard-walther/"
 
 [[redirects]]
 from = "/fr/programmation/artistes-et-oeuvres-produites/thibaut-aymonin-contributeur/actualites/index.html"
