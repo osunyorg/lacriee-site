@@ -448,7 +448,7 @@ to = "/fr/agenda/1988/yola-kotlarek/"
 
 [[redirects]]
 from = "/fr/agenda/1992-03-14-john-knight-et-heim-steinbach/index.html"
-to = "/fr/agenda/1992/john-knight-et-heim-steinbach/"
+to = "/fr/agenda/1992/john-knight-et-haim-steinbach/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/marie-jeanne-hoffner/index.html"
@@ -1081,6 +1081,10 @@ to = "/fr/agenda/2018/cest-pas-grave/"
 [[redirects]]
 from = "/fr/auteurices-du-site/jeremie-gindre/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jeremie-gindre/"
+
+[[redirects]]
+from = "/fr/agenda/1992/john-knight-et-heim-steinbach/index.html"
+to = "/fr/agenda/1992/john-knight-et-haim-steinbach/"
 
 [[redirects]]
 from = "/fr/agenda/1998-10-31-didier-vermeiren-sculpture-et-photographie/index.html"
