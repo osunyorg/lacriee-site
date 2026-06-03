@@ -5504,7 +5504,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/julien-laforge
 
 [[redirects]]
 from = "/fr/agenda/1996-02-15-local-hero/index.html"
-to = "/fr/agenda/1996/local-hero/"
+to = "/fr/agenda/1996/local-heros/"
 
 [[redirects]]
 from = "/fr/agenda/projet-de-mediation/index.html"
@@ -6845,6 +6845,10 @@ to = "/fr/agenda/2020/mime/"
 [[redirects]]
 from = "/fr/auteurices-du-site/eric-de-chassey/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/eric-de-chassey/"
+
+[[redirects]]
+from = "/fr/agenda/1996/local-hero/index.html"
+to = "/fr/agenda/1996/local-heros/"
 
 [[redirects]]
 from = "/fr/agenda/1998-07-11-la-mer-nest-pas-la-terre/index.html"
