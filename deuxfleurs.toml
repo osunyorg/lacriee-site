@@ -935,6 +935,10 @@ from = "/fr/auteurices-du-site/john-froger/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/john-froger/"
 
 [[redirects]]
+from = "/fr/agenda/2026/kesako-la-criee-1/index.html"
+to = "/fr/agenda/2026/kesako-la-criee-2/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/delia-derbyshire/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/delia-derbyshire/"
 
@@ -2425,6 +2429,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/rasmus-myrup/"
 [[redirects]]
 from = "/fr/agenda/2013-06-13-slow-season/index.html"
 to = "/fr/agenda/2013/slow-season/"
+
+[[redirects]]
+from = "/en/agenda/2026/kesako-la-criee-1/index.html"
+to = "/en/agenda/2026/kesako-la-criee-2/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/istvan-szakats/index.html"
