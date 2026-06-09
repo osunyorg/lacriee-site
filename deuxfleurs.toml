@@ -1467,6 +1467,10 @@ from = "/fr/agenda/2017-09-21-rayons-verts-recitals/index.html"
 to = "/fr/agenda/2017/rayons-verts-recitals/"
 
 [[redirects]]
+from = "/fr/agenda/1998/a-propos-dune-oeuvre-une-heure-pour-aborder-loeuvre-de-didier-bacchanale/index.html"
+to = "/fr/agenda/1998/a-propos-dune-oeuvre-une-heure-pour-aborder-loeuvre-de-didier-vermeiren-bacchanale/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/robert-cailliau/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/robert-cailliau/"
 
