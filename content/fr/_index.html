@@ -209,6 +209,48 @@ contents:
 
       quantity: 1
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+
+
+      title_link: "/fr/agenda/rendez-vous-et-evenements/"
+      category:
+        permalink: "/fr/agenda/rendez-vous-et-evenements/"
+        path: "/events_categories/rendez-vous-et-evenements"
+        slug: "rendez-vous-et-evenements"
+        file: "content/fr/events_categories/rendez-vous-et-evenements/_index.html"
+      events:
+        - permalink: "/fr/agenda/2026/bien-joue-la-criee-2/"
+          path: "/events/2026/06/17-15-00-bien-joue-la-criee-2"
+          slug: "bien-joue-la-criee-2"
+          file: "content/fr/events/2026/06/17-15-00-bien-joue-la-criee-2.html"
+          name: >-
+            Bien joué La Criée !
+
+      quantity: 1
 
   - kind: block
     template: title
@@ -331,12 +373,6 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
-        - permalink: "/fr/agenda/2026/bien-joue-la-criee-2/"
-          path: "/events/2026/06/17-15-00-bien-joue-la-criee-2"
-          slug: "bien-joue-la-criee-2"
-          file: "content/fr/events/2026/06/17-15-00-bien-joue-la-criee-2.html"
-          name: >-
-            Bien joué La Criée !
         - permalink: "/fr/agenda/2026/kesako-la-criee/"
           path: "/events/2026/06/18-17-00-kesako-la-criee"
           slug: "kesako-la-criee"
@@ -368,7 +404,7 @@ contents:
           name: >-
             Miam La Criée !
 
-      quantity: 6
+      quantity: 5
 
   - kind: block
     template: title
