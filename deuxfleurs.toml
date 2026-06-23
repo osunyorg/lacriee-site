@@ -347,10 +347,6 @@ from = "/fr/auteurices-du-site/martin-le-chevallier/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/martin-le-chevallier/"
 
 [[redirects]]
-from = "/fr/programmation/jeu-2021-2022/index.html"
-to = "/fr/programmation/jeux/"
-
-[[redirects]]
 from = "/fr/auteurices-du-site/joana-hadjithomas-khalil-joreige/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/joana-hadjithomas-khalil-joreige/"
 
@@ -2801,10 +2797,6 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/vincent-victor
 [[redirects]]
 from = "/en/ressources/archives-de-la-criee/all-editions/index.html"
 to = "/en/ressources/archives-of-la-criee/all-editions/"
-
-[[redirects]]
-from = "/fr/archives-1/2020-2021/jeu-2021-2022/index.html"
-to = "/fr/programmation/jeux/"
 
 [[redirects]]
 from = "/en/agenda/2022-04-03-la-petite-fabrique-3/index.html"
@@ -5579,10 +5571,6 @@ from = "/fr/vieux-trucs/oeuvres-produites-202154561/sophie-kaplan/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/sophie-kaplan/"
 
 [[redirects]]
-from = "/fr/programmation/2020-2021/jeu-2021-2022/index.html"
-to = "/fr/programmation/jeux/"
-
-[[redirects]]
 from = "/fr/auteurices-du-site/taysir-batniji/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/taysir-batniji/"
 
@@ -5817,10 +5805,6 @@ to = "/en/artists-authors-curators-etc/"
 [[redirects]]
 from = "/fr/auteurices-du-site/gilles-amalvi/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/gilles-amalvi/"
-
-[[redirects]]
-from = "/fr/jeu-2021-2022/index.html"
-to = "/fr/programmation/jeux/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/eleanor-antin/index.html"
