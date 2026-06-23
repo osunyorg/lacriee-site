@@ -1371,6 +1371,10 @@ from = "/fr/agenda/1988-10-15-lieu-pour-une-ile/index.html"
 to = "/fr/agenda/1988/lieu-pour-une-ile/"
 
 [[redirects]]
+from = "/fr/agenda/2026/boom-boom-boom-la-criee-1/index.html"
+to = "/fr/agenda/2026/boom-boom-la-criee/"
+
+[[redirects]]
 from = "/fr/agenda/2017-09-16-pieces-pour-clavecin/index.html"
 to = "/fr/agenda/2017/pieces-pour-clavecin/"
 
@@ -1453,6 +1457,10 @@ to = "/fr/agenda/2016/remise-en-jeu/"
 [[redirects]]
 from = "/fr/agenda/2018-04-25-rencontre-lart-toute-une-histoire/index.html"
 to = "/fr/agenda/2018/rencontre-lart-toute-une-histoire/"
+
+[[redirects]]
+from = "/en/agenda/2026/boom-boom-boom-la-criee-1/index.html"
+to = "/en/agenda/2026/boom-boom-la-criee/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/jocelyn-cottencin/index.html"
@@ -1925,6 +1933,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/claire-le-rest
 [[redirects]]
 from = "/en/agenda/2025-03-30-projection-ai-african-intelligence/index.html"
 to = "/en/agenda/2025/projection-ai-african-intelligence/"
+
+[[redirects]]
+from = "/en/agenda/2026/boom-la-criee-1/index.html"
+to = "/en/agenda/2026/boom-boom-boom-la-criee/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/ariel-orozco/index.html"
@@ -4573,6 +4585,10 @@ to = "/en/artists-authors-curators-etc/claire-hoffmann/"
 [[redirects]]
 from = "/en/agenda/2025-03-03-meeting-between-euridice-zaituna-kala-and-nadine-atallah/index.html"
 to = "/en/agenda/2025/meeting-between-euridice-zaituna-kala-and-nadine-atallah/"
+
+[[redirects]]
+from = "/fr/agenda/2026/boom-la-criee-1/index.html"
+to = "/fr/agenda/2026/boom-boom-boom-la-criee/"
 
 [[redirects]]
 from = "/en/agenda/2025/la-criee-is-closed-we-are-setting-up/index.html"
