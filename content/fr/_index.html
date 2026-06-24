@@ -216,6 +216,48 @@ contents:
 
       quantity: 3
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+
+
+      title_link: "/fr/agenda/rendez-vous-et-evenements/"
+      category:
+        permalink: "/fr/agenda/rendez-vous-et-evenements/"
+        path: "/events_categories/rendez-vous-et-evenements"
+        slug: "rendez-vous-et-evenements"
+        file: "content/fr/events_categories/rendez-vous-et-evenements/_index.html"
+      events:
+        - permalink: "/fr/agenda/2026/et-si-la-criee/"
+          path: "/events/2026/06/24-14-00-et-si-la-criee"
+          slug: "et-si-la-criee"
+          file: "content/fr/events/2026/06/24-14-00-et-si-la-criee.html"
+          name: >-
+            Et si La Criée !
+
+      quantity: 1
 
   - kind: block
     template: title
@@ -332,12 +374,6 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
-        - permalink: "/fr/agenda/2026/et-si-la-criee/"
-          path: "/events/2026/06/24-14-00-et-si-la-criee"
-          slug: "et-si-la-criee"
-          file: "content/fr/events/2026/06/24-14-00-et-si-la-criee.html"
-          name: >-
-            Et si La Criée !
         - permalink: "/fr/agenda/2026/kesako-la-criee-2/"
           path: "/events/2026/06/25-kesako-la-criee-2"
           slug: "kesako-la-criee-2"
@@ -363,7 +399,7 @@ contents:
           name: >-
             Boom Boom Boom La Criée !
 
-      quantity: 5
+      quantity: 4
 
   - kind: block
     template: title
