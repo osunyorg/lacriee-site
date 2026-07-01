@@ -16,7 +16,7 @@ meta:
     slug: "boom-la-criee"
   dates:
     created_at: 2026-06-05T00:44:15+02:00
-    updated_at: 2026-06-29T10:47:41+02:00
+    updated_at: 2026-07-01T12:16:00+02:00
     published_at: 2026-06-05T00:37:56+02:00
 search:
   id: "945e6ea0-f761-4374-be4e-b083734cd09d"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Exhibition of costumes and banners from <i>Bal des Ardentes, dancefloor thérapeutique et résistant</i></p>
   body: >-
-    <p>With </p>  <p>Les Tombées de la Nuit <br>https://www.lestombeesdelanuit.com/</p>  <p> Connections  </p>
+    <p>About  <br> With </p>  <p>Les Tombées de la Nuit <br>https://www.lestombeesdelanuit.com/</p>  <p> Pictures of the exhibition  <br> Artists  <br> Connections  </p>
 
 breadcrumbs:
   - title: >-
@@ -44,7 +44,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 date: "2026-06-23T00:00:00+00:00"
@@ -115,16 +115,16 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 3
+  seconds: 5
   text: >-
     less than a minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
-      With
+      About
     slug: >-
-      with
+      about
     ranks:
       base: 2
       self: 2
@@ -132,8 +132,28 @@ contents:
       active: true
       title: 
         value: >-
-          With
+          About
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      With
+    slug: >-
+      with
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          With
+        heading: 3
 
     data:
       layout: grid
@@ -158,12 +178,123 @@ contents:
 
 
   - kind: block
+    template: title
+    title: >-
+      Pictures of the exhibition
+    slug: >-
+      pictures-of-the-exhibition
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Pictures of the exhibition
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: gallery
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      images:
+        - 
+          id: "3a76b673-2ae5-4017-b594-4508e0edef28"
+          image:
+            id: "3a76b673-2ae5-4017-b594-4508e0edef28"
+
+
+
+        - 
+          id: "29107a6c-6a96-496b-adfb-017d43f40564"
+          image:
+            id: "29107a6c-6a96-496b-adfb-017d43f40564"
+
+
+
+        - 
+          id: "9bf6fde7-a8cd-48a1-88ee-dcdcd42af2f6"
+          image:
+            id: "9bf6fde7-a8cd-48a1-88ee-dcdcd42af2f6"
+
+
+
+        - 
+          id: "65a4a3a1-163d-4065-bf25-46a6b3024702"
+          image:
+            id: "65a4a3a1-163d-4065-bf25-46a6b3024702"
+
+
+
+        - 
+          id: "64b9b0e9-53b6-4eb0-8b82-47dee4933bce"
+          image:
+            id: "64b9b0e9-53b6-4eb0-8b82-47dee4933bce"
+
+
+
+        - 
+          id: "1c7cfcef-9f0e-4fd5-86e0-de25c6f7be53"
+          image:
+            id: "1c7cfcef-9f0e-4fd5-86e0-de25c6f7be53"
+
+
+
+        - 
+          id: "e28f3420-42e8-4997-a602-85df712dc2f4"
+          image:
+            id: "e28f3420-42e8-4997-a602-85df712dc2f4"
+
+
+
+        - 
+          id: "5d7e4530-5b0e-4547-a743-616dbcac5596"
+          image:
+            id: "5d7e4530-5b0e-4547-a743-616dbcac5596"
+
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Artists
+    slug: >-
+      artists
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artists
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
     template: persons
 
 
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
 
