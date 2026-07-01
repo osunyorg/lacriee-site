@@ -3735,6 +3735,10 @@ from = "/en/agenda/2023-09-01-action-research-territoires-extra/index.html"
 to = "/en/agenda/2023/action-research-territoires-extra/"
 
 [[redirects]]
+from = "/fr/agenda/2026/ca-dechire-la-criee-1-1/index.html"
+to = "/fr/agenda/2026/ca-dechire-la-criee-2/"
+
+[[redirects]]
 from = "/fr/agenda/2023-01-23-territoires-extra-6-the-final-cut/index.html"
 to = "/fr/agenda/2023/territoires-extra-6-the-final-cut/"
 
