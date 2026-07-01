@@ -1771,6 +1771,10 @@ from = "/fr/agenda/2023-02-05-santiago-quintans-et-floy-krouchi-1/index.html"
 to = "/fr/agenda/2023/concerts-festival-autres-mesures-1/"
 
 [[redirects]]
+from = "/fr/agenda/2025/territoires-extra-ceramique-on-tour-1/index.html"
+to = "/fr/agenda/2026/territoires-extra-impressions-multiples/"
+
+[[redirects]]
 from = "/fr/actualites/2024-04-05-la-manifestation-du-reve/index.html"
 to = "/fr/actualites/2022-12-12-la-manifestation-du-reve/"
 
