@@ -215,6 +215,48 @@ contents:
 
       quantity: 2
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+
+
+      title_link: "/fr/agenda/rendez-vous-et-evenements/"
+      category:
+        permalink: "/fr/agenda/rendez-vous-et-evenements/"
+        path: "/events_categories/rendez-vous-et-evenements"
+        slug: "rendez-vous-et-evenements"
+        file: "content/fr/events_categories/rendez-vous-et-evenements/_index.html"
+      events:
+        - permalink: "/fr/agenda/2026/ca-dechire-la-criee/"
+          path: "/events/2026/07/01-ca-dechire-la-criee"
+          slug: "ca-dechire-la-criee"
+          file: "content/fr/events/2026/07/01-ca-dechire-la-criee.html"
+          name: >-
+            Ça déchire La Criée !
+
+      quantity: 1
 
   - kind: block
     template: title
