@@ -4803,10 +4803,6 @@ from = "/fr/auteurices-du-site/joris-favennec/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/joris-favennec/"
 
 [[redirects]]
-from = "/en/agenda/residencies/index.html"
-to = "/en/agenda/residencies-wrong/"
-
-[[redirects]]
 from = "/fr/auteurices-du-site/vincent-gicquel/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/vincent-gicquel/"
 
