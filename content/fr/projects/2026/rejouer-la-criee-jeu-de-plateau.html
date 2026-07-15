@@ -106,107 +106,11 @@ contents:
 
 
   - kind: block
-    template: persons
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: false
-
-    data:
-
-      layout: list
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/yann-baizid/"
-          path: "/persons/yann-baizid"
-          slug: "yann-baizid"
-          file: "content/fr/persons/yann-baizid.html"
-
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/lea-benetou/"
-          path: "/persons/lea-benetou"
-          slug: "lea-benetou"
-          file: "content/fr/persons/lea-benetou.html"
-
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/fanny-martel/"
-          path: "/persons/fanny-martel"
-          slug: "fanny-martel"
-          file: "content/fr/persons/fanny-martel.html"
-
-      quantity: 3
-
-
-  - kind: block
-    template: title
-    title: >-
-      Pour aller plus loin
-    slug: >-
-      pour-aller-plus-loin
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Pour aller plus loin
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: agenda
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      mode: selection
-      kinds:
-        parent: false
-        child: true
-        recurring: true
-      options:
-        categories: true
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-
-
-      title_link: ""
-      events:
-        - permalink: "/fr/agenda/2024/rejouer-la-criee/"
-          path: "/events/2024/09/01-rejouer-la-criee"
-          slug: "rejouer-la-criee"
-          file: "content/fr/events/2024/09/01-rejouer-la-criee.html"
-          name: >-
-            Rejouer La Criée
-
-      quantity: 1
-
-  - kind: block
     template: gallery
 
 
     ranks:
-      base: 3
+      base: 2
     top:
       active: false
 
@@ -327,6 +231,102 @@ contents:
 
 
 
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: list
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/yann-baizid/"
+          path: "/persons/yann-baizid"
+          slug: "yann-baizid"
+          file: "content/fr/persons/yann-baizid.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/lea-benetou/"
+          path: "/persons/lea-benetou"
+          slug: "lea-benetou"
+          file: "content/fr/persons/lea-benetou.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/fanny-martel/"
+          path: "/persons/fanny-martel"
+          slug: "fanny-martel"
+          file: "content/fr/persons/fanny-martel.html"
+
+      quantity: 3
+
+
+  - kind: block
+    template: title
+    title: >-
+      Pour aller plus loin
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Pour aller plus loin
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: false
+        status: false
+
+      layout: grid
+
+
+      title_link: ""
+      events:
+        - permalink: "/fr/agenda/2024/rejouer-la-criee/"
+          path: "/events/2024/09/01-rejouer-la-criee"
+          slug: "rejouer-la-criee"
+          file: "content/fr/events/2024/09/01-rejouer-la-criee.html"
+          name: >-
+            Rejouer La Criée
+
+      quantity: 1
 
 
 ---
