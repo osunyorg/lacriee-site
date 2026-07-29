@@ -2859,6 +2859,10 @@ from = "/fr/auteurices-du-site/nadia-lauro/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/nadia-lauro/"
 
 [[redirects]]
+from = "/en/agenda/2026/kesako-la-criee-20-08-1/index.html"
+to = "/en/agenda/2026/kesako-la-criee-12-09/"
+
+[[redirects]]
 from = "/fr/agenda/2024-02-03-lea-muller/index.html"
 to = "/fr/agenda/2023/peux-tu-imaginer-l-endroit-dans-lequel-je-vis-et-ou-pousse-la-foret/"
 
