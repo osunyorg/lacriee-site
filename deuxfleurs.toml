@@ -911,6 +911,10 @@ from = "/fr/auteurices-du-site/katia-kamelie/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/katia-kamelie/"
 
 [[redirects]]
+from = "/en/agenda/2026/kesako-la-criee-20-08-1/index.html"
+to = "/en/agenda/2026/kesako-la-criee-12-09-1/"
+
+[[redirects]]
 from = "/en/agenda/2023-10-12-avaler-les-cyclones-swallowing-hurricanes/index.html"
 to = "/en/agenda/2023/avaler-les-cyclones-swallowing-hurricanes/"
 
@@ -2929,10 +2933,6 @@ to = "/fr/agenda/2016/concert-tre-soli/"
 [[redirects]]
 from = "/fr/auteurices-du-site/nadia-lauro/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/nadia-lauro/"
-
-[[redirects]]
-from = "/en/agenda/2026/kesako-la-criee-20-08-1/index.html"
-to = "/en/agenda/2026/kesako-la-criee-12-09/"
 
 [[redirects]]
 from = "/fr/agenda/2024-02-03-lea-muller/index.html"
