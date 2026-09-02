@@ -959,10 +959,6 @@ from = "/fr/auteurices-du-site/john-froger/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/john-froger/"
 
 [[redirects]]
-from = "/fr/agenda/2026/kesako-la-criee-1/index.html"
-to = "/fr/agenda/2026/kesako-la-criee-2/"
-
-[[redirects]]
 from = "/fr/auteurices-du-site/delia-derbyshire/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/delia-derbyshire/"
 
