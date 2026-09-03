@@ -911,10 +911,6 @@ from = "/fr/auteurices-du-site/katia-kamelie/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/katia-kamelie/"
 
 [[redirects]]
-from = "/en/agenda/2026/kesako-la-criee-20-08-1/index.html"
-to = "/en/agenda/2026/kesako-la-criee-12-09-1/"
-
-[[redirects]]
 from = "/en/agenda/2023-10-12-avaler-les-cyclones-swallowing-hurricanes/index.html"
 to = "/en/agenda/2023/avaler-les-cyclones-swallowing-hurricanes/"
 
@@ -1781,6 +1777,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/lea-muller/"
 [[redirects]]
 from = "/en/2026/document-mediation-3pdf/index.html"
 to = "/en/files/2026/document-mediation-3pdf/"
+
+[[redirects]]
+from = "/en/agenda/2026/et-si-la-criee-1/index.html"
+to = "/en/agenda/2026/et-si-la-criee-23-09/"
 
 [[redirects]]
 from = "/fr/agenda/2012-01-01-cela-depend-de-la-maniere-dont-tombent-les-cartes/index.html"
