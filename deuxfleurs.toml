@@ -1071,6 +1071,10 @@ from = "/fr/agenda/2023-02-05-concerts-festival-autres-mesures-1/index.html"
 to = "/fr/agenda/2023/concerts-festival-autres-mesures-1/"
 
 [[redirects]]
+from = "/fr/agenda/2027/tout-ce-qui-tremble-2/index.html"
+to = "/fr/agenda/1986/tout-ce-qui-tremble-2/"
+
+[[redirects]]
 from = "/en/agenda/2026/miam-miam-la-criee/index.html"
 to = "/en/agenda/2026/miam-la-criee-2/"
 
@@ -4105,6 +4109,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/mathilde-vaill
 [[redirects]]
 from = "/fr/agenda/2016-10-01-departement-du-plaisir-fonds-de-la-pensee/index.html"
 to = "/fr/agenda/2016/departement-du-plaisir-fonds-de-la-pensee/"
+
+[[redirects]]
+from = "/fr/agenda/2027/tout-ce-qui-tremble/index.html"
+to = "/fr/agenda/2000/tout-ce-qui-tremble/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/isabella-zamboni/index.html"
@@ -7285,6 +7293,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/euridice-zaitu
 [[redirects]]
 from = "/fr/programmation/artistes-et-oeuvres-produites/kantuta-quiros/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/kantuta-quiros/"
+
+[[redirects]]
+from = "/fr/agenda/2027/tout-ce-qui-tremble-4/index.html"
+to = "/fr/agenda/1991/tout-ce-qui-tremble-4/"
 
 [[redirects]]
 from = "/en/agenda/2024-07-11-performance-dapres-les-tempetes/index.html"
