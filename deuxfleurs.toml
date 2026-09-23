@@ -1075,10 +1075,6 @@ from = "/fr/agenda/2027/tout-ce-qui-tremble-2/index.html"
 to = "/fr/agenda/1986/tout-ce-qui-tremble-2/"
 
 [[redirects]]
-from = "/en/agenda/2026/miam-miam-la-criee/index.html"
-to = "/en/agenda/2026/miam-la-criee-2/"
-
-[[redirects]]
 from = "/fr/programmation/oeuvres-produites-202154561/rasmus-myrup/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/rasmus-myrup/"
 
@@ -1433,10 +1429,6 @@ to = "/fr/agenda/2017/pieces-pour-clavecin/"
 [[redirects]]
 from = "/fr/agenda/2021-12-11-conference-dialogue-avec-les-criquets/index.html"
 to = "/fr/agenda/2021/conference-dialogue-avec-les-criquets/"
-
-[[redirects]]
-from = "/fr/agenda/2026/miam-miam-la-criee/index.html"
-to = "/fr/agenda/2026/miam-la-criee-2/"
 
 [[redirects]]
 from = "/fr/productions/2018-audio-book/index.html"
