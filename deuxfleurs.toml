@@ -1211,6 +1211,10 @@ from = "/en/art-center/soutenir-la-creation-artistique/index.html"
 to = "/en/art-center/supporting-artistic-creation/"
 
 [[redirects]]
+from = "/fr/productions/1991-joel-benzakin-benjamin-bochloh-germano-celant-john-knicht-snauwaert-dirk-haim-steinbach/index.html"
+to = "/fr/productions/1991-joel-benzakin-benjamin-buchloh-germano-celant-john-knight-snauwaert-dirk-haim-steinbach/"
+
+[[redirects]]
 from = "/fr/agenda/2015-07-05-la-rhetorique-des-marees-vol-1/index.html"
 to = "/fr/agenda/2015/la-rhetorique-des-marees-vol-1/"
 
@@ -2097,6 +2101,10 @@ to = "/fr/agenda/2021/molusma/"
 [[redirects]]
 from = "/fr/agenda/1989-10-14-rapide-retrospective-1964-1980/index.html"
 to = "/fr/agenda/1989/rapide-retrospective-1964-1980/"
+
+[[redirects]]
+from = "/en/ressources/archives-of-la-criee/all-editions/editions-1990-1/index.html"
+to = "/en/ressources/archives-of-la-criee/all-editions/editions-1991/"
 
 [[redirects]]
 from = "/fr/equipe/equipe-editoriale/index.html"
