@@ -7123,6 +7123,10 @@ from = "/fr/agenda/1998-07-11-la-mer-nest-pas-la-terre/index.html"
 to = "/fr/agenda/1998/la-mer-nest-pas-la-terre/"
 
 [[redirects]]
+from = "/fr/productions/2002-livret-d-exposition-campy-vampy/index.html"
+to = "/fr/productions/2002-livret-dexposition-campy-vampy-tacky/"
+
+[[redirects]]
 from = "/fr/agenda/2022-02-22-compagnonage-action-culturelle-au-cours-des-expos/index.html"
 to = "/fr/agenda/2022/compagnonage-action-culturelle-au-cours-des-expos/"
 
