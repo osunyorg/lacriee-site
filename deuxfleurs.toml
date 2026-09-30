@@ -3955,6 +3955,10 @@ from = "/fr/programmation/oeuvres-produites/charbel-joseph-h-boutros/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/charbel-joseph-h-boutros/"
 
 [[redirects]]
+from = "/fr/productions/2005-monographie-constellations/index.html"
+to = "/fr/productions/2003-monographie-constellations/"
+
+[[redirects]]
 from = "/en/2026/pp-nobodynoteventherainhassuchsmallhands-lacrieepdf/index.html"
 to = "/en/files/2026/pp-nobodynoteventherainhassuchsmallhands-lacrieepdf/"
 
@@ -3992,7 +3996,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/julien-laforge
 
 [[redirects]]
 from = "/fr/auteurices-du-site/yann-lestrat-1/index.html"
-to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/yann-lestrat-1/"
+to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/yann-lestrat/"
 
 [[redirects]]
 from = "/en/art-center/soutenir-la-recherche-1/index.html"
@@ -6027,6 +6031,10 @@ from = "/fr/programmation/oeuvres-produites-202154561/gabrielle-manglou/index.ht
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/gabrielle-manglou/"
 
 [[redirects]]
+from = "/en/artists-authors-curators-etc/yann-lestrat-1/index.html"
+to = "/en/artists-authors-curators-etc/yann-lestrat/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/gilian-wearning/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/gilian-wearning/"
 
@@ -6493,6 +6501,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/mark-geffriaud
 [[redirects]]
 from = "/fr/auteurices-du-site/julien-jeanne/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/julien-jeanne/"
+
+[[redirects]]
+from = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/yann-lestrat-1/index.html"
+to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/yann-lestrat/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/christelle-familiari/index.html"
