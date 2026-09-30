@@ -4503,6 +4503,10 @@ from = "/fr/ressources/ressources-pedagogiques-1/evariste-richer-avaler-les-cycl
 to = "/fr/ressources/ressources-pedagogiques/evariste-richer-avaler-les-cyclones-ressources-pedagogiques-1/"
 
 [[redirects]]
+from = "/fr/productions/2003-livret-d-exposition-sebastien-reuze-1/index.html"
+to = "/fr/productions/2003-livret-dexposition-sebastien-reuze/"
+
+[[redirects]]
 from = "/fr/programmation/artistes-et-oeuvres-produites/thibaut-aymonin-auteur/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/thibaut-aymonin-contributeur/"
 

@@ -16,7 +16,7 @@ meta:
     slug: "monographie-constellations"
   dates:
     created_at: 2024-05-27T17:37:00+02:00
-    updated_at: 2026-09-21T10:01:19+02:00
+    updated_at: 2026-09-30T12:09:04+02:00
     published_at: 2024-09-29T14:49:08+02:00
 search:
   id: "4bc1a664-9215-428a-973b-ce5d2987d329"
@@ -28,7 +28,7 @@ search:
     Monographie - Constellations Sébastien Reuzé
 
   body: >-
-    <p>auteur·rice·s  <br> éditeur·s  <br>   <br>Contretype - La Lettre Volée, Bruxelles</p>  <p> co-éditeur·s  <br>   <br>Commission communautaire française (COCOF)   <br>La Criée centre d’art contemporain, Rennes   <br>Le Village site d’expérimentation artistique, Bazouges-la-Pérouse   <br>Danielle Arnaud contemporary art, Londres</p>  <p> caractéristiques techniques  <br>   <br>24 x 16 cm  <br>non paginé   <br>français - anglais   <br>couleur <br>										 ISBN : 2-87317-194-4</p>  <p> prix  <br>   <br>19 €</p>  <p> Pour aller plus loin  </p>
+    <p>auteur·rices  <br> éditeur·s  <br>   <br>Contretype - La Lettre Volée, Bruxelles Commission communautaire française (COCOF)  La Criée centre d'art contemporain Le Village site d'expérimentation artistique, Bazouges-la-Pérouse  Danielle Arnaud contemporary art, Londres</p>  <p> caractéristiques techniques  <br>   <br>24 x 16 cm  <br>non paginé   <br>français - anglais   <br>couleur <br>										 ISBN : 2-87317-194-4</p>  <p> prix  <br>   <br>19 €</p>  <p> pour aller plus loin  </p>
 
 year: 2005
 date: 2005-01-01
@@ -79,16 +79,58 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 16
+  seconds: 15
   text: >-
     moins d'une minute
 contents:
   - kind: block
+    template: gallery
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      images:
+        - 
+          id: "83d7e4f7-9d24-40d2-b8fc-a0ecdbe14130"
+          image:
+            id: "83d7e4f7-9d24-40d2-b8fc-a0ecdbe14130"
+
+
+
+
+
+        - 
+          id: "8e6c81cd-5396-49b8-a360-af7a63bebc16"
+          image:
+            id: "8e6c81cd-5396-49b8-a360-af7a63bebc16"
+
+
+
+
+
+        - 
+          id: "724b83b7-d159-442e-8345-eb3875b639cf"
+          image:
+            id: "724b83b7-d159-442e-8345-eb3875b639cf"
+
+
+
+
+
+
+
+  - kind: block
     template: title
     title: >-
-      auteur·rice·s
+      auteur·rices
     slug: >-
-      auteur-rice-s
+      auteur-rices
     ranks:
       base: 2
       self: 2
@@ -96,7 +138,7 @@ contents:
       active: true
       title: 
         value: >-
-          auteur·rice·s
+          auteur·rices
         heading: 2
 
     data:
@@ -127,6 +169,34 @@ contents:
           path: "/persons/larys-frogier"
           slug: "larys-frogier"
           file: "content/fr/persons/larys-frogier.html"
+
+      quantity: 1
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/sebastien-reuze/"
+          path: "/persons/sebastien-reuze"
+          slug: "sebastien-reuze"
+          file: "content/fr/persons/sebastien-reuze.html"
 
       quantity: 1
 
@@ -163,43 +233,7 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>Contretype - La Lettre Volée, Bruxelles</p>
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      co-éditeur·s
-    slug: >-
-      co-editeur-s
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          co-éditeur·s
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: chapter
-
-
-    ranks:
-      base: 3
-    top:
-      active: false
-
-    data:
-      layout: no_background
-      text: >-
-        <p>Commission communautaire française (COCOF) <br> La Criée centre d’art contemporain, Rennes <br> Le Village site d’expérimentation artistique, Bazouges-la-Pérouse <br> Danielle Arnaud contemporary art, Londres</p>
+        <p>Contretype - La Lettre Volée, Bruxelles</p><p>Commission communautaire française (COCOF) </p><p>La Criée centre d'art contemporain</p><p>Le Village site d'expérimentation artistique, Bazouges-la-Pérouse </p><p>Danielle Arnaud contemporary art, Londres  </p>
 
 
 
@@ -278,7 +312,7 @@ contents:
   - kind: block
     template: title
     title: >-
-      Pour aller plus loin
+      pour aller plus loin
     slug: >-
       pour-aller-plus-loin
     ranks:
@@ -288,7 +322,7 @@ contents:
       active: true
       title: 
         value: >-
-          Pour aller plus loin
+          pour aller plus loin
         heading: 2
 
     data:
@@ -332,34 +366,6 @@ contents:
             Sébastien Reuzé
 
       quantity: 1
-
-  - kind: block
-    template: persons
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-
-      layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/sebastien-reuze/"
-          path: "/persons/sebastien-reuze"
-          slug: "sebastien-reuze"
-          file: "content/fr/persons/sebastien-reuze.html"
-
-      quantity: 1
-
 
 
 ---
