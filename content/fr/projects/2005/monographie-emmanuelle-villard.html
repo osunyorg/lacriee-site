@@ -16,7 +16,7 @@ meta:
     slug: "monographie-emmanuelle-villard"
   dates:
     created_at: 2024-05-27T17:31:57+02:00
-    updated_at: 2026-09-28T17:35:03+02:00
+    updated_at: 2026-10-01T11:39:01+02:00
     published_at: 2024-09-29T14:55:22+02:00
 search:
   id: "9ed6bfd8-31e4-4c89-a97b-88db27fbd89b"
@@ -28,7 +28,7 @@ search:
     Monographie - Emmanuelle Villard Emmanuelle Villard
 
   body: >-
-    <p>auteur·rice·s  <br> éditeur·s  <br>   <br>Galerie de multiples, Paris </p>  <p> co-éditeur·s  <br>   <br>La Criée centre d’art contemporain, Rennes   <br>Le Credac centre d’art d’Ivry, Ivry-sur-Seine</p>  <p> caractéristiques techniques  <br>   <br>24 x 18 cm  <br>105 pages   <br>français - anglais   <br>couleur </p>  <p>										 ISBN : 2-9523874-0-0</p>  <p> prix  <br>   <br>20 €</p>  <p> Pour aller plus loin  </p>
+    <p>auteur·rices  <br> éditeur·s  <br>   <br>Galerie de multiples, Paris La Criée centre d'art contemporain, Rennes  Le Credac centre d'art d'Ivry, Ivry-sur-Seine</p>  <p> caractéristiques techniques  <br>   <br>24 x 18 cm  <br>105 pages   <br>français - anglais   <br>couleur </p>  <p>										 ISBN : 2-9523874-0-0</p>  <p> prix  <br>   <br>20 €</p>  <p> pour aller plus loin  </p>
 
 year: 2005
 date: 2005-01-01
@@ -79,16 +79,49 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 13
+  seconds: 12
   text: >-
     moins d'une minute
 contents:
   - kind: block
+    template: gallery
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      images:
+        - 
+          id: "f57e34bc-6965-47c1-a6d1-ec1400a7a986"
+          image:
+            id: "f57e34bc-6965-47c1-a6d1-ec1400a7a986"
+
+
+
+
+
+        - 
+          id: "86861fd3-20d3-49ed-a637-fafd27efcfce"
+          image:
+            id: "86861fd3-20d3-49ed-a637-fafd27efcfce"
+
+
+
+
+
+
+
+  - kind: block
     template: title
     title: >-
-      auteur·rice·s
+      auteur·rices
     slug: >-
-      auteur-rice-s
+      auteur-rices
     ranks:
       base: 2
       self: 2
@@ -96,7 +129,7 @@ contents:
       active: true
       title: 
         value: >-
-          auteur·rice·s
+          auteur·rices
         heading: 2
 
     data:
@@ -142,6 +175,34 @@ contents:
 
 
   - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/emmanuelle-villard/"
+          path: "/persons/emmanuelle-villard"
+          slug: "emmanuelle-villard"
+          file: "content/fr/persons/emmanuelle-villard.html"
+
+      quantity: 1
+
+
+  - kind: block
     template: title
     title: >-
       éditeur·s
@@ -173,43 +234,7 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>Galerie de multiples, Paris </p>
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      co-éditeur·s
-    slug: >-
-      co-editeur-s
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          co-éditeur·s
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: chapter
-
-
-    ranks:
-      base: 3
-    top:
-      active: false
-
-    data:
-      layout: no_background
-      text: >-
-        <p>La Criée centre d’art contemporain, Rennes <br> Le Credac centre d’art d’Ivry, Ivry-sur-Seine</p>
+        <p>Galerie de multiples, Paris</p><p>La Criée centre d'art contemporain, Rennes </p><p>Le Credac centre d'art d'Ivry, Ivry-sur-Seine  </p>
 
 
 
@@ -288,7 +313,7 @@ contents:
   - kind: block
     template: title
     title: >-
-      Pour aller plus loin
+      pour aller plus loin
     slug: >-
       pour-aller-plus-loin
     ranks:
@@ -298,7 +323,7 @@ contents:
       active: true
       title: 
         value: >-
-          Pour aller plus loin
+          pour aller plus loin
         heading: 2
 
     data:
@@ -342,34 +367,6 @@ contents:
             Emmanuelle Villard
 
       quantity: 1
-
-  - kind: block
-    template: persons
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-
-      layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/emmanuelle-villard/"
-          path: "/persons/emmanuelle-villard"
-          slug: "emmanuelle-villard"
-          file: "content/fr/persons/emmanuelle-villard.html"
-
-      quantity: 1
-
 
 
 ---
