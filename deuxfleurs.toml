@@ -727,6 +727,10 @@ from = "/fr/auteurices-du-site/mariana-castillo-deball/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/mariana-castillo-deball/"
 
 [[redirects]]
+from = "/fr/productions/1989-jour-de-haine-1983-1990/index.html"
+to = "/fr/productions/1990-jour-de-haine-1983-1990/"
+
+[[redirects]]
 from = "/fr/programmation/artistes/mathis-collins/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/mathis-collins/"
 
