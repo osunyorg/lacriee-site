@@ -5391,6 +5391,10 @@ from = "/fr/agenda/2024-07-01-la-zone-intertidale/index.html"
 to = "/fr/agenda/2024/la-zone-intertidale/"
 
 [[redirects]]
+from = "/fr/productions/1987-peinture-radicale/index.html"
+to = "/fr/productions/1988-peinture-radicale/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/marc-sanchez/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/marc-sanchez/"
 
