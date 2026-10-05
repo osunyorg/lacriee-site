@@ -1391,6 +1391,10 @@ from = "/fr/agenda/2025/performance-hybird-1/index.html"
 to = "/fr/agenda/2025/performance-hybird/"
 
 [[redirects]]
+from = "/fr/productions/2007-correspondance-2006-2007/index.html"
+to = "/fr/productions/2007-correspondances-2006-2007/"
+
+[[redirects]]
 from = "/fr/agenda/2024-03-14-conference-baptiste-mylondo/index.html"
 to = "/fr/agenda/2024/conference-temps-utopies-et-transitions-2-vers-la-sobriete/"
 
