@@ -6311,6 +6311,10 @@ from = "/fr/agenda/2022-06-12-carole-lepan-et-annaig-le-naou/index.html"
 to = "/fr/agenda/2022/visite-contee-et-signee-en-lsf-la-conference-des-oiseaux/"
 
 [[redirects]]
+from = "/fr/productions/2012-identites-espaces-deplacements-democratie/index.html"
+to = "/fr/productions/2012-correspondances-identites-espaces-deplacements-democratie/"
+
+[[redirects]]
 from = "/en/agenda/2022-10-24-conversation-charbel-joseph-h-boutros-and-ismail-bahri/index.html"
 to = "/en/agenda/2022/conversation-charbel-joseph-h-boutros-and-ismail-bahri/"
 
