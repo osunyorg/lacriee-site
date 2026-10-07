@@ -16,7 +16,7 @@ meta:
     slug: "livre-d-artiste-transsubstantiation-etc"
   dates:
     created_at: 2024-05-27T15:25:16+02:00
-    updated_at: 2026-09-21T10:01:20+02:00
+    updated_at: 2026-10-07T11:20:53+02:00
     published_at: 2024-07-12T11:48:08+02:00
 search:
   id: "4cef62a5-9f15-4047-9f26-bb7f92103a99"
@@ -28,7 +28,7 @@ search:
     Livre d'artiste - Transsubstantiation etc.  Laurent Duthion
 
   body: >-
-    <p>  <br>Transsubstantiation etc.  est une  <br>version science-fictionnelle du Nouveau Testament et plus  <br>particulièrement de la vie de Jésus. Dans ce récit, il devient Rubbi  <br>Niebieski, personnage aux facultés surnaturelles traversant les  <br>territoires arides des Zones au volant de sa SixWheeler, pour finalement <br> atteindre Estero où il sait que la mort l’attend… Cette édition en 150 exemplaires dans un format en perspective a été  <br>réalisée en 2012 à partir des 3 prototypes confectionnés dans le cadre  <br>de la seconde Biennale de Rennes « Ce qui vient » en 2010.</p>  <p> auteur·rice·s  <br> éditeur·s  <br>   <br>INVU éditions, Rennes</p>  <p> co-éditeur·s  <br>   <br>La Criée centre d’art contemporain, Rennes</p>  <p> graphisme  <br>   <br>Erwann Le Moigne</p>  <p> caractéristiques techniques  <br>   <br>livre en forme de trapèze dont la hauteur varie entre 14 et 14,4cm et la largeur entre 10,6 et 13,5cm  <br>208 pages  <br>150 exemplaires  <br>impression et façonnage : les Compagnons du Sagittaire, Rennes</p>  <p> prix  <br>   <br>120 €</p>  <p> Pour aller plus loin  </p>
+    <p>  <br>Transsubstantiation etc.  est une  <br>version science-fictionnelle du Nouveau Testament et plus  <br>particulièrement de la vie de Jésus. Dans ce récit, il devient Rubbi  <br>Niebieski, personnage aux facultés surnaturelles traversant les  <br>territoires arides des Zones au volant de sa SixWheeler, pour finalement <br> atteindre Estero où il sait que la mort l’attend… Cette édition en 150 exemplaires dans un format en perspective a été  <br>réalisée en 2012 à partir des 3 prototypes confectionnés dans le cadre  <br>de la seconde Biennale de Rennes « Ce qui vient » en 2010.</p>  <p> auteur·rices  <br> éditeur·s  <br>   <br>INVU éditions, Rennes La Criée centre d'art contemporain </p>  <p> graphisme  <br> caractéristiques techniques  <br>   <br>livre en forme de trapèze dont la hauteur varie entre 14 et 14,4cm et la largeur entre 10,6 et 13,5cm  <br>208 pages  <br>150 exemplaires  <br>impression et façonnage : les Compagnons du Sagittaire, Rennes</p>  <p> prix  <br>   <br>120 €</p>  <p> pour aller plus loin  </p>
 
 year: 2012
 date: 2012-01-01
@@ -79,7 +79,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 41
+  seconds: 39
   text: >-
     1 minute
 contents:
@@ -102,9 +102,9 @@ contents:
   - kind: block
     template: title
     title: >-
-      auteur·rice·s
+      auteur·rices
     slug: >-
-      auteur-rice-s
+      auteur-rices
     ranks:
       base: 2
       self: 2
@@ -112,7 +112,7 @@ contents:
       active: true
       title: 
         value: >-
-          auteur·rice·s
+          auteur·rices
         heading: 2
 
     data:
@@ -179,43 +179,7 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>INVU éditions, Rennes</p>
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      co-éditeur·s
-    slug: >-
-      co-editeur-s
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          co-éditeur·s
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: chapter
-
-
-    ranks:
-      base: 3
-    top:
-      active: false
-
-    data:
-      layout: no_background
-      text: >-
-        <p>La Criée centre d’art contemporain, Rennes</p>
+        <p>INVU éditions, Rennes</p><p>La Criée centre d'art contemporain </p>
 
 
 
@@ -240,19 +204,31 @@ contents:
 
 
   - kind: block
-    template: chapter
+    template: persons
 
 
     ranks:
       base: 3
+      children: 3
     top:
       active: false
 
     data:
-      layout: no_background
-      text: >-
-        <p>Erwann Le Moigne</p>
 
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/erwann-le-moigne/"
+          path: "/persons/erwann-le-moigne"
+          slug: "erwann-le-moigne"
+          file: "content/fr/persons/erwann-le-moigne.html"
+
+      quantity: 1
 
 
   - kind: block
@@ -330,7 +306,7 @@ contents:
   - kind: block
     template: title
     title: >-
-      Pour aller plus loin
+      pour aller plus loin
     slug: >-
       pour-aller-plus-loin
     ranks:
@@ -340,7 +316,7 @@ contents:
       active: true
       title: 
         value: >-
-          Pour aller plus loin
+          pour aller plus loin
         heading: 2
 
     data:
@@ -390,6 +366,44 @@ contents:
             Coefficients de réalités
 
       quantity: 2
+
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+
+
+      title_link: ""
+      events:
+        - permalink: "/fr/agenda/2010/2e-edition-des-ateliers-de-rennes-biennale-dart-contemporain-garbage-truck-bomb-ou-le-bombardier-du/"
+          path: "/events/2010/04/30-2e-edition-des-ateliers-de-rennes-biennale-dart-contemporain-garbage-truck-bomb-ou-le-bombardier-du"
+          slug: "2e-edition-des-ateliers-de-rennes-biennale-dart-contemporain-garbage-truck-bomb-ou-le-bombardier-du"
+          file: "content/fr/events/2010/04/30-2e-edition-des-ateliers-de-rennes-biennale-dart-contemporain-garbage-truck-bomb-ou-le-bombardier-du.html"
+          name: >-
+            2e édition des Ateliers de Rennes - biennale d’art contemporain Garbage Truck Bomb - (ou le bombardier du pauvre)
+
+      quantity: 1
 
 
 ---
