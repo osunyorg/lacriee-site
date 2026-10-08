@@ -16,7 +16,7 @@ meta:
     slug: "on-nest-jamais-a-labri-dun-coup-de-bol"
   dates:
     created_at: 2026-10-07T12:42:30+02:00
-    updated_at: 2026-10-08T10:01:37+02:00
+    updated_at: 2026-10-08T10:09:39+02:00
     published_at: 2026-10-07T12:42:30+02:00
 search:
   id: "b976d706-9d17-480e-b555-955715499ee8"
@@ -28,7 +28,7 @@ search:
     On n'est jamais à l'abri d'un coup de bol  Atelier Vivarium
 
   body: >-
-    <p>  <br>Vivarium est un atelier artistique mutualisé, créé à Rennes en 2006.  <br>Pour cette édition, les artistes du Vivarium se sont interrogés sur ce  <br>en quoi leur atelier les rassemblait et sur comment le montrer, chacun à <br> sa façon. Le résultat, ce sont 300 boîtes contenant les multiples de  <br>Martin Bineau, Pauline Boyer, Leslie Chaudet, Bruno Elisabeth, Pascal  <br>Jounier-Trémelo, Jean-Benoit Lallemant et Damien Marchal. Une table ronde a été organisée le 30 janvier 2014 à l'auditorium de l'Eesab à l'occasion de son lancement.</p>  <p> éditeur·s  <br>   <br>Lendroit editions Atelier Vivarium La Criée centre d'art contemporain </p>  <p> caractéristiques techniques  <br>   <br>tirage : 300 exemplaires </p>  <p>25 x 17 x 3 cm  sérigraphie  Offset bichromie </p>  <p> pour aller plus loin  <br> auteur·rices  </p>
+    <p>  <br>Vivarium est un atelier artistique mutualisé, créé à Rennes en 2006.  <br>Pour cette édition, les artistes du Vivarium se sont interrogés sur ce  <br>en quoi leur atelier les rassemblait et sur comment le montrer, chacun à <br> sa façon. Le résultat, ce sont 300 boîtes contenant les multiples de  <br>Martin Bineau, Pauline Boyer, Leslie Chaudet, Bruno Elisabeth, Pascal  <br>Jounier-Trémelo, Jean-Benoit Lallemant et Damien Marchal. Une table ronde a été organisée le 30 janvier 2014 à l'auditorium de l'Eesab à l'occasion de son lancement.</p>  <p> auteur·rices  <br> éditeur·s  <br>   <br>Lendroit editions Atelier Vivarium La Criée centre d'art contemporain </p>  <p> caractéristiques techniques  <br>   <br>tirage : 300 exemplaires </p>  <p>25 x 17 x 3 cm  sérigraphie  Offset bichromie </p>  <p> pour aller plus loin  </p>
 
 year: 2013
 date: 2013-01-01
@@ -97,6 +97,84 @@ contents:
       text: >-
         <p> Vivarium est un atelier artistique mutualisé, créé à Rennes en 2006.  Pour cette édition, les artistes du Vivarium se sont interrogés sur ce  en quoi leur atelier les rassemblait et sur comment le montrer, chacun à  sa façon. Le résultat, ce sont 300 boîtes contenant les multiples de  Martin Bineau, Pauline Boyer, Leslie Chaudet, Bruno Elisabeth, Pascal  Jounier-Trémelo, Jean-Benoit Lallemant et Damien Marchal.</p><p>Une table ronde a été organisée le 30 janvier 2014 à l'auditorium de l'Eesab à l'occasion de son lancement.  </p>
 
+
+
+  - kind: block
+    template: title
+    title: >-
+      auteur·rices
+    slug: >-
+      auteur-rices
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          auteur·rices
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: ""
+          path: "/persons/martin-bineau"
+          slug: "martin-bineau"
+          file: "content/fr/persons/martin-bineau.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/pauline-boyer/"
+          path: "/persons/pauline-boyer"
+          slug: "pauline-boyer"
+          file: "content/fr/persons/pauline-boyer.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/leslie-chaudet/"
+          path: "/persons/leslie-chaudet"
+          slug: "leslie-chaudet"
+          file: "content/fr/persons/leslie-chaudet.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/pascal-journier-tremelo/"
+          path: "/persons/pascal-journier-tremelo"
+          slug: "pascal-journier-tremelo"
+          file: "content/fr/persons/pascal-journier-tremelo.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jean-benoit-lallemant/"
+          path: "/persons/jean-benoit-lallemant"
+          slug: "jean-benoit-lallemant"
+          file: "content/fr/persons/jean-benoit-lallemant.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/damien-marchal/"
+          path: "/persons/damien-marchal"
+          slug: "damien-marchal"
+          file: "content/fr/persons/damien-marchal.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/patrice-paillard/"
+          path: "/persons/patrice-paillard"
+          slug: "patrice-paillard"
+          file: "content/fr/persons/patrice-paillard.html"
+
+      quantity: 7
 
 
   - kind: block
@@ -189,48 +267,6 @@ contents:
 
     data:
       layout: classic
-
-
-  - kind: block
-    template: title
-    title: >-
-      auteur·rices
-    slug: >-
-      auteur-rices
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          auteur·rices
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: persons
-
-
-    ranks:
-      base: 3
-    top:
-      active: false
-
-    data:
-
-      layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-      quantity: 0
 
 
 
