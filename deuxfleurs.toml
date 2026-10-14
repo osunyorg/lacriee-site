@@ -4535,10 +4535,6 @@ from = "/fr/auteurices-du-site/teo-betin/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/teo-betin/"
 
 [[redirects]]
-from = "/en/agenda/2024/puszcza-bialowieza/index.html"
-to = "/en/agenda/2025/puszcza-bialowieza/"
-
-[[redirects]]
 from = "/fr/agenda/2024-05-21-les-enfants-paysages/index.html"
 to = "/fr/agenda/2024/les-enfants-paysages/"
 
@@ -5273,6 +5269,10 @@ to = "/fr/agenda/2019/le-plus-tot-cest-deux-jours-mieux/"
 [[redirects]]
 from = "/fr/agenda/2015-05-12-theatre-dans-le-jardin-avec-francois-morphologie-des-elements/index.html"
 to = "/fr/agenda/2015/theatre-dans-le-jardin-avec-francois-morphologie-des-elements/"
+
+[[redirects]]
+from = "/en/agenda/2025/puszcza-bialowieza/index.html"
+to = "/en/agenda/2024/puszcza-bialowieza/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/christophe-domino/index.html"
