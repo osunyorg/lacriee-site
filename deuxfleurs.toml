@@ -5916,7 +5916,7 @@ to = "/fr/agenda/2022/rennes-babylone/"
 
 [[redirects]]
 from = "/fr/productions/1990-monographie-1/index.html"
-to = "/fr/productions/1990-monographie-michel-aubry/"
+to = "/fr/productions/1991-monographie-michel-aubry/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/thierry-deshayes/index.html"
@@ -7025,6 +7025,10 @@ to = "/fr/agenda/2016/projection-et-rencontre-les-hommes/"
 [[redirects]]
 from = "/en/equipe/thibaut-aymonin/actualites/index.html"
 to = "/en/artists-authors-curators-etc/thibaut-aymonin/posts/"
+
+[[redirects]]
+from = "/fr/productions/1990-monographie-michel-aubry/index.html"
+to = "/fr/productions/1991-monographie-michel-aubry/"
 
 [[redirects]]
 from = "/fr/agenda/2020-02-02-atelier-a-croquer/index.html"
