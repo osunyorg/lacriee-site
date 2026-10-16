@@ -4,5 +4,11 @@ title: >-
   Fermeture exceptionnelle
 level: info
 content: >-
-  <p>Le vendredi 16 octobre, La Criée accueille le 58ème congrès international de l'AICA (Association Internationale des Critiques d'Art). L'exposition sera donc exceptionnellement inaccessible au public.</p>
+  <p>Le vendredi 16 octobre, La Criée accueille le 58ème congrès international de l'AICA (Association Internationale des Critiques d'Art). L'exposition sera donc exceptionnellement inaccessible au public.<br>La performance de Marianne Mispelaëre aura lieu à 14h dans la limite des places disponibles.</p>
+button:
+  title: >-
+    plus d'informations sur la performance
+  url: >-
+    https://www.la-criee.org/fr/agenda/2026/ba-ba-la-criee/
+  target_blank: false
 ---
