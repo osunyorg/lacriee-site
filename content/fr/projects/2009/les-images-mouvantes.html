@@ -15,7 +15,7 @@ meta:
     slug: "les-images-mouvantes"
   dates:
     created_at: 2026-10-15T11:43:09+02:00
-    updated_at: 2026-10-22T11:27:35+02:00
+    updated_at: 2026-10-22T11:49:48+02:00
     published_at: 2026-10-15T11:43:09+02:00
 search:
   id: "eaac1801-0613-49cb-bc60-4151aa5c9bb7"
@@ -27,7 +27,7 @@ search:
     Les images mouvantes
 
   body: >-
-    <p>auteur·rices  <br> éditeur·s  <br>   <br>École régionale des beaux-arts de Rennes </p>  <p> soutien·s  <br>   <br>Frac Bretagne  La Criée centre d'art contemporain  Équipe de recherche Arts : pratiques et poétiques - Université Rennes 2</p>  <p> diffuseur   <br>   <br>Presses Universitaires de Rennes </p>  <p> graphisme  <br> caractéristiques techniques  <br>   <br>ISBN : 2-908373-82-3</p>  <p> prix  <br>   <br>14 €</p>
+    <p>direction éditoriale  <br> contributeur·rices  <br> auteur·rices  <br> éditeur·s  <br>   <br>École régionale des beaux-arts de Rennes </p>  <p> soutien·s  <br>   <br>Frac Bretagne  La Criée centre d'art contemporain  Équipe de recherche Arts : pratiques et poétiques - Université Rennes 2</p>  <p> diffuseur   <br>   <br>Presses Universitaires de Rennes </p>  <p> graphisme  <br> caractéristiques techniques  <br>   <br>ISBN : 2-908373-82-3</p>  <p> prix  <br>   <br>14 €</p>
 
 year: 2009
 date: 2009-01-01
@@ -78,10 +78,83 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 12
+  seconds: 13
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      direction éditoriale
+    slug: >-
+      direction-editoriale
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          direction éditoriale
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/catherine-elkar/"
+          path: "/persons/catherine-elkar"
+          slug: "catherine-elkar"
+          file: "content/fr/persons/catherine-elkar.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jacques-sauvageot/"
+          path: "/persons/jacques-sauvageot"
+          slug: "jacques-sauvageot"
+          file: "content/fr/persons/jacques-sauvageot.html"
+
+      quantity: 2
+
+
+  - kind: block
+    template: title
+    title: >-
+      contributeur·rices
+    slug: >-
+      contributeur-rices
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          contributeur·rices
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: title
     title: >-
@@ -344,6 +417,28 @@ contents:
       text: >-
         <p>14 €  </p>
 
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+      quantity: 0
 
 
 
