@@ -214,6 +214,48 @@ contents:
 
       quantity: 1
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+
+
+      title_link: "/fr/agenda/rendez-vous-et-evenements/"
+      category:
+        permalink: "/fr/agenda/rendez-vous-et-evenements/"
+        path: "/events_categories/rendez-vous-et-evenements"
+        slug: "rendez-vous-et-evenements"
+        file: "content/fr/events_categories/rendez-vous-et-evenements/_index.html"
+      events:
+        - permalink: "/fr/agenda/2026/a-nous-la-criee/"
+          path: "/events/2026/10/22-18-30-a-nous-la-criee"
+          slug: "a-nous-la-criee"
+          file: "content/fr/events/2026/10/22-18-30-a-nous-la-criee.html"
+          name: >-
+            À nous La Criée !
+
+      quantity: 1
 
   - kind: block
     template: title
@@ -342,12 +384,6 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
-        - permalink: "/fr/agenda/2026/a-nous-la-criee/"
-          path: "/events/2026/10/22-18-30-a-nous-la-criee"
-          slug: "a-nous-la-criee"
-          file: "content/fr/events/2026/10/22-18-30-a-nous-la-criee.html"
-          name: >-
-            À nous La Criée !
         - permalink: "/fr/agenda/2026/bouh-la-criee/"
           path: "/events/2026/10/31-16-00-bouh-la-criee"
           slug: "bouh-la-criee"
@@ -361,7 +397,7 @@ contents:
           name: >-
             Impressions multiples
 
-      quantity: 3
+      quantity: 2
 
   - kind: block
     template: title
