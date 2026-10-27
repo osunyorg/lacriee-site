@@ -16,7 +16,7 @@ meta:
     slug: "slow-season"
   dates:
     created_at: 2024-06-04T10:52:56+02:00
-    updated_at: 2026-10-20T11:30:35+02:00
+    updated_at: 2026-10-27T14:37:31+01:00
     published_at: 2024-09-29T14:52:05+02:00
 search:
   id: "0fde013a-97c2-4c9f-a45a-83ea3dffbf3c"
@@ -28,7 +28,7 @@ search:
     Slow Season Mahony
 
   body: >-
-    <p>  <br>bannière, impression sur tissu, aquarelle, 220 x 400 cm <br>Courtesy galerie Emanuel Layr, Vienne  <br>Production : La Criée centre d'art contemporain, Rennes</p>  <p> Pour aller plus loin  </p>
+    <p>  <br>bannière, impression sur tissu, aquarelle, 220 x 400 cm</p>  <p> En partenariat avec </p>  <p>La Galerie Emanuel Layr <br>https://emanuellayr.com/</p>  <p> Pour aller plus loin  </p>
 
 year: 2013
 date: 2013-01-01
@@ -80,7 +80,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 7
+  seconds: 6
   text: >-
     moins d'une minute
 contents:
@@ -97,19 +97,24 @@ contents:
       layout: no_background
       text: >-
         <p>bannière, impression sur tissu, aquarelle, 220 x 400 cm</p>
-      notes: >-
-        <p>Courtesy galerie Emanuel Layr, Vienne</p><p> Production : La Criée centre d'art contemporain, Rennes    </p>
+
 
 
   - kind: block
     template: organizations
-
-
+    title: >-
+      En partenariat avec
+    slug: >-
+      en-partenariat-avec
     ranks:
       base: 2
-      children: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          En partenariat avec
+        heading: 2
 
     data:
       layout: grid
@@ -122,10 +127,13 @@ contents:
         filters: false
 
       organizations:
-        - permalink: "/fr/organisations/frac-bretagne/"
-          path: "/organizations/frac-bretagne"
-          slug: "frac-bretagne"
-          file: "content/fr/organizations/frac-bretagne.html"
+        - 
+          name: >-
+            La Galerie Emanuel Layr
+          url: >-
+            https://emanuellayr.com/
+          logo: "b82d454c-2d04-45ec-8226-8ae8453be144"
+          external: true
 
       quantity: 1
 
