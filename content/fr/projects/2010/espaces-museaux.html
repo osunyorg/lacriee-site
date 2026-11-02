@@ -16,7 +16,7 @@ meta:
     slug: "espaces-museaux"
   dates:
     created_at: 2024-06-04T13:42:33+02:00
-    updated_at: 2026-09-21T10:00:58+02:00
+    updated_at: 2026-11-02T10:27:46+01:00
     published_at: 2024-06-04T13:48:26+02:00
 search:
   id: "160db1b0-36b1-49d4-a4c9-135f7646ee23"
@@ -28,7 +28,7 @@ search:
     Espaces muséaux Muriel Bordier
 
   body: >-
-    <p>  <br>20 tirages photographiques couleurs, papier 300 g, 110 x 77 cm  <br>photographies réalisées à partir de la fabrication de maquettes et de traitement numérique</p>  <p>   <br>						  <br>						  <br>						  <br>						 En parallèle de sa résidence, Muriel Bordier a produit une série intitulée  Espaces muséaux  composée d’une vingtaine de photographies personnelles. Ces photographies ont ensuite été exposées au Carré d’art à  <br>Chartres-de-Bretagne, à la galerie Bailly à Paris et à la galerie du  <br>Thabor à Rennes.  <br>					  <br>					  <br>					  <br>					 <br>Production : La Criée centre d'art contemporain, Rennes Soutiens :  -- ministère de la Culture / Drac Bretagne -- ville de Rennes Partenaires :  -- académie de Rennes / DSDEN35 -- école Torigné, Rennes</p>  <p> Pour aller plus loin  </p>
+    <p>  <br>20 tirages photographiques couleurs, papier 300 g, 110 x 77 cm  <br>photographies réalisées à partir de la fabrication de maquettes et de traitement numérique</p>  <p>   <br>						  <br>						  <br>						  <br>						 En parallèle de sa résidence, Muriel Bordier a produit une série intitulée  Espaces muséaux  composée d’une vingtaine de photographies personnelles. Ces photographies ont ensuite été exposées au Carré d’art à  <br>Chartres-de-Bretagne, à la galerie Bailly à Paris et à la galerie du  <br>Thabor à Rennes.  <br>					  <br>					  <br>					  <br>					</p>  <p> En partenariat avec </p>  <p>Académie de Rennes / DSDEN35 <br>https://www.ac-rennes.fr/dsden35</p>  <p>École Torigné, Rennes</p>  <p> Avec le soutien de </p>  <p> Pour aller plus loin  </p>
 
 year: 2010
 date: 2010-01-01
@@ -80,7 +80,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 28
+  seconds: 25
   text: >-
     moins d'une minute
 contents:
@@ -113,8 +113,93 @@ contents:
       layout: no_background
       text: >-
         <p>En parallèle de sa résidence, Muriel Bordier a produit une série intitulée <em>Espaces muséaux</em> composée d’une vingtaine de photographies personnelles.</p><p>Ces photographies ont ensuite été exposées au Carré d’art à  Chartres-de-Bretagne, à la galerie Bailly à Paris et à la galerie du  Thabor à Rennes.</p>
-      notes: >-
-        <p> Production : La Criée centre d'art contemporain, Rennes</p><p>Soutiens : <br>-- ministère de la Culture / Drac Bretagne<br>-- ville de Rennes<br><br>Partenaires : <br>-- académie de Rennes / DSDEN35<br>-- école Torigné, Rennes</p>
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      En partenariat avec
+    slug: >-
+      en-partenariat-avec
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          En partenariat avec
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - 
+          name: >-
+            Académie de Rennes / DSDEN35
+          url: >-
+            https://www.ac-rennes.fr/dsden35
+          logo: "cb88c6d0-53e9-4904-8ee7-2998e6c704a3"
+          external: true
+
+        - 
+          name: >-
+            École Torigné, Rennes
+
+          logo: "6fce7d9b-d26c-40ad-81e3-6c5314bc6622"
+          external: true
+
+      quantity: 2
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Avec le soutien de
+    slug: >-
+      avec-le-soutien-de
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec le soutien de
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/fr/organisations/drac-bretagne/"
+          path: "/organizations/drac-bretagne"
+          slug: "drac-bretagne"
+          file: "content/fr/organizations/drac-bretagne.html"
+
+        - permalink: "/fr/organisations/ville-de-rennes/"
+          path: "/organizations/ville-de-rennes"
+          slug: "ville-de-rennes"
+          file: "content/fr/organizations/ville-de-rennes.html"
+
+      quantity: 2
 
 
   - kind: block
