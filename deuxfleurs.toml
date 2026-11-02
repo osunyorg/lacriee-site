@@ -5811,6 +5811,10 @@ from = "/fr/agenda/1993-10-09-gilles-mahe-presente-lecole-intercommunale-de-dess
 to = "/fr/agenda/1993/gilles-mahe-presente-lecole-intercommunale-de-dessin-du-bocage-vitreen/"
 
 [[redirects]]
+from = "/fr/productions/2015-the-dockersmuseum-1/index.html"
+to = "/fr/productions/2015-ship-of-fools-the-dockersmuseum/"
+
+[[redirects]]
 from = "/en/authors-on-this-website/thibaut-aymonin-contributeur/actualites/index.html"
 to = "/en/artists-authors-curators-etc/thibaut-aymonin-contributeur/posts/"
 
