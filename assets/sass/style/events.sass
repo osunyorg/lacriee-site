@@ -1,4 +1,57 @@
 // Events
+.event
+    .event-categories
+        li + li::before
+            @include icon-site(outline)
+
+.events
+    &--list,
+    &--agenda,
+    &--grid
+        .event-categories
+            border-bottom: 1px solid var(--color-text)
+            border-top: 1px solid var(--color-text)
+            padding-bottom: $spacing-1
+            padding-top: $spacing-1
+            a
+                @include small
+                text-decoration: none
+
+    &--list
+        @include media-breakpoint-up(desktop)
+            .event
+                .event-categories
+                    grid-column: 1 / 4 !important
+                    grid-row: 2
+                    margin-top: auto
+        
+    &--agenda
+        @include media-breakpoint-up(desktop)
+            .event-content
+                align-items: flex-start
+                display: flex
+                flex-direction: column
+                .event-categories
+                    margin-top: auto
+
+    &--grid
+        .event
+            .event-content
+                display: flex
+                flex-direction: column
+                > .event-title,
+                hgroup > *
+                    @include h2
+            .event-schedule
+                justify-content: flex-end
+                margin-top: space(9)
+                .event-dates
+                    @include h2
+            .event-categories
+                order: -1
+                margin-bottom: space(8)
+
+
 .events__page,
 .exhibitions__page
     .event-access
