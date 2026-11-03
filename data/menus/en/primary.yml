@@ -88,13 +88,13 @@ items:
   children:
   - title: Current Cycle
     slug: current-cycle
-    target: "/en/festina-lente-make-haste-slowly/"
+    target: "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/festina-lente-make-haste-slowly"
-    file: content/en/pages/festina-lente-make-haste-slowly/_index.html
+    path: "/pages/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly"
+    file: content/en/pages/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/_index.html
   - title: Exhibitions
     slug: exhibitions
     target: "/en/all-the-programme/exhibitions/"
@@ -166,7 +166,7 @@ items:
   - "/en/all-the-programme/exhibitions/"
   - "/en/all-the-programme/produced-works/"
   - "/en/all-the-programme/residencies/"
-  - "/en/festina-lente-make-haste-slowly/"
+  - "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
   path: "/pages/all-the-programme"
   file: content/en/pages/all-the-programme/_index.html
 - title: Art Education
