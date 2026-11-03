@@ -3,6 +3,9 @@ commons:
     title: Rechercher un artiste, un évènement...
   credit: Site éco-conçu avec <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
   footer:
+    date:
+      today: "Aujourd'hui : "
+      date_format: :date_full
     text: >-
       La Criée centre d'art contemporain est un équipement de la ville de Rennes. Elle est labellisée Centre d'art contemporain d'intérêt national.
 
