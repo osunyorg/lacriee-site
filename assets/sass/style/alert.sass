@@ -1,14 +1,42 @@
 .alert
-  &--warning
-    background: var(--color-site)
-    color: var(--color-accent)
-  &__content
-    border: 21px solid transparent
-    border-image: url("/assets/images/glyphs.svg") 21 round
-    width: 100%
-    > *
-      margin: 0 auto
-      text-align: center
-      width: columns(9)
-  &__title
-    font-style: italic
+    a
+        color: inherit
+        text-decoration: none
+        &::after
+            @include icon-site(arrow-top)
+            font-size: pxToRem(26)
+            vertical-align: middle
+            margin-left: $spacing-2
+
+    &--warning,
+    &--info,
+    &--danger
+        background: var(--color-site)
+
+    &--info
+        color: var(--color-accent)
+        .alert__content
+            border: 21px solid transparent
+            border-image: url("/assets/images/glyphs.svg") 21 round
+
+    &--danger
+        min-height: unset
+        .alert__content
+            background: var(--color-accent)
+            color: var(--color-site)
+
+    &--warning
+        color: var(--color-accent)
+        .alert__content
+            border: 1px solid var(--color-accent)
+
+    &__content
+        padding: space(8)
+        width: 100%
+        > *
+            margin: 0 auto
+            text-align: center
+            width: columns(9)
+
+    &__title
+        font-style: italic
