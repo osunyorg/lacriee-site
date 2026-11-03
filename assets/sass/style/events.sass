@@ -3,6 +3,8 @@
     .event-categories
         li + li::before
             @include icon-site(outline)
+            font-size: pxToRem(26)
+            vertical-align: middle
 
 .events
     &--list,
@@ -23,6 +25,7 @@
                 .event-categories
                     grid-column: 1 / 4 !important
                     grid-row: 2
+                    margin-right: auto
                     margin-top: auto
         
     &--agenda
@@ -103,6 +106,7 @@
             hgroup
                 h1
                     font-style: italic
+
             .event-schedule
                 text-align: right
                 .event-time
@@ -111,7 +115,20 @@
                         display: block
                         &::before
                             display: none
-        
+
+            .event-categories
+                a 
+                    @include small
+                    @extend %underline-on-hover
+                    transition: $link-transition
+                    text-decoration-color: transparent
+                    + a::before            
+                        @include icon-site(outline)
+                        display: inline-block
+                        font-size: pxToRem(26)
+                        margin-right: space()
+                        vertical-align: middle
+            
         @include media-breakpoint-up(desktop)
             .hero-text 
                 display: flex
@@ -120,14 +137,25 @@
                 position: relative
                 hgroup
                     margin-bottom: $spacing-4
+
+            .event-schedule
+                margin-left: auto
+                width: offset(5)
+                p
+                    line-height: 1
+
             .event-categories
                 bottom: 0
                 display: flex
+                flex-wrap: wrap
                 position: absolute
-                a
-                    text-decoration: none
-                    writing-mode: tb
-                    transform: rotate(180deg)
+                width: columns(4)
+
+        @include media-breakpoint-up(xxl)
+            .event-schedule
+                width: columns(5)
+            .event-categories
+                width: columns(4)
         
         @include media-breakpoint-down(desktop)
             .hero-text
