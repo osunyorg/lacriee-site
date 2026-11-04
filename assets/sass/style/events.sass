@@ -20,13 +20,18 @@
                 text-decoration: none
 
     &--list
-        @include media-breakpoint-up(desktop)
+        .event
+            .event-categories
+                width: fit-content
+
+        @include in-page-without-sidebar
             .event
+                .event-content
+                    align-items: flex-start
                 .event-categories
                     grid-column: 1 / 4 !important
-                    grid-row: 2
+                    grid-row: 1
                     margin-right: auto
-                    width: fit-content
 
         @include in-page-without-sidebar
             .event
