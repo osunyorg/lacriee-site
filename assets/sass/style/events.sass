@@ -41,6 +41,19 @@
                     margin-bottom: auto
                     margin-top: 0
 
+        @include media-breakpoint-down(desktop)
+            .event
+                .event-content
+                    align-items: flex-start
+                    display: flex
+                    flex-direction: column
+                    hgroup,
+                    > .event-title
+                        order: -2
+                    .event-categories
+                        order: -1
+                        margin-bottom: space(4)
+
     &--agenda
         @include media-breakpoint-up(desktop)
             .event-content
