@@ -31,7 +31,6 @@ class EventList {
     }
 }
 
-
 eventLists.forEach(function (eventList) {
     if (window.innerWidth >= breakpoints.md && document.body.classList.contains('full-width')) {
         new EventList(eventList);

@@ -1,0 +1,29 @@
+{{ with .block.data }}
+  <div class="block block-class-schedule">
+    <div class="container">
+      <div class="block-content">
+        <p class="date">
+          {{ i18n "commons.footer.date.today" }}
+          {{ now | dateFormat (i18n "commons.footer.date.date_format") }}
+        </p>
+
+        <div class="schedule-content">
+          <div class="schedule-text schedule-text--open">La Criée est ouverte</div>
+          <div class="schedule-text schedule-text--closed show">La Criée est fermée</div>
+          <div class="schedule">
+            {{ range .rows }}
+              <div class="day">
+                {{ range first 1 . }}
+                  <span class="opening-hour">{{ . | markdownify}}</span>
+                {{ end }}
+                {{ range after 1 . }}
+                  <span class="closing-hour">{{ . | markdownify}}</span>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

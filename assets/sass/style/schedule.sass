@@ -1,0 +1,35 @@
+.block-class-schedule
+    .block-content
+        display: flex
+        gap: var(--grid-gutter)
+        justify-content: space-between
+        @include media-breakpoint-down(desktop)
+            flex-direction: column
+            gap: 0
+
+    .date,
+    .schedule-text
+        @include h2
+        border-bottom: 1px solid $color-text
+        border-top: 1px solid $color-text
+        padding: $spacing-1 0
+
+    .date
+        @include media-breakpoint-down(desktop)
+            border-bottom: none
+
+    .schedule-text
+        display: none
+        font-style: italic
+        &.show
+            display: block
+        @include media-breakpoint-down(desktop)
+            border-top: none
+
+    .schedule
+        display: none
+
+    .footer-contents &
+        background: var(--color-site)
+        margin-bottom: 0
+        padding-top: var(--grid-gutter)

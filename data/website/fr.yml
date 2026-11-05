@@ -4,4 +4,34 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-
+  - kind: block
+    template: datatable
+    title: >-
+      La Criée est ouverte
+    slug: >-
+      la-criee-est-ouverte
+    ranks:
+      base: 2
+      self: 2
+    html_class: "block-class-schedule"
+    top:
+      active: true
+      title: 
+        value: >-
+          La Criée est ouverte
+        heading: 2
+      description: >-
+        <p>AIDE : chaque ligne du tableau représente un jour de la semaine (du lundi au dimanche). Laissez vide si le jour est fermé.</p><p>Dépubliez ce bloc si vous voulez masquer l'affichage de l'ouverture sur le site (pour les périodes de fermeture).</p>
+    data:
+      description: >-
+        <p>AIDE : chaque ligne du tableau représente un jour de la semaine (du lundi au dimanche). Laissez vide si le jour est fermé.</p><p>Dépubliez ce bloc si vous voulez masquer l'affichage de l'ouverture sur le site (pour les périodes de fermeture).</p>
+      columns:
+        - "ouverture"
+        - "fermeture"
+      rows:
+        - []
+        - ["13:00","19:00"]
+        - ["13:00","19:00"]
+        - ["13:00","19:00"]
+        - ["13:00","19:00"]
+        - ["13:00","19:00"]
