@@ -47,7 +47,8 @@
                     flex-wrap: wrap
                     column-gap: var(--grid-gutter)
                     hgroup,
-                    > .event-title
+                    > .event-title,
+                    .event-description
                         width: 100%
                     .event-schedule
                         position: relative
@@ -56,10 +57,11 @@
                         order: 5
                         margin: 0
                         flex: 1
-                        text-align: right
                         margin-top: $spacing-3
                         p
                             @include h2
+                            text-align: right
+                            margin-left: auto
                     .event-categories
                         flex: 1
                         margin-right: auto
