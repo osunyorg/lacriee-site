@@ -41,11 +41,12 @@
         @include in-page-with-sidebar
             .event
                 .event-content
-                    align-items: flex-end
-                    grid-column: 1 / 7
+                    align-items: flex-start
+                    column-gap: var(--grid-gutter)
                     display: flex
                     flex-wrap: wrap
-                    column-gap: var(--grid-gutter)
+                    grid-column: 1 / 7
+                    row-gap: 0
                     hgroup,
                     > .event-title,
                     .event-description
@@ -63,8 +64,10 @@
                             text-align: right
                             margin-left: auto
                     .event-categories
-                        flex: 1
                         margin-right: auto
+                    .event-schedule,
+                    .event-categories
+                        margin-top: $spacing-3
 
         @include media-breakpoint-down(desktop)
             .event
