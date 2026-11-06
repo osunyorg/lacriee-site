@@ -52,18 +52,19 @@
                     .event-description
                         width: 100%
                     .event-schedule
+                        flex: 1
+                        left: unset
+                        margin: 0
+                        margin-top: $spacing-3
+                        order: 5
                         position: relative
                         top: unset
-                        left: unset
-                        order: 5
-                        margin: 0
-                        flex: 1
-                        margin-top: $spacing-3
                         p
                             @include h2
-                            text-align: right
                             margin-left: auto
+                            text-align: right
                     .event-categories
+                        flex: 1
                         margin-right: auto
                     .event-schedule,
                     .event-categories
