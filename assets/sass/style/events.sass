@@ -32,14 +32,37 @@
                     grid-column: 1 / 4 !important
                     grid-row: 1
                     margin-right: auto
-
-        @include in-page-without-sidebar
-            .event
                 .event-schedule
                     margin-bottom: space(4)
                 .event-categories
                     margin-bottom: auto
                     margin-top: 0
+
+        @include in-page-with-sidebar
+            .event
+                .event-content
+                    align-items: flex-end
+                    grid-column: 1 / 7
+                    display: flex
+                    flex-wrap: wrap
+                    column-gap: var(--grid-gutter)
+                    hgroup,
+                    > .event-title
+                        width: 100%
+                    .event-schedule
+                        position: relative
+                        top: unset
+                        left: unset
+                        order: 5
+                        margin: 0
+                        flex: 1
+                        text-align: right
+                        margin-top: $spacing-3
+                        p
+                            @include h2
+                    .event-categories
+                        flex: 1
+                        margin-right: auto
 
         @include media-breakpoint-down(desktop)
             .event
