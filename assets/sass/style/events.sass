@@ -99,6 +99,15 @@
                 .event-categories
                     margin-top: $spacing-3
 
+        @include media-breakpoint-down(desktop)
+            .event
+                .event-content
+                    hgroup,
+                    > .event-title
+                        order: -2
+                    .event-categories
+                        order: -1
+
     &--grid
         .event
             .event-content
