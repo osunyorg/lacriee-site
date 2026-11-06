@@ -1,3 +1,14 @@
+<div class="container footer-date">
+  {{ with .Site.Home.Params.contents }}
+    {{ range $index, $content := . }}
+      {{ if in site.Params.blocks.ignored .html_class }}
+        {{ if eq .template "datatable" }}
+          {{ partial "custom/blocks/datatable--schedule" $content }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
 <div class="container footer-nav">
   <p>{{ safeHTML (i18n "commons.footer.text") }}</p>
   <div class="footer-site">

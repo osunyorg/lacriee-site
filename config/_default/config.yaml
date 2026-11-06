@@ -31,6 +31,9 @@ params:
   home:
     head:
       title: site
+  blocks:
+    ignored:
+      - block-class-schedule
   events:
     list:
       time_slots:
