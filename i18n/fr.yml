@@ -6,9 +6,10 @@ commons:
     date:
       today: "Aujourd'hui : "
       date_format: :date_full
+      open: La Criée est ouverte
+      closed: La Criée est fermée
     text: >-
       La Criée centre d'art contemporain est un équipement de la ville de Rennes. Elle est labellisée Centre d'art contemporain d'intérêt national.
-
 
 persons:
   backlinks:

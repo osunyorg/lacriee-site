@@ -3,6 +3,12 @@ commons:
     date:
       today: "Today: "
       date_format: :date_full
+      open: La Criée is open
+      closed: La Criée is closed
     text: >-
       La Criée is a facility in the city of Rennes.<br>
       It is recognized as a national interest contemporary art center.
+
+persons:
+  backlinks:
+    projects: Productions mentioning
