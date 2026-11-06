@@ -81,10 +81,13 @@
 
     &--agenda
         @include media-breakpoint-up(desktop)
-            .event-content
-                align-items: flex-start
-                display: flex
-                flex-direction: column
+            .event
+                .event-content
+                    align-items: flex-start
+                    display: flex
+                    flex-direction: column
+                .event-categories
+                    margin-top: $spacing-3
 
     &--grid
         .event
