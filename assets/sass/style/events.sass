@@ -116,16 +116,19 @@
                 display: flex
                 flex-direction: column
                 > .event-title,
+                hgroup
+                    order: -3
+                > .event-title,
                 hgroup > *
                     @include h2
             .event-schedule
                 justify-content: flex-end
                 margin-top: space(9)
+                order: -2
                 .event-dates
                     @include h2
             .event-categories
                 order: -1
-                margin-bottom: space(8)
 
         @include media-breakpoint-down(desktop)
             .event
