@@ -16,7 +16,7 @@ meta:
     slug: "projection-de-films"
   dates:
     created_at: 2026-06-09T19:28:52+02:00
-    updated_at: 2026-07-15T11:41:01+02:00
+    updated_at: 2026-11-09T10:04:11+01:00
     published_at: 2026-06-09T19:28:52+02:00
 search:
   id: "d9791b3e-d9d2-44e6-a1bc-2dc0f08e11d9"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Projection de quelqu'un des films de l'artiste exposé à La Criée parmi lesquels : <i>Obstacle au Mouvement. Didier Vermeiren, sculptures et photographies</i> (1994-1998) et <i>Allégorie. Où sont passées les chameaux ?</i> (1995)</p>
   body: >-
-    <p>Pour aller plus loin  </p>
+    <p>Produit par </p>  <p> Pour aller plus loin  </p>
 
 breadcrumbs:
   - title: >-
@@ -114,10 +114,46 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 1
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: organizations
+    title: >-
+      Produit par
+    slug: >-
+      produit-par
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Produit par
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/fr/organisations/frac-bretagne/"
+          path: "/organizations/frac-bretagne"
+          slug: "frac-bretagne"
+          file: "content/fr/organizations/frac-bretagne.html"
+
+      quantity: 1
+
+
   - kind: block
     template: title
     title: >-

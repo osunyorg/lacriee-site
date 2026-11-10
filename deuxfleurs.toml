@@ -255,10 +255,6 @@ from = "/en/agenda/2024-03-18-anne-charlotte-finel-sombres-realistes/index.html"
 to = "/en/agenda/2024/sombres-realites/"
 
 [[redirects]]
-from = "/fr/auteurices-du-site/julius-koller/index.html"
-to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/julius-koller/"
-
-[[redirects]]
 from = "/fr/auteurices-du-site/giovanni-giaretta/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/giovanni-giaretta/"
 
@@ -876,7 +872,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/lea-muller/"
 
 [[redirects]]
 from = "/fr/programmation/cycle-thematique-festina-lente-hate-toi-lentement/index.html"
-to = "/fr/cycle-thematique-festina-lente-hate-toi-lentement/"
+to = "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-thematique-festina-lente-hate-toi-lentement/"
 
 [[redirects]]
 from = "/fr/agenda/2021-03-27-concert-piano-day/index.html"
@@ -1056,7 +1052,7 @@ to = "/fr/agenda/2020/territoires-extra-4/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/matthieu-laurette-laurette/index.html"
-to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/matthieu-laurette-laurette/"
+to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/matthieu-laurette/"
 
 [[redirects]]
 from = "/fr/agenda/2023-10-12-avaler-les-cyclones/index.html"
@@ -1188,7 +1184,7 @@ to = "/fr/agenda/2023/conference-temps-utopies-et-transitions-1-il-est-temps-d-e
 
 [[redirects]]
 from = "/en/all-the-programme/current-cycle/festina-lente-make-haste-slowly/index.html"
-to = "/en/festina-lente-make-haste-slowly/"
+to = "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/yann-beauvais/index.html"
@@ -1923,6 +1919,10 @@ from = "/fr/auteurices-du-site/jean-dupuy/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jean-dupuy/"
 
 [[redirects]]
+from = "/fr/cycle-thematique-festina-lente-hate-toi-lentement/index.html"
+to = "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-thematique-festina-lente-hate-toi-lentement/"
+
+[[redirects]]
 from = "/fr/agenda/2026/kesako-la-criee-06-08-1/index.html"
 to = "/fr/agenda/2026/kesako-la-criee-13-08/"
 
@@ -2092,7 +2092,7 @@ to = "/en/files/2026/pr-sculpting-defpdf/"
 
 [[redirects]]
 from = "/fr/festina-lente-hate-toi-lentement/index.html"
-to = "/fr/cycle-thematique-festina-lente-hate-toi-lentement/"
+to = "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-thematique-festina-lente-hate-toi-lentement/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/martine-chemana-1/index.html"
@@ -2443,10 +2443,6 @@ from = "/fr/auteurices-du-site/jerome-gras/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/jerome-gras/"
 
 [[redirects]]
-from = "/fr/auteurices-du-site/les-ateliers-de-rennes-biennale-dart-contemporain/index.html"
-to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/les-ateliers-de-rennes-biennale-dart-contemporain/"
-
-[[redirects]]
 from = "/fr/auteurices-du-site/simon-starling/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/simon-starling/"
 
@@ -2708,7 +2704,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/philippe-van-c
 
 [[redirects]]
 from = "/en/all-the-programme/festina-lente-make-haste-slowly/index.html"
-to = "/en/festina-lente-make-haste-slowly/"
+to = "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/samir-ramdani/index.html"
@@ -3000,7 +2996,7 @@ to = "/fr/agenda/1991/photographies-en-tout-genre/"
 
 [[redirects]]
 from = "/fr/programmation/festina-lente-hate-toi-lentement/index.html"
-to = "/fr/cycle-thematique-festina-lente-hate-toi-lentement/"
+to = "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-thematique-festina-lente-hate-toi-lentement/"
 
 [[redirects]]
 from = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/laura-vasquez/index.html"
@@ -3128,7 +3124,7 @@ to = "/fr/agenda/1997/histoires-et-fictions-peintures-recentes/"
 
 [[redirects]]
 from = "/en/all-the-programme/cycles/festina-lente-make-haste-slowly/index.html"
-to = "/en/festina-lente-make-haste-slowly/"
+to = "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/marko-stamenkovic/index.html"
@@ -3284,7 +3280,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/claire-daudin/
 
 [[redirects]]
 from = "/fr/programmation/cycles/festina-lente-hate-toi-lentement/index.html"
-to = "/fr/cycle-thematique-festina-lente-hate-toi-lentement/"
+to = "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/cycle-thematique-festina-lente-hate-toi-lentement/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/russell-crotty/index.html"
@@ -3533,6 +3529,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/claire-hoffman
 [[redirects]]
 from = "/fr/auteurices-du-site/stephane-dorin/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/stephane-dorin/"
+
+[[redirects]]
+from = "/en/festina-lente-make-haste-slowly/index.html"
+to = "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
 
 [[redirects]]
 from = "/fr/agenda/2024-04-18-programmation-video-anne-charlotte-finel/index.html"
@@ -3857,6 +3857,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/minia-biabiany
 [[redirects]]
 from = "/fr/agenda/2011-01-01-workshop-des-corps-en-decor/index.html"
 to = "/fr/agenda/2011/workshop-des-corps-en-decor/"
+
+[[redirects]]
+from = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/matthieu-laurette-laurette/index.html"
+to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/matthieu-laurette/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/trafik/index.html"
@@ -5144,7 +5148,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/thibaut-aymoni
 
 [[redirects]]
 from = "/en/programmation/cycles/festina-lente-make-haste-slowly/index.html"
-to = "/en/festina-lente-make-haste-slowly/"
+to = "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
 
 [[redirects]]
 from = "/fr/auteurices-du-site/mary-beard/index.html"
@@ -5337,10 +5341,6 @@ to = "/fr/actualites/2022-11-08-echos-dexpo-1/"
 [[redirects]]
 from = "/fr/ressources-pedagogiques/index.html"
 to = "/fr/ressources/ressources-pedagogiques/"
-
-[[redirects]]
-from = "/fr/auteurices-du-site/mathilde-vaillant-1/index.html"
-to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/mathilde-vaillant-1/"
 
 [[redirects]]
 from = "/fr/agenda/2011-05-06-stranger-than-paradise/index.html"

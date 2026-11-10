@@ -26,7 +26,7 @@ search:
     A propos d'une oeuvre. Une heure pour aborder l'oeuvre de Didier Vermeiren, Bacchanale
 
   body: >-
-    <p>Pour aller plus loin  </p>
+    <p>Produit par </p>  <p> Pour aller plus loin  </p>
 
 date: "1998-11-06T13:30:00+01:00"
 dates:
@@ -161,10 +161,46 @@ meta_description: >-
 header_cta:
 
 contents_reading_time:
-  seconds: 1
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: organizations
+    title: >-
+      Produit par
+    slug: >-
+      produit-par
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Produit par
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/fr/organisations/frac-bretagne/"
+          path: "/organizations/frac-bretagne"
+          slug: "frac-bretagne"
+          file: "content/fr/organizations/frac-bretagne.html"
+
+      quantity: 1
+
+
   - kind: block
     template: title
     title: >-
