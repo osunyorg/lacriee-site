@@ -28,7 +28,7 @@ class EventList {
             gap = 18;
 
         if (window.innerWidth <= breakpoints.md) {
-            categories.style.marginTop = ''
+            categories.style.marginTop = '';
         } else {
             categories.style.marginTop = `calc(${scheduleHeight}px + ${gap}px)`;
         }
