@@ -46,6 +46,7 @@ footer#document-footer
                     line-height: inherit
 
     .footer-nav
+        padding-bottom: 0
         > p
             @include h3
             margin-top: auto
@@ -60,6 +61,9 @@ footer#document-footer
                     margin-top: $spacing-2
                 .footer-i18n
                     margin-top: $spacing-2
+
+        @include media-breakpoint-down(desktop)
+            padding-top: $spacing-5
 
         @include media-breakpoint-up(desktop)
             > p
