@@ -27,7 +27,11 @@ class EventList {
             categories = event.querySelector('.event-categories'),
             gap = 18;
 
-        categories.style.marginTop = `calc(${scheduleHeight}px + ${gap}px)`;
+        if (window.innerWidth <= breakpoints.md) {
+            categories.style.marginTop = ''
+        } else {
+            categories.style.marginTop = `calc(${scheduleHeight}px + ${gap}px)`;
+        }
     }
 }
 
