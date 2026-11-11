@@ -1,6 +1,151 @@
 // Events
+.event
+    .event-categories
+        li + li::before
+            @include icon-site(outline)
+            font-size: pxToRem(26)
+            vertical-align: middle
+
+            @include media-breakpoint-down(desktop)
+                font-size: pxToRem(20)
+
+.events
+    &--list,
+    &--agenda,
+    &--grid
+        .event-categories
+            border-bottom: 1px solid var(--color-text)
+            border-top: 1px solid var(--color-text)
+            padding-bottom: $spacing-1
+            padding-top: $spacing-1
+            a
+                @include small
+                text-decoration: none
+
+    &--list
+        .event
+            .event-categories
+                width: fit-content
+
+        @include in-page-without-sidebar
+            .event
+                .event-content
+                    align-items: flex-start
+                .event-categories
+                    grid-column: 1 / 4 !important
+                    grid-row: 1
+                    margin-right: auto
+                .event-schedule
+                    margin-bottom: space(4)
+                .event-categories
+                    margin-bottom: auto
+                    margin-top: 0
+
+        @include in-page-with-sidebar
+            .event
+                .event-content
+                    // @include grid(2)
+                    align-items: flex-start
+                    column-gap: var(--grid-gutter)
+                    display: flex
+                    flex-wrap: wrap
+                    grid-column: 1 / 7
+                    row-gap: 0
+                    width: 100%
+                    hgroup,
+                    > .event-title,
+                    .event-description,
+                    .event-status
+                        width: 100%
+                    .event-schedule
+                        flex: 1
+                        left: unset
+                        margin: 0
+                        margin-top: $spacing-3
+                        order: 5
+                        position: relative
+                        top: unset
+                        width: 100%
+                        p
+                            @include h2
+                            margin-left: auto
+                            text-align: right
+                    .event-categories
+                        flex: 1
+                        margin-top: auto !important
+                        margin-right: auto
+                    .event-schedule,
+                    .event-categories
+                        margin-top: $spacing-3
+
+        @include media-breakpoint-down(desktop)
+            .event
+                .event-content
+                    align-items: flex-start
+                    display: flex
+                    flex-direction: column
+                    hgroup,
+                    > .event-title
+                        order: -2
+                    .event-categories
+                        order: -1
+                        margin-bottom: space(4)
+
+    &--agenda
+        @include media-breakpoint-up(desktop)
+            .event
+                .event-content
+                    align-items: flex-start
+                    display: flex
+                    flex-direction: column
+                .event-categories
+                    margin-top: $spacing-3
+
+        @include media-breakpoint-down(desktop)
+            .event
+                .event-content
+                    hgroup,
+                    > .event-title
+                        order: -2
+                    .event-categories
+                        order: -1
+
+    &--grid
+        .event
+            .event-content
+                display: flex
+                flex-direction: column
+                > .event-title,
+                hgroup
+                    order: -3
+                > .event-title,
+                hgroup > *
+                    @include h2
+            .event-schedule
+                justify-content: flex-end
+                margin-top: space(9)
+                order: -2
+                .event-dates
+                    @include h2
+            .event-categories
+                order: -1
+
+        @include media-breakpoint-down(desktop)
+            .event
+                .event-content
+                    > .event-title,
+                    hgroup
+                        order: -3
+                    .event-schedule
+                        order: -2
+                    .event-categories
+                        margin-bottom: $spacing-1
+
 .events__page,
 .exhibitions__page
+    .lead 
+        font-family: $lead-font-family
+
     .event-access
         .event-slots
             border-top: 0 !important
@@ -18,13 +163,12 @@
             color: $color-text-alt
         aside
             order: 2
+
     .hero
         .container 
             .content
                 align-items: unset
-                @include media-breakpoint-down(desktop)
-                    .event-schedule
-                        margin-top: $spacing-2
+
         @include media-breakpoint-up(desktop)
             .content
                 gap: var(--grid-gutter)
@@ -32,12 +176,14 @@
                     flex: 1
                 figure
                     order: 2
+
             &--image-portrait,
             &--image-square
                 .container
                     .content
                         figure
                             width: columns(3)
+
             &--image-landscape
                 .container
                     .content
@@ -50,15 +196,30 @@
             hgroup
                 h1
                     font-style: italic
+
             .event-schedule
                 text-align: right
                 .event-time
                     justify-content: flex-end
+
                     @include media-breakpoint-down(sm)
                         display: block
                         &::before
                             display: none
-        
+
+            .event-categories
+                a 
+                    @include small
+                    @extend %underline-on-hover
+                    transition: $link-transition
+                    text-decoration-color: transparent
+                    + a::before            
+                        @include icon-site(outline)
+                        display: inline-block
+                        font-size: pxToRem(26)
+                        margin-right: space()
+                        vertical-align: middle
+            
         @include media-breakpoint-up(desktop)
             .hero-text 
                 display: flex
@@ -67,14 +228,25 @@
                 position: relative
                 hgroup
                     margin-bottom: $spacing-4
+
+            .event-schedule
+                margin-left: auto
+                width: offset(5)
+                p
+                    line-height: 1
+
             .event-categories
                 bottom: 0
                 display: flex
+                flex-wrap: wrap
                 position: absolute
-                a
-                    text-decoration: none
-                    writing-mode: tb
-                    transform: rotate(180deg)
+                width: columns(4)
+
+        @include media-breakpoint-up(xxl)
+            .event-schedule
+                width: columns(5)
+            .event-categories
+                width: columns(4)
         
         @include media-breakpoint-down(desktop)
             .hero-text
@@ -84,7 +256,10 @@
                     position: relative
                     margin-top: 0
                     order: -1
-                    margin-bottom: $spacing-2
+                    margin-bottom: $spacing-3
+                .event-schedule
+                    margin-top: $spacing-3
+
     @include media-breakpoint-down(desktop)
         .document-content
             display: flex
@@ -93,6 +268,7 @@
                 order: 1
             .block-siblings-navigation
                 order: 2
+
     .block-pages--grid
         .pages
             @include grid(1)
@@ -111,6 +287,7 @@
                 mix-blend-mode: multiply
             &:hover .media
                 filter: grayscale(0)
+
         &.with-images
             article
                 @include media-breakpoint-up(md)
@@ -121,8 +298,7 @@
                     hgroup,
                     .page-title
                         grid-column: 2 / 8
-    .lead 
-        font-family: $lead-font-family
+
     .event-parent
         .event
             .event-content
@@ -153,6 +329,7 @@
                 height: 100%
                 margin: 0
                 padding: $spacing-1
+
         @include media-breakpoint-down(desktop)
             .event--with-image
                 .event-content
@@ -168,6 +345,7 @@
                     order: -1
                 .event-title
                     margin-top: $spacing-3
+
         @include media-breakpoint-up(desktop)
             .event,
             .event-parent__title
@@ -191,14 +369,13 @@
                 .media
                     width: columns(5)
                     order: -1
+
     // FIX SAFARI GAP
     @supports not (background: -webkit-named-image(i))
         .event-infos
             .events-actions
                 * + *
                     margin-top: space()
-    
-                
 
 .events__section
     --dropdown-hover-color: var(--color-text)
