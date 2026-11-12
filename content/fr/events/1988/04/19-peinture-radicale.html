@@ -16,7 +16,7 @@ meta:
     slug: "peinture-radicale"
   dates:
     created_at: 2024-05-22T14:01:19+02:00
-    updated_at: 2024-09-30T11:12:40+02:00
+    updated_at: 2026-11-12T16:05:20+01:00
     published_at: 2024-05-22T14:01:24+02:00
 search:
   id: "2e3a4c31-f114-4913-ac42-3acb4ff006bf"
@@ -27,7 +27,8 @@ search:
   title: >-
     Peinture Radicale Marioni, Meller, Mosset, Umberg, Wellmann
 
-
+  body: >-
+    <p>Présentation  <br> Artiste·s et commissaire·s  <br> Pour aller plus loin  </p>
 
 breadcrumbs:
   - title: >-
@@ -42,7 +43,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 date: "1988-04-19T00:00:00+00:00"
@@ -110,9 +111,162 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Présentation
+    slug: >-
+      presentation
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Présentation
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Artiste·s et commissaire·s
+    slug: >-
+      artiste-s-et-commissaire-s
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artiste·s et commissaire·s
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/joseph-marioni/"
+          path: "/persons/joseph-marioni"
+          slug: "joseph-marioni"
+          file: "content/fr/persons/joseph-marioni.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/ingo-meller/"
+          path: "/persons/ingo-meller"
+          slug: "ingo-meller"
+          file: "content/fr/persons/ingo-meller.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/olivier-mosset/"
+          path: "/persons/olivier-mosset"
+          slug: "olivier-mosset"
+          file: "content/fr/persons/olivier-mosset.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/gunter-umberg/"
+          path: "/persons/gunter-umberg"
+          slug: "gunter-umberg"
+          file: "content/fr/persons/gunter-umberg.html"
+
+        - permalink: "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/ulrich-wellmann/"
+          path: "/persons/ulrich-wellmann"
+          slug: "ulrich-wellmann"
+          file: "content/fr/persons/ulrich-wellmann.html"
+
+      quantity: 5
+
+
+  - kind: block
+    template: title
+    title: >-
+      Pour aller plus loin
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Pour aller plus loin
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: projects
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+        - permalink: "/fr/productions/1988-peinture-radicale/"
+          path: "/projects/1988/peinture-radicale"
+          slug: "peinture-radicale"
+          file: "content/fr/projects/1988/peinture-radicale.html"
+          name: >-
+            Peinture radicale
+
+      quantity: 1
+
 
 ---

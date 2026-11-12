@@ -118,33 +118,12 @@ contents:
 
 
   - kind: block
-    template: title
-    title: >-
-      Connection
-    slug: >-
-      connection
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Connection
-        heading: 2
-
-    data:
-      layout: classic
-
-
-
-  - kind: block
     template: persons
 
 
     ranks:
-      base: 3
-      children: 3
+      base: 2
+      children: 2
     top:
       active: false
 
@@ -165,6 +144,64 @@ contents:
 
       quantity: 1
 
+
+  - kind: block
+    template: title
+    title: >-
+      Connection
+    slug: >-
+      connection
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Connection
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: false
+        status: false
+
+      layout: grid
+
+
+      title_link: ""
+      events:
+        - permalink: "/en/agenda/2000/juste-au-corps-de-la-peau-au-vetement/"
+          path: "/events/2000/06/16-juste-au-corps-de-la-peau-au-vetement"
+          slug: "juste-au-corps-de-la-peau-au-vetement"
+          file: "content/en/events/2000/06/16-juste-au-corps-de-la-peau-au-vetement.html"
+          name: >-
+            Juste au corps  de la peau au vêtement
+
+      quantity: 1
 
 
 ---
