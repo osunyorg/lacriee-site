@@ -15,7 +15,7 @@ meta:
     slug: "tapis-instantanes"
   dates:
     created_at: 2026-11-09T10:42:16+01:00
-    updated_at: 2026-11-09T16:50:08+01:00
+    updated_at: 2026-11-12T14:50:14+01:00
     published_at: 2026-11-09T10:41:31+01:00
 search:
   id: "ab7cf60c-e0d1-4c97-a257-465155b2949a"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Patrice Carré</p>
   body: >-
-    <p>  <br>Industrial Rug, Resin, and Neon  Rug: 238 x 161.5 cm  Each neon light: 190 cm </p>  <p>   <br>Instant Carpets  consists of an industrially manufactured carpet on which the acras are clearly visible. Two neon lights, one red and one green, accompany the work.</p>  <p> Connection  <br> Artist  </p>
+    <p>  <br>Industrial Rug, Resin, and Neon  Rug: 238 x 161.5 cm  Each neon light: 190 cm </p>  <p>   <br>Instant Carpets  consists of an industrially manufactured carpet on which the acras are clearly visible. Two neon lights, one red and one green, accompany the work.</p>  <p> Connection  </p>
 
 year: 1991
 date: 1991-11-23
@@ -45,7 +45,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: true
+    present: false
     offcanvas: false
 
 translationKey: communication-website-portfolio-project-6ffef890-6fcc-497e-888f-2426ddefb8a7
@@ -118,6 +118,29 @@ contents:
 
 
   - kind: block
+    template: persons
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+      quantity: 0
+
+
+  - kind: block
     template: title
     title: >-
       Connection
@@ -137,29 +160,8 @@ contents:
       layout: classic
 
 
-
   - kind: block
-    template: title
-    title: >-
-      Artist
-    slug: >-
-      artist
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Artist
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: persons
+    template: agenda
 
 
     ranks:
@@ -169,17 +171,32 @@ contents:
       active: false
 
     data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
 
       layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
 
-      persons:
-      quantity: 0
 
+      title_link: ""
+      events:
+        - permalink: "/en/agenda/1991/le-bois-avance/"
+          path: "/events/1991/11/23-le-bois-avance"
+          slug: "le-bois-avance"
+          file: "content/en/events/1991/11/23-le-bois-avance.html"
+          name: >-
+            Le Bois avance...
+
+      quantity: 1
 
 
 ---

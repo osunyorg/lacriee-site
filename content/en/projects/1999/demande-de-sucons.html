@@ -143,33 +143,12 @@ contents:
 
 
   - kind: block
-    template: title
-    title: >-
-      Connection
-    slug: >-
-      connection
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Connection
-        heading: 2
-
-    data:
-      layout: classic
-
-
-
-  - kind: block
     template: persons
 
 
     ranks:
-      base: 3
-      children: 3
+      base: 2
+      children: 2
     top:
       active: false
 
@@ -190,6 +169,64 @@ contents:
 
       quantity: 1
 
+
+  - kind: block
+    template: title
+    title: >-
+      Connection
+    slug: >-
+      connection
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Connection
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: false
+        status: false
+
+      layout: grid
+
+
+      title_link: ""
+      events:
+        - permalink: "/en/agenda/1999/ex-change/"
+          path: "/events/1999/11/06-ex-change"
+          slug: "ex-change"
+          file: "content/en/events/1999/11/06-ex-change.html"
+          name: >-
+            Ex-change
+
+      quantity: 1
 
 
 ---
