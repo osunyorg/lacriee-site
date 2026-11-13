@@ -3891,6 +3891,10 @@ from = "/fr/auteurices-du-site/claire-kueny/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/claire-kueny/"
 
 [[redirects]]
+from = "/fr/agenda/2026/concert-heron-cendre/index.html"
+to = "/fr/agenda/2027/concert-heron-cendre/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/pierre-ardouvin/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/pierre-ardouvin/"
 
@@ -7477,6 +7481,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/thomas-gaugain
 [[redirects]]
 from = "/en/agenda/2024-01-18-les-merveilles/index.html"
 to = "/en/agenda/2024/les-merveilles/"
+
+[[redirects]]
+from = "/en/agenda/2026/presentation-des-editions-cardon-luneux-avec-jeremy-piningre-et-aela-mai-cabel-1/index.html"
+to = "/en/agenda/2027/presentation-des-editions-cardon-luneux-avec-jeremy-piningre-et-aela-mai-cabel-1/"
 
 [[redirects]]
 from = "/en/agenda/2022-02-01-residense-recherche-action-max-robenson-vilaire-dortilus/index.html"
