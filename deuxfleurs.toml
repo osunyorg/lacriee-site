@@ -2659,10 +2659,6 @@ from = "/fr/agenda/2017-07-01-performances-lettres-a-l-exposition/index.html"
 to = "/fr/agenda/2017/performances-lettres-a-l-exposition/"
 
 [[redirects]]
-from = "/fr/agenda/1996-11-30-gilles-mahe-operation-monochrome-mahemahe-avec-quelques-oeuvres-de-jacques-villegl/index.html"
-to = "/fr/agenda/1996/gilles-mahe-operation-monochrome-mahemahe-avec-quelques-oeuvres-de-jacques-villegl/"
-
-[[redirects]]
 from = "/fr/agenda/2021-02-15-residence-et-jumelage-aurelie-ferruel-florentine-guedon/index.html"
 to = "/fr/agenda/2021/la-ou-je-suis-la-d-ou-je-viens-la-ou-je-vais/"
 
@@ -3436,7 +3432,7 @@ to = "/fr/ressources/archives-de-la-criee/"
 
 [[redirects]]
 from = "/en/agenda/2022-05-01-thomas-gaugain/index.html"
-to = "/en/agenda/2022/thomas-gaugain/"
+to = "/en/agenda/2022/rennes-babylone/"
 
 [[redirects]]
 from = "/en/2026/cp-humanoplanctonpdf/index.html"
@@ -5873,6 +5869,10 @@ to = "/fr/productions/2015-du-moulinet-et-d-ailleurs-au-dehors-du-dedans-de-moi/
 [[redirects]]
 from = "/fr/auteurices-du-site/melanie-ohnemus/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/melanie-ohnemus/"
+
+[[redirects]]
+from = "/en/agenda/2022/thomas-gaugain/index.html"
+to = "/en/agenda/2022/rennes-babylone/"
 
 [[redirects]]
 from = "/fr/agenda/2010-02-01-workshop-territoires-sensibles/index.html"
