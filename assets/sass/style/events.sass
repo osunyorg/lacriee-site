@@ -72,11 +72,12 @@
                             text-align: right
                     .event-categories
                         flex: 1
-                        margin-top: auto !important
                         margin-right: auto
                     .event-schedule,
                     .event-categories
-                        margin-top: $spacing-3
+                        margin-top: auto !important
+                    .event-description
+                        margin-bottom: $spacing-3
 
         @include media-breakpoint-down(desktop)
             .event
@@ -89,7 +90,8 @@
                         order: -2
                     .event-categories
                         order: -1
-                        margin-bottom: space(4)
+                    .event-schedule
+                        margin: space(4) 0
 
     &--agenda
         @include media-breakpoint-up(desktop)
