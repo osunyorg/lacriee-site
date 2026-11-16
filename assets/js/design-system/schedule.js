@@ -29,7 +29,7 @@ class Schedule {
                 closingHour = closingClass.innerHTML,
                 openingTimeAsMinutes = this.getMinutes(openingHour),
                 closingTimeAsMinutes = this.getMinutes(closingHour);
-            console.log('actuel ', this.currentMinutes, ' | opening : ', openingTimeAsMinutes, ' | closing : ', closingTimeAsMinutes)
+
             if (this.currentMinutes > openingTimeAsMinutes && this.currentMinutes < closingTimeAsMinutes) {
               this.closedMessage.classList.remove('show');
               this.openMessage.classList.add('show');
