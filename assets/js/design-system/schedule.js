@@ -5,50 +5,40 @@ class Schedule {
       this.days = element.querySelectorAll('.day');
       this.closedMessage = element.querySelector('.schedule-text--closed');
       this.openMessage = element.querySelector('.schedule-text--open');
-      this.currentDate = new Date;
-      this.currentHour = this.currentDate.getHours();
-      this.currentDay = this.currentDate.getDay();
-      this.currentUTCHour = this.currentDate.getUTCHours();
-      this.currentTimezoneOffset = this.currentDate.getTimezoneOffset();
-      this.currentHour = this.currentHour - (this.currentTimezoneOffset / 60); // on prend l'heure locale, moins l'heure timezonée (donc négative quand c'est +1)
-      this.currentMinutes = this.currentHour * 60 + this.currentDate.getMinutes(); // tout en minute pour prendre en compte les ouvertures/fermetures spéciales (ex: 11:30)
 
-      this.listen();
+      var now = new Date();
+      this.currentTime = now.toTimeString().slice(0, 5); // "HH:MM" en heure locale (pas besoin de calculer un fuseau horaire supplémentaire)
+      this.currentDayIndex = (now.getDay() + 6) % 7; // utiliser un modulo pour convertir en lundi = 0 ... dimanche = 6
+
+      this.init();
     }
 
-    listen() {
-      this.days.forEach(function (day, index) {
-        var dayIndex = index + 1;
+    init() {
+      var day = this.days[this.currentDayIndex];
+      if (!day) return;
 
-        if (this.currentDay == dayIndex) {
-          var openingClass = day.querySelector('.opening-hour'),
-              closingClass = day.querySelector('.closing-hour');
+      var opening = day.querySelector('.opening-hour'),
+          closing = day.querySelector('.closing-hour');
 
-          if (openingClass || closingClass) {
-            var openingHour = openingClass.innerHTML,
-                closingHour = closingClass.innerHTML,
-                openingTimeAsMinutes = this.getMinutes(openingHour),
-                closingTimeAsMinutes = this.getMinutes(closingHour);
+      if (!opening || !closing) return;
 
-            if (this.currentMinutes > openingTimeAsMinutes && this.currentMinutes < closingTimeAsMinutes) {
-              this.closedMessage.classList.remove('show');
-              this.openMessage.classList.add('show');
-            }
-          }
-        }
-      }.bind(this));
+      var openingTime = this.normalize(opening.textContent),
+          closingTime = this.normalize(closing.textContent);
+
+      if (this.currentTime >= openingTime && this.currentTime < closingTime) {
+        this.closedMessage.classList.remove('show');
+        this.openMessage.classList.add('show');
+      }
     }
 
-    getMinutes(text) {
-      var splittedText = text.split(':'),
-          splittedHour = parseInt(splittedText[0], 10),
-          splittedMinutes = parseInt(splittedText[1], 10),
-          scheduleAsMinutes = splittedHour * 60 + splittedMinutes;
-
-      return scheduleAsMinutes;
+    // "11:30" reste "11:30", " 9:05 " devient "09:05"
+    // cela permet la comparaison en string (plus simple)
+    normalize(text) {
+      var parts = text.trim().split(':');
+      return ('0' + parts[0]).slice(-2) + ':' + ('0' + parts[1]).slice(-2);
     }
 }
 
 scheduleBlocks.forEach(function (scheduleBlock) {
     new Schedule(scheduleBlock);
-}, this);
+});
