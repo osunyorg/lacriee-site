@@ -2,7 +2,6 @@ const scheduleBlocks = document.querySelectorAll('.block-class-schedule');
 
 class Schedule {
     constructor (element) {
-      this.timeZone = 'Europe/Paris';
       this.days = element.querySelectorAll('.day');
       this.closedMessage = element.querySelector('.schedule-text--closed');
       this.openMessage = element.querySelector('.schedule-text--open');
@@ -12,6 +11,7 @@ class Schedule {
       this.currentUTCHour = this.currentDate.getUTCHours();
       this.currentTimezoneOffset = this.currentDate.getTimezoneOffset();
       this.currentHour = this.currentHour - (this.currentTimezoneOffset / 60); // on prend l'heure locale, moins l'heure timezonée (donc négative quand c'est +1)
+      this.currentMinutes = this.currentHour * 60 + this.currentDate.getMinutes(); // tout en minute pour prendre en compte les ouvertures/fermetures spéciales (ex: 11:30)
 
       this.listen();
     }
@@ -21,17 +21,31 @@ class Schedule {
         var dayIndex = index + 1;
 
         if (this.currentDay == dayIndex) {
-          var openingHour = day.querySelector('.opening-hour').innerHTML,
-              closingHour = day.querySelector('.closing-hour').innerHTML,
-              trimedOpeningHour = openingHour.replace(/^\:00+|\:00+$/g, ''),
-              trimedClosingHour = closingHour.replace(/^\:00+|\:00+$/g, '');
+          var openingClass = day.querySelector('.opening-hour'),
+              closingClass = day.querySelector('.closing-hour');
 
-          if (this.currentHour > trimedOpeningHour && this.currentHour < trimedClosingHour) {
-            this.closedMessage.classList.remove('show');
-            this.openMessage.classList.add('show');
+          if (openingClass || closingClass) {
+            var openingHour = openingClass.innerHTML,
+                closingHour = closingClass.innerHTML,
+                openingTimeAsMinutes = this.getMinutes(openingHour),
+                closingTimeAsMinutes = this.getMinutes(closingHour);
+            console.log('actuel ', this.currentMinutes, ' | opening : ', openingTimeAsMinutes, ' | closing : ', closingTimeAsMinutes)
+            if (this.currentMinutes > openingTimeAsMinutes && this.currentMinutes < closingTimeAsMinutes) {
+              this.closedMessage.classList.remove('show');
+              this.openMessage.classList.add('show');
+            }
           }
         }
       }.bind(this));
+    }
+
+    getMinutes(text) {
+      var splittedText = text.split(':'),
+          splittedHour = parseInt(splittedText[0], 10),
+          splittedMinutes = parseInt(splittedText[1], 10),
+          scheduleAsMinutes = splittedHour * 60 + splittedMinutes;
+
+      return scheduleAsMinutes;
     }
 }
 
