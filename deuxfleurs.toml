@@ -5651,6 +5651,10 @@ from = "/fr/agenda/2017-03-05-visite-de-traverse-visite-contee-1/index.html"
 to = "/fr/agenda/2017/visite-de-traverse-visite-contee-1/"
 
 [[redirects]]
+from = "/fr/productions/1991-monographie-hubert-dupras/index.html"
+to = "/fr/productions/1991-monographie-hubert-duprat/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/lewis-watts/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/lewis-watts/"
 
