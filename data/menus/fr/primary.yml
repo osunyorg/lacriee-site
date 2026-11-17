@@ -202,8 +202,8 @@ items:
     descendants_targets: []
     path: "/pages/mediation/scolaires"
     file: content/fr/pages/mediation/scolaires/_index.html
-  - title: Péri-scolaire et centres de loisirs
-    slug: peri-scolaire-et-centres-de-loisirs
+  - title: Périscolaire et centres de loisirs
+    slug: periscolaire-et-centres-de-loisirs
     target: "/fr/mediation/periscolaires-et-centres-de-loisirs/"
     kind: page
     new_tab: false
