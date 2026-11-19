@@ -1,4 +1,26 @@
 footer#document-footer
+    > .container
+        &:first-child
+            padding-bottom: 0
+        &:last-child
+            > div
+                border-top: 1px solid $color-text
+                padding-top: $spacing-5
+                width: 100%
+
+            @include media-breakpoint-down(desktop)
+                > div
+                    > * + *
+                        margin-top: $spacing-5
+
+            @include media-breakpoint-up(desktop)
+                padding-top: space(8)
+                > div
+                    align-items: flex-start
+                    display: flex
+                    justify-content: space-between
+                    padding-top: space(8)
+
     .footer-logo
         display: flex
         gap: var(--grid-gutter)
@@ -9,21 +31,25 @@ footer#document-footer
                 display: none
         p
             width: 100%
+
         @include media-breakpoint-up(desktop)
             row-gap: 0
             p
                 height: 100%
                 margin-top: $spacing-4
+
     .footer-social
         .nav-social + .site-links
             margin-top: 0
             li
                 &::after
                     line-height: inherit
-    .container + .footer-nav
-        align-items: flex-start
-        padding-top: 0
+
     .footer-nav
+        padding-bottom: 0
+        > p
+            @include h3
+            margin-top: auto
         .footer-site
             > .container
                 padding: 0
@@ -35,6 +61,14 @@ footer#document-footer
                     margin-top: $spacing-2
                 .footer-i18n
                     margin-top: $spacing-2
+
+        @include media-breakpoint-down(desktop)
+            padding-top: $spacing-5
+
+        @include media-breakpoint-up(desktop)
+            > p
+                width: offset(6)
+
     .footer-search
         > div
             border-top: 1px solid $color-border
@@ -54,15 +88,19 @@ footer#document-footer
                     &::before
                         @include icon-site(search)
                         font-size: inherit
+
                     @include media-breakpoint-up(desktop)
                         align-items: flex-end
+
             .pagefind-ui__result-excerpt mark
                 color: $color-text
             .pagefind-ui__form::after
                 @include icon-site(search)
                 font-size: pxToRem(18)
+
         @include media-breakpoint-up(desktop)
             padding-top: $spacing-5 !important
+
     .footer-i18n
         @include media-breakpoint-up(desktop)
             text-align: right
@@ -77,12 +115,12 @@ footer#document-footer
                 margin-left: 0
                 right: 0
                 a
-                    text-align: right
-                    display: inline-block
+                    justify-content: flex-end
                     width: 100%
                 a:hover,
                 a:focus-visible        
                     color: var(--color-text)
+
     @include media-breakpoint-up(desktop)
         padding-bottom: calc(#{$spacing-5} - #{$spacing-3})
         .footer-site

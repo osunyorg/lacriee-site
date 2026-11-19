@@ -20,7 +20,6 @@ params:
   search:
     active: true
     positions:
-      - footer
       - primary
   i18n:
     positions:

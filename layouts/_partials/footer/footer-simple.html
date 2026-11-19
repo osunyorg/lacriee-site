@@ -1,16 +1,15 @@
-<div class="container">
-  <div class="footer-logo">
-    <a class="logo" href="https://www.culture.gouv.fr/" target="_blank"><img src="/assets/images/footer/ministere-culture.svg" alt="Ministère de la culture" height="60" width="60" loading="lazy"></a>
-    <a class="logo" href="https://www.bretagne.bzh/" target="_blank"><img src="/assets/images/footer/region-bretagne.svg" alt="Région Bretagne" height="60" width="60" loading="lazy"></a>
-    <a class="logo" href="https://www.ille-et-vilaine.fr/" target="_blank"><img src="/assets/images/footer/ille-et-vilaine.svg" alt="Département Ille-et-Vilaine" height="60" width="60" loading="lazy"></a>
-    <a class="logo" href="https://metropole.rennes.fr/" target="_blank"><img src="/assets/images/footer/rennes-ville.svg" alt="Rennes ville" height="57" width="275" loading="lazy"></a>
-  </div>
-  <div class="footer-social">
-    {{ partial "footer/social.html" }}
-  </div>
-</div>
+{{ with .Site.Home.Params.contents }}
+  {{ range $index, $content := . }}
+    {{ if and (eq .html_class "block-class-schedule") (eq .template "datatable") }}
+      {{ partial "custom/blocks/datatable--schedule" (dict
+        "block" .
+      ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 <div class="container footer-nav">
-  <p class="meta">{{ safeHTML (i18n "commons.footer.text") }}</p>
+  <p>{{ safeHTML (i18n "commons.footer.text") }}</p>
   <div class="footer-site">
     <div class="footer-legals">
       {{ partial "footer/legals.html" }}
@@ -24,11 +23,16 @@
     </div>
   </div>
 </div>
-
-{{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
-  <div class="container footer-search">
-    <div>
-      {{ partial "commons/search/button.html" "footer" }}
+<div class="container">
+  <div>
+    <div class="footer-logo">
+      <a class="logo" href="https://www.culture.gouv.fr/" target="_blank"><img src="/assets/images/footer/ministere-culture.svg" alt="Ministère de la culture" height="60" width="60" loading="lazy"></a>
+      <a class="logo" href="https://www.bretagne.bzh/" target="_blank"><img src="/assets/images/footer/region-bretagne.svg" alt="Région Bretagne" height="60" width="60" loading="lazy"></a>
+      <a class="logo" href="https://www.ille-et-vilaine.fr/" target="_blank"><img src="/assets/images/footer/ille-et-vilaine.svg" alt="Département Ille-et-Vilaine" height="60" width="60" loading="lazy"></a>
+      <a class="logo" href="https://metropole.rennes.fr/" target="_blank"><img src="/assets/images/footer/rennes-ville.svg" alt="Rennes ville" height="57" width="275" loading="lazy"></a>
+    </div>
+    <div class="footer-social">
+      {{ partial "footer/social.html" }}
     </div>
   </div>
-{{ end }}
+</div>

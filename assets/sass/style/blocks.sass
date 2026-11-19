@@ -119,6 +119,8 @@
                         @include h2
                     .more
                         text-align: right
+                    .event-description
+                        width: columns(4)
                 
             @include media-breakpoint-up(xl)
                 .event-content
@@ -126,8 +128,6 @@
                     .event-subtitle,
                     .event-dates
                         @include h1
-                    .event-description
-                        width: columns(4)
                     .event-schedule
                         margin-bottom: 0
                     .more
@@ -173,13 +173,12 @@
                         margin-top: 0
                         padding: $spacing-2 $spacing-1 !important
                         position: absolute
-                        top: 0
-                        transform: translateX(-100%)
-                        writing-mode: sideways-lr
+                        top: columns(6)
+                        height: auto
+                        transform: translateY(calc(-100% + 1px))
                         li
-                            writing-mode: tb
-                            transform: rotate(180deg)
                             a
+                                @include small
                                 text-decoration: none
         
         @include media-breakpoint-down(desktop)
@@ -196,6 +195,8 @@
                     order: -1
                     padding: $spacing-2 $spacing-1
                     line-height: 1
+                    a
+                        text-decoration: none
                 &.event--with-image
                     .event-categories
                         margin: 0 var(--grid-gutter-negative)
@@ -207,8 +208,9 @@
             .event
                 &--with-image
                     .event-categories
-                        left: columns(4)
-                        height: columns(4)
+                        left: 0
+                        top: columns(4) !important
+                        width: columns(4)
         
         @include in-page-without-sidebar
             .event
@@ -222,50 +224,35 @@
                 
                 &--with-image
                     .event-content
-                        @include grid(6, desktop, $gap-y: space(5))
-                        // align-content: flex-end
                         height: 100%
                         padding-right: 0
-                        width: columns(6)
+                        gap: space(8)
                         > * 
                             margin: 0 !important
-                            width: unset !important
                         > .event-title,
                         hgroup
                             self-align: flex-start
-                        > .event-title,
-                        hgroup,
-                        .event-schedule,
-                        .events-status
-                            grid-column: 1 / 8
                         .event-description
-                            grid-column: 1 / 5
                             margin-top: 0
+                        .event-schedule
+                            border-bottom: 1px solid var(--color-text)
+                            padding-bottom: space(8)
                         .more
-                            grid-column: 5 / 8
                             margin-top: 0
                             text-align: right
+                            position: absolute
+                            right: 0
+                            bottom: 0
+                        .media 
+                            picture,
+                            img
+                                height: 100%
                             
                     .event-categories
-                        left: columns(6)
-                        height: columns(6)
-                
+                        left: 0
+                        width: columns(6)
                     .media
                         width: columns(6)
-
-                    @include media-breakpoint-up(xxxl)
-                        .event-content
-                            > .event-title,
-                            hgroup
-                                grid-row: 1 / 5
-                            .event-schedule
-                                grid-row: 6 / 8
-                            .events-status
-                                grid-row: 7
-                            .event-description
-                                grid-row: 8
-                            .more
-                                grid-row: 8
 
     &--list
         .event
@@ -279,6 +266,7 @@
                     object-fit: cover
             &-categories
                 gap: $spacing-2
+
         @include media-breakpoint-up(desktop)
             .events > li
                 &:not(:last-child)
@@ -387,6 +375,7 @@
             .event-content
                 .event-schedule
                     grid-column: 1 / 4
+                    grid-row: 1
                 > hgroup,
                 .event-title,
                 .event-description,
