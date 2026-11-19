@@ -16,7 +16,7 @@ meta:
     slug: "zone-sensible"
   dates:
     created_at: 2024-09-09T15:02:31+02:00
-    updated_at: 2026-09-21T10:01:25+02:00
+    updated_at: 2026-11-19T11:32:20+01:00
     published_at: 2024-09-09T15:05:04+02:00
 search:
   id: "56706fab-f408-43a2-b481-3024d5e504ba"
@@ -28,7 +28,7 @@ search:
     Zone sensible Elvia Teotski
 
   body: >-
-    <p>  <br>HD video  <br> Production: <br> -- Made with the technical support of the MIO (Mediterranean Institute of Oceanography), Marseille -- La Criée centre d’art contemporain</p>  <p> Connections  </p>
+    <p>  <br>HD video <br>Production : -- réalisée grâce à l'appui technique du MIO (Institut Méditerranéen d'Océanologie), Marseille -- La Criée centre d'art contemporain</p>  <p> Connection  </p>
 
 year: 2021
 date: 2021-01-01
@@ -80,7 +80,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 7
+  seconds: 8
   text: >-
     less than a minute
 contents:
@@ -96,16 +96,45 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>HD video</p><p> <b>Production: </b><br>-- Made with the technical support of the MIO (Mediterranean Institute of Oceanography), Marseille<br>-- La Criée centre d’art contemporain</p>
+        <p>HD video</p>
+      notes: >-
+        <p> Production :<br>-- réalisée grâce à l'appui technique du MIO (Institut Méditerranéen d'Océanologie), Marseille<br>-- La Criée centre d'art contemporain    </p>
 
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/en/artists-authors-curators-etc/elvia-teotski/"
+          path: "/persons/elvia-teotski"
+          slug: "elvia-teotski"
+          file: "content/en/persons/elvia-teotski.html"
+
+      quantity: 1
 
 
   - kind: block
     template: title
     title: >-
-      Connections
+      Connection
     slug: >-
-      connections
+      connection
     ranks:
       base: 2
       self: 2
@@ -113,7 +142,7 @@ contents:
       active: true
       title: 
         value: >-
-          Connections
+          Connection
         heading: 2
 
     data:
@@ -159,7 +188,7 @@ contents:
       quantity: 1
 
   - kind: block
-    template: persons
+    template: pages
 
 
     ranks:
@@ -169,19 +198,21 @@ contents:
       active: false
 
     data:
-
-      layout: grid
       options:
         image: true
-        summary: true
-        link: true
-        contact: false
+        subtitle: true
+        categories: false
+        main_summary: false
+        summary: false
 
-      persons:
-        - permalink: "/en/artists-authors-curators-etc/elvia-teotski/"
-          path: "/persons/elvia-teotski"
-          slug: "elvia-teotski"
-          file: "content/en/persons/elvia-teotski.html"
+      layout: grid
+      pages:
+        - permalink: "/en/ressources/archives-of-la-criee/all-thematic-cycles/cycle-lili-the-rozell-and-the-marimba-vernacular-and-contemporary-creation/"
+          path: "/pages/ressources/archives-of-la-criee/all-thematic-cycles/cycle-lili-the-rozell-and-the-marimba-vernacular-and-contemporary-creation"
+          slug: "cycle-lili-the-rozell-and-the-marimba-vernacular-and-contemporary-creation"
+          file: "content/en/pages/ressources/archives-of-la-criee/all-thematic-cycles/cycle-lili-the-rozell-and-the-marimba-vernacular-and-contemporary-creation/_index.html"
+          name: >-
+            Thematic cycle - Lili, the rozell and the marimba, vernacular and contemporary creation
 
       quantity: 1
 
