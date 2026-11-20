@@ -10,7 +10,7 @@ header_text: >-
 url: "/en/"
 slug: ""
 date: 2023-06-26T18:45:45+02:00
-lastmod: 2026-11-09T10:09:14+01:00
+lastmod: 2026-11-20T19:37:46+01:00
 meta:
   hugo:
     permalink: "/en/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2023-05-22T14:23:10+02:00
-    updated_at: 2026-11-09T10:09:14+01:00
+    updated_at: 2026-11-20T19:37:46+01:00
     published_at: 2023-06-26T18:45:45+02:00
 search:
   id: "ea8351d8-6c2a-4eb9-8caa-2afb14af84ed"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Open 1pm-7pm from Tuesday to Sunday<br>As the art centre is not air-conditioned, it may be closed during periods of high temperatures. To find out whether we are open, please contact us.</p>
   body: >-
-    <p>Today  <br> And also outside the art center  <br> Coming soon  </p>
+    <p>Bloc "La Criée est ouverte/fermée" </p>  <p>Ce bloc fonctionne d'après les horaires renseignés : il affichera "Aujourd'hui : date du jour" ...... "La Criée est ouverte" uniquement dans la fourchette d'heures renseignée. Aussi, pour éviter de voir indiqué "La Criée est fermée" à 12h59 alors que l'espace d'exposition ouvre à 13h, nous mettons en test un affichage plus vaste. AIDE : chaque ligne du tableau représente un jour de la semaine (du lundi au dimanche). Laissez vide si La Criée est fermée.  Pour les périodes de montage/fermeture : effacer le contenu de toutes les lignes Dépubliez ce bloc si vous voulez masquer l'affichage de l'ouverture/fermeture sur le site </p>  <p> Attention : ce bloc sert aussi pour l'affichage dans le footer.</p>  <p> Today  <br> And also outside the art center  <br> Coming soon  </p>
 
 breadcrumbs:
   - title: >-
@@ -127,10 +127,45 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 2
+  seconds: 36
   text: >-
-    less than a minute
+    1 minute
 contents:
+  - kind: block
+    template: datatable
+    title: >-
+      Bloc "La Criée est ouverte/fermée"
+    slug: >-
+      bloc-la-criee-est-ouverte-fermee
+    ranks:
+      base: 2
+      self: 2
+    html_class: "block-class-schedule"
+    top:
+      active: true
+      title: 
+        value: >-
+          Bloc "La Criée est ouverte/fermée"
+        heading: 2
+      description: >-
+        <p>Ce bloc fonctionne d'après les horaires renseignés : il affichera "Aujourd'hui : date du jour" ...... "La Criée est ouverte" uniquement dans la fourchette d'heures renseignée.<br>Aussi, pour éviter de voir indiqué "La Criée est fermée" à 12h59 alors que l'espace d'exposition ouvre à 13h, nous mettons en test un affichage plus vaste.</p><p>AIDE : chaque ligne du tableau représente un jour de la semaine (du lundi au dimanche). Laissez vide si La Criée est fermée. </p><p>Pour les périodes de montage/fermeture : effacer le contenu de toutes les lignes</p><p>Dépubliez ce bloc si vous voulez masquer l'affichage de l'ouverture/fermeture sur le site   </p><p>Attention : ce bloc sert aussi pour l'affichage dans le footer.</p>
+    data:
+      description: >-
+        <p>Ce bloc fonctionne d'après les horaires renseignés : il affichera "Aujourd'hui : date du jour" ...... "La Criée est ouverte" uniquement dans la fourchette d'heures renseignée.<br>Aussi, pour éviter de voir indiqué "La Criée est fermée" à 12h59 alors que l'espace d'exposition ouvre à 13h, nous mettons en test un affichage plus vaste.</p><p>AIDE : chaque ligne du tableau représente un jour de la semaine (du lundi au dimanche). Laissez vide si La Criée est fermée. </p><p>Pour les périodes de montage/fermeture : effacer le contenu de toutes les lignes</p><p>Dépubliez ce bloc si vous voulez masquer l'affichage de l'ouverture/fermeture sur le site   </p><p>Attention : ce bloc sert aussi pour l'affichage dans le footer.</p>
+      columns:
+        - "ouverture"
+        - "fermeture"
+      rows:
+        - ["",""]
+        - ["8:00","19:00"]
+        - ["8:00","19:00"]
+        - ["8:00","19:00"]
+        - ["8:00","19:00"]
+        - ["8:00","19:00"]
+        - ["8:00","19:00"]
+
+
+
   - kind: block
     template: title
     title: >-
