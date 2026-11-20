@@ -16,7 +16,7 @@ meta:
     slug: "fetiches-encadres"
   dates:
     created_at: 2024-09-09T15:01:44+02:00
-    updated_at: 2026-09-21T10:01:11+02:00
+    updated_at: 2026-11-20T10:04:39+01:00
     published_at: 2024-09-09T15:03:51+02:00
 search:
   id: "38e150e2-2c3d-4e0d-aeb9-8896c3e265b1"
@@ -28,7 +28,7 @@ search:
     Fétiches encadrés Gabrielle Manglou
 
   body: >-
-    <p>  <br>Paper (rice-japan, magazine, gold, black...), Japanese watercolours, dried plants 22 x 27 cm  </p>  <p>Production : La Criée centre d’art contemporain, Rennes</p>  <p> Connections  </p>
+    <p>  <br>Paper (rice-japan, magazine, gold, black...), Japanese watercolours, dried plants 22 x 27 cm  </p>  <p>Production : La Criée centre d’art contemporain, Rennes</p>  <p> Connection  </p>
 
 year: 2024
 date: 2024-01-01
@@ -102,11 +102,39 @@ contents:
 
 
   - kind: block
+    template: persons
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/en/artists-authors-curators-etc/gabrielle-manglou/"
+          path: "/persons/gabrielle-manglou"
+          slug: "gabrielle-manglou"
+          file: "content/en/persons/gabrielle-manglou.html"
+
+      quantity: 1
+
+
+  - kind: block
     template: title
     title: >-
-      Connections
+      Connection
     slug: >-
-      connections
+      connection
     ranks:
       base: 2
       self: 2
@@ -114,7 +142,7 @@ contents:
       active: true
       title: 
         value: >-
-          Connections
+          Connection
         heading: 2
 
     data:
@@ -166,7 +194,7 @@ contents:
       quantity: 2
 
   - kind: block
-    template: persons
+    template: pages
 
 
     ranks:
@@ -176,19 +204,21 @@ contents:
       active: false
 
     data:
-
-      layout: grid
       options:
         image: true
+        subtitle: true
+        categories: false
+        main_summary: true
         summary: true
-        link: true
-        contact: false
 
-      persons:
-        - permalink: "/en/artists-authors-curators-etc/gabrielle-manglou/"
-          path: "/persons/gabrielle-manglou"
-          slug: "gabrielle-manglou"
-          file: "content/en/persons/gabrielle-manglou.html"
+      layout: grid
+      pages:
+        - permalink: "/en/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/"
+          path: "/pages/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly"
+          slug: "festina-lente-make-haste-slowly"
+          file: "content/en/pages/ressources/archives-of-la-criee/all-thematic-cycles/festina-lente-make-haste-slowly/_index.html"
+          name: >-
+            Thematic cycle - Festina Lente (Make haste slowly)
 
       quantity: 1
 
