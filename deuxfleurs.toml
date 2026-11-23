@@ -644,7 +644,7 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/"
 
 [[redirects]]
 from = "/fr/agenda/dans-les-murs/index.html"
-to = "/fr/agenda/a-la-criee/"
+to = "/fr/agenda/rendez-vous-et-evenements/a-la-criee/"
 
 [[redirects]]
 from = "/fr/agenda/2024-05-21-gabrielle-manglou-les-enfants-paysage/index.html"
@@ -2139,6 +2139,10 @@ from = "/fr/agenda/2001-02-16-tout-est-politique/index.html"
 to = "/fr/agenda/2001/tout-est-politique/"
 
 [[redirects]]
+from = "/en/agenda/outside-the-walls/index.html"
+to = "/en/agenda/events-1/outside-the-walls/"
+
+[[redirects]]
 from = "/fr/agenda/2021-10-17-la-petite-fabrique-2/index.html"
 to = "/fr/agenda/2021/atelier-pour-enfants-la-petite-fabrique/"
 
@@ -2667,10 +2671,6 @@ from = "/fr/auteurices-du-site/sultan-sooud-al-qassemi/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/sultan-sooud-al-qassemi/"
 
 [[redirects]]
-from = "/en/agenda/dans-les-murs/index.html"
-to = "/en/agenda/at-the-art-center/"
-
-[[redirects]]
 from = "/en/authors-on-this-website/catherine-guesde/index.html"
 to = "/en/artists-authors-curators-etc/catherine-guesde/"
 
@@ -3093,6 +3093,10 @@ to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/anne-cecile-pa
 [[redirects]]
 from = "/fr/agenda/1997-10-18-histoires-et-fictions-peintures-recentes/index.html"
 to = "/fr/agenda/1997/histoires-et-fictions-peintures-recentes/"
+
+[[redirects]]
+from = "/fr/agenda/hors-les-murs/index.html"
+to = "/fr/agenda/rendez-vous-et-evenements/hors-les-murs/"
 
 [[redirects]]
 from = "/en/all-the-programme/cycles/festina-lente-make-haste-slowly/index.html"
@@ -4855,6 +4859,10 @@ from = "/fr/auteurices-du-site/herve-telemaque/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/herve-telemaque/"
 
 [[redirects]]
+from = "/fr/agenda/a-la-criee/index.html"
+to = "/fr/agenda/rendez-vous-et-evenements/a-la-criee/"
+
+[[redirects]]
 from = "/fr/auteurices-du-site/charles-bernstein/index.html"
 to = "/fr/tou-te-s-les-artistes-auteurs-autrices-commissaires-etc/charles-bernstein/"
 
@@ -5493,6 +5501,10 @@ to = "/en/artists-authors-curators-etc/pierre-jean-giloux/"
 [[redirects]]
 from = "/fr/agenda/2021-12-03-ways-of-publishing/index.html"
 to = "/fr/agenda/2021/ways-of-publishing/"
+
+[[redirects]]
+from = "/en/agenda/at-the-art-center-1/index.html"
+to = "/en/agenda/events-1/at-the-art-center-1/"
 
 [[redirects]]
 from = "/fr/agenda/2021-07-07-lillico/index.html"
