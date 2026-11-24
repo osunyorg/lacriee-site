@@ -3,7 +3,7 @@ commons:
     date:
       today: "Today: "
       date_format: :date_full
-      open: La Criée is open
+      open: La Criée is open from 1pm to 7pm
       closed: La Criée is closed
     text: >-
       La Criée is a facility in the city of Rennes.<br>

@@ -265,7 +265,9 @@
                     aspect-ratio: 1
                     object-fit: cover
             &-categories
-                gap: $spacing-2
+                gap: space()
+                li + li::before
+                    margin-right: 2px
 
         @include media-breakpoint-up(desktop)
             .events > li

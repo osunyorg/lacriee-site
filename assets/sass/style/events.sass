@@ -3,7 +3,7 @@
     .event-categories
         li + li::before
             @include icon-site(outline)
-            font-size: pxToRem(26)
+            font-size: pxToRem(22)
             vertical-align: middle
 
             @include media-breakpoint-down(desktop)
@@ -67,11 +67,10 @@
                         top: unset
                         width: 100%
                         p
-                            @include h2
+                            @include h3
                             margin-left: auto
                             text-align: right
                     .event-categories
-                        flex: 1
                         margin-right: auto
                     .event-schedule,
                     .event-categories
@@ -129,6 +128,8 @@
                 order: -2
                 .event-dates
                     @include h2
+            .event-status
+                margin-top: $spacing-2
             .event-categories
                 order: -1
 
@@ -210,6 +211,7 @@
                             display: none
 
             .event-categories
+                gap: space()
                 a 
                     @include small
                     @extend %underline-on-hover
@@ -218,7 +220,7 @@
                     + a::before            
                         @include icon-site(outline)
                         display: inline-block
-                        font-size: pxToRem(26)
+                        font-size: pxToRem(22)
                         margin-right: space()
                         vertical-align: middle
             

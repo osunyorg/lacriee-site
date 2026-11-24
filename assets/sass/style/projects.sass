@@ -23,12 +23,16 @@
             @include media-breakpoint-up(desktop)
                 transform: translate(-25%, -20%)
 .project
-    .project-title
-        a:hover
+    .project-content
+        .project-title
+            font-style: italic !important
+            a:hover
+                color: var(--color-text)
+        .project-subtitle
             color: var(--color-text)
-    .project-categories
-        a
-            @include link($color-text)
+        .project-categories
+            a
+                @include link($color-text)
 
 .projects__page
     .hero
@@ -44,3 +48,7 @@
         .dropdown-menu
             a:hover
                 color: var(--btn-hover-color)
+
+        @include media-breakpoint-up(desktop)
+            figure
+                width: columns(3)
