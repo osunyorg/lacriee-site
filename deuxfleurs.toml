@@ -999,6 +999,10 @@ from = "/en/2026/pp-judithkakon-lacriee-webpdf/index.html"
 to = "/en/files/2026/pp-judithkakon-lacriee-webpdf/"
 
 [[redirects]]
+from = "/fr/agenda/2026/la-machine-a-poemes-/index.html"
+to = "/fr/agenda/2026/la-machine-a-poemes/"
+
+[[redirects]]
 from = "/fr/agenda/1990-10-24-alain-sechas/index.html"
 to = "/fr/agenda/1990/alain-sechas/"
 
