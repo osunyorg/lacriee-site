@@ -88,13 +88,13 @@ items:
   children:
   - title: Cycle thématique
     slug: cycle-thematique
-    target: "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/"
+    target: "/fr/archives-de-la-criee/tous-les-cycles-thematiques/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/ressources/archives-de-la-criee/tous-les-cycles-thematiques"
-    file: content/fr/pages/ressources/archives-de-la-criee/tous-les-cycles-thematiques/_index.html
+    path: "/pages/archives-de-la-criee/tous-les-cycles-thematiques"
+    file: content/fr/pages/archives-de-la-criee/tous-les-cycles-thematiques/_index.html
   - title: Expositions
     slug: expositions
     target: "/fr/programmation/expositions/"
@@ -159,6 +159,7 @@ items:
     path: "/pages/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison"
     file: content/fr/pages/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison/_index.html
   descendants_targets:
+  - "/fr/archives-de-la-criee/tous-les-cycles-thematiques/"
   - "/fr/programmation/artistes-autrices-auteurs-commissaires-etc-de-la-saison/"
   - "/fr/programmation/editions-multiples-et-projets-de-recherche/"
   - "/fr/programmation/expositions/"
@@ -166,7 +167,6 @@ items:
   - "/fr/programmation/projets-de-mediation/"
   - "/fr/programmation/rendez-vous-et-evenement/"
   - "/fr/programmation/residences/"
-  - "/fr/ressources/archives-de-la-criee/tous-les-cycles-thematiques/"
   path: "/pages/programmation"
   file: content/fr/pages/programmation/_index.html
 - title: Médiation
@@ -343,15 +343,15 @@ items:
     file: content/fr/pages/ressources/correspondances/_index.html
   - title: Archives
     slug: archives
-    target: "/fr/ressources/archives-de-la-criee/"
+    target: "/fr/archives-de-la-criee/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/ressources/archives-de-la-criee"
-    file: content/fr/pages/ressources/archives-de-la-criee/_index.html
+    path: "/pages/archives-de-la-criee"
+    file: content/fr/pages/archives-de-la-criee/_index.html
   descendants_targets:
-  - "/fr/ressources/archives-de-la-criee/"
+  - "/fr/archives-de-la-criee/"
   - "/fr/ressources/correspondances/"
   - "/fr/ressources/ressources-pedagogiques/"
   path: "/pages/ressources"
