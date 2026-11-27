@@ -4199,6 +4199,10 @@ from = "/en/agenda/2021-09-01-residency-julien-laforge/index.html"
 to = "/en/agenda/2021/residency-julien-laforge/"
 
 [[redirects]]
+from = "/fr/agenda/1998/projection-de-films/index.html"
+to = "/fr/agenda/1998/projection-de-films-de-didier-vermeiren/"
+
+[[redirects]]
 from = "/fr/productions/2018-l-oisive-peter-shire-cover/index.html"
 to = "/fr/productions/2017-l-oisive-peter-shire-cover/"
 
