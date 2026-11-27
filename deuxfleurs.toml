@@ -4899,10 +4899,6 @@ from = "/en/ressources/archives-of-la-criee/all-produced-works/oeuvres-produites
 to = "/en/archives-of-la-criee/all-produced-works/oeuvres-produites-en-1990/"
 
 [[redirects]]
-from = "/fr/agenda/2013-09-01-courir-les-rue-amalia-pica/index.html"
-to = "/fr/agenda/2013/courir-les-rues/"
-
-[[redirects]]
 from = "/fr/agenda/2011-09-07-european-and-international-cooperation/index.html"
 to = "/fr/agenda/2011/european-and-international-cooperation/"
 
@@ -4969,10 +4965,6 @@ to = "/fr/agenda/2018/siham-hafida/"
 [[redirects]]
 from = "/fr/agenda/2021-09-25-molusma-elvia-teotski/index.html"
 to = "/fr/agenda/2021/molusma/"
-
-[[redirects]]
-from = "/fr/agenda/2013-09-01-courir-les-rues/index.html"
-to = "/fr/agenda/2013/courir-les-rues/"
 
 [[redirects]]
 from = "/fr/programmation/recherche/index.html"
